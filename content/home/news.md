@@ -22,7 +22,7 @@ active = false
 [[news]]
   kind = "paper"
   date = "Oct 1"
-  who = "Stephen Freund, Cormac Flanagan"
+  who = "Stephen Freund and Cormac Flanagan"
   paper_name = "The Anchor Verifier for Blocking and Non-Blocking Concurrent Software"
   paper_link = "https://2020.splashcon.org/details/splash-2020-oopsla/32/The-Anchor-Verifier-for-Blocking-and-Non-Blocking-Concurrent-Software"
   conf_name = "OOPSLA '20"
@@ -31,7 +31,7 @@ active = false
 [[news]]
   kind = "paper"
   date = "Oct 1"
-  who = "Tyler Sorensen, Esin Tureci, Jake Kirkham, Margaret R. Martonosi"
+  who = "Tyler Sorensen, Esin Tureci, Jake Kirkham and Margaret R. Martonosi"
   paper_name = "Foundations of Empirical Memory Consistency Testing"
   paper_link = "https://2020.splashcon.org/details/splash-2020-oopsla/102/Foundations-of-Empirical-Memory-Consistency-Testing"
   conf_name = "OOPSLA '20"
@@ -40,7 +40,7 @@ active = false
 [[news]]
   kind = "paper"
   date = "Oct 1"
-  who = "Yiyun Liu, James Parker, Patrick Redmond, Lindsey Kuper, Michael Hicks, Niki Vazou"
+  who = "Yiyun Liu, James Parker, Patrick Redmond, Lindsey Kuper, Michael Hicks and Niki Vazou"
   paper_name = "Verifying Replicated Data Types with Typeclass Refinements in Liquid Haskell"
   paper_link = "https://2020.splashcon.org/details/splash-2020-oopsla/92/Verifying-Replicated-Data-Types-with-Typeclass-Refinements-in-Liquid-Haskell"
   conf_name = "OOPSLA '20"
