@@ -34,6 +34,13 @@ In two easy steps!
 [news]: https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/edit/master/content/home/news.md
 [deploy.sh]: https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/blob/main/deploy.sh
 
+## Adding a new person
+
+You'll need the person's name as they want it to appear, title (e.g., "Ph.D. Student", "Assistant Professor", etc.), optionally a photo, and optionally a website URL.  If you don't provide a photo, a default image will appear.
+
+1. Edit `content/home/faculty.md` or `content/home/students.md` and follow the format of existing entries.  If the person has a photo, add it to the `static/img/` directory.
+2. Run the [deploy.sh] script.
+
 ## LSD Seminar
 
 To create a new LSD Seminar page:
