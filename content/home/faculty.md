@@ -14,9 +14,10 @@ title = "Faculty"
   title = "Title Here"
   
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Title Here"
+  name = "Cormac Flanagan"
+  www = "https://users.soe.ucsc.edu/~cormac/"
+  title = "Professor"
+  img = "cormac_flanagan.jpg"
 
 
 [[people]]
@@ -26,9 +27,10 @@ title = "Faculty"
   img = "lindsey_kuper.jpg"
   
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Title Here"
+  name = "Tyler Sorensen"
+  www = "https://users.soe.ucsc.edu/~tsorensen"
+  title = "Assistant Professor"
+  img = "tyler_sorensen.jpg"
   
 [[people]]
   name = "Name Here"
