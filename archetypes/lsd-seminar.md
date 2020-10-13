@@ -5,9 +5,9 @@ math = false
 
 +++
 
-**Time**: Friday noon - 1:15pm <br/>
-**Location**: The Internet <br/>
-**Organizers**: Lindsey Kuper and Tyler Sorensen <br/>
+**Time**: Fridays, noon - 1:15pm <br/>
+**Location**: FILL IN <br/>
+**Organizers**: Lindsey Kuper and Tyler Sorensen<br />
 
 ---
 
