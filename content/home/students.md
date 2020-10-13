@@ -11,52 +11,46 @@ title = "Students"
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "MS Student"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "Ph.D. Student"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "Ph.D. Student"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
+  title = "Ph.D. Student"
 
+[[people]]
+  name = "Name Here"
+  www = "https://url-here"
+  title = "Ph.D. Student"
+  
+[[people]]
+  name = "Name Here"
+  www = "https://url-here"
+  title = "BS Student"
+  
+[[people]]
+  name = "Name Here"
+  www = "https://url-here"
+  title = "MS Student"
+  
+[[people]]
+  name = "Name Here"
+  www = "https://url-here"
+  title = "BA Student"
+  
+[[people]]
+  name = "Name Here"
+  www = "https://url-here"
+  title = "Ph.D. Student"
 
 +++

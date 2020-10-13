@@ -15,7 +15,7 @@
     {{ with $page.Params }}
       {{ range .people }}
         <div class="col-sm-4 col-xs-6" id="profile">
-          {{ $scratch.Set "profileImage" "unknown.png"}}
+          {{ $scratch.Set "profileImage" "cyber-slug.jpg"}}
           {{ if .img }}
             {{ $scratch.Set "profileImage" .img }}
           {{ end }}
@@ -40,7 +40,8 @@
               <a href="{{ .www }}">{{ .name }}</a>
             {{ else }}
               {{ .name }}
-            {{ end }}
+            {{ end }}<br />
+    	    {{ .title }}
             </h3>
           </div>
         </div>

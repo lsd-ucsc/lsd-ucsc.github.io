@@ -11,41 +11,38 @@ title = "Faculty"
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "Title Here"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "Title Here"
+
+
+[[people]]
+  name = "Lindsey Kuper"
+  www = "https://users.soe.ucsc.edu/~lkuper/"
+  title = "Assistant Professor"
+  img = "lindsey_kuper.jpg"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "Title Here"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "Title Here"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
+  title = "Title Here"
   
 [[people]]
   name = "Name Here"
   www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  img = "image.jpg"
+  title = "Title Here"
 
 +++
