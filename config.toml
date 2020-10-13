@@ -9,12 +9,13 @@ relativeurls = true
 canonifyurls = true
 
 # Title of your site
-title = "The Languages, Systems, and Data Lab at UC Santa Cruz"
+title = "Languages, Systems, and Data Lab at UC Santa Cruz"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
 
-# LK: I'm not a big fan of copyright notices -- let's skip it.
+# LK: I removed this from the footer since I'm not a big fan of copyright notices.
+# Edit layouts/partials/footer_container.html to put it back.
 copyright = ""
 
 theme = "academic"
@@ -62,7 +63,7 @@ enableGitInfo = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
 
-  # LK: Let's leave this out until we have a logo.
+  # LK: Leaving this out since we don't have a logo.
   # avatar = ""  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = ""
   address = ""

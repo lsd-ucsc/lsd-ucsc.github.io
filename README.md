@@ -1,7 +1,7 @@
-Languages, Systems, and Data Lab @ UCSC website
------------------------------------------------
+Languages, Systems, and Data Lab at UC Santa Cruz
+-------------------------------------------------
 
-Website for the Languages, Systems, and Data Lab @ UCSC website.
+Website for the Languages, Systems, and Data Lab at UC Santa Cruz.
 
 This website is largely based on [the Cornell PL website](https://github.com/cornell-pl/pl.cs.cornell.edu), with special thanks to 
 [Rachit Nigam](https://rachitnigam.com) for technical and moral support!
