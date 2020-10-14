@@ -1,7 +1,6 @@
 +++
 widget = "alumni"
 active = true
-date = 2020-10-01T00:00:00
 layout = "widgets/alumni"
 
 weight = 10
