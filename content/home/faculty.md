@@ -17,7 +17,12 @@ title = "Faculty"
   www = "https://users.soe.ucsc.edu/~cormac/"
   title = "Professor"
   img = "cormac_flanagan.jpg"
-
+  
+[[people]]
+  name = "Daniel Fremont"
+  www = "https://people.ucsc.edu/~dfremont/"
+  title = "Assistant Professor"
+  img = "daniel_fremont.jpg"
 
 [[people]]
   name = "Lindsey Kuper"
@@ -31,11 +36,7 @@ title = "Faculty"
   title = "Assistant Professor"
   img = "tyler_sorensen.jpg"
   
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Title Here"
-  
+
 [[people]]
   name = "Name Here"
   www = "https://url-here"
