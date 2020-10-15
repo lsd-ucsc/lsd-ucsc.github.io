@@ -8,9 +8,10 @@ weight = 2
 title = "Faculty"
 
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Title Here"
+  name = "Peter Alvaro"
+  www = "https://people.ucsc.edu/~palvaro/"
+  title = "Assistant Professor"
+  img = "palvaro.jpeg"
   
 [[people]]
   name = "Cormac Flanagan"
