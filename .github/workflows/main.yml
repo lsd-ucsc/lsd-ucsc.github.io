@@ -24,6 +24,18 @@ jobs:
 
       - name: Download hugo
         run: |
+            set -e -u -o pipefail
+            set -x
             wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-64bit.tar.gz
             tar -xvf hugo_0.49.2_Linux-64bit.tar.gz
             ./hugo version
+
+      - name: Generate site with hugo
+        run: |
+            set -e -u -o pipefail
+            set -x
+            pwd
+            ls -lah
+            export PATH=$PATH:.
+            hugo version
+            hugo --destination public/ --cleanDestinationDir
