@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LSD Seminar Archive on Languages, Systems, and Data Lab @ UCSC</title>
+    <link>http://lsd-ucsc.github.io/lsd-seminar/</link>
+    <description>Recent content in LSD Seminar Archive on Languages, Systems, and Data Lab @ UCSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://lsd-ucsc.github.io/lsd-seminar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LSD Seminar (Fall 2020)</title>
+      <link>http://lsd-ucsc.github.io/lsd-seminar/2020fa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/lsd-seminar/2020fa/</guid>
+      <description>Time: Friday noon - 1:15pm (PT) Location: The Internet  Organizers: Lindsey Kuper and Tyler Sorensen 
+The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas. The seminar is open to everyone interested.</description>
+    </item>
+    
+  </channel>
+</rss>

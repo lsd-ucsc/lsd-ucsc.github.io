@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</title>
+    <link>http://lsd-ucsc.github.io/</link>
+    <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>LSD Seminar (Fall 2020)</title>
+      <link>http://lsd-ucsc.github.io/lsd-seminar/2020fa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/lsd-seminar/2020fa/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Friday noon - 1:15pm (PT)&lt;br/&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet &lt;br/&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br/&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating students should register for the 2-credit course CSE 280O.&lt;/p&gt;
+
+&lt;p&gt;For fall 2020, this seminar is completely virtual.  We are excited to welcome a roster of external speakers from around the world!&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; and &lt;a href=&#34;https://groups.google.com/g/applied-pl&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;applied-pl&lt;/a&gt; mailing lists, or contact &lt;a href=&#34;https://users.soe.ucsc.edu/~lkuper/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Lindsey&lt;/a&gt; or &lt;a href=&#34;https://users.soe.ucsc.edu/~tsorensen/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tyler&lt;/a&gt; for Zoom meeting details.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-2&#34;&gt;Oct. 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;Social event and class introduction (not public)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-9&#34;&gt;Oct. 9&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://mpg.is/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Matthías Páll Gissurarson&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Weakening Type Systems for Faster Prototyping&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-16&#34;&gt;Oct. 16&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://wen.works/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Wen Kokke&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;An introduction to Session Types&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-23&#34;&gt;Oct. 23&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://kalevalp.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kalev Alpernas&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Correct and Secure Serverless Computing&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-30&#34;&gt;Oct. 30&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://software-lab.org/people/Daniel_Lehmann.html&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Daniel Lehmann&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Everything Old is New Again: Binary Security of WebAssembly&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-6&#34;&gt;Nov. 6&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://umazalakain.info/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Uma Zalakain&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-13&#34;&gt;Nov. 13&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~kqy/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Katherine Ye&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-20&#34;&gt;Nov. 20&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://sites.google.com/lehigh.edu/jacobnelson/home&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Jacob Nelson&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#dec-4&#34;&gt;Dec. 4&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cs.cornell.edu/~avh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Alexa VanHattum&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#dec-11&#34;&gt;Dec. 11&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cis.upenn.edu/~euisuny/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Irene Yoon&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;oct-2&#34;&gt;Oct. 2&lt;/h1&gt;
+
+&lt;p&gt;Class introduction&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-9&#34;&gt;Oct. 9&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://mpg.is/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Matthías Páll Gissurarson&lt;/a&gt; (&lt;em&gt;Chalmers University&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Weakening Type Systems for Faster Prototyping&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Types and type systems are great to provide the compiler with a partial specification of our programs, but it can often be tricky to write code that matches said specification. In this talk, I will demonstrate how we can allow developers to opt-in to a weaker type system &amp;ldquo;just get it to compile&amp;rdquo;, and what we can do to &amp;ldquo;fix&amp;rdquo; the code during compilation so that it matches the specification provided using synthesis and coercions, and hint to the developer what the issue is and how they might fix it.&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-16&#34;&gt;Oct. 16&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://wen.works/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Wen Kokke&lt;/a&gt; (&lt;em&gt;University of Edinburgh&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; An introduction to Session Types&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Much like the λ-calculus is the foundational calculus for functions, the π-calculus is the foundational calculus for message-passing concurrency. Both are terrifyingly powerful, in the sense that if you can compute something, you can do it using these languages. They&amp;rsquo;re also very scary, in the sense that you can easily write functions that &amp;ldquo;go wrong&amp;rdquo;, e.g., by getting different kinds of data mixed up, looping forever, or just getting stuck. In this talk, I&amp;rsquo;ll introduce the fundamentals of the π-calculus, and the continued effort to tame its potential for going wrong, while leaving as much of its power as possible intact. I&amp;rsquo;ll do all of this by analogy to the λ-calculus, and I&amp;rsquo;ll finish up by talk about concurrent λ-calculus—basically the answer to the question &amp;ldquo;What do I get if I smash my λs and πs together really hard?&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;(The talk starts with a brief recap of the relevant bits of the untyped and simply-typed λ-calculus, just in case you could use a refresher.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Wen is a programming languages researcher at the University of Edinburgh, where she works on session types. She is also a researcher at Heriot-Watt University, where she works on lightweight verification for neural networks. In her spare time, she enjoys cooking and runs a small art space.&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-23&#34;&gt;Oct. 23&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://kalevalp.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kalev Alpernas&lt;/a&gt; (&lt;em&gt;Tel Aviv University&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Correct and Secure Serverless Computing&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Serverless computing is a popular cloud computing paradigm that allows for easy deployment, rapid prototyping,
+ and effortless, near-unlimited scalability. However, serverless computing can provide these benefits by introducing several restrictions and limitations on cloud applications, including limiting task execution time, requiring the use of ephemeral execution
+ environments, and requiring that programs adopt an event-driven programming model. These limitations make it harder to write correct and secure applications.&lt;/p&gt;
+
+&lt;p&gt;In this talk I will present two projects aimed at bridging these security and correctness gaps. The first—Trapeze—is
+ a runtime IFC system that guarantees termination-sensitive non-interference,
+ ensuring that sensitive data never leaks from a serverless application. The second—Watchtower—is a runtime monitoring system that checks for violation of arbitrary temporal correctness properties that cross-cut the entire application reporting to the user
+ when violations occur. Watchtower also includes a record-and-replay component for locally reproducing and debugging property violations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Kalev is a 4th year PhD candidate at Tel Aviv University, under the supervision of Prof. Mooly Sagiv. His
+ research interests are in the intersection of serverless computing and PL/formal methods.&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-30&#34;&gt;Oct. 30&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;http://software-lab.org/people/Daniel_Lehmann.html&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Daniel Lehmann&lt;/a&gt; (&lt;em&gt;University of Stuttgart&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Everything Old is New Again: Binary Security of WebAssembly&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; WebAssembly is an increasingly popular, low-level binary format designed
+to run code in browsers and on other platforms safely and securely, by
+strictly separating code and data, enforcing types, and limiting
+indirect control flow. Still, vulnerabilities in memory-unsafe source
+languages can translate to vulnerabilities in WebAssembly binaries. We
+have analyzed to what extent vulnerabilities are exploitable in
+WebAssembly binaries, and how this compares to native code. We find that
+many classic vulnerabilities which, due to common mitigations, are no
+longer exploitable in native binaries, are completely exposed in
+WebAssembly. Moreover, WebAssembly enables unique attacks, such as
+overwriting supposedly constant data or manipulating the heap using a
+stack overflow. In this talk, we will explain several attack primitives
+that allow an attacker (i) to write arbitrary memory, (ii) to overwrite
+sensitive data, and (iii) to trigger unexpected behavior by diverting
+control flow or manipulating the host environment. This can ultimately
+lead to new forms of cross-site scripting in the browser or remote code
+execution on Node.js. We will also demonstrate one of our three
+end-to-end exploits, which cover three different WebAssembly platforms.
+In our quantitative evaluation of real-world WebAssembly binaries, we
+also measure how likely our attack primitives are feasible in practice.
+Overall, our findings show a perhaps surprising lack of binary security
+in WebAssembly. Finally, we will discuss some potential mitigations and
+give recommendations on how to harden WebAssembly binaries in the future.&lt;/p&gt;
+
+&lt;h1 id=&#34;nov-6&#34;&gt;Nov. 6&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://umazalakain.info/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Uma Zalakain&lt;/a&gt; (&lt;em&gt;University of Glasgow&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;nov-13&#34;&gt;Nov. 13&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cs.cmu.edu/~kqy/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Katherine Ye&lt;/a&gt; (&lt;em&gt;Carnegie Mellon University&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;nov-20&#34;&gt;Nov. 20&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://sites.google.com/lehigh.edu/jacobnelson/home&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Jacob Nelson&lt;/a&gt; (&lt;em&gt;Lehigh University&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;dec-4&#34;&gt;Dec. 4&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cs.cornell.edu/~avh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Alexa VanHattum&lt;/a&gt; (&lt;em&gt;Cornell University&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;dec-11&#34;&gt;Dec. 11&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cis.upenn.edu/~euisuny/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Irene Yoon&lt;/a&gt; (&lt;em&gt;University of Pennsylvania&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
