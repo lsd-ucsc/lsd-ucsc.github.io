@@ -24,6 +24,6 @@ jobs:
 
       - name: Download hugo
         run: |
-            wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-ARM64.tar.gz
-            tar -xvf hugo_0.49.2_Linux-ARM64.tar.gz
+            wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-64bit.tar.gz
+            tar -xvf hugo_0.49.2_Linux-64bit.tar.gz
             ./hugo version
