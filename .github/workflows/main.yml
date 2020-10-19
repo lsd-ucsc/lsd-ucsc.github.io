@@ -50,6 +50,8 @@ jobs:
             mv public.git public/.git
 
       - name: Push changes
+        with:
+            github_token: ${{ secrets.PAGES_REPO_TOKEN }}
         run: |
             set -e -u -o pipefail
             set -x
