@@ -22,6 +22,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
+            # Must checkout the submodules or hugo site generation will fail
             submodules: recursive
 
       - name: Download hugo
