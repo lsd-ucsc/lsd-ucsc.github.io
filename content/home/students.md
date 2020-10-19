@@ -20,8 +20,8 @@ title = "Students"
   img = "gan_shen.jpg"
   
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
+  name = "Aldrin Montana"
+  www = "https://research.aldrinmontana.com/"
   title = "Ph.D. Student"
   
 [[people]]
