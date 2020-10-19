@@ -56,9 +56,10 @@ jobs:
             set -e -u -o pipefail
             set -x
             MESSAGE="$(git log -1 --pretty='%B')"
+            REPO="$(echo $GITHUB_REPOSITORY | sed 's/-source//')" # hack to make us push to the correct repo
             cd public/
             git config --global user.name "${GITHUB_ACTOR}"
             git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             git add -A
             git commit -m "$MESSAGE" --allow-empty
-            git push -f "https://$GITHUB_ACTOR:$PAGES_REPO_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD
+            git push -f "https://$GITHUB_ACTOR:$PAGES_REPO_TOKEN@github.com/$REPO.git" HEAD
