@@ -8,9 +8,10 @@ weight = 3
 title = "Students"
 
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "MS Student"
+  name = "Reese Levine"
+  www = "https://users.soe.ucsc.edu/~reeselevine/"
+  title = "PhD Student"
+  img = "reese_levine.png"
   
 [[people]]
   name = "Name Here"
