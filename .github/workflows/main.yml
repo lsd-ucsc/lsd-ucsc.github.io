@@ -36,6 +36,7 @@ jobs:
             set -x
             pwd
             ls -lah
+            ls -lah public/
             export PATH=$PATH:.
             hugo version
             hugo --destination public/ --cleanDestinationDir
