@@ -57,13 +57,14 @@ jobs:
             mv output.git output/.git
 
       - name: Push changes
-#       env:
-#           PAGES_REPO_TOKEN: ${{ secrets.PAGES_REPO_TOKEN }}
+        env:
+            PAGES_REPO_TOKEN: ${{ secrets.PAGES_REPO_TOKEN }}
         run: |
             set -e -u -o pipefail
             set -x
             MESSAGE="$(git log -1 --pretty='%B')"
-            #REPO="$(echo $GITHUB_REPOSITORY | sed 's/-source//')" # hack to make us push to the correct repo
+            env
+            REPO="$(echo $GITHUB_REPOSITORY | sed 's/-source//')" # hack to make us push to the correct repo
             cat .git/config
             cd output/
             cat .git/config
@@ -73,6 +74,6 @@ jobs:
             git commit -m "$MESSAGE" --allow-empty
             git status
             #git -c http.extraheader="AUTHORIZATION: Basic $(echo -n '$PAGES_REPO_TOKEN'| openssl base64)" push -f --dry-run
-            #repo_auth_url="https://$GITHUB_ACTOR:$PAGES_REPO_TOKEN@github.com/$REPO.git"
+            repo_auth_url="https://$GITHUB_ACTOR:$PAGES_REPO_TOKEN@github.com/$REPO.git"
             #git push -f "$repo_auth_url" HEAD
             git push -f --dry-run
