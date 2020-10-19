@@ -50,8 +50,6 @@ jobs:
             mv public.git public/.git
 
       - name: Push changes
-        with:
-            github_token: ${{ secrets.PAGES_REPO_TOKEN }}
         run: |
             set -e -u -o pipefail
             set -x
@@ -61,3 +59,5 @@ jobs:
             git add -A
             git commit -m '$*' --allow-empty
             git push -f -u origin HEAD
+        with:
+            github_token: ${{ secrets.PAGES_REPO_TOKEN }}
