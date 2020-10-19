@@ -20,10 +20,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-        with:
-            # Must checkout the submodules or hugo site generation will fail
-            submodules: recursive
+      - name: Checkout website source repo
+        uses: actions/checkout@v2
 
       - uses: actions/cache@v2
         id: cache
@@ -40,24 +38,30 @@ jobs:
             tar -xvf hugo_0.49.2_Linux-64bit.tar.gz
             ./hugo version
 
+      - name: Checkout website deploy repo
+        uses: actions/checkout@v2
+        with:
+            repository: plredmond/lsd-ucsc.github.io
+            path: output/ # must match the paths in the hugo-generation step and in the push-changes step
+
       - name: Generate site with hugo
         run: |
             set -e -u -o pipefail
             set -x
             export PATH=$PATH:.
-            mv public/.git public.git
-            hugo --cleanDestinationDir --gc --destination public/
-            mv public.git public/.git
+            mv output/.git output.git
+            hugo --cleanDestinationDir --gc --destination output/
+            mv output.git output/.git
 
       - name: Push changes
-        env:
-            PAGES_REPO_TOKEN: ${{ secrets.PAGES_REPO_TOKEN }}
+#       env:
+#           PAGES_REPO_TOKEN: ${{ secrets.PAGES_REPO_TOKEN }}
         run: |
             set -e -u -o pipefail
             set -x
             MESSAGE="$(git log -1 --pretty='%B')"
             #REPO="$(echo $GITHUB_REPOSITORY | sed 's/-source//')" # hack to make us push to the correct repo
-            cd public/
+            cd output/
             git config --global user.name "${GITHUB_ACTOR}"
             git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             git add -A
