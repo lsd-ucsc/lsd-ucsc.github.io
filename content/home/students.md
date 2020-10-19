@@ -14,9 +14,10 @@ title = "Students"
   img = "reese_levine.png"
   
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Ph.D. Student"
+  name = "Gan Shen"
+  www = "https://gshen42.github.io"
+  title = "PhD Student"
+  img = "gan_shen.jpg"
   
 [[people]]
   name = "Name Here"
