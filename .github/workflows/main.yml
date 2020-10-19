@@ -73,7 +73,6 @@ jobs:
             git add -A
             git commit -m "$MESSAGE" --allow-empty
             git status
-            #git -c http.extraheader="AUTHORIZATION: Basic $(echo -n '$PAGES_REPO_TOKEN'| openssl base64)" push -f --dry-run
-            repo_auth_url="https://$GITHUB_ACTOR:$PAGES_REPO_TOKEN@github.com/$REPO.git"
-            #git push -f "$repo_auth_url" HEAD
+            git -c http.extraheader="AUTHORIZATION: Basic $(echo -n '${{ secrets.PAGES_REPO_TOKEN }}'| openssl base64)" push -f --dry-run || true
+            git push -f "https://$GITHUB_ACTOR:${{ secrets.PAGES_REPO_TOKEN }}@github.com/$REPO.git" HEAD --dry-run || true
             git push -f --dry-run
