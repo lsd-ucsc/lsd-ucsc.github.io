@@ -45,4 +45,4 @@ jobs:
             set -e -u -o pipefail
             set -x
             export PATH=$PATH:.
-            hugo --destination public/ --cleanDestinationDir
+            hugo --cleanDestinationDir --gc --destination public/
