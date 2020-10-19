@@ -25,7 +25,14 @@ jobs:
             # Must checkout the submodules or hugo site generation will fail
             submodules: recursive
 
+      - uses: actions/cache@v2
+        id: cache
+        with:
+            path: ./hugo
+            key: hugo-binary
+
       - name: Download hugo
+        if: steps.cache.outputs.cache-hit != 'true'
         run: |
             set -e -u -o pipefail
             set -x
