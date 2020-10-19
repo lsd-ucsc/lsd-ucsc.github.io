@@ -44,9 +44,5 @@ jobs:
         run: |
             set -e -u -o pipefail
             set -x
-            pwd
-            ls -lah
-            ls -lah public/
             export PATH=$PATH:.
-            hugo version
             hugo --destination public/ --cleanDestinationDir
