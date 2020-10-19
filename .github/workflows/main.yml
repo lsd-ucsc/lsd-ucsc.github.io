@@ -51,15 +51,14 @@ jobs:
 
       - name: Push changes
         env:
-            github_token: ${{ secrets.PAGES_REPO_TOKEN }}
+            PAGES_REPO_TOKEN: ${{ secrets.PAGES_REPO_TOKEN }}
         run: |
             set -e -u -o pipefail
             set -x
             MESSAGE="$(git log -1 --pretty='%B')"
-            env
             cd public/
             git config --global user.name "${GITHUB_ACTOR}"
             git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             git add -A
             git commit -m "$MESSAGE" --allow-empty
-            git push -f -u origin HEAD
+            git push -f "https://$GITHUB_ACTOR:$PAGES_REPO_TOKEN@github.com/$GITHUB_REPOSITORY.git" HEAD
