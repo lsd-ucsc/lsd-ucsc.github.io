@@ -45,15 +45,15 @@ jobs:
             set -e -u -o pipefail
             set -x
             export PATH=$PATH:.
-            ls -lah public/
+            mv public/.git public.git
             hugo --cleanDestinationDir --gc --destination public/
+            mv public.git public/.git
 
       - name: Push changes
         run: |
             set -e -u -o pipefail
             set -x
             cd public/
-            ls -lah
             git config --global user.name '${GITHUB_ACTOR}'
             git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'
             git add -A
