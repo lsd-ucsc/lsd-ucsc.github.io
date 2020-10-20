@@ -10,25 +10,27 @@ This website is largely based on [the Cornell PL website](https://github.com/cor
 
 You don't need to install hugo because the public site has CI/CD set up. To see how to [build the site locally](#building-the-site-locally), click or scroll to the bottom.
 
-Any changes made to the `main` branch will be reflected in the public site
-after CI/CD runs. Please check that your commits result in a :heavy_check_mark: and not a :x:!
+Any changes made to the `main` branch will be reflected in the public site after CI/CD runs.
+Please check that your commits result in a :heavy_check_mark: build status and not a :x: build status!
+You can find the build status for your commit
+on the [commit log](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/commits/main)
+or find details of the run on the [workflows](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/actions) page.
+If you're unsure of whether your changes will build, then push to a branch and make a pull request!
 
-You can see this on the [commit log](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/commits/main) or find details on the [workflows](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/actions) page.
-
-## Adding news items
+### Adding news items
 
 Edit the [news file][news] using one of the formats.
 See the examples in the file.
 
 [news]: content/home/news.md
 
-## Adding a new person
+### Adding a new person
 
 You'll need the person's name as they want it to appear, title (e.g., "Ph.D. Student", "Assistant Professor", etc.), optionally a photo, and optionally a website URL.  If you don't provide a photo, a default image will appear.
 
 Edit `content/home/faculty.md` or `content/home/students.md` and follow the format of existing entries.  If the person has a photo, add it to the `static/img/` directory.
 
-## LSD Seminar
+### LSD Seminar
 
 To create a new LSD Seminar page:
 
@@ -41,7 +43,7 @@ where `<term>` is of the form `2020fa`.
 Next, edit the file generated in `content/lsd-seminar/<term>.md` and update the
 link in `config.toml` for `lsd-seminar` to point to the latest webpage.
 
-## Content Mangement
+### Content Mangement
 
 Most of the content is stored under `/content/home`.
 
@@ -52,7 +54,7 @@ Most of the content is stored under `/content/home`.
 - **faculty.md**, **students.md**, **alumni.md**...: Content for various groups
   of members.
 
-## Styling
+### Styling
 
 The styling templates are stored under `layouts/`. Hugo uses a priority-based
 override method for determining which template to use. By default, it uses
