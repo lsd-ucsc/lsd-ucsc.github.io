@@ -22,6 +22,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
+            fetch-depth: 0
             # Must checkout the theme submodule or hugo site-generation will fail
             submodules: recursive
 
