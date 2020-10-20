@@ -26,9 +26,10 @@ title = "Students"
   img   = "Aldrin-scaled-down.jpg"
   
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
+  name = "Patrick Redmond"
+  www = "https://curious.software/"
   title = "Ph.D. Student"
+  img   = "patrick_oldphoto.jpg"
 
 [[people]]
   name = "Name Here"
