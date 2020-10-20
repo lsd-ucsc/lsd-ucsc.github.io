@@ -32,6 +32,12 @@ title = "Faculty"
   img = "lindsey_kuper.jpg"
   
 [[people]]
+  name = "Ike Nassi"
+  www = "https://www.soe.ucsc.edu/people/inassi/"
+  title = "Adjunct Professor"
+  img = "ike_nassi.jpg"
+
+[[people]]
   name = "Tyler Sorensen"
   www = "https://users.soe.ucsc.edu/~tsorensen"
   title = "Assistant Professor"
