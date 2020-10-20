@@ -54,7 +54,7 @@ jobs:
             set -x
             git config --global user.name "${GITHUB_ACTOR}"
             git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-            git checkout -b public
+            git checkout public || git checkout -b public
             git rm -rfq $(git ls-files)
             rm -vf hugo
             ls -lah # expect no files to be listed
