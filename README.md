@@ -8,7 +8,7 @@ This website is largely based on [the Cornell PL website](https://github.com/cor
 
 ## Making changes to the public site
 
-You don't need to install hugo because the public site has CI/CD set up. To see how to [build the site locally](#Building the site locally), click or scroll to the bottom.
+You don't need to install hugo because the public site has CI/CD set up. To see how to [build the site locally](#building-the-site-locally), click or scroll to the bottom.
 
 Any changes made to the `main` branch will be reflected in the public site
 after CI/CD runs. Please check that your commits result in a :heavy_check_mark: and not a :x:!
