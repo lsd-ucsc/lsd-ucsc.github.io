@@ -32,9 +32,10 @@ title = "Students"
   img   = "patrick_oldphoto.jpg"
 
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
+  name = "Roy Shadmon"
+  www = "https://royshadmon.github.io"
   title = "Ph.D. Student"
+  img = "roy_shadmon.png"
   
 [[people]]
   name = "Name Here"
