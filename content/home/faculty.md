@@ -45,9 +45,10 @@ title = "Faculty"
   
 
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Title Here"
+  name = "Owen Arden"
+  www = "https://users.soe.ucsc.edu/~owen"
+  title = "Assistant Professor"
+  img = "owen_arden.jpg"
   
 [[people]]
   name = "Name Here"
