@@ -46,4 +46,13 @@ active = false
   conf_name = "OOPSLA '20"
   conf_link = "https://2020.splashcon.org/track/splash-2020-oopsla"
 
+[[news]]
+  kind = "paper"
+  date = "Oct 20"
+  who = "Kyle Kingsbury and Peter Alvaro
+  paper_name = "Elle: Inferring Isolation Anomalies from Experimental Observations"
+  conf_name = "VLDB '21"
+  conf_link = "https://vldb.org/2021/"
+
+
 +++
