@@ -38,6 +38,12 @@ title = "Students"
   img = "roy_shadmon.png"
   
 [[people]]
+  name = "Jun Zhang (Aleck)"
+  www = "https://people.ucsc.edu/~jzhan293/"
+  title = "Ph.D. Student"
+  img = "aleck-zhang.jpg"
+
+[[people]]
   name = "Name Here"
   www = "https://url-here"
   title = "BS Student"
