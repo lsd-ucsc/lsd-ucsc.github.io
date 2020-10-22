@@ -8,14 +8,18 @@ This website is largely based on [the Cornell PL website](https://github.com/cor
 
 ## Making changes to the public site
 
-You don't need to install hugo because the public site has CI/CD set up. To see how to [build the site locally](#building-the-site-locally), click or scroll to the bottom.
+Change the public website in three steps!
 
-Any changes made to the `main` branch will be reflected in the public site after CI/CD runs.
-Please check that your commits result in a :heavy_check_mark: build status and not a :x: build status!
-You can find the build status for your commit
-on the [commit log](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/commits/main)
-or find details of the run on the [workflows](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/actions) page.
-If you're unsure of whether your changes will build, then push to a branch and make a pull request!
+1. Change the markdown files and commit your changes to the `main` branch.
+    * Any changes made to the `main` branch will be reflected in the public site after CI/CD runs.
+1. Push your changes back to the repository.
+1. Check the build status of your commit results in a :heavy_check_mark: build status and not a :x: build status!
+    * You can find the build status for your commit
+      on the [commit log](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/commits/main)
+      or find details of the run on the [workflows](https://github.com/lsd-ucsc/lsd-ucsc.github.io-source/actions) page.
+    * If you're unsure of whether your changes will build, then push to a new branch and make a pull request!
+
+You don't need to install hugo because the public site has CI/CD set up. To see how to [build the site locally](#building-the-site-locally), click or scroll to the bottom.
 
 ### Adding news items
 
