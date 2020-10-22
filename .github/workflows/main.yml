@@ -55,11 +55,12 @@ jobs:
             set -x
             git config --global user.name "${GITHUB_ACTOR}"
             git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+            MESSAGE="$(git log -1 --pretty='%B')" # get the commit message before switching to the pubilc branch
             git checkout public || git checkout -b public
             git rm -rfq $(git ls-files)
             rm -vf hugo
             ls -lah # expect no files to be listed
             mv ../docs/* .
             git add -A
-            git commit -m "regenerate after: $(git log -1 --pretty='%B')" --allow-empty
+            git commit -m "regenerate after: $MESSAGE" --allow-empty
             git push -u origin public -f
