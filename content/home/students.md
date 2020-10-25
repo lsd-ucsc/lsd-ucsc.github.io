@@ -44,9 +44,10 @@ title = "Students"
   img = "aleck-zhang.jpg"
 
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "BS Student"
+  name = "Tuan Tran"
+  www = "https://users.soe.ucsc.edu/~atran18/"
+  title = "Ph.D. Student"
+  img = "tuan_tran.jpg"
   
 [[people]]
   name = "Name Here"
