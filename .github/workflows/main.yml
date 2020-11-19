@@ -30,7 +30,7 @@ jobs:
         id: cache
         with:
             path: hugo
-            key: hugo-binary
+            key: hugo-binary-3
 
       - name: Download hugo
         if: steps.cache.outputs.cache-hit != 'true'
