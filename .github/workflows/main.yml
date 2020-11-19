@@ -45,8 +45,9 @@ jobs:
         run: |
             set -e -u -o pipefail
             set -x
-            export PATH=$PATH:.
-            hugo --cleanDestinationDir --gc --destination ../docs/
+            pwd
+            ls -lah
+            ./hugo --cleanDestinationDir --gc --destination ../docs/
 
       - name: Push changes
         if: github.base_ref == '' # only push the rebuilt dir when actually merging to the main branch
