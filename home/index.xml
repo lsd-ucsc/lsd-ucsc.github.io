@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Languages, Systems, and Data Lab @ UCSC</title>
+    <link>http://lsd-ucsc.github.io/home/</link>
+    <description>Recent content in Homes on Languages, Systems, and Data Lab @ UCSC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://lsd-ucsc.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://lsd-ucsc.github.io/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/home/about/</guid>
+      <description>About us The Languages, Systems, and Data (LSD) Lab at UC Santa Cruz is a loosely organized federation of CSE students, researchers, and faculty, working in programming languages, systems, databases, and their intersections. We aim to cultivate a community where all of these research traditions can intermingle and benefit from one another.</description>
+    </item>
+    
+    <item>
+      <title>Faculty</title>
+      <link>http://lsd-ucsc.github.io/home/faculty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/home/faculty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Students</title>
+      <link>http://lsd-ucsc.github.io/home/students/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/home/students/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alumni</title>
+      <link>http://lsd-ucsc.github.io/home/alumni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/home/alumni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://lsd-ucsc.github.io/home/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/home/news/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
