@@ -23,33 +23,31 @@ jobs:
       - uses: actions/checkout@v2
         with:
             fetch-depth: 0
-            # Must checkout the theme submodule or hugo site-generation will fail
+            # Must checkout the theme submodule or site-generation will fail
             submodules: recursive
 
-      - uses: actions/cache@v1
+      - uses: actions/cache@v2
         id: cache
         with:
+            key: hugo-binary-101
             path: hugo
-            key: hugo-binary-3
 
       - name: Download hugo
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
             set -e -u -o pipefail
             set -x
-            wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-64bit.tar.gz
-            tar -xvf hugo_0.49.2_Linux-64bit.tar.gz
+            wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.49.2_Linux-64bit.tar.gz -O - | tar --get -xvzf - hugo
             ./hugo version
 
-      - name: Generate site with hugo
+      - name: Generate site
         run: |
             set -e -u -o pipefail
             set -x
-            pwd
-            ls -lah
-            ./hugo --cleanDestinationDir --gc --destination ../docs/
+            ./hugo --cleanDestinationDir --gc --destination ../docs/ # generate site outside of the repo
+            mv hugo .. # move hugo out of the dir so it doesn't get published with the site
 
-      - name: Push changes
+      - name: Publish site
         if: github.base_ref == '' # only push the rebuilt dir when actually merging to the main branch
         run: |
             set -e -u -o pipefail
@@ -57,11 +55,16 @@ jobs:
             git config --global user.name "${GITHUB_ACTOR}"
             git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             MESSAGE="$(git log -1 --pretty='%B')" # get the commit message before switching to the pubilc branch
-            git checkout public || git checkout -b public
-            git rm -rfq $(git ls-files)
-            rm -vf hugo
+            git checkout public || git checkout -b public # checkout or create public branch
+            git rm -rfq $(git ls-files) # remove all the code
             ls -lah # expect no files to be listed
-            mv ../docs/* .
+            mv ../docs/* . # copy the generated site in from outside the repo
             git add -A
             git commit -m "regenerate after: $MESSAGE" --allow-empty
             git push -u origin public -f
+
+      - name: Restore hugo for caching
+        run: |
+            set -e -u -o pipefail
+            set -x
+            mv ../hugo .
