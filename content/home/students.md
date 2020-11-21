@@ -4,7 +4,6 @@ active = true
 layout = "widgets/people"
 
 weight = 3
-nn
 title = "Students"
 
 [[people]]
