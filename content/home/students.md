@@ -4,7 +4,7 @@ active = true
 layout = "widgets/people"
 
 weight = 3
-
+nn
 title = "Students"
 
 [[people]]
@@ -56,18 +56,8 @@ title = "Students"
   img = "tuan_tran.jpg"
   
 [[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "MS Student"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "BA Student"
-  
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Ph.D. Student"
+  name = "Your Name Here"
+  www = "https://grad.soe.ucsc.edu/admissions"
+  title = "Apply to join our CSE graduate program!"
 
 +++

@@ -12,5 +12,11 @@ title = "Alumni"
   degree = "BS"
   grad_year = "2020"
   #org = "TBD"
+  
+[[people]]
+  name = "Ana McTaggart"
+  degree = "MS"
+  grad_year = "2020"
+  org = "Security Engineer, Red Hat"
 
 +++

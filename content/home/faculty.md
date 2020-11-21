@@ -50,9 +50,4 @@ title = "Faculty"
   title = "Assistant Professor"
   img = "owen_arden.jpg"
   
-[[people]]
-  name = "Name Here"
-  www = "https://url-here"
-  title = "Title Here"
-
 +++
