@@ -6,17 +6,19 @@ layout = "widgets/people"
 weight = 3
 title = "Students"
 
+# Please alphabetize yourself!
+
+[[people]]
+  name = "Sohum Banerjea"
+  www = "https://users.soe.ucsc.edu/~sobanerj/"
+  title = "Ph.D. Student"
+  img = "sohum.jpg"
+
 [[people]]
   name = "Reese Levine"
   www = "https://users.soe.ucsc.edu/~reeselevine/"
   title = "PhD Student"
   img = "reese_levine.png"
-  
-[[people]]
-  name = "Gan Shen"
-  www = "https://gshen42.github.io"
-  title = "PhD Student"
-  img = "gan_shen.jpg"
   
 [[people]]
   name  = "Aldrin Montana"
@@ -29,7 +31,7 @@ title = "Students"
   www = "https://curious.software/"
   title = "Ph.D. Student"
   img   = "patrick_oldphoto.jpg"
-
+  
 [[people]]
   name = "Roy Shadmon"
   www = "https://royshadmon.github.io"
@@ -37,23 +39,23 @@ title = "Students"
   img = "roy_shadmon.png"
   
 [[people]]
-  name = "Jun Zhang (Aleck)"
-  www = "https://people.ucsc.edu/~jzhan293/"
-  title = "Ph.D. Student"
-  img = "aleck-zhang.jpg"
-
-[[people]]
-  name = "Sohum Banerjea"
-  www = "https://users.soe.ucsc.edu/~sobanerj/"
-  title = "Ph.D. Student"
-  img = "sohum.jpg"
-
+  name = "Gan Shen"
+  www = "https://gshen42.github.io"
+  title = "PhD Student"
+  img = "gan_shen.jpg"
+  
 [[people]]
   name = "Tuan Tran"
   www = "https://users.soe.ucsc.edu/~atran18/"
   title = "Ph.D. Student"
   img = "tuan_tran.jpg"
   
+[[people]]
+  name = "Jun Zhang (Aleck)"
+  www = "https://people.ucsc.edu/~jzhan293/"
+  title = "Ph.D. Student"
+  img = "aleck-zhang.jpg"
+
 [[people]]
   name = "Your Name Here"
   www = "https://grad.soe.ucsc.edu/admissions"
