@@ -73,6 +73,8 @@ jobs:
   rsync:
     # only rsync when actually merging to the main branch
     if: github.base_ref == ''
+    # only rsync after the site is bulit
+    needs: build
 
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
