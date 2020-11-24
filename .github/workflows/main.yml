@@ -97,4 +97,4 @@ jobs:
         run: |
             set -e -u -o pipefail
             set -x
-            rsync -Pa --exclude=".*" --delete-after . "$REMOTE_HOST:$REMOTE_DIR"
+            rsync -Pa --exclude=".*" --delete-after . "${REMOTE_HOST?}:${REMOTE_DIR?}"
