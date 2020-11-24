@@ -17,16 +17,16 @@ title = "Students"
 [[people]]
   name = "Reese Levine"
   www = "https://users.soe.ucsc.edu/~reeselevine/"
-  title = "PhD Student"
+  title = "Ph.D. Student"
   img = "reese_levine.png"
   
   
 [[people]]
   name = "Priyanka Mondal"
   www = "https://users.soe.ucsc.edu/~pmondal/"
-  title = "PhD Student"
+  title = "Ph.D. Student"
   img = "priyanka_mondal.jpg"
-  
+  pp
 [[people]]
   name  = "Aldrin Montana"
   www   = "https://research.aldrinmontana.com/"
@@ -54,7 +54,7 @@ title = "Students"
 [[people]]
   name = "Gan Shen"
   www = "https://gshen42.github.io"
-  title = "PhD Student"
+  title = "Ph.D. Student"
   img = "gan_shen.jpg"
   
 [[people]]
