@@ -20,13 +20,12 @@ title = "Students"
   title = "Ph.D. Student"
   img = "reese_levine.png"
   
-  
 [[people]]
   name = "Priyanka Mondal"
   www = "https://users.soe.ucsc.edu/~pmondal/"
   title = "Ph.D. Student"
   img = "priyanka_mondal.jpg"
-  pp
+
 [[people]]
   name  = "Aldrin Montana"
   www   = "https://research.aldrinmontana.com/"
