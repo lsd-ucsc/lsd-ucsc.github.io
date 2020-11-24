@@ -25,7 +25,7 @@ title = "Students"
   name = "Priyanka Mondal"
   www = "https://users.soe.ucsc.edu/~pmondal/"
   title = "PhD Student"
-  img = "priyanka_mondal.png"
+  img = "priyanka_mondal.jpg"
   
 [[people]]
   name  = "Aldrin Montana"
