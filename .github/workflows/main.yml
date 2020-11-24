@@ -94,7 +94,9 @@ jobs:
             # custom envvars
             REMOTE_HOST: ${{ secrets.ITS_HOST }}
             REMOTE_DIR: ${{ secrets.ITS_DIR }}
+            KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
         run: |
             set -e -u -o pipefail
             set -x
+            echo "${KNOWN_HOSTS?}" >> .ssh/known_hosts
             rsync -Pa --exclude=".*" --delete-after . "${REMOTE_HOST?}:${REMOTE_DIR?}"
