@@ -85,8 +85,6 @@ jobs:
             # checkout the public branch to rsync it to the prod server
             ref: public
             fetch-depth: 0
-            # Must checkout the theme submodule in case it was updated
-            submodules: recursive
 
       - name: Rsync to UCSC ITS site
         env:
