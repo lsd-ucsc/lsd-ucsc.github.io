@@ -88,16 +88,16 @@ jobs:
 
       - name: Rsync to UCSC ITS site
         env:
-            # rsync envvars
-            USER: ${{ secrets.ITS_USER }}
-            RSYNC_PASSWORD: ${{ secrets.ITS_PWD }}
-            # custom envvars
-            REMOTE_HOST: ${{ secrets.ITS_HOST }}
-            REMOTE_DIR: ${{ secrets.ITS_DIR }}
             KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
+            REMOTE_DIR: ${{ secrets.ITS_DIR }}
+            REMOTE_HOST: ${{ secrets.ITS_HOST }}
+            REMOTE_PWD: ${{ secrets.ITS_PWD }}
+            REMOTE_USR: ${{ secrets.ITS_USER }}
         run: |
-            set -e -u -o pipefail
+            set -e -u -o pipefail +o history
             set -x
             mkdir ~/.ssh
             echo "${KNOWN_HOSTS?}" >> ~/.ssh/known_hosts
-            rsync -Pa --exclude=".*" --delete-after . "${REMOTE_HOST?}:${REMOTE_DIR?}"
+            #sudo apt-get install sshpass # already present
+            sshpass -p "${REMOTE_PWD?}" rsync -Pa --exclude=".*" --delete-after . "${REMOTE_USR?}@${REMOTE_HOST?}:${REMOTE_DIR?}"
+            history -c
