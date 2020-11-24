@@ -12,7 +12,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  # This workflow contains a job called "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -68,3 +68,35 @@ jobs:
             set -e -u -o pipefail
             set -x
             mv ../hugo .
+
+  # This workflow contains a job called "deploy"
+  rsync:
+    # only rsync when actually merging to the main branch
+    if: github.base_ref == ''
+
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+            # checkout the public branch to rsync it to the prod server
+            ref: public
+            fetch-depth: 0
+            # Must checkout the theme submodule in case it was updated
+            submodules: recursive
+
+      - name: Rsync to UCSC ITS site
+        env:
+            # rsync envvars
+            USER: ${{ secrets.ITS_USER }}
+            RSYNC_PASSWORD: ${{ secrets.ITS_PWD }}
+            # custom envvars
+            REMOTE_HOST: ${{ secrets.ITS_HOST }}
+            REMOTE_DIR: ${{ secrets.ITS_DIR }}
+        run: |
+            set -e -u -o pipefail
+            set -x
+            rsync -Pa --exclude=".*" . "$REMOTE_HOST:$REMOTE_DIR"
