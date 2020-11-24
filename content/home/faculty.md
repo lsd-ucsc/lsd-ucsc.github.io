@@ -12,7 +12,13 @@ title = "Faculty"
   www = "https://people.ucsc.edu/~palvaro/"
   title = "Assistant Professor"
   img = "palvaro.jpeg"
-  
+
+[[people]]
+  name = "Owen Arden"
+  www = "https://users.soe.ucsc.edu/~owen"
+  title = "Assistant Professor"
+  img = "owen_arden.jpg"
+
 [[people]]
   name = "Cormac Flanagan"
   www = "https://users.soe.ucsc.edu/~cormac/"
@@ -42,12 +48,5 @@ title = "Faculty"
   www = "https://users.soe.ucsc.edu/~tsorensen"
   title = "Assistant Professor"
   img = "tyler_sorensen.jpg"
-  
-
-[[people]]
-  name = "Owen Arden"
-  www = "https://users.soe.ucsc.edu/~owen"
-  title = "Assistant Professor"
-  img = "owen_arden.jpg"
   
 +++
