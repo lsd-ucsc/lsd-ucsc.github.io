@@ -57,6 +57,12 @@ title = "Students"
   img = "aleck-zhang.jpg"
 
 [[people]]
+  name = "Haofan Zheng"
+  www = "https://haofanzheng.com/"
+  title = "Ph.D. Student"
+  img = "haofan_zheng.jpg"
+
+[[people]]
   name = "Your Name Here"
   www = "https://grad.soe.ucsc.edu/admissions"
   title = "Apply to join our CSE graduate program!"
