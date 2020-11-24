@@ -98,5 +98,5 @@ jobs:
         run: |
             set -e -u -o pipefail
             set -x
-            echo "${KNOWN_HOSTS?}" >> .ssh/known_hosts
+            echo "${KNOWN_HOSTS?}" >> ~/.ssh/known_hosts
             rsync -Pa --exclude=".*" --delete-after . "${REMOTE_HOST?}:${REMOTE_DIR?}"
