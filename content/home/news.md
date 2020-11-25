@@ -26,6 +26,7 @@ active = false
   date = "Oct. 20, 2020"
   who = "Kyle Kingsbury and Peter Alvaro"
   paper_name = "Elle: Inferring Isolation Anomalies from Experimental Observations"
+  paper_link = "https://people.ucsc.edu/~palvaro/elle_vldb21.pdf"
   conf_name = "VLDB '21"
   conf_link = "https://vldb.org/2021/"
   
