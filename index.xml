@@ -87,12 +87,6 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#dec-4&#34;&gt;Dec. 4&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.cs.cornell.edu/~avh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Alexa VanHattum&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Vectorization for Digital Signal Processors via Equality Saturation&lt;/td&gt;
