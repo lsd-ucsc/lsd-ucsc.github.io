@@ -234,9 +234,9 @@ On her spare time she enjoys going out along the local riverbank for a run, and 
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cs.cornell.edu/~avh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Alexa VanHattum&lt;/a&gt; (&lt;em&gt;Cornell University&lt;/em&gt;)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Vectorization for Digital Signal Processors via Equality Saturation&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Compute-heavy embedded systems, from augmented reality to 5G networking, rely on specialized hardware in the form of digital signal processors (DSPs). However, DSPs are designed to prioritize energy efficiency and predictability over programmability, with simple in-order architectures that offer little hardware-provided parallelism. Existing auto-vectorizing compilers can struggle to optimize small linear algebra kernels that rely on complex data movements. An expert can reach state-of-the-art performance by hand-writing specialized implementations to use vector instructions, but they must repeat this manual effort for each size instance. In this talk, I will describe Diospyros, a search-based compiler that automates this task of finding efficient vectorizations for smaller linear algebra kernels. Diospyros combines two automated reasoning techniques, symbolic evaluation and equality saturation over rewrite rules, to vectorize computations with irregular structure. We show that Diospyros outperforms DSP libraries by 2.8x on average and demonstrate how search-based techniques can help users reach performance competitive with expert tuning with less manual effort.&lt;/p&gt;
 
 &lt;h1 id=&#34;dec-11&#34;&gt;Dec. 11&lt;/h1&gt;
 
