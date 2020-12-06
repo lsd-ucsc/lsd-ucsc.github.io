@@ -316,7 +316,7 @@ The Languages, Systems, and Data Seminar meets weekly to discuss interesting top
 <tr>
 <td><a href="#dec-11">Dec. 11</a></td>
 <td><a href="https://www.cis.upenn.edu/~euisuny/" rel="noreferrer" target="_blank">Irene Yoon</a></td>
-<td><em>TBD</em></td>
+<td>Modular, compositional, and executable semantics for LLVM IR</td>
 </tr>
 </tbody>
 </table>
@@ -457,9 +457,17 @@ On her spare time she enjoys going out along the local riverbank for a run, and 
 
 <p><strong>Speaker:</strong> <a href="https://www.cis.upenn.edu/~euisuny/" rel="noreferrer" target="_blank">Irene Yoon</a> (<em>University of Pennsylvania</em>)</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Modular, compositional, and executable semantics for LLVM IR</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> The LLVM framework has been a long-time favorite for compiler enthusiasts. It is both a widely used industrial-strength compiler (most recognizably, Apple’s latest macOS and iOS development tools) and a popular research tool (winning the ACM Software Systems Award in 2012).</p>
+
+<p>How do we best ensure that LLVM-based tools (compilers, optimizers, code instrumentation passes, etc.) do what they’re supposed to — especially for safety- or security-critical applications?</p>
+
+<p>This talk is an introduction to a novel formal semantics for a large, sequential subset of the LLVM IR, mechanized in the Coq proof assistant. We will see how the use of modern semantic reasoning techniques allow us to write a <em>compositional, modular, and executable</em> semantics. In particular, I will discuss how the development of an <em>interaction tree</em>-based semantics gives us (1) expressive combinators for defining compositional semantics, (2) a modular separation of concerns for effects in a language, and (3) a “for-free” extraction of an executable definitional interpreter.</p>
+
+<p>No experience with LLVM or formal verification technologies will be assumed.</p>
+
+<p>Source can be found on our <a href="https://github.com/vellvm/vellvm" rel="noreferrer" target="_blank">GitHub</a></p>
 
 <hr />
 
