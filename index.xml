@@ -6,7 +6,174 @@
     <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2021 21:45:29 -0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (Winter 2021)</title>
+      <link>http://lsd-ucsc.github.io/lsd-seminar/2021wi/</link>
+      <pubDate>Sat, 02 Jan 2021 21:45:29 -0800</pubDate>
+      
+      <guid>http://lsd-ucsc.github.io/lsd-seminar/2021wi/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:15pm (PT) &lt;br/&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet &lt;br/&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The LSD Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating students should register for the 2-credit course CSE 280O.&lt;/p&gt;
+
+&lt;p&gt;For winter 2021, this seminar is completely virtual and will feature a mix of internal and external speakers.&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; and &lt;a href=&#34;https://groups.google.com/g/applied-pl&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;applied-pl&lt;/a&gt; mailing lists, or contact &lt;a href=&#34;https://users.soe.ucsc.edu/~lkuper/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Lindsey&lt;/a&gt; or &lt;a href=&#34;https://users.soe.ucsc.edu/~tsorensen/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tyler&lt;/a&gt; for Zoom meeting details.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-8&#34;&gt;Jan. 8&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;Introductions and social time&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-15&#34;&gt;Jan. 15&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-22&#34;&gt;Jan. 22&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-29&#34;&gt;Jan. 29&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://aviral.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Aviral Goel&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;On the Design, Implementation, and Use of Laziness in R&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-5&#34;&gt;Feb. 5&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-12&#34;&gt;Feb. 12&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-19&#34;&gt;Feb. 19&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Kamala Ramasubramanian&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-26&#34;&gt;Feb. 26&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#march-5&#34;&gt;March 5&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Aldrin Montana&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#march-12&#34;&gt;March 12&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Daniel Bittman&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;jan-8&#34;&gt;Jan. 8&lt;/h1&gt;
+
+&lt;p&gt;Introductions and social time&lt;/p&gt;
+
+&lt;h1 id=&#34;jan-15&#34;&gt;Jan. 15&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;jan-22&#34;&gt;Jan. 22&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;jan-29&#34;&gt;Jan. 29&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;http://aviral.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Aviral Goel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; On the Design, Implementation, and Use of Laziness in R&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, I will present the design and implementation of call-by-need in R, and a data-driven study of how generations of programmers have put laziness to use in their code. In our study, we analyze 16,707 R packages and observe the creation of 270.9 B promises. Our data suggest that there is little supporting evidence to assert that programmers use laziness to avoid unnecessary computation or to operate over infinite data structures. For the most part R code appears to have been written without reliance on and in many cases even knowledge of, delayed argument evaluation. The only significant exception is a small number of packages which leverage call-by-need for meta-programming. I will discuss how we intend to leverage these insights to remove laziness from R and enable non-intrusive migration of code from lazy to eager evaluation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Aviral Goel is a Computer Science Ph.D. student at Northeastern University, advised by Professor Jan Vitek. He received his Bachelor&amp;rsquo;s degree in Electronics and Communication Engineering from Netaji Subhas Institute of Technology, India.&lt;/p&gt;
+
+&lt;p&gt;He is interested in improving tools and techniques for data science applications. He is enabling R programmers to write faster and bug-free code by migrating the language from lazy-by-default to lazy-on-demand semantics.&lt;/p&gt;
+
+&lt;p&gt;He is also involved in the development of a type system for R.&lt;/p&gt;
+
+&lt;h1 id=&#34;feb-5&#34;&gt;Feb. 5&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;feb-12&#34;&gt;Feb. 12&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;feb-19&#34;&gt;Feb. 19&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Kamala Ramasubramanian&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;feb-26&#34;&gt;Feb. 26&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;march-5&#34;&gt;March 5&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Aldrin Montana&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;march-12&#34;&gt;March 12&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Daniel Bittman&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>LSD Seminar (Fall 2020)</title>
