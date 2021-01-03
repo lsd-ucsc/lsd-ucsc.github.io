@@ -138,7 +138,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "LSD Seminar"
-  url = "/lsd-seminar/2020fa/"
+  url = "/lsd-seminar/2021wi/"
   weight = 2
 
 [[menu.main]]
