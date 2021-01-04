@@ -272,7 +272,7 @@
 
 <tr>
 <td><a href="#jan-22">Jan. 22</a></td>
-<td><em>TBD</em></td>
+<td><a href="https://www.cs.princeton.edu/~nhossain/" rel="noreferrer" target="_blank">Naorin Hossain</a></td>
 <td><em>TBD</em></td>
 </tr>
 
@@ -285,7 +285,7 @@
 <tr>
 <td><a href="#feb-5">Feb. 5</a></td>
 <td><a href="https://www.victoraying.com/" rel="noreferrer" target="_blank">Victor Ying</a></td>
-<td><em>TBD</em></td>
+<td>Parallelizing Sequential Code with Compiler-Hardware Co-Design</td>
 </tr>
 
 <tr>
@@ -330,7 +330,13 @@
 
 <h1 id="jan-22">Jan. 22</h1>
 
-<p><em>TBD</em></p>
+<p><strong>Speaker:</strong> <a href="https://www.cs.princeton.edu/~nhossain/" rel="noreferrer" target="_blank">Naorin Hossain</a></p>
+
+<p><strong>Title:</strong> <em>TBD</em></p>
+
+<p><strong>Abstract:</strong> <em>TBD</em></p>
+
+<p><strong>Bio:</strong> <em>TBD</em></p>
 
 <h1 id="jan-29">Jan. 29</h1>
 
@@ -350,11 +356,15 @@
 
 <p><strong>Speaker:</strong> <a href="https://www.victoraying.com/" rel="noreferrer" target="_blank">Victor Ying</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Parallelizing Sequential Code with Compiler-Hardware Co-Design</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Today, most code still runs on expensive, power-hungry processors that prioritize single-thread performance. Speculative parallelization is an enticing approach to accelerate computation while retaining the ease of sequential programming, by launching tasks in parallel before knowing if they are independent. Unfortunately, prior speculative parallelizing compilers and architectures achieved limited speedups due to high costs of recovering from misspeculation and hardware scalability bottlenecks.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>We present T4, a parallelizing compiler that executes sequential programs as trees of tiny timestamped tasks. T4 targets the recent Swarm architecture, which presents new opportunities and challenges for automatic parallelization. T4 introduces novel compiler techniques to expose parallelism aggressively across the entire program, breaking applications into tiny tasks of tens of instructions each. Task trees unfold their branches in parallel to enable high task-spawn throughput while exploiting selective aborts to recover from misspeculation cheaply. T4 exploits parallelism across function calls, loops, and loop nests; performs new transformations to reduce task spawn costs and avoid false sharing; and exploits data locality among fine-grain tasks. As a result, T4 scales several hard-to-parallelize SPEC CPU2006 benchmarks to tens of cores, where prior work attained little or no speedup.</p>
+
+<p>For more information, please visit <a href="swarm.csail.mit.edu" rel="noreferrer" target="_blank">swarm.csail.mit.edu</a></p>
+
+<p><strong>Bio:</strong> Victor Ying is a 5th year PhD student at MIT, advised by Daniel Sanchez. He works on parallel architectures, compilers, and programming models. Victor&rsquo;s recent work focuses on redesigning abstractions between hardware and software to make it as easy to exploit multicore parallelism as it is to write ordinary sequential programs. His prior work includes Boolean satisfiability solvers, scheduling machine learning workloads on hardware accelerators, and embedded and distributed systems.</p>
 
 <h1 id="feb-12">Feb. 12</h1>
 

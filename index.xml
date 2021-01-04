@@ -53,7 +53,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-22&#34;&gt;Jan. 22&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cs.princeton.edu/~nhossain/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Naorin Hossain&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-5&#34;&gt;Feb. 5&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.victoraying.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Victor Ying&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Parallelizing Sequential Code with Compiler-Hardware Co-Design&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -111,7 +111,13 @@
 
 &lt;h1 id=&#34;jan-22&#34;&gt;Jan. 22&lt;/h1&gt;
 
-&lt;p&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cs.princeton.edu/~nhossain/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Naorin Hossain&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;jan-29&#34;&gt;Jan. 29&lt;/h1&gt;
 
@@ -131,11 +137,15 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.victoraying.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Victor Ying&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Parallelizing Sequential Code with Compiler-Hardware Co-Design&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Today, most code still runs on expensive, power-hungry processors that prioritize single-thread performance. Speculative parallelization is an enticing approach to accelerate computation while retaining the ease of sequential programming, by launching tasks in parallel before knowing if they are independent. Unfortunately, prior speculative parallelizing compilers and architectures achieved limited speedups due to high costs of recovering from misspeculation and hardware scalability bottlenecks.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We present T4, a parallelizing compiler that executes sequential programs as trees of tiny timestamped tasks. T4 targets the recent Swarm architecture, which presents new opportunities and challenges for automatic parallelization. T4 introduces novel compiler techniques to expose parallelism aggressively across the entire program, breaking applications into tiny tasks of tens of instructions each. Task trees unfold their branches in parallel to enable high task-spawn throughput while exploiting selective aborts to recover from misspeculation cheaply. T4 exploits parallelism across function calls, loops, and loop nests; performs new transformations to reduce task spawn costs and avoid false sharing; and exploits data locality among fine-grain tasks. As a result, T4 scales several hard-to-parallelize SPEC CPU2006 benchmarks to tens of cores, where prior work attained little or no speedup.&lt;/p&gt;
+
+&lt;p&gt;For more information, please visit &lt;a href=&#34;swarm.csail.mit.edu&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;swarm.csail.mit.edu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Victor Ying is a 5th year PhD student at MIT, advised by Daniel Sanchez. He works on parallel architectures, compilers, and programming models. Victor&amp;rsquo;s recent work focuses on redesigning abstractions between hardware and software to make it as easy to exploit multicore parallelism as it is to write ordinary sequential programs. His prior work includes Boolean satisfiability solvers, scheduling machine learning workloads on hardware accelerators, and embedded and distributed systems.&lt;/p&gt;
 
 &lt;h1 id=&#34;feb-12&#34;&gt;Feb. 12&lt;/h1&gt;
 
