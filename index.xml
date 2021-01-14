@@ -48,7 +48,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-15&#34;&gt;Jan. 15&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://very.science/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kenny Foner&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Dialectic: Pragmatic, Efficient Session Types for Async Rust&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -109,11 +109,15 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://very.science/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kenny Foner&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Dialectic: Pragmatic, Efficient Session Types for Async Rust&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Session types have long promised the ability to enforce complex temporal invariants about message ordering in distributed systems, guaranteeing that a well-session-typed program always correctly follows a messaging protocol to its end. Despite their potential, these type systems have seen relatively little adoption in the mainstream. In part, this is due to their inherent reliance on linear typing, a feature not present and difficult to emulate in most popular languages. Recently, this has changed with the emergence of Rust, a systems programming language built atop a flexible &amp;ldquo;ownership type system&amp;rdquo; to track reference aliasing. Although Rust enforces in actuality a form of affine typing (weaker than the linear typing most formal session-typed calculi require) it&amp;rsquo;s enough to build a library for session types that statically enforces the slightly-weaker guarantee that a program correctly follows a messaging protocol so long as it is running, but may quit the session early. Of course, this is the best we can hope to get in the real world! Networks go down, computers crash, and hardware just plain breaks. For session types to be broadly adopted, they must survive contact with this real and unpredictable world—and equally, with the real and unpredictable people who want to use them in their programs.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve just released version 0.2 of &lt;a href=&#34;https://docs.rs/dialectic&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Dialectic&lt;/a&gt;: a library for pragmatic, succinct, efficient session types in Rust. Dialectic embraces Rust&amp;rsquo;s burgeoning ecosystem of high-performance async networking by being polymorphic over any backend transport used to convey messages between parties. Unlike many libraries for session types, Dialectic assumes that the other party might break protocol or disconnect at any time, and is designed to gracefully handle such failures without compromising type safety.  Dialectic is designed to be used for writing specifications and programs of every size from small to large, and provides what&amp;rsquo;s needed to write modular specifications and implementations of complex protocols—and not merely the regular session types expressible in most libraries, but all context-free session types.&lt;/p&gt;
+
+&lt;p&gt;More than merely showing off this cool thing I&amp;rsquo;m working on, I want to talk about the design process that went into making it. Designing a programming paradigm—whether you want to call it an embedded domain-specific language or merely a library—is a multi-faceted puzzle spanning considerations from psychological familiarity to formal computability. My hope is that in walking through this case study in embedded language design, we can spark more thoughts about how we as PL researchers can play in this field together and design beautiful, useful tools.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Kenny Foner (kwf@very.science) is a senior software engineer at Bolt Labs working on privacy-preserving financial technology for everyone. They have a master&amp;rsquo;s degree in programming languages from the University of Pennsylvania, where they worked on a smorgasbord of fun things from laziness to random testing. When they&amp;rsquo;re not writing Rust, they&amp;rsquo;re usually somewhere in the forest.&lt;/p&gt;
 
 &lt;h1 id=&#34;jan-22&#34;&gt;Jan. 22&lt;/h1&gt;
 

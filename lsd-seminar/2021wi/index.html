@@ -267,7 +267,7 @@
 <tr>
 <td><a href="#jan-15">Jan. 15</a></td>
 <td><a href="https://very.science/" rel="noreferrer" target="_blank">Kenny Foner</a></td>
-<td><em>TBD</em></td>
+<td>Dialectic: Pragmatic, Efficient Session Types for Async Rust</td>
 </tr>
 
 <tr>
@@ -328,11 +328,15 @@
 
 <p><strong>Speaker:</strong> <a href="https://very.science/" rel="noreferrer" target="_blank">Kenny Foner</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Dialectic: Pragmatic, Efficient Session Types for Async Rust</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Session types have long promised the ability to enforce complex temporal invariants about message ordering in distributed systems, guaranteeing that a well-session-typed program always correctly follows a messaging protocol to its end. Despite their potential, these type systems have seen relatively little adoption in the mainstream. In part, this is due to their inherent reliance on linear typing, a feature not present and difficult to emulate in most popular languages. Recently, this has changed with the emergence of Rust, a systems programming language built atop a flexible &ldquo;ownership type system&rdquo; to track reference aliasing. Although Rust enforces in actuality a form of affine typing (weaker than the linear typing most formal session-typed calculi require) it&rsquo;s enough to build a library for session types that statically enforces the slightly-weaker guarantee that a program correctly follows a messaging protocol so long as it is running, but may quit the session early. Of course, this is the best we can hope to get in the real world! Networks go down, computers crash, and hardware just plain breaks. For session types to be broadly adopted, they must survive contact with this real and unpredictable world—and equally, with the real and unpredictable people who want to use them in their programs.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>I&rsquo;ve just released version 0.2 of <a href="https://docs.rs/dialectic" rel="noreferrer" target="_blank">Dialectic</a>: a library for pragmatic, succinct, efficient session types in Rust. Dialectic embraces Rust&rsquo;s burgeoning ecosystem of high-performance async networking by being polymorphic over any backend transport used to convey messages between parties. Unlike many libraries for session types, Dialectic assumes that the other party might break protocol or disconnect at any time, and is designed to gracefully handle such failures without compromising type safety.  Dialectic is designed to be used for writing specifications and programs of every size from small to large, and provides what&rsquo;s needed to write modular specifications and implementations of complex protocols—and not merely the regular session types expressible in most libraries, but all context-free session types.</p>
+
+<p>More than merely showing off this cool thing I&rsquo;m working on, I want to talk about the design process that went into making it. Designing a programming paradigm—whether you want to call it an embedded domain-specific language or merely a library—is a multi-faceted puzzle spanning considerations from psychological familiarity to formal computability. My hope is that in walking through this case study in embedded language design, we can spark more thoughts about how we as PL researchers can play in this field together and design beautiful, useful tools.</p>
+
+<p><strong>Bio:</strong> Kenny Foner (kwf@very.science) is a senior software engineer at Bolt Labs working on privacy-preserving financial technology for everyone. They have a master&rsquo;s degree in programming languages from the University of Pennsylvania, where they worked on a smorgasbord of fun things from laziness to random testing. When they&rsquo;re not writing Rust, they&rsquo;re usually somewhere in the forest.</p>
 
 <h1 id="jan-22">Jan. 22</h1>
 
