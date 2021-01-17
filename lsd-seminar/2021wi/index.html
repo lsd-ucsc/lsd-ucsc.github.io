@@ -273,7 +273,7 @@
 <tr>
 <td><a href="#jan-22">Jan. 22</a></td>
 <td><a href="https://www.cs.princeton.edu/~nhossain/" rel="noreferrer" target="_blank">Naorin Hossain</a></td>
-<td><em>TBD</em></td>
+<td>TransForm: Formally Specifying Transistency Models and Synthesizing Enhanced Litmus Tests</td>
 </tr>
 
 <tr>
@@ -342,11 +342,11 @@
 
 <p><strong>Speaker:</strong> <a href="https://www.cs.princeton.edu/~nhossain/" rel="noreferrer" target="_blank">Naorin Hossain</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> TransForm: Formally Specifying Transistency Models and Synthesizing Enhanced Litmus Tests</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Memory consistency models (MCMs) have been formulated as a mechanism for expressing the legal ordering and visibility of shared memory accesses in hardware and software. They are fundamental for ensuring heterogeneous components of a system execute and interact as expected to prevent hardware-induced bugs in real-world programs. However, ISA-level MCMs are limited to defining the behavior of only user-facing assembly instructions and do not account for virtual memory implementations that may result in the execution of 1) hardware-level state updates and 2) system-level interactions. Both are capable of accessing memory and may affect program outcomes, thus making them software-visible. As a result, memory transistency models (MTMs) have been coined as a superset of MCMs to additionally capture and enforce virtual memory-aware ordering rules. However, no prior work enabled the formal specification or analysis of MTMs.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>TransForm fills this gap by introducing an axiomatic vocabulary for formally specifying MTMs that builds on the standard axiomatic vocabulary traditionally used for describing MCMs. It provides new constructs for modeling transistency-specific features such as hardware-level state updates and system-level interactions. Using this new axiomatic vocabulary, MTMs can be formally specified and used with TransForm’s synthesis engine to synthesize litmus tests enhanced with transistency features, called enhanced litmus tests. This talk will cover TransForm’s axiomatic vocabulary and synthesis engine, as well as a case study performed with TransForm to formally define an approximate MTM for Intel x86 processors.</p>
 
 <h1 id="jan-29">Jan. 29</h1>
 
