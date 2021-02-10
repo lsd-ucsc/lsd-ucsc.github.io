@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-12&#34;&gt;Feb. 12&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://koronkevi.ch/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Paulette Koronkevich&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;The ANF Translation Preserves Dependent Types up to Extensional Equality&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -161,11 +161,31 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://koronkevi.ch/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Paulette Koronkevich&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The ANF Translation Preserves Dependent Types up to Extensional Equality&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Many programmers use dependently-typed languages like Coq to
+machine-verify high-assurance software. However, existing compilers for
+these languages provide no guarantees after compiling, nor when linking
+after compilation. Type-preserving compilers preserve guarantees encoded
+in types, then use type checking to verify compiled code and ensure safe
+linking with external code. Unfortunately, dependent type systems are
+highly sensitive to syntactic changes, including compilation, so
+preserving them through a compiler pass is difficult.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will present some examples of why dependent typing is
+difficult to preserve through simple syntactic changes. I will also
+present our solution to preserving dependent types through the ANF
+translation, a necessary transformation towards compiling a functional
+language down to machine code. Our ANF translation preserves dependent
+types, provided that the target type system has a way to encode these
+syntactic semantics-preserving changes. We encode these by including
+extensional equality in our target type system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Paulette Koronkevich is a second year graduate student (finishing
+MSc and starting PhD) at the University of British Columbia, working
+with William J. Bowman. She has a undergraduate degree in computer
+science from Indiana University. Her interests include compilers, cats,
+and cooking.&lt;/p&gt;
 
 &lt;h1 id=&#34;feb-19&#34;&gt;Feb. 19&lt;/h1&gt;
 

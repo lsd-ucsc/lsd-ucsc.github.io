@@ -291,7 +291,7 @@
 <tr>
 <td><a href="#feb-12">Feb. 12</a></td>
 <td><a href="https://koronkevi.ch/" rel="noreferrer" target="_blank">Paulette Koronkevich</a></td>
-<td><em>TBD</em></td>
+<td>The ANF Translation Preserves Dependent Types up to Extensional Equality</td>
 </tr>
 
 <tr>
@@ -380,11 +380,31 @@
 
 <p><strong>Speaker:</strong> <a href="https://koronkevi.ch/" rel="noreferrer" target="_blank">Paulette Koronkevich</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> The ANF Translation Preserves Dependent Types up to Extensional Equality</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Many programmers use dependently-typed languages like Coq to
+machine-verify high-assurance software. However, existing compilers for
+these languages provide no guarantees after compiling, nor when linking
+after compilation. Type-preserving compilers preserve guarantees encoded
+in types, then use type checking to verify compiled code and ensure safe
+linking with external code. Unfortunately, dependent type systems are
+highly sensitive to syntactic changes, including compilation, so
+preserving them through a compiler pass is difficult.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>In this talk, I will present some examples of why dependent typing is
+difficult to preserve through simple syntactic changes. I will also
+present our solution to preserving dependent types through the ANF
+translation, a necessary transformation towards compiling a functional
+language down to machine code. Our ANF translation preserves dependent
+types, provided that the target type system has a way to encode these
+syntactic semantics-preserving changes. We encode these by including
+extensional equality in our target type system.</p>
+
+<p><strong>Bio:</strong> Paulette Koronkevich is a second year graduate student (finishing
+MSc and starting PhD) at the University of British Columbia, working
+with William J. Bowman. She has a undergraduate degree in computer
+science from Indiana University. Her interests include compilers, cats,
+and cooking.</p>
 
 <h1 id="feb-19">Feb. 19</h1>
 
