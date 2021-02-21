@@ -78,13 +78,13 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-19&#34;&gt;Feb. 19&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Kamala Ramasubramanian&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;ACT now: Aggregate Comparison of Traces for Incident Localization&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-26&#34;&gt;Feb. 26&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://prakashmurali.bitbucket.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Prakash Murali&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Closing the Gap between Quantum Algorithms and Hardware using Compilation and Architecture&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -201,11 +201,11 @@ and cooking.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://prakashmurali.bitbucket.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Prakash Murali&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Closing the Gap between Quantum Algorithms and Hardware using Compilation and Architecture&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In recent years, quantum computing (QC) hardware has progressed considerably with small systems being prototyped by industry and academic vendors. However, there is a huge gap between the resource requirements of promising applications and the hardware that is buildable now; qubit counts and operational noise constraints of applications exceed hardware capabilities by 5-6 orders of magnitude. Our work seeks to enable practical QC by bridging this gap: from the top with novel compiler techniques and algorithmic optimizations to reduce application requirements and from the bottom via system architectures efficiently exploiting scarce QC resources.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, we present two cross-cutting optimizations that narrow the applications-to-hardware resource gap. First, we present noise-adaptive compilation techniques that optimize applications for the spatio-temporal noise variations seen in real QC systems. Using real executions, we demonstrate average fidelity improvements of 3X using noise-adaptivity, compared to industry compiler tools. Second, on the architecture front, we study instruction set design issues considering application requirements and hardware gate calibration overheads. Current QC systems either use ISAs with a single two-qubit gate type or families of continuous gate sets. Using architectural simulations based on Google and Rigetti hardware, we show that QC instruction sets with 4-8 two-qubit gate types are best suited for expressing application requirements, while incurring tractable calibration overheads. In response to our work, several industry vendors have included noise-adaptivity and its extensions as part of their toolflows and adjusted device architecture to expose more native operations and hardware characterization data.&lt;/p&gt;
 
 &lt;h1 id=&#34;march-5&#34;&gt;March 5&lt;/h1&gt;
 
