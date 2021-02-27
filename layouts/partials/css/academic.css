@@ -1264,7 +1264,7 @@ nav#navbar-main li {
   background-color: transparent;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .navbar {
     min-height: 50px !important;
   }
