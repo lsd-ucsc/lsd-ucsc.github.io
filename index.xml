@@ -89,8 +89,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-5&#34;&gt;March 5&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Aldrin Montana&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.vinujoseph.org/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Vinu Joseph&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Programmable Neural Network Compression with Correctness Emphasis&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -209,13 +209,26 @@ and cooking.&lt;/p&gt;
 
 &lt;h1 id=&#34;march-5&#34;&gt;March 5&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Aldrin Montana&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Vinu Joseph&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Programmable Neural Network Compression with Correctness Emphasis&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Deep neural networks (DNNs) frequently contain far more weights, represented at higher precision, than are required for the specific task which they are trained to perform.
+Consequently, they can often be compressed using techniques such as weight pruning and quantization that reduce both the model size and inference time without appreciable loss in accuracy.
+However, finding the best compression strategy and corresponding target sparsity for a given DNN, hardware platform, and optimization objective currently requires expensive, frequently manual, trial-and-error experimentation.
+In this talk, we introduce a programmable system for model compression called Condensa. Users programmatically compose simple operators, in Python, to build more complex and practically interesting compression strategies.
+Given a strategy and user-provided objective (such as minimization of running time), Condensa uses a novel Bayesian optimization-based algorithm to automatically infer desirable sparsities.
+Our experiments real-world DNNs demonstrate memory footprint and hardware runtime throughput improvements of 188x and 2.59x, respectively, using at most ten samples per search.
+We have released a reference implementation of &lt;a href=&#34;https://github.com/NVlabs/condensa&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Condensa&lt;/a&gt;. Next, we will talk about our recent correctness extension where we preserve not just the overall accuracy but also metrics relating to model fairness and interpretability.
+To achieve this, we augment the compression loss function with terms arising from the teacher-student learning paradigm and show how to automatically tune the associated parameters.
+We demonstrate the effectiveness of our approach on multiple compression schemes and accuracy recovery algorithms using several different real-world network architectures.
+We obtain a significant reduction of up to 4.1X in the number of mismatches between the compressed and reference models, while also achieving a significant reduction in class-wise disparate impact metrics compared to the reference models.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Vinu Joseph is a Ph.D. candidate in Computer Science at the School of Computing at the University of Utah, Salt Lake City, working on efficient deep learning computing, robustness, and security of deep learning algorithms, advised by Prof. Ganesh Gopalakrishnan.
+He is one of the five recipients of the NVIDIA Graduate fellowship, the recipients were selected based on their academic achievements and area of research.
+Prior to graduate studies, Vinu worked at ARM Inc. During his tenure at ARM, he was a recipient of the Bravo award for developing the programmer’s model for verifying real-time (‘R’) profile architecture which provides high-performing processors for safety-critical environments.
+Vinu’s current research focuses on optimizing deep neural network-based systems for performance and scalability. More broadly, His research is at the intersection of systems, programming languages, and machine learning, to create a more efficient, performant, secure, privacy-preserving, and correct software.
+His Ph.D. research has been mainly focused on deep neural network compression for resource-efficient inference and robustness. He is generously supported by an NVIDIA Ph.D. fellowship, mentored by Saurav Muralidharan and Michael Garland, he developed Condensa: A Programming System for Model Compression and Optimization.&lt;/p&gt;
 
 &lt;h1 id=&#34;march-12&#34;&gt;March 12&lt;/h1&gt;
 
