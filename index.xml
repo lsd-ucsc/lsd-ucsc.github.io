@@ -96,7 +96,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-12&#34;&gt;March 12&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Daniel Bittman&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Twizzler: Evolving Operating Systems for Non-volatile Memory&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -234,11 +234,11 @@ His Ph.D. research has been mainly focused on deep neural network compression fo
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Daniel Bittman&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Twizzler: Evolving Operating Systems for Non-volatile Memory&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Byte addressable, non-volatile memory (NVM) demands that we rethink the entire system stack. Twizzler is an operating system designed for the near-future of NVM on the memory bus. It removes the kernel from the I/O path, provides programs with direct access to NVM, enabling simpler and more efficient long-term operations on persistent data. Twizzler provides a clean-slate programming model for persistent data, realizing the vision of Unix in a world of NVM. It does this through a pervasive notion of data identity coupled with an efficient design for persistent pointers that allows programmers to construct persistent data structures in a large, persistent, global address space. This talk will present an overview of Twizzler and discuss upcoming directions for Twizzler in security, distribution, and programming languages.Bio&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Daniel is a PhD candidate at UC Santa Cruz, advised by Ethan Miller and Peter Alvaro. His interests are in kernel programming and design, security, non-volatile memory, and concurrent programming. His current project is on developing an operating system for non-volatile memories and developing operating system designs and interfaces for better programming and data models in such an environment.&lt;/p&gt;
 
 &lt;hr /&gt;
 
