@@ -100,6 +100,6 @@ jobs:
             set -x
             mkdir ~/.ssh
             echo "${KNOWN_HOSTS?}" >> ~/.ssh/known_hosts
-            #sudo apt-get install sshpass # already present
+            sudo apt-get install sshpass
             sshpass -p "${REMOTE_PWD?}" rsync -Pzca --exclude=".*" --delete-after . "${REMOTE_USR?}@${REMOTE_HOST?}:${REMOTE_DIR?}"
             history -c
