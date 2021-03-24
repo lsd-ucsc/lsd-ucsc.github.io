@@ -13,7 +13,7 @@ math = false
 
 The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating students should register for the 2-credit course CSE 280O.
 
-Talks will be advertised on the [ucsc-lsd-seminar-announce](https://groups.google.com/g/ucsc-lsd-seminar-announce) (for anyone) and [lsd-group@ucsc.edu](https://groups.google.com/a/ucsc.edu/g/lsd-group/members) (for UCSC people) mailing lists.
+Talks will be advertised on the [ucsc-lsd-seminar-announce](https://groups.google.com/g/ucsc-lsd-seminar-announce) (for anyone) and [lsd-group](https://groups.google.com/a/ucsc.edu/g/lsd-group/members) (for UCSC-affiliated people) mailing lists.
 
 | Date                | Speaker                                                               | Title                                                             |
 |-------              |---------                                                              |---------                                                          |
