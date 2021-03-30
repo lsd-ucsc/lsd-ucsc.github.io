@@ -15,7 +15,9 @@
       <pubDate>Sun, 21 Feb 2021 12:27:37 -0800</pubDate>
       
       <guid>http://lsd-ucsc.github.io/lsd-seminar/2021sp/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:15pm (PT) &lt;br /&gt;
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:15pm (PT) &lt;br /&gt;
 &lt;strong&gt;Location&lt;/strong&gt;: The Internet &lt;br /&gt;
 &lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
 
@@ -39,8 +41,8 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-2&#34;&gt;April 2&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Aldrin Montana&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://research.aldrinmontana.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Aldrin Montana&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Running the Trails of Data Management&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -100,6 +102,16 @@
 &lt;/table&gt;
 
 &lt;hr /&gt;
+
+&lt;h1 id=&#34;april-2&#34;&gt;April 2&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://research.aldrinmontana.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Aldrin Montana&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Running the Trails of Data Management&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The demise of Moore&amp;rsquo;s law and Dennard scaling have swung a pendulum back towards computational storage&amp;ndash;disk drives equipped with modest processors and working memory. As was the case when the earliest ``active drives&amp;rdquo; were developed over three decades ago, moving computational kernels closer to where the data is stored presents an opportunity to improve data processing and retrieval performance by alleviating bottlenecks at CPUs that can no longer promise exponential increases in performance over time. We explore this opportunity in a 3-way collaboration between industry and academia with the goal of showing the benefits provided by computational storage devices for scientific analysis workloads. The analysis workloads are based on use cases for the Human Cell Atlas (HCA) and the UCSC Genomics Institute, the computational storage devices are architected and designed by Seagate, and the system that brings these together is architected by our declarative programmable storage research group at UCSC. This talk uses trail running as a fun metaphor to detail the context and directions of our collaboration that spans data management, single-cell RNA sequencing, and a storage system that leverages computational storage devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Aldrin is a 3rd year PhD student at UC Santa Cruz advised by Peter Alvaro, but works extensively with Carlos Maltzahn (UCSC), Jeff LeFevre (UCSC), and Philip Kufeldt (Seagate). Aldrin received his B.S. and M.S. in computer science from Cal Poly, San Luis Obispo working with Alex Dekhtyar on a collaborative, microbial source tracking project with professors and students in the biology and biochemistry departments. Before joining UCSC’s PhD program, Aldrin has worked on data management of genomic variants at a biotech company, Personalis, Inc. His research interests are primarily in data management systems and bioinformatics, but also span programming languages, storage systems, and software engineering.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
