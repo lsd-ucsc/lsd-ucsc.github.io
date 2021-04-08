@@ -13,7 +13,7 @@ title = "Students"
   www = "https://users.soe.ucsc.edu/~sobanerj/"
   title = "Ph.D. Student"
   img = "sohum.jpg"
-
+  
 [[people]]
   name = "Reese Levine"
   www = "https://users.soe.ucsc.edu/~reeselevine/"
@@ -63,17 +63,23 @@ title = "Students"
   img = "tuan_tran.jpg"
   
 [[people]]
+  name = "Yanwen Xu"
+  www = "http://people.ucsc.edu/~yxu83"
+  title = "Ph.D. Student"
+  img = "yanwen_xu.png"
+  
+[[people]]
   name = "Jun Zhang (Aleck)"
   www = "https://people.ucsc.edu/~jzhan293/"
   title = "Ph.D. Student"
   img = "aleck-zhang.jpg"
-
+  
 [[people]]
   name = "Haofan Zheng"
   www = "https://haofanzheng.com/"
   title = "Ph.D. Student"
   img = "haofan_zheng.jpg"
-
+  
 [[people]]
   name = "Your Name Here"
   www = "https://grad.soe.ucsc.edu/admissions"
