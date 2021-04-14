@@ -54,7 +54,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-16&#34;&gt;April 16&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Achilles Benetopoulos&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;HARP: Eliminating Software Supply-Chain Vulnerabilities via Active Learning and Regeneration of String Processing Libraries&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -128,6 +128,16 @@
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Depending on how you count, Michael Arntzenius is somewhere between a 4th- and a 9th-year PhD student. He works with Neel Krishnaswami on Datafun, an attempt to combine the bottom-up deductive query language Datalog with higher-order typed functional programming. He is interested in monotonicity as a unifying and simplifying theme in incremental, concurrent, and distributed computation; and generally in the theory, design, and implementation of programming systems.&lt;/p&gt;
+
+&lt;h1 id=&#34;april-16&#34;&gt;April 16&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Achilles Benetopoulos&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; HARP: Eliminating Software Supply-Chain Vulnerabilities via Active Learning and Regeneration of String Processing Libraries&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Software supply-chain attacks are becoming an important security concern. These attacks focus on a dependency of the target rather than the target itself and often affect the target as well as other consumers of that dependency. We propose active library learning and regeneration (ALR) techniques for inferring and reconstructing the core functionality of a black-box software dependency. Using increasingly sophisticated rounds of exploration, ALR generates inputs, provides these inputs to the dependency, and observes the dependency’s outputs and interactions to infer a model of the dependency’s behavior captured in a domain-specific language. We present HARP, an ALR system for string processing dependencies. We apply HARP to successfully regenerate string-processing libraries in JavaScript, Python, and C/C++. In the majority of cases, HARP completes the regeneration in less than a minute, remains fully compatible with the original library, and achieves performance indistinguishable from the original library. We also demonstrate that HARP can eliminate vulnerabilities associated with libraries targeted in a number of highly visible security incidents of the JavaScript ecosystem.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Achilles Benetopoulos is a backend software engineer at Plum Fintech. He received a Masters degree in Engineering from the National Technical University of Athens. He is interested in exploring better ways of building robust and performant distributed systems. Starting in the fall, he will be joining UC Santa Cruz as a graduate student advised by Peter Alvaro, to work towards this goal. When he gets too frustrated by computers, he cooks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
