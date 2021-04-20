@@ -60,7 +60,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-23&#34;&gt;April 23&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Konstantinos Kallas&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;PaSh: A parallelizing shell&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -138,6 +138,16 @@
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Software supply-chain attacks are becoming an important security concern. These attacks focus on a dependency of the target rather than the target itself and often affect the target as well as other consumers of that dependency. We propose active library learning and regeneration (ALR) techniques for inferring and reconstructing the core functionality of a black-box software dependency. Using increasingly sophisticated rounds of exploration, ALR generates inputs, provides these inputs to the dependency, and observes the dependency’s outputs and interactions to infer a model of the dependency’s behavior captured in a domain-specific language. We present HARP, an ALR system for string processing dependencies. We apply HARP to successfully regenerate string-processing libraries in JavaScript, Python, and C/C++. In the majority of cases, HARP completes the regeneration in less than a minute, remains fully compatible with the original library, and achieves performance indistinguishable from the original library. We also demonstrate that HARP can eliminate vulnerabilities associated with libraries targeted in a number of highly visible security incidents of the JavaScript ecosystem.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Achilles Benetopoulos is a backend software engineer at Plum Fintech. He received a Masters degree in Engineering from the National Technical University of Athens. He is interested in exploring better ways of building robust and performant distributed systems. Starting in the fall, he will be joining UC Santa Cruz as a graduate student advised by Peter Alvaro, to work towards this goal. When he gets too frustrated by computers, he cooks.&lt;/p&gt;
+
+&lt;h1 id=&#34;april-23&#34;&gt;April 23&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Konstantinos Kallas&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; PaSh: A parallelizing shell&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk I will present PaSh, a new shell that exposes data parallelism in POSIX shell scripts. To achieve that, PaSh proposes: (i) an order-aware dataflow model that captures a fragment of the shell, (ii) a set of dataflow transformations that extract parallelism and have been proven to be correct, (iii) a lightweight framework that captures the correspondence of shell commands and order-aware dataflow nodes, and (iv) a just-in-time compilation framework that allows for effective compilation despite the dynamic nature of the shell. PaSh is open-source and you can try it out today here: &lt;a href=&#34;https://github.com/andromeda/pash&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/andromeda/pash&lt;/a&gt;. If you want to learn more about it you can read our paper that will appear in EuroSys 2021 (next week) here: &lt;a href=&#34;https://arxiv.org/abs/2007.09436&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2007.09436&lt;/a&gt; and if you want to learn more about the dataflow model you can read the paper that introduces it and proves the correctness of the transformations here: &lt;a href=&#34;https://arxiv.org/abs/2012.15422&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2012.15422&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Konstantinos Kallas is a 3rd year PhD student at the University of Pennsylvania working with Rajeev Alur. They are broadly interested in all things PL, distributed systems, and greek folk mountain music. Recently, together with Nikos Vasilakis and several other amazing people they have been working on invigorating the research on the shell. They are also working on partial order semantics for distributed stream processing and programming models for serverless. You can find more information about them here: &lt;a href=&#34;https://angelhof.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://angelhof.github.io/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
