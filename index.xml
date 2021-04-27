@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-30&#34;&gt;April 30&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Eric Atkinson&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Programming and Reasoning with Partial Observability&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -148,6 +148,20 @@
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk I will present PaSh, a new shell that exposes data parallelism in POSIX shell scripts. To achieve that, PaSh proposes: (i) an order-aware dataflow model that captures a fragment of the shell, (ii) a set of dataflow transformations that extract parallelism and have been proven to be correct, (iii) a lightweight framework that captures the correspondence of shell commands and order-aware dataflow nodes, and (iv) a just-in-time compilation framework that allows for effective compilation despite the dynamic nature of the shell. PaSh is open-source and you can try it out today here: &lt;a href=&#34;https://github.com/andromeda/pash&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/andromeda/pash&lt;/a&gt;. If you want to learn more about it you can read our paper that will appear in EuroSys 2021 (next week) here: &lt;a href=&#34;https://arxiv.org/abs/2007.09436&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2007.09436&lt;/a&gt; and if you want to learn more about the dataflow model you can read the paper that introduces it and proves the correctness of the transformations here: &lt;a href=&#34;https://arxiv.org/abs/2012.15422&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2012.15422&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Konstantinos Kallas is a 3rd year PhD student at the University of Pennsylvania working with Rajeev Alur. They are broadly interested in all things PL, distributed systems, and greek folk mountain music. Recently, together with Nikos Vasilakis and several other amazing people they have been working on invigorating the research on the shell. They are also working on partial order semantics for distributed stream processing and programming models for serverless. You can find more information about them here: &lt;a href=&#34;https://angelhof.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://angelhof.github.io/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;april-30&#34;&gt;April 30&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Eric Atkinson&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Programming and Reasoning with Partial Observability&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Computer programs are increasingly being deployed in partially-observable environments. A partially-observable environment is an environment whose state is not completely visible to the program, but from which the program receives partial observations. Developers typically deal with partial observability by writing a &lt;em&gt;state estimator&lt;/em&gt; that, given observations, attempts to deduce the hidden state of the environment. In safety-critical domains, to formally verify safety properties developers may write an &lt;em&gt;environment model&lt;/em&gt;. The model captures the relationship between observations and hidden states and is used to prove the software correct.&lt;/p&gt;
+
+&lt;p&gt;In my talk, I will present a new methodology for writing and verifying programs in partially observable environments. I will present &lt;em&gt;belief programming&lt;/em&gt;, a programming methodology where developers write an environment model that the program runtime automatically uses to perform state estimation. A belief program dynamically updates and queries a belief state that captures the possible states the environment could be in. To enable verification, I will present &lt;em&gt;Epistemic Hoare Logic&lt;/em&gt;, which reasons about the possible belief states of a belief program the same way that classical Hoare logic reasons about the possible states of a program. I will develop these concepts by explaining a semantics and a program logic for a simple core language called BLIMP. I will also discuss a case study in which we used BLIMP to implement a verified controller for the Mars Polar Lander, and I will evaluate the performance of a C implementation of BLIMP.&lt;/p&gt;
+
+&lt;p&gt;Paper link: &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3428268&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://dl.acm.org/doi/10.1145/3428268&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Eric Atkinson is a 6th year PhD student at MIT advised by Michael Carbin. His primary research interests involve using programming language tools to help developers manage both probabilistic and nondeterministic uncertainty.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
