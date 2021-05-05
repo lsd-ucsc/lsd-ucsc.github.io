@@ -291,7 +291,7 @@
 <tr>
 <td><a href="#may-7">May 7</a></td>
 <td>Vadim Zaliva</td>
-<td>TBD</td>
+<td>HELIX: From Math to Verified Code</td>
 </tr>
 
 <tr>
@@ -381,6 +381,51 @@
 <p>Paper link: <a href="https://dl.acm.org/doi/10.1145/3428268" rel="noreferrer" target="_blank">https://dl.acm.org/doi/10.1145/3428268</a></p>
 
 <p><strong>Bio:</strong> Eric Atkinson is a 6th year PhD student at MIT advised by Michael Carbin. His primary research interests involve using programming language tools to help developers manage both probabilistic and nondeterministic uncertainty.</p>
+
+<h1 id="may-7">May 7</h1>
+
+<p><strong>Speaker:</strong> Vadim Zaliva</p>
+
+<p><strong>Title:</strong> HELIX: From Math to Verified Code</p>
+
+<p><strong>Abstract:</strong> In this talk we will presents HELIX, a code generation and formal
+verification system with a focus on the intersection of
+high-performance and high-assurance numerical computing. This allowed
+us to build a system that could be fine-tuned to generate efficient
+code for a broad set of computer architectures while providing formal
+guarantees of such generated code&rsquo;s correctness.</p>
+
+<p>The method we used for high-performance code synthesis is the
+algebraic transformation of vector and matrix computations into a
+dataflow optimized for parallel or vectorized processing on target
+hardware. The abstraction used to formalize and verify this technique
+is an operator language used with semantics-preserving
+term-rewriting. We use sparse vector abstraction to represent partial
+computations, enabling us to use algebraic reasoning to prove parallel
+decomposition properties.</p>
+
+<p>HELIX provides a formal verification foundation for rewriting-based
+algebraic code synthesis optimizations, driven by an external
+oracle. Presently HELIX uses SPIRAL as an oracle deriving the rule
+application order. The SPIRAL system was developed over the years and
+successfully applied to generate code for various numeric
+algorithms. Building on its sound algebraic foundation, we generalize
+and extend it in the direction of non-linear operators, towards a new
+theory of partial computations, applying formal language theory and
+formal verification techniques.</p>
+
+<p>HELIX is developed and proven in Coq proof assistant and demonstrated
+on a real-life example of verified high-performance code generation of
+the dynamic window safety monitor for a cyber-physical robot system.</p>
+
+<p><strong>Bio:</strong> Vadim Zaliva works on formal verifications of computer programs,
+presently as a Senior Research Associate at Cambridge University and
+previously as part of his Ph.D. at Carnegie Mellon University. His
+diverse academic interests in addition to formal methods range from
+computer security to machine learning and gesture recognition. With
+20+ years of experience in the design and implementation of commercial
+software, he has worked through the ranks of the software industry
+from software engineer to CTO, CEO, and company founder.</p>
 
 <p><a href="../">Archive</a></p>
 
