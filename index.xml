@@ -77,8 +77,14 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-14&#34;&gt;May 14&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Benjamin Valpey&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.cs.rochester.edu/u/bvalpey/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Benjamin Valpey&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Discovering the Semantics of NVIDIA&amp;rsquo;s SASS ISA&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -207,6 +213,14 @@ computer security to machine learning and gesture recognition. With
 20+ years of experience in the design and implementation of commercial
 software, he has worked through the ranks of the software industry
 from software engineer to CTO, CEO, and company founder.&lt;/p&gt;
+
+&lt;h1 id=&#34;may-14&#34;&gt;May 14&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cs.rochester.edu/u/bvalpey/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Benjamin Valpey&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Discovering the Semantics of NVIDIA&amp;rsquo;s SASS ISA&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this work, we specify a formal semantics of NVIDIA&amp;rsquo;s SASS instruction set, the ISA that is actually executed by NVIDIA GPUs.  We introduce the ROCetta approach for discovering the semantics of a target language that requires the semantics a source language, and the ability to obtain a translation from the source to the target language.   Using this approach, we have discovered and verified the semantics of 421 SASS instructions.  In addition, our verification effort was able to uncover 18 bugs in the CUDA compiler&amp;rsquo;s translation of single-instruction PTX programs.  In some cases, bugs were only caught during verification and were missed by the testing framework, which lacked a test for inputs that trigger the bug. Furthermore, verification of 3,581 programs took 14 seconds when run in parallel, while running the full test suite against hardware took upwards of 30 minutes.  The low cost of verification, along with its superior ability to detect bugs, makes it an invaluable tool to detect bugs that occur in the translation of small programs.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
