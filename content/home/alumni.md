@@ -11,7 +11,7 @@ title = "Alumni"
   name = "Matthew Rhea"
   degree = "BS"
   grad_year = "2020"
-  org = "TBD"
+  org = "Staff Engineer, Tozny"
   
 [[people]]
   name = "Ana McTaggart"
