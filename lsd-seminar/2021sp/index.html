@@ -303,7 +303,7 @@
 <tr>
 <td><a href="#may-21">May 21</a></td>
 <td>Zeeshan Lakhani</td>
-<td>TBD</td>
+<td>Polarized Functional Programming v0.1</td>
 </tr>
 
 <tr>
@@ -434,6 +434,51 @@ from software engineer to CTO, CEO, and company founder.</p>
 <p><strong>Title:</strong> Discovering the Semantics of NVIDIA&rsquo;s SASS ISA</p>
 
 <p><strong>Abstract:</strong> In this work, we specify a formal semantics of NVIDIA&rsquo;s SASS instruction set, the ISA that is actually executed by NVIDIA GPUs.  We introduce the ROCetta approach for discovering the semantics of a target language that requires the semantics a source language, and the ability to obtain a translation from the source to the target language.   Using this approach, we have discovered and verified the semantics of 421 SASS instructions.  In addition, our verification effort was able to uncover 18 bugs in the CUDA compiler&rsquo;s translation of single-instruction PTX programs.  In some cases, bugs were only caught during verification and were missed by the testing framework, which lacked a test for inputs that trigger the bug. Furthermore, verification of 3,581 programs took 14 minutes when run in parallel, while running the full test suite against hardware took upwards of 30 minutes.  The low cost of verification, along with its superior ability to detect bugs, makes it an invaluable tool to detect bugs that occur in the translation of small programs.</p>
+
+<h1 id="may-21">May 21</h1>
+
+<p><strong>Speaker:</strong> Zeeshan Lakhani</p>
+
+<p><strong>Title:</strong> Polarized Functional Programming v0.1</p>
+
+<p><strong>Abstract:</strong> When designing a new, real-world type system, where would you start? Looking for
+examples, you may notice that a language like Typescript has a myriad of
+advanced typing features, though they&rsquo;re oriented toward trying to
+capture JavaScript&rsquo;s many dynamic idioms and (now) lengthy history of existing
+programs. Furthermore, even with these advanced features, the language is not
+sound, i.e. certain operations cannot be known to be type-safe at compile-time.
+Looking elsewhere, like in the ML family of languages, you&rsquo;ll see a powerful
+type inference mechanism helping to free programmers from the burden of
+numerous, explicit type annotations. Yet, as new research-driven type extensions
+have been incorporated, the need for explicit annotations or pre-processing
+steps has increased in certain situations. As the complexity of our programs and
+the properties about them that we&rsquo;d like to statically guarantee grow, how far
+can just typechecking take us while remaining sound and without us having to
+associate proofs with our programs?</p>
+
+<p>The answer is pretty far. Lightweight verification through refinement types is
+catching on. Most <em>modern</em> languages, e.g. Rust, OCaml, Dotty/Scala, come out of
+the box with sum types or enumerated variants and integrations for extended
+static code analysis. Our answer to these questions lies in the powerful
+relationship between static analysis and type theory and how to treat evaluation
+(essentially, eager versus lazy) as first-class.</p>
+
+<p>In this talk, I will present our work-in-progress research on a polarized
+functional programming language based on the call-by-push-value (CBPV)
+λ-calculus, which allows for the mixing of both call-by-name and call-by-value
+evaluation inside of a single program via a kind-like operator, shifting between
+positive and negative types. We extend this polarized calculus further with a
+transparent and equirecursive interpretation of mixed-inductive-and-coinductive datatypes,
+allowing us to leverage strong structural subtyping and datasort refinements over sums and
+intersections. Additionally, typechecking works bidirectionally in our system,
+meaning that terms can be checked to a certain type or synthesized as a
+certain type, which scales well for adding various expressive type features to
+our language.</p>
+
+<p><strong>Bio:</strong> Zeeshan is the founder of Papers We Love and PWLConf, as well as an organizer. He&rsquo;s also
+the Director of Research and Development at BlockFi working on various data and program
+analysis projects. And, he&rsquo;s a PhD student at Carnegie Mellon University&rsquo;s School of
+Computer Science, studying Programming Languages under Frank Pfenning.</p>
 
 <p><a href="../">Archive</a></p>
 
