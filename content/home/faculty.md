@@ -12,7 +12,7 @@ title = "Faculty"
 [[people]]
   name = "Peter Alvaro"
   www = "https://people.ucsc.edu/~palvaro/"
-  title = "Assistant Professor"
+  title = "Associate Professor"
   img = "palvaro.jpeg"
 
 [[people]]

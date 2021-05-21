@@ -22,6 +22,11 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+  kind = "any"
+  date = "May 21, 2021"
+  content = "Peter Alvaro was promoted to Associate Professor.  Congratulations, Peter!"
+
+[[news]]
   kind = "paper"
   date = "Oct. 20, 2020"
   who = "Kyle Kingsbury and Peter Alvaro"
