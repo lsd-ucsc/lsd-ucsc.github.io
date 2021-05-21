@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-28&#34;&gt;May 28&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Philippa Cowderoy&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Information Aware Type Systems and Telescopic Constraint Trees&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -260,6 +260,26 @@ our language.&lt;/p&gt;
 the Director of Research and Development at BlockFi working on various data and program
 analysis projects. And, he&amp;rsquo;s a PhD student at Carnegie Mellon University&amp;rsquo;s School of
 Computer Science, studying Programming Languages under Frank Pfenning.&lt;/p&gt;
+
+&lt;h1 id=&#34;may-28&#34;&gt;May 28&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Philippa Cowderoy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Information Aware Type Systems and Telescopic Constraint Trees&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; What does conservation of information have to do with type systems? Are type checkers specialised operating systems? Can we understand dataflow in type systems or are we doomed to drown in it?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll present a highly familiar type system in pursuit of an `Information Aware&amp;rsquo; style, using information effects to reveal data flow and help in implementing a checker. I also calculate a general, scoped, constraint-based representation of typechecking problems from the typing rules.&lt;/p&gt;
+
+&lt;p&gt;And then, because why not? Let&amp;rsquo;s toy with substructural systems and maybe even incremental checking!&lt;/p&gt;
+
+&lt;p&gt;Warning: talk may contain willfully creative use of long-standing concepts&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Philippa Cowderoy is a professional procrastinator and amateur computer scientist, having dropped out of the University of Nottingham as an undergraduate in 2007.&lt;/p&gt;
+
+&lt;p&gt;Somehow this still hasn&amp;rsquo;t put her off being frustrated with her tools on a increasingly deeper level. When she is bored enough, she is now mining particularly meta veins of frustration shared by others in the PL community.&lt;/p&gt;
+
+&lt;p&gt;In her copious free (if not high-quality) time she plays too many games and spends too little time around cats.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
