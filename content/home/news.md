@@ -3,7 +3,7 @@ active = false
 
 # Recent News
 # There are three kinds of news items: 'paper', 'award', and 'any'.
-# The first two are customized by `layout/partial/news.html` to make it easier
+# The first two are customized by `layouts/partials/news_style.html` to make it easier
 # to quickly add news items. Use 'any' for other news items like students
 # graduating. See examples below.
 #
@@ -25,6 +25,11 @@ active = false
   kind = "any"
   date = "May 21, 2021"
   content = "Peter Alvaro was promoted to Associate Professor.  Congratulations, Peter!"
+  
+[[news]]
+  kind = "any"
+  date = "January 13, 2021"
+  content = "Professor Cormac Flanagan has been <a href="https://news.ucsc.edu/2021/01/flanagan-acm-fellow.html">named an ACM Fellow</a>.  Congratulations, Cormac!"
 
 [[news]]
   kind = "paper"
