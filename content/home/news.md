@@ -29,7 +29,7 @@ active = false
 [[news]]
   kind = "any"
   date = "January 13, 2021"
-  content = "Professor Cormac Flanagan has been <a href="https://news.ucsc.edu/2021/01/flanagan-acm-fellow.html">named an ACM Fellow</a>.  Congratulations, Cormac!"
+  content = "Professor Cormac Flanagan has been <a href='https://news.ucsc.edu/2021/01/flanagan-acm-fellow.html'>named an ACM Fellow</a>.  Congratulations, Cormac!"
 
 [[news]]
   kind = "paper"
