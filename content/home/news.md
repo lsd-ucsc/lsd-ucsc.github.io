@@ -6,7 +6,16 @@ active = false
 # The first two are customized by `layouts/partials/news_style.html` to make it easier
 # to quickly add news items. Use 'any' for other news items like students
 # graduating. See examples below.
-#
+# 
+# [[news]]
+#   kind = "paper"
+#   date = "April 1, 2025"
+#   who = "X. Foobar and Y. Quux"
+#   paper_name = "A Unified Theory of Everything"
+#   paper_link = "https://xyzconf.org/paper.pdf"
+#   conf_name = "XYZ '25"
+#   conf_link = "https://xyzconf.org"
+# 
 # [[news]]
 #   kind = "award"
 #   date = "April 1, 2025"
