@@ -27,8 +27,26 @@ active = false
 #   kind = "any"
 #   date = "July 20, 2025"
 #   content = "X. Foobar defended their thesis!  Congratulations, Dr. Foobar!"
+#
+# For a conditionally accepted paper, use the "paper" news format, but specify kind as "cond"
 
 ### Add your new news items to the *top*, right below this comment.
+
+[[news]]
+   kind = "cond"
+   date = "July 2, 2021"
+   who = "Tyler Sorensen, Lucas F. Salvador, Hari Raval, Hugues Evrard, John Wickerson, Margaret R. Martonosi, and Alastair F. Donaldson"
+   paper_name = "Specifying and Testing GPU Workgroup Progress Models"
+   conf_name = "OOPSLA 2021"
+   conf_link = "https://2021.splashcon.org/track/splash-2021-oopsla"
+
+[[news]]
+   kind = "cond"
+   date = "July 2, 2021"
+   who = "Dan Iorga, Alastair F. Donaldson, Tyler Sorensen, and John Wickerson"
+   paper_name = "The Semantics of Shared Memory in Intel CPU/FPGA Systems"
+   conf_name = "OOPSLA 2021"
+   conf_link = "https://2021.splashcon.org/track/splash-2021-oopsla"
 
 [[news]]
   kind = "any"
