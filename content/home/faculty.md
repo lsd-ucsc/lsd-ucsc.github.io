@@ -51,9 +51,4 @@ title = "Faculty"
   title = "Assistant Professor"
   img = "tyler_sorensen.jpg"
   
-[[people]]
-  name = "Your Name Here"
-  www = "https://recruit.ucsc.edu/JPF00972"
-  title = "Apply for our department's open faculty position in Experimental Computer Systems!"
-  
 +++
