@@ -46,6 +46,12 @@ title = "Faculty"
   img = "ike_nassi.jpg"
 
 [[people]]
+  name = "Andrew Quinn"
+  www = "https://web.eecs.umich.edu/~arquinn/"
+  title = "Assistant Professor"
+  img = "andrew_quinn.jpg"
+
+[[people]]
   name = "Tyler Sorensen"
   www = "https://users.soe.ucsc.edu/~tsorensen"
   title = "Assistant Professor"
