@@ -48,7 +48,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-1&#34;&gt;Oct. 1&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://maria-a-schett.net/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Maria Schett&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Cheaper (&amp;amp; correct) blockchain protocols and programs&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -109,9 +109,19 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://maria-a-schett.net/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Maria Schett&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Cheaper (&amp;amp; correct) blockchain protocols and programs&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We will explore how we can make it cheaper to run blockchain protocols and programs&amp;mdash;while guaranteeing correctness!&lt;/p&gt;
+
+&lt;p&gt;For cheaper protocols, we move from a block&lt;em&gt;chain&lt;/em&gt; to a block&lt;em&gt;graph&lt;/em&gt;. Such a blockgraph, which we show to be a reliable point-to-point link, is built together by a set of servers. Thereby, the servers embed many parallel runs of a deterministic protocol into it. And because the protocol is deterministic, every server can locally replay the protocol&amp;mdash;and no more messages need to be sent [1]!&lt;/p&gt;
+
+&lt;p&gt;For cheaper programs, we super-optimize bytecode of the Ethereum Virtual Machine, which runs on many servers to execute programs on the blockchain. Now, to avoid the halting problem, every executed bytecode costs money. So we have a clear optimization target&amp;mdash;money&amp;mdash;and we use an automated theorem prover to synthesize cheaper, observationally equivalent, programs [2].&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;a href=&#34;https://maria-a-schett.net/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Maria A Schett&lt;/a&gt; is currently finishing her PhD on &amp;ldquo;Cost Reduction With Guarantees: Formal Reasoning Applied To Blockchain Technologies&amp;rdquo; at University College London. She loves living in London and talking about blockchains, distributed systems, and compilers. She is conversational in term rewriting and qualitative research (from a previous life) and in Esperanto.&lt;/p&gt;
+
+&lt;p&gt;[1] &amp;ldquo;Embedding a Deterministic BFT Protocol in a Block DAG&amp;rdquo;, Maria A Schett and George Danezis, Proc. of the 2021 ACM Symposium on Principles of Distributed Computing (PODC) 2021&lt;/p&gt;
+
+&lt;p&gt;[2] &amp;ldquo;Synthesis of Super-Optimized Smart Contracts using Max-SMT&amp;rdquo;, Elvira Albert, Pablo Gordillo, Albert Rubio and Maria A Schett, Proc. of 32nd International Conference on Computer-Aided Verification (CAV) 2020&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-8&#34;&gt;Oct. 8&lt;/h1&gt;
 
