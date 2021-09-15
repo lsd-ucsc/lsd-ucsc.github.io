@@ -33,20 +33,20 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
-   kind = "cond"
-   date = "July 2, 2021"
+   kind = "paper"
+   date = "September 15, 2021"
    who = "Tyler Sorensen, Lucas F. Salvador, Hari Raval, Hugues Evrard, John Wickerson, Margaret R. Martonosi, and Alastair F. Donaldson"
    paper_name = "Specifying and Testing GPU Workgroup Progress Models"
    conf_name = "OOPSLA 2021"
-   conf_link = "https://2021.splashcon.org/track/splash-2021-oopsla"
+   paper_link = "https://users.soe.ucsc.edu/~tsorensen/files/oopsla2021b.pdf"
 
 [[news]]
-   kind = "cond"
-   date = "July 2, 2021"
+   kind = "paper"
+   date = "September 15, 2021"
    who = "Dan Iorga, Alastair F. Donaldson, Tyler Sorensen, and John Wickerson"
    paper_name = "The Semantics of Shared Memory in Intel CPU/FPGA Systems"
    conf_name = "OOPSLA 2021"
-   conf_link = "https://2021.splashcon.org/track/splash-2021-oopsla"
+   paper_link = "https://users.soe.ucsc.edu/~tsorensen/files/oopsla2021a.pdf"
 
 [[news]]
   kind = "any"
