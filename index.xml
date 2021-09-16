@@ -54,7 +54,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-8&#34;&gt;Oct. 8&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://web.eecs.umich.edu/~takh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tanvir Khan&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Rescuing Data Center Processors&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -127,9 +127,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://web.eecs.umich.edu/~takh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tanvir Khan&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Rescuing Data Center Processors&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-15&#34;&gt;Oct. 15&lt;/h1&gt;
 
