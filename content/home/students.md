@@ -13,6 +13,12 @@ title = "Students"
   www = "https://users.soe.ucsc.edu/~sobanerj/"
   title = "Ph.D. Student"
   img = "sohum.jpg"
+
+[[people]]
+  name = "Achilles Benetopoulos"
+  www = "https://scarcecomputing.com"
+  title = "Ph.D. Student"
+  img = "achilles_benetopoulos.jpg"
   
 [[people]]
   name = "Reese Levine"
