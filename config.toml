@@ -142,19 +142,9 @@ enableGitInfo = false
   weight = 2
 
 [[menu.main]]
-  name = "Faculty"
+  name = "People"
   url = "#faculty"
   weight = 5
-
-[[menu.main]]
-  name = "Students"
-  url = "#students"
-  weight = 6
-
-[[menu.main]]
-  name = "Alumni"
-  url = "#alumni"
-  weight = 10
 
 # Configure the English version of the website.
 [Languages.en]
