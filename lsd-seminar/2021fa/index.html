@@ -241,7 +241,7 @@
 <tr>
 <td><a href="#oct-15">Oct. 15</a></td>
 <td><a href="https://www.seas.upenn.edu/~edinella/" rel="noreferrer" target="_blank">Elizabeth Dinella</a></td>
-<td><em>TBD</em></td>
+<td>Data Driven Program Merge</td>
 </tr>
 
 <tr>
@@ -318,9 +318,19 @@
 
 <p><strong>Speaker:</strong>  <a href="https://www.seas.upenn.edu/~edinella/" rel="noreferrer" target="_blank">Elizabeth Dinella</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Data Driven Program Merge</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> In collaborative software development, <em>program merging</em> is the mechanism to integrate changes from multiple programmers. The most widespread merge algorithm, employed in modern version control systems, is an <em>unstructured</em> merge. Unstructured merge treats input programs as a sequence of characters and reports a conflict when changes interfere textually. On the other hand, <em>structured</em> approaches leverage knowledge of the underlying language to perform “intelligent” merges over the program’s AST. These approaches have shown significant advancements in automatic merging for Java. However, these methods have not found their way into modern version control systems as they are typically language dependent and do not generalize to dynamic languages such as JavaScript.</p>
+
+<p>In a 1991 seminal paper on program merge [1], Westfechtel voiced: “A tool is <em>urgently</em> needed which automates the process of merging as much as possible.”  Thirty years later, and there have not been significant advances in the prevailing merge algorithm - unstructured merge.</p>
+
+<p>In this work, we take a <em>fresh data-driven</em> look at the problem of merge resolution. Guided by a multilingual dataset of over 200,000 merges, we explore deep learning techniques to resolve unstructured merge conflicts. Our key innovation is an edit-aware embedding of merge inputs.</p>
+
+<p>Our resulting model achieves 63&ndash;68% accuracy of merge resolution synthesis, yielding nearly a 3x performance improvement over existing structured merge tools. Finally, we demonstrate that our approach is sufficiently flexible to work with source code files in Java, JavaScript, TypeScript, and C# programming languages, and can generalize zero-shot to unseen languages.</p>
+
+<p>[1] Bernhard Westfechtel. 1991. Structure-oriented merging of revisions of software documents. In <em>Proceedings of the 3rd international workshop on Software configuration management</em> (SCM &lsquo;91).</p>
+
+<p><strong>Bio:</strong> Elizabeth Dinella is a fourth-year PhD student at the University of Pennsylvania. Her research interests can be broadly described as “data-driven program reasoning.” Most recently, Elizabeth has worked on data-driven bug finding (<a href="https://openreview.net/pdf?id=SJeqs6EFvB" rel="noreferrer" target="_blank">Hoppity</a>), program merge, and test oracle inference. She is an admirer of coffee and her chow chow puppy Cinnabon.</p>
 
 <h1 id="oct-22">Oct. 22</h1>
 
