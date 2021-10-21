@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-22&#34;&gt;Oct. 22&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.cmi.ac.in/~vaishnavi/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Vaishnavi Sundararajan&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Better Safe than Sorry: Symbolic Verification for Security Protocols&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -155,9 +155,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cmi.ac.in/~vaishnavi/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Vaishnavi Sundararajan&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Better Safe than Sorry: Symbolic Verification for Security Protocols&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; A large part of our lives is spent online, creating, sharing, and consuming data in various forms. We use a profusion of security protocols to handle this more-often-than-not sensitive data, and connect to the internet and to the world at large. How secure are these communications? How private? These are fundamental questions to which we demand definitive answers. Even with highly sophisticated methods of testing, one cannot get unconditional answers, and this is where formal verification steps in. One can use logic or automata or similar formal methods to conclusively tell us if there are security flaws in these protocols. In this talk, we will provide a quick and dirty introduction to the world of symbolic verification, with a focus on security protocols. We will then look at a few ways in which the protocols of today’s day and age are modelled and verified.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Vaishnavi Sundararajan is a postdoc at UCSC. She completed her PhD at Chennai Mathematical Institute, with a thesis on formal aspects of certification in security protocols. She is interested in the areas of logic, security, proof theory and verification. Before UCSC, she was a postdoc at IRISA, Rennes, and a Research Associate at Ericsson Research, Bengaluru.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-29&#34;&gt;Oct. 29&lt;/h1&gt;
 
