@@ -47,6 +47,22 @@ active = false
    paper_name = "The Semantics of Shared Memory in Intel CPU/FPGA Systems"
    conf_name = "OOPSLA 2021"
    paper_link = "https://users.soe.ucsc.edu/~tsorensen/files/oopsla2021a.pdf"
+   
+[[news]]
+   kind = "paper"
+   date = "September 10, 2021"
+   who = "Patrick Redmond, Gan Shen, and Lindsey Kuper"
+   paper_name = "Toward Hole-Driven Development in Liquid Haskell"
+   conf_name = "HATRA 2021"
+   paper_link = "https://users.soe.ucsc.edu/~lkuper/papers/typed-holes-lh-hatra21.pdf"
+
+[[news]]
+   kind = "paper"
+   date = "September 10, 2021"
+   who = "Gan Shen and Lindsey Kuper"
+   paper_name = "Toward SMT-Based Refinement Types in Agda"
+   conf_name = "HATRA 2021"
+   paper_link = "https://users.soe.ucsc.edu/~lkuper/papers/refinement-types-agda-hatra21.pdf"
 
 [[news]]
   kind = "any"
