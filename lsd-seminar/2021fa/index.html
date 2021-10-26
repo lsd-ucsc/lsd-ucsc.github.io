@@ -253,7 +253,7 @@
 <tr>
 <td><a href="#oct-29">Oct. 29</a></td>
 <td><a href="https://www.cs.cmu.edu/~jlwise/" rel="noreferrer" target="_blank">Jenna Wise</a></td>
-<td><em>TBD</em></td>
+<td>Gradual Verification of Recursive Heap Data Structures</td>
 </tr>
 
 <tr>
@@ -346,9 +346,15 @@
 
 <p><strong>Speaker:</strong>  <a href="https://www.cs.cmu.edu/~jlwise/" rel="noreferrer" target="_blank">Jenna Wise</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Gradual Verification of Recursive Heap Data Structures</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Current static verification techniques do not provide good support for incrementality, making it difficult for developers to focus on specifying and verifying the properties and components that are most important. Dynamic verification approaches support incrementality, but cannot provide static guarantees. To bridge this gap, prior work proposed gradual verification, which supports incrementality by allowing every assertion to be complete, partial, or omitted, and provides sound verification that smoothly scales from dynamic to static checking. Our OOPSLA’20 paper [1] extended gradual verification to programs that manipulate recursive, mutable data structures on the heap. This talk outlines our extension and discusses technical challenges addressed during its development, such as ensuring consistency between static and dynamic checking. I also present the design of a gradual verifier that we built as follow-up work to our OOPSLA paper. It is implemented on top of the Viper static verifier and supports the C0 programming language. The C0 language is a safer, smaller subset of C taught in introductory CS courses at CMU. Finally, I conclude the talk with my short-term plans to evaluate our tool&mdash;which includes a case study on web browser JIT code&mdash;and my long-term vision for the field of gradual verification.</p>
+
+<p><strong>Bio:</strong> I am a fifth year PhD student in the Institute for Software Research at Carnegie Mellon University, and I am co-advised by Jonathan Aldrich and Joshua Sunshine. My research interests lie at the intersection of programming languages, software verification, and software engineering. In general, I intend to make verification technology, like formal verification and program analysis, more usable in practice. Towards this end, my thesis is dedicated to work in gradual verification, which supports incremental formal verification through the use of both static and dynamic techniques. I have also used ideas from gradual verification to produce a gradual null pointer analysis [2] that reduces false positives compared to state-of-the-art tools. It systematically deploys run-time checks wherever the underlying static analysis is imprecise. Further, I previously contributed to the language design of Penrose &mdash; which generates diagrams from mathematical prose &mdash; and Obsidian &mdash; a programming language that facilitates the development of secure blockchain applications. Outside of work, I enjoy playing video games, such as League of Legends and Final Fantasy XIV Online. I also enjoy bowling and often average more than 170 points per game!</p>
+
+<p>[1] Wise, J., Bader, J., Wong, C., Aldrich, J., Tanter, É., Sunshine, J., &ldquo;Gradual Verification of Recursive Heap Data Structures&rdquo;, The ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH20), OOPSLA, November 15-20, 2020, Online</p>
+
+<p>[2] Estep, S., Wise, J., Aldrich, J., Tanter, É., Bader, J., and Sunshine, J., &ldquo;Gradual Program Analysis for Null Pointers&rdquo;, The 35th European Conference on Object-Oriented Programming (ECOOP21), July 11-17, 2021, Online</p>
 
 <h1 id="nov-5">Nov. 5</h1>
 

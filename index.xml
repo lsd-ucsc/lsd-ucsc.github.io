@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-29&#34;&gt;Oct. 29&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~jlwise/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Jenna Wise&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Gradual Verification of Recursive Heap Data Structures&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -165,9 +165,15 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://www.cs.cmu.edu/~jlwise/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Jenna Wise&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Gradual Verification of Recursive Heap Data Structures&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Current static verification techniques do not provide good support for incrementality, making it difficult for developers to focus on specifying and verifying the properties and components that are most important. Dynamic verification approaches support incrementality, but cannot provide static guarantees. To bridge this gap, prior work proposed gradual verification, which supports incrementality by allowing every assertion to be complete, partial, or omitted, and provides sound verification that smoothly scales from dynamic to static checking. Our OOPSLA’20 paper [1] extended gradual verification to programs that manipulate recursive, mutable data structures on the heap. This talk outlines our extension and discusses technical challenges addressed during its development, such as ensuring consistency between static and dynamic checking. I also present the design of a gradual verifier that we built as follow-up work to our OOPSLA paper. It is implemented on top of the Viper static verifier and supports the C0 programming language. The C0 language is a safer, smaller subset of C taught in introductory CS courses at CMU. Finally, I conclude the talk with my short-term plans to evaluate our tool&amp;mdash;which includes a case study on web browser JIT code&amp;mdash;and my long-term vision for the field of gradual verification.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I am a fifth year PhD student in the Institute for Software Research at Carnegie Mellon University, and I am co-advised by Jonathan Aldrich and Joshua Sunshine. My research interests lie at the intersection of programming languages, software verification, and software engineering. In general, I intend to make verification technology, like formal verification and program analysis, more usable in practice. Towards this end, my thesis is dedicated to work in gradual verification, which supports incremental formal verification through the use of both static and dynamic techniques. I have also used ideas from gradual verification to produce a gradual null pointer analysis [2] that reduces false positives compared to state-of-the-art tools. It systematically deploys run-time checks wherever the underlying static analysis is imprecise. Further, I previously contributed to the language design of Penrose &amp;mdash; which generates diagrams from mathematical prose &amp;mdash; and Obsidian &amp;mdash; a programming language that facilitates the development of secure blockchain applications. Outside of work, I enjoy playing video games, such as League of Legends and Final Fantasy XIV Online. I also enjoy bowling and often average more than 170 points per game!&lt;/p&gt;
+
+&lt;p&gt;[1] Wise, J., Bader, J., Wong, C., Aldrich, J., Tanter, É., Sunshine, J., &amp;ldquo;Gradual Verification of Recursive Heap Data Structures&amp;rdquo;, The ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH20), OOPSLA, November 15-20, 2020, Online&lt;/p&gt;
+
+&lt;p&gt;[2] Estep, S., Wise, J., Aldrich, J., Tanter, É., Bader, J., and Sunshine, J., &amp;ldquo;Gradual Program Analysis for Null Pointers&amp;rdquo;, The 35th European Conference on Object-Oriented Programming (ECOOP21), July 11-17, 2021, Online&lt;/p&gt;
 
 &lt;h1 id=&#34;nov-5&#34;&gt;Nov. 5&lt;/h1&gt;
 
