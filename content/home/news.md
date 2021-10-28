@@ -71,6 +71,7 @@ active = false
    paper_name = "3MileBeach: A Tracer with Teeth"
    conf_name = "SOCC 2021"
    paper_link = "https://aleckdarcy.github.io/3MileBeach_A_Tracer_with_Teeth.pdf"
+   conf_link = "https://acmsocc.org/2021/"
    
 [[news]]
   kind = "any"
