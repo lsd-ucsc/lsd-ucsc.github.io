@@ -65,6 +65,14 @@ active = false
    paper_link = "https://users.soe.ucsc.edu/~lkuper/papers/refinement-types-agda-hatra21.pdf"
 
 [[news]]
+   kind = "paper"
+   date = "August 27, 2021"
+   who = "Jun Zhang, Robert Ferydouni, Aldrin Montana, Daniel Bittman, and Peter Alvaro"
+   paper_name = "3MileBeach: A Tracer with Teeth"
+   conf_name = "SOCC 2021"
+   paper_link = "https://aleckdarcy.github.io/3MileBeach_A_Tracer_with_Teeth.pdf"
+   
+[[news]]
   kind = "any"
   date = "May 21, 2021"
   content = "Peter Alvaro was promoted to Associate Professor.  Congratulations, Peter!"
