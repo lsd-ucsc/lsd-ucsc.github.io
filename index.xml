@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-5&#34;&gt;Nov. 5&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://thok.eu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Thomas Koehler&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Optimizing Processing Pipelines with a Rewrite-Based Domain-Extensible Compiler&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -179,9 +179,40 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://thok.eu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Thomas Koehler&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Optimizing Processing Pipelines with a Rewrite-Based Domain-Extensible Compiler&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Domain-specific optimizing compilers such as Halide
+enable programs to be expressed at a convenient high-level, while
+generating high-performance code for parallel architectures. As
+domains of interest expand towards deep learning, probabilistic
+programming and beyond, it becomes increasingly clear that it is
+unsustainable to redesign domain specific compilers for each new
+domain. In addition, the rapid growth of hardware architectures to
+optimize for poses great challenges for designing these compilers.&lt;/p&gt;
+
+&lt;p&gt;In this talk, I will show how to extend a unifying domain-extensible
+compiler with domain-specific as well as hardware-specific
+optimizations.  Optimizations are not hard-coded into the compiler but
+are expressed as user-defined rewrite rules that are composed into
+strategies controlling the optimization process. On four mobile ARM
+multi-core CPUs, the code generated for the Harris image processing
+pipeline outperforms the image processing library OpenCV by up to 16x
+and achieves performance close to - or even up to 1.4x better than -
+the state-of-the-art image processing compiler Halide.&lt;/p&gt;
+
+&lt;p&gt;However, optimization strategies are difficult to write because they
+need to decide how to apply rewrite rules.  I will finish this talk by
+presenting a technique we call &amp;ldquo;guided equality saturation via
+sketching&amp;rdquo; to abstract over individual rewrites.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I am a PhD student in computer science at the University of Glasgow in
+Scotland, where I work closely with my supervisor Michel Steuwer. I am
+the lead developer of the &lt;a href=&#34;https://rise-lang.org&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Rise project&lt;/a&gt;, which
+combines a high-level functional language with a system of rewrite rules
+to encode optimization choices. It provides a domain-extensible way to
+generate high performance code for diverse hardware architectures.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://thok.eu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Personal website&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;nov-12&#34;&gt;Nov. 12&lt;/h1&gt;
 

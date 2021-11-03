@@ -259,7 +259,7 @@
 <tr>
 <td><a href="#nov-5">Nov. 5</a></td>
 <td><a href="https://thok.eu/" rel="noreferrer" target="_blank">Thomas Koehler</a></td>
-<td><em>TBD</em></td>
+<td>Optimizing Processing Pipelines with a Rewrite-Based Domain-Extensible Compiler</td>
 </tr>
 
 <tr>
@@ -360,9 +360,40 @@
 
 <p><strong>Speaker:</strong>  <a href="https://thok.eu/" rel="noreferrer" target="_blank">Thomas Koehler</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Optimizing Processing Pipelines with a Rewrite-Based Domain-Extensible Compiler</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Domain-specific optimizing compilers such as Halide
+enable programs to be expressed at a convenient high-level, while
+generating high-performance code for parallel architectures. As
+domains of interest expand towards deep learning, probabilistic
+programming and beyond, it becomes increasingly clear that it is
+unsustainable to redesign domain specific compilers for each new
+domain. In addition, the rapid growth of hardware architectures to
+optimize for poses great challenges for designing these compilers.</p>
+
+<p>In this talk, I will show how to extend a unifying domain-extensible
+compiler with domain-specific as well as hardware-specific
+optimizations.  Optimizations are not hard-coded into the compiler but
+are expressed as user-defined rewrite rules that are composed into
+strategies controlling the optimization process. On four mobile ARM
+multi-core CPUs, the code generated for the Harris image processing
+pipeline outperforms the image processing library OpenCV by up to 16x
+and achieves performance close to - or even up to 1.4x better than -
+the state-of-the-art image processing compiler Halide.</p>
+
+<p>However, optimization strategies are difficult to write because they
+need to decide how to apply rewrite rules.  I will finish this talk by
+presenting a technique we call &ldquo;guided equality saturation via
+sketching&rdquo; to abstract over individual rewrites.</p>
+
+<p><strong>Bio:</strong> I am a PhD student in computer science at the University of Glasgow in
+Scotland, where I work closely with my supervisor Michel Steuwer. I am
+the lead developer of the <a href="https://rise-lang.org" rel="noreferrer" target="_blank">Rise project</a>, which
+combines a high-level functional language with a system of rewrite rules
+to encode optimization choices. It provides a domain-extensible way to
+generate high performance code for diverse hardware architectures.</p>
+
+<p><a href="https://thok.eu/" rel="noreferrer" target="_blank">Personal website</a></p>
 
 <h1 id="nov-12">Nov. 12</h1>
 
