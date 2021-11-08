@@ -84,7 +84,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-12&#34;&gt;Nov. 12&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://giuliaguidi.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Giulia Guidi&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Sparse Matrices and High-Performance Computing Meet Biology&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -218,9 +218,15 @@ generate high performance code for diverse hardware architectures.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://giuliaguidi.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Giulia Guidi&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Sparse Matrices and High-Performance Computing Meet Biology&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In computational and data sciences, the need for scalable computing and data systems has recently increased due to the flood of data in areas such as genomics. Yet, scalable parallel programming in distributed memory is difficult, and high-performance computing (HPC) systems are typically allocated to specific research communities and have long user wait times, limiting access to resources and scientific discoveries.&lt;/p&gt;
+
+&lt;p&gt;In this context, we have developed a novel set of genomics algorithms for de novo genome assembly (i.e., reconstruction of an unknown genome from redundant, erroneous genomic sequences) that are integrated into the diBELLA 2D software package and are based on sparse matrix multiplication supporting general semiring abstraction. This enables the creation and easy modification of powerful genomics pipelines that take advantage of massively parallel hardware without exposing low-level architecture. diBELLA 2D is up to 2x faster on 100s nodes than a 1D algorithm based on distributed hash tables, which are more difficult to parallelize. diBELLA 2D integrates GPU support in the most compute-intensive stages of the pipeline to take advantage of today&amp;rsquo;s heterogeneous HPC hardware.&lt;/p&gt;
+
+&lt;p&gt;To ensure that the genomics research community and others in general, can benefit from HPC, the development of distributed algorithms such as diBELLA 2D must be coupled with efforts to make distributed computing more accessible. To this end, we have shown that we are on the cusp of a paradigm shift in high-performance computing (HPC) away from purely institutional or agency-wide HPC systems to cloud computing, as the latter has made significant advances in networking technology and HPC system software.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Giulia is a Ph.D. candidate in Computer Science at UC Berkeley and a graduate research assistant at the Computational Research Division of Lawrence Berkeley National Laboratory advised by Aydın Buluç and Kathy Yelick. Giulia is a 2020 SIGHPC Computational &amp;amp; Data Science Fellow and received her M.Sc. and B.Sc. in Biomedical Engineering from Politecnico di Milano. Her work is in the area of computer systems research, including cloud and parallel computing, and she is interested in building a collaborative interdisciplinary research program. Giulia is currently working on the challenges of large-scale computational biology, as well as the algorithms and software infrastructures that meet the usability and performance demand of this community. Currently, she is developing a novel algorithm for de novo assembly of genomes in distributed memory using long-read sequencing data and sparse matrix abstraction as part of the ExaBiome project. Giulia is also working on how to make cloud computing more accessible for high-performance scientific computing.&lt;/p&gt;
 
 &lt;h1 id=&#34;nov-19&#34;&gt;Nov. 19&lt;/h1&gt;
 
