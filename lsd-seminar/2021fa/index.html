@@ -271,7 +271,7 @@
 <tr>
 <td><a href="#nov-19">Nov. 19</a></td>
 <td><a href="https://www.cs.utexas.edu/~hleblanc/" rel="noreferrer" target="_blank">Hayley LeBlanc</a></td>
-<td><em>TBD</em></td>
+<td>Finding Crash Consistency Bugs in Persistent Memory File Systems</td>
 </tr>
 
 <tr>
@@ -413,9 +413,13 @@ generate high performance code for diverse hardware architectures.</p>
 
 <p><strong>Speaker:</strong>  <a href="https://www.cs.utexas.edu/~hleblanc/" rel="noreferrer" target="_blank">Hayley LeBlanc</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Finding Crash Consistency Bugs in Persistent Memory File Systems</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Persistent memory (PM) is a new storage technology that combines the speed and byte-addressability of DRAM with the durability of hard disks and solid state drives. Recent research has explored using PM in a number of different applications like databases and file systems. However, programming PM applications correctly is difficult; in order for data to be guaranteed durable on PM, developers must understand and use a set of assembly instructions to manage persistence. In particular, PM applications are prone to crash consistency bugs, where buggy data management leads to incorrect behavior after a crash.</p>
+
+<p>PM file systems are a growing subset of PM applications, but there are currently no testing tools that target crash consistency bugs in these file systems. In this talk, I will describe my work on building a crash consistency testing framework designed specifically for PM file systems. I will present an overview of our testing approach and the bugs that the tool has found, and discuss the implications of these bugs on the development of PM file systems.</p>
+
+<p><strong>Bio:</strong> Hayley LeBlanc is a second year PhD student at the University of Texas at Austin. She is interested in developing techniques and tools to make sure that storage systems are reliable and correct. She also enjoys fencing and volunteering at her local animal shelter.</p>
 
 <h1 id="dec-3">Dec. 3</h1>
 
