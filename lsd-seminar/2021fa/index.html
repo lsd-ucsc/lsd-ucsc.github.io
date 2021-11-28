@@ -277,7 +277,7 @@
 <tr>
 <td><a href="#dec-3">Dec. 3</a></td>
 <td><a href="https://sydgibs.com/" rel="noreferrer" target="_blank">Sydney Gibson</a></td>
-<td><em>TBD</em></td>
+<td>Efficient Verification of High-Performance Cryptographic Routines on New Hardware</td>
 </tr>
 </tbody>
 </table>
@@ -425,9 +425,13 @@ generate high performance code for diverse hardware architectures.</p>
 
 <p><strong>Speaker:</strong>  <a href="https://sydgibs.com/" rel="noreferrer" target="_blank">Sydney Gibson</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Efficient Verification of High-Performance Cryptographic Routines on New Hardware</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Formal proofs are often employed to show correctness of cryptographic routines at the assembly level, especially in instances where architecture-optimized performance is desirable or where compilers do not exist for the target ISA. While common cryptographic routines are often implemented in many different ISAs, the current cost of verification scales poorly with the number of architectures. In this talk, we explore solutions for writing correctness proofs for cryptographic routines which are generic across different architectures.</p>
+
+<p>Specifically, we will look at assembly implementations of an RSA signature verification routine in RISC-V and in the OpenTitan BigNumber Accelerator (OTBN) ISA. Despite dramatic differences in these two ISAs, we find that the high-level control flow structure of the RSA routine is quite similar across implementations. We use this observation to construct a framework for writing partial architecture-generic assembly-level proofs which are abstracted over hardware details (e.g., register width). We will discuss how this framework can be used to reduce the overhead of proving the correctness of common cryptographic routines on different architectures, and look to future possibilities for further reducing this overhead.~</p>
+
+<p><strong>Bio:</strong> Sydney is a second-year Ph.D. student in the Computer Science Department of Carnegie Mellon, advised by Bryan Parno. She is interested in formal techniques for verifying safety and security properties of low-level, high-performance systems at scale. Sydney received her B.S. and M.Eng. from MIT, where she worked on verification techniques for concurrent, crash-safe systems.</p>
 
 <hr />
 
