@@ -34,24 +34,6 @@ active = false
 
 [[news]]
    kind = "paper"
-   date = "June 04, 2021"
-   who = " Haofan Zheng, and Owen Arden"
-   paper_name = "Secure Distributed Applications the Decent Way"
-   conf_name = "ASSS 2021"
-   paper_link = "https://doi.org/10.1145/3457340.3458304"
-   conf_link = "https://www.youtube.com/watch?v=da3NJQaH4Ys"
-
-[[news]]
-   kind = "paper"
-   date = "May 03, 2021"
-   who = " Haofan Zheng, Tuan Tran, and Owen Arden"
-   paper_name = "Total Eclipse of the Enclave: Detecting Eclipse Attacks From Inside TEEs"
-   conf_name = "ICBC 2021"
-   paper_link = "https://doi.org/10.1109/ICBC51069.2021.9461081"
-   conf_link = "https://www.youtube.com/watch?v=-yXk8BPSlMg"
-
-[[news]]
-   kind = "paper"
    date = "September 15, 2021"
    who = "Tyler Sorensen, Lucas F. Salvador, Hari Raval, Hugues Evrard, John Wickerson, Margaret R. Martonosi, and Alastair F. Donaldson"
    paper_name = "Specifying and Testing GPU Workgroup Progress Models"
@@ -92,9 +74,27 @@ active = false
    conf_link = "https://acmsocc.org/2021/"
    
 [[news]]
+   kind = "paper"
+   date = "June 04, 2021"
+   who = " Haofan Zheng, and Owen Arden"
+   paper_name = "Secure Distributed Applications the Decent Way"
+   conf_name = "ASSS 2021"
+   paper_link = "https://doi.org/10.1145/3457340.3458304"
+   conf_link = "https://www.youtube.com/watch?v=da3NJQaH4Ys"
+
+[[news]]
   kind = "any"
   date = "May 21, 2021"
   content = "Peter Alvaro was promoted to Associate Professor.  Congratulations, Peter!"
+  
+[[news]]
+   kind = "paper"
+   date = "May 03, 2021"
+   who = " Haofan Zheng, Tuan Tran, and Owen Arden"
+   paper_name = "Total Eclipse of the Enclave: Detecting Eclipse Attacks From Inside TEEs"
+   conf_name = "ICBC 2021"
+   paper_link = "https://doi.org/10.1109/ICBC51069.2021.9461081"
+   conf_link = "https://www.youtube.com/watch?v=-yXk8BPSlMg"
   
 [[news]]
   kind = "any"
