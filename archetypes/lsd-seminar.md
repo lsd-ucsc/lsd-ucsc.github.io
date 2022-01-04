@@ -5,7 +5,7 @@ math = false
 
 +++
 
-**Time**: Fridays, noon - 1:15pm (PT) <br />
+**Time**: Fridays, noon - 1:05pm (PT) <br />
 **Location**: FILL IN LOCATION <br />
 **Organizers**: Lindsey Kuper and Tyler Sorensen <br />
 
