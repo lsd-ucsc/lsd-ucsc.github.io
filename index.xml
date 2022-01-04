@@ -48,7 +48,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-14&#34;&gt;Jan. 14&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Max Willsey&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;What&amp;rsquo;s up with E-Graphs?&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -116,6 +116,14 @@
 &lt;h1 id=&#34;jan-14&#34;&gt;Jan. 14&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Max Willsey&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; What&amp;rsquo;s up with E-Graphs?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; E-graphs are an important data structure inside SMT solvers, but recently they have been used for a whole lot more, including optimization, program synthesis, and verification!&lt;/p&gt;
+
+&lt;p&gt;This talk will give a whirlwind introduction to e-graphs and equality saturation, as well as some new algorithms that make them faster. I&amp;rsquo;ll also introduce &lt;a href=&#34;https://egraphs-good.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;egg&lt;/a&gt;, a toolchain that packages all this up into a generic, reusable library. Then, we&amp;rsquo;ll move on to some applications of these new techniques, including floating point accuracy, 3D CAD, deep learning, and more. Finally, I&amp;rsquo;ll talk about some of the current work folks are using egg for, including a teaser for our &lt;a href=&#34;https://arxiv.org/abs/2108.02290&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;upcoming POPL paper&lt;/a&gt; that connects e-graphs to databases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;a href=&#34;https://www.mwillsey.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Max&lt;/a&gt; is a postdoc at the University of Washington in the &lt;a href=&#34;http://uwplse.org/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;PLSE&lt;/a&gt; group, where he also did his PhD. His main line of work is on &lt;a href=&#34;https://egraphs-good.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;egg&lt;/a&gt;, an e-graph and equality saturation toolkit.&lt;/p&gt;
 
 &lt;h1 id=&#34;jan-21&#34;&gt;Jan. 21&lt;/h1&gt;
 
