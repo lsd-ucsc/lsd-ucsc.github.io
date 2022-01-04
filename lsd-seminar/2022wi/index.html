@@ -223,7 +223,7 @@
 <tr>
 <td><a href="#jan-7">Jan. 7</a></td>
 <td>Dev Purandare</td>
-<td>TBD</td>
+<td>Append is Near: Log-based Data Management on ZNS SSDs</td>
 </tr>
 
 <tr>
@@ -284,19 +284,27 @@
 
 <h1 id="jan-7">Jan. 7</h1>
 
-<p>TBD</p>
+<p><strong>Speaker:</strong> Dev Purandare</p>
+
+<p><strong>Title:</strong> Append is Near: Log-based Data Management on ZNS SSDs</p>
+
+<p><strong>Abstract:</strong> Log-based data management systems use storage as if it was an append-only medium in order to transform random writes into sequential writes, delivering a major advantage when logs were persisted on hard disks. Although solid-state drives (SSDs) offer improved random write capabilities, sequential writes continue to be advantageous due to locality and space efficiency. However, the inherent properties of flash-based SSDs induce significant disadvantages when utilizing a random write block interface, causing write amplification, uneven wear, log stacking, and garbage collection overheads. To eliminate these disadvantages, Zoned Namespace (ZNS) SSDs have recently been introduced. They offer increased capacity, reduced write amplification, and higher performance but require the host to participate in data placement through zones, which have sequential-write semantics and must be explicitly reset. In ZNS, the Zone Append primitive allows the host to push down fine-grained data placement onto the device, supporting appends to a zone without knowing the location of the tail. Full zones become immutable, greatly simplifying disaggregated storage and operations like replication.</p>
+
+<p>We propose another pushdown technique, Group Append, which allows appends of data that is smaller (or possibly larger) than a block, offloading data buffering to the controller. We explore how ZNS SSDs with Zone Append, Group Append, and computational storage can benefit four log-based data management areas: (i) log-based file systems, (ii) LSM trees such as RocksDB, (iii) database systems, and (iv) event logs/shared logs. We also propose research directions for all four log-based data management using ZNS SSDs.</p>
+
+<p><strong>Bio:</strong> Dev is a PhD candidate in the Computer Science department at University of California Santa Cruz. His research interests lie in storage systems, operating systems and distributed systems, and programming languages. Dev completed his Bachelor&rsquo;s in Computer Engineering at Savitribai Phule Pune University (SPPU) in India. At UCSC he has been working on improving the lifetime of low cost, low reliability SSDs and evolving systems for Zoned Namespace SSDs. Dev has been an Engineering Intern at Riverbed Networks (2017), and an Architecture Enabling Intern at SK Hynix America Ltd. (2019). He can be found on twitter (@dev14e), LinkedIn (devashishp), and email (devashish@ucsc.edu).</p>
 
 <h1 id="jan-14">Jan. 14</h1>
 
-<p>TBD</p>
+<p><strong>Speaker:</strong> Max Willsey</p>
 
 <h1 id="jan-21">Jan. 21</h1>
 
-<p>TBD</p>
+<p><strong>Speaker:</strong> Reese Levine</p>
 
 <h1 id="jan-28">Jan. 28</h1>
 
-<p>TBD</p>
+<p><strong>Speaker:</strong> Kostis Kaffes</p>
 
 <h1 id="feb-4">Feb. 4</h1>
 
@@ -320,7 +328,7 @@
 
 <h1 id="march-11">March 11</h1>
 
-<p>TBD</p>
+<p><strong>Speaker:</strong> Sorawee Porncharoenwase</p>
 
 <hr />
 
