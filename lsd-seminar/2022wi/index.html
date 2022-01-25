@@ -241,7 +241,7 @@
 <tr>
 <td><a href="#jan-28">Jan. 28</a></td>
 <td>Reese Levine</td>
-<td>TBD</td>
+<td>A Strong Approach to Testing Weak Memory Models</td>
 </tr>
 
 <tr>
@@ -323,6 +323,14 @@
 <h1 id="jan-28">Jan. 28</h1>
 
 <p><strong>Speaker:</strong> Reese Levine</p>
+
+<p><strong>Title:</strong> A Strong Approach to Testing Weak Memory Models</p>
+
+<p><strong>Abstract:</strong> GPUs are increasingly being used for compute workloads that require interactions between threads using shared memory. Like many CPUs, GPUs expose weak memory models that allow for more aggressive compiler and hardware optimizations at the expense of a more complex programming model. Testing these memory models is an ongoing line of research.</p>
+
+<p>This talk will detail our ongoing project on testing GPU memory models. First, we will show a motivating example from an optimized renderer and illustrate how we can reason about the synchronization in the renderer using classic weak memory model litmus tests. Next, we will overview recent work on testing GPU memory models, including complex heuristics necessary to reveal weak behaviors in testing. Our new work builds on this existing work in several ways: (1) we provide a simple DSL and a compiler for expressing litmus tests and testing heuristics; we currently have backends for Vulkan and WebGPU. (2) A new parallel execution model for litmus tests, which allows tests to be executed an order of magnitude faster than in prior works. (3) A web application interface for running litmus tests through WebGPU. We will conclude with a discussion on how these contributions might lead to more robust testing methodologies and hope to facilitate discussions on how they relate to conformance testing.</p>
+
+<p><strong>Bio:</strong> Reese Levine is a second year PhD student at UC Santa Cruz advised by Tyler Sorensen. He is interested in research in parallel, concurrent, and distributed systems, and his work currently focuses on testing weak memory models in GPUs.</p>
 
 <h1 id="feb-4">Feb. 4</h1>
 
