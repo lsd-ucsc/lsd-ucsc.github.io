@@ -46,7 +46,7 @@ title = "Students"
   
 [[people]]
   name = "Patrick Redmond"
-  www = "https://curious.software/"
+  www = "https://curious.software/plr"
   title = "Ph.D. Student"
   img   = "patrick_oldphoto.jpg"
   
