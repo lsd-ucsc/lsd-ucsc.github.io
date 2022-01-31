@@ -247,7 +247,7 @@
 <tr>
 <td><a href="#feb-4">Feb. 4</a></td>
 <td>Kostis Kaffes</td>
-<td>TBD</td>
+<td>Syrup: User-Defined Scheduling across the Stack</td>
 </tr>
 
 <tr>
@@ -335,6 +335,12 @@
 <h1 id="feb-4">Feb. 4</h1>
 
 <p><strong>Speaker:</strong> Kostis Kaffes</p>
+
+<p><strong>Title:</strong> Syrup: User-Defined Scheduling across the Stack</p>
+
+<p><strong>Abstract:</strong> Suboptimal scheduling decisions in operating systems, networking stacks, and application runtimes are often responsible for poor application performance, including higher latency and lower throughput. These poor decisions stem from a lack of insight into the applications and requests the scheduler is handling and a lack of coherence and coordination between the various layers of the stack, including NICs, kernels, and applications. We propose Syrup, a framework for user-defined scheduling. Syrup enables untrusted application developers to express application-specific scheduling policies across these system layers without being burdened with the low-level system mechanisms that implement them. Application developers write a scheduling policy with Syrup as a set of matching functions between inputs (threads, network packets, network connections) and executors (cores, network sockets, NIC queues) and then deploy it across system layers without modifying their code. Syrup supports multi-tenancy as multiple co-located applications can each safely and securely specify a custom policy. We present several examples of uses of Syrup to define application and workload-specific scheduling policies in a few lines of code, deploy them across the stack, and improve performance up to 8x compared with default policies.</p>
+
+<p><strong>Bio:</strong> Kostis Kaffes is a final-year Ph.D. candidate in Electrical Engineering at Stanford University, advised by Christos Kozyrakis. He is broadly interested in computer systems, cloud computing, and scheduling. His thesis focuses on end-host, rack-scale, and cluster-scale scheduling for microsecond-scale tail latency. Recently, he has been looking for ways to make it easier to implement and deploy custom scheduling policies across different layers of the stack. Kostis&rsquo;s research has been supported by a Facebook Research Award and various scholarships and fellowships from Stanford, A.G. Leventis Foundation, and Gerondelis Foundation. Prior to Stanford, he received his undergraduate degree in Electrical and Computer Engineering from the National Technical University of Athens in Greece.</p>
 
 <h1 id="feb-11">Feb. 11</h1>
 

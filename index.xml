@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-4&#34;&gt;Feb. 4&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Kostis Kaffes&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Syrup: User-Defined Scheduling across the Stack&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -154,6 +154,12 @@
 &lt;h1 id=&#34;feb-4&#34;&gt;Feb. 4&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Kostis Kaffes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Syrup: User-Defined Scheduling across the Stack&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Suboptimal scheduling decisions in operating systems, networking stacks, and application runtimes are often responsible for poor application performance, including higher latency and lower throughput. These poor decisions stem from a lack of insight into the applications and requests the scheduler is handling and a lack of coherence and coordination between the various layers of the stack, including NICs, kernels, and applications. We propose Syrup, a framework for user-defined scheduling. Syrup enables untrusted application developers to express application-specific scheduling policies across these system layers without being burdened with the low-level system mechanisms that implement them. Application developers write a scheduling policy with Syrup as a set of matching functions between inputs (threads, network packets, network connections) and executors (cores, network sockets, NIC queues) and then deploy it across system layers without modifying their code. Syrup supports multi-tenancy as multiple co-located applications can each safely and securely specify a custom policy. We present several examples of uses of Syrup to define application and workload-specific scheduling policies in a few lines of code, deploy them across the stack, and improve performance up to 8x compared with default policies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Kostis Kaffes is a final-year Ph.D. candidate in Electrical Engineering at Stanford University, advised by Christos Kozyrakis. He is broadly interested in computer systems, cloud computing, and scheduling. His thesis focuses on end-host, rack-scale, and cluster-scale scheduling for microsecond-scale tail latency. Recently, he has been looking for ways to make it easier to implement and deploy custom scheduling policies across different layers of the stack. Kostis&amp;rsquo;s research has been supported by a Facebook Research Award and various scholarships and fellowships from Stanford, A.G. Leventis Foundation, and Gerondelis Foundation. Prior to Stanford, he received his undergraduate degree in Electrical and Computer Engineering from the National Technical University of Athens in Greece.&lt;/p&gt;
 
 &lt;h1 id=&#34;feb-11&#34;&gt;Feb. 11&lt;/h1&gt;
 
