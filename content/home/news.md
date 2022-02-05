@@ -36,7 +36,7 @@ active = false
   kind = "award"
   date = "January 20, 2022"
   who = "Thomas H. Austin and Cormac Flanagan"
-  award_name = "Most Influential POPL Paper Award for "Multiple facets for dynamic information flow" (POPL 2012)"
+  award_name = 'Most Influential POPL Paper Award for "Multiple facets for dynamic information flow" (POPL 2012)'
   award_link = "https://www.sigplan.org/Awards/POPL/#2022_Thomas_H._Austin_and_Cormac_Flanagan"
 
 [[news]]
