@@ -3,7 +3,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "http://lsd-ucsc.github.io/"
+baseurl = "http://lsd.ucsc.edu/"
 
 relativeurls = true
 canonifyurls = true
@@ -59,7 +59,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Languages, Systems, and Data Lab"
-  canonical_url = "http://lsd-ucsc.github.io"
+  canonical_url = "http://lsd.ucsc.edu"
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
 
