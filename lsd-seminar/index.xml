@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LSD Seminar Archive on Languages, Systems, and Data Lab @ UCSC</title>
-    <link>http://lsd-ucsc.github.io/lsd-seminar/</link>
+    <link>http://lsd.ucsc.edu/lsd-seminar/</link>
     <description>Recent content in LSD Seminar Archive on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Jan 2022 14:46:51 -0800</lastBuildDate>
     
-	<atom:link href="http://lsd-ucsc.github.io/lsd-seminar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lsd.ucsc.edu/lsd-seminar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Languages, Systems, and Data Seminar (Winter 2022)</title>
-      <link>http://lsd-ucsc.github.io/lsd-seminar/2022wi/</link>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2022wi/</link>
       <pubDate>Mon, 03 Jan 2022 14:46:51 -0800</pubDate>
       
-      <guid>http://lsd-ucsc.github.io/lsd-seminar/2022wi/</guid>
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2022wi/</guid>
       <description>Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper and Tyler Sorensen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.</description>
     </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Fall 2021)</title>
-      <link>http://lsd-ucsc.github.io/lsd-seminar/2021fa/</link>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2021fa/</link>
       <pubDate>Tue, 31 Aug 2021 19:47:53 -0700</pubDate>
       
-      <guid>http://lsd-ucsc.github.io/lsd-seminar/2021fa/</guid>
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2021fa/</guid>
       <description>Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper and Tyler Sorensen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.</description>
     </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Spring 2021)</title>
-      <link>http://lsd-ucsc.github.io/lsd-seminar/2021sp/</link>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2021sp/</link>
       <pubDate>Sun, 21 Feb 2021 12:27:37 -0800</pubDate>
       
-      <guid>http://lsd-ucsc.github.io/lsd-seminar/2021sp/</guid>
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2021sp/</guid>
       <description>Time: Fridays, noon - 1:15pm (PT) Location: The Internet Organizers: Lindsey Kuper and Tyler Sorensen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas. The seminar is open to everyone interested. Participating students should register for the 2-credit course CSE 280O.</description>
     </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Winter 2021)</title>
-      <link>http://lsd-ucsc.github.io/lsd-seminar/2021wi/</link>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2021wi/</link>
       <pubDate>Sat, 02 Jan 2021 21:45:29 -0800</pubDate>
       
-      <guid>http://lsd-ucsc.github.io/lsd-seminar/2021wi/</guid>
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2021wi/</guid>
       <description>Time: Fridays, noon - 1:15pm (PT)  Location: The Internet  Organizers: Lindsey Kuper and Tyler Sorensen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas. The seminar is open to everyone interested.</description>
     </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Fall 2020)</title>
-      <link>http://lsd-ucsc.github.io/lsd-seminar/2020fa/</link>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2020fa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://lsd-ucsc.github.io/lsd-seminar/2020fa/</guid>
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2020fa/</guid>
       <description>Time: Fridays, noon - 1:15pm (PT) Location: The Internet  Organizers: Lindsey Kuper and Tyler Sorensen 
 The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas. The seminar is open to everyone interested.</description>
     </item>
