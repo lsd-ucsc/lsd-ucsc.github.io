@@ -33,6 +33,13 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+   kind = "award"
+   date = "January 27, 2022"
+   who = "Lindsey Kuper"
+   award_name = 'NSF CAREER Award for "Building Reliable Distributed Systems with Refinement Types"'
+   award_link = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2145367"
+
+[[news]]
    kind = "any"
    date = "January 20, 2022"
    content = 'Thomas H. Austin and Cormac Flanagan received the <a href="https://www.sigplan.org/Awards/POPL/#2022_Thomas_H._Austin_and_Cormac_Flanagan">Most Influential POPL Paper Award for "Multiple facets for dynamic information flow" (POPL 2012)</a>.  Congratulations, Tom and Cormac!'
