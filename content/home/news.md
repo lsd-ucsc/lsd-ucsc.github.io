@@ -33,6 +33,13 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+  kind = "award"
+  date = "January 20, 2022"
+  who = "Thomas H. Austin and Cormac Flanagan"
+  award_name = "Most Influential POPL Paper Award for "Multiple facets for dynamic information flow" (POPL 2012)"
+  award_link = "https://www.sigplan.org/Awards/POPL/#2022_Thomas_H._Austin_and_Cormac_Flanagan"
+
+[[news]]
    kind = "paper"
    date = "September 15, 2021"
    who = "Tyler Sorensen, Lucas F. Salvador, Hari Raval, Hugues Evrard, John Wickerson, Margaret R. Martonosi, and Alastair F. Donaldson"
