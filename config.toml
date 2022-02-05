@@ -47,7 +47,7 @@ enableGitInfo = false
 
 [params]
   # Location of the source code for the website
-  gh_src = "https://github.com/lsd-ucsc/lsd-ucsc.github.io-source"
+  gh_src = "https://github.com/lsd-ucsc/lsd-ucsc.github.io"
 
   # Color theme.
   # LK: These are in data/themes and you can define your own
