@@ -259,7 +259,7 @@
 <tr>
 <td><a href="#feb-18">Feb. 18</a></td>
 <td>Matthew Weidner</td>
-<td>TBD</td>
+<td>Designing for Eventual Consistency with Simple, Composable CRDTs</td>
 </tr>
 
 <tr>
@@ -357,6 +357,16 @@
 <h1 id="feb-18">Feb. 18</h1>
 
 <p><strong>Speaker:</strong> Matthew Weidner</p>
+
+<p><strong>Title:</strong> Designing for Eventual Consistency with Simple, Composable CRDTs</p>
+
+<p><strong>Abstract:</strong> Many distributed systems allow a group of devices to edit some shared state. Examples include collaborative apps, such as Google Docs and Figma, and distributed key-value stores. Often, these systems are highly available: each device can edit its own replica of the state immediately, then sync up with other devices in the background. Eventual consistency requires that once this syncing completes, all devices agree on the new state.</p>
+
+<p>Eventual consistency is challenging because devices might make conflicting concurrent edits. For example, two users might type at the same time in a Google Doc, or one user might add entries to a spreadsheet while another alters the layout and formatting. Somehow, we must combine all these edits in a way that is consistent across devices and hopefully also makes sense to users. Conflict-free Replicated Data Types (CRDTs) provide one solution to this challenge, by giving programmers data structures with built-in replication and eventual consistency. However, they tend to be hard to understand or customize.</p>
+
+<p>In this talk, I will propose a way of creating CRDTs by composing simple, easy-to-understand pieces. Ideally, this could let programmers design eventually consistent systems while maintaining complete control over the system&rsquo;s behavior. A <a href="https://mattweidner.com/2022/02/10/collaborative-data-design.html" rel="noreferrer" target="_blank">blog post</a> describes the proposal in more detail.</p>
+
+<p><strong>Bio:</strong> <a href="https://mattweidner.com/" rel="noreferrer" target="_blank">Matthew</a> is a third year PhD student at Carnegie Mellon University, advised by Heather Miller. His research focuses on tools for decentralized systems, with a particular interest in enabling open-source, local-first collaborative apps. Previously, he completed an MPhil at Cambridge University as a Churchill Scholar, where he studied decentralized secure group messaging protocols for the <a href="https://www.cl.cam.ac.uk/research/dtg/trve/" rel="noreferrer" target="_blank">TRVE Data</a> project.</p>
 
 <h1 id="feb-25">Feb. 25</h1>
 
