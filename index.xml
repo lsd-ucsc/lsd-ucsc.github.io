@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-4&#34;&gt;March 4&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Jie Zhou&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Fat Pointers for Temporal Memory Safety of C&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -202,6 +202,14 @@
 &lt;h1 id=&#34;march-4&#34;&gt;March 4&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jie Zhou&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Fat Pointers for Temporal Memory Safety of C&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The past decade has seen an increasing trend of real-world exploits against temporal memory safety bugs in C/C++ programs, i.e., use-after-free (UAF), double free, and invalid free. These bugs are profoundly dangerous in that they can lead to data corruption, information leaking, or even arbitrary code execution.  Many solutions were proposed, but they suffer one or more severe limitations such as high performance/memory overhead and missing bugs.&lt;/p&gt;
+
+&lt;p&gt;In this talk, I will describe how we solve this problem for C efficiently and comprehensively. We combine two existing techniques: fat pointers (in-place metadata) and ID-based dynamic pointer validation. We build our solution based on Checked C–a promising safe dialect of C which provides spatial memory safety but currently lacks temporal memory safety. We show that our solution significantly improves the performance and memory consumption compared to using disjoint metadata for pointer validation. Additionally, we also show that our solution is practical in terms of backward compatibility–one of the major concerns about fat pointers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;a href=&#34;https://www.cs.rochester.edu/u/jzhou41/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Jie Zhou&lt;/a&gt; is a fifth-year PhD student at the University of Rochester. Jie works on systems and software security, with a focus on memory safety. He is most interested in improving systems programming languages and their toolchains for security as he believes that language-based techniques can solve problems in a more fundamental way. He is also interested in developing program analysis and transformation techniques to enforce security policies on low-level software.&lt;/p&gt;
 
 &lt;h1 id=&#34;march-11&#34;&gt;March 11&lt;/h1&gt;
 
