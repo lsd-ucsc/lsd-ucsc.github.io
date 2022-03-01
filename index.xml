@@ -215,6 +215,12 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Sorawee Porncharoenwase&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; An Expressive and Optimal Pretty Printer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Pretty printers transform structured data into &amp;ldquo;pretty&amp;rdquo; text. In this talk, I will present a pretty printing algorithm that (1) is strictly more expressive than current state-of-the-art algorithms; (2) guarantees optimality; and (3) has better time complexity than many state-of-the-art pretty printers. To distinguish our pretty printer from others, I will also give a brief survey of the existing pretty printing algorithms and dispel various myths about traditional pretty printers that turn out to be inaccurate. This is a joint work with Justin Pombrio and Emina Torlak.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Sorawee (Oak) is a fourth year PhD student at the University of Washington, advised by Emina Torlak. His research interest is improving usability of symbolic evaluation.&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
