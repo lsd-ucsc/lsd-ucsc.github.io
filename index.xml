@@ -10,7 +10,7 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Languages, Systems, and Data Seminar (Spring 2022)</title>
+      <title>Languages, Systems, and Data Seminar (Spring 2022x)</title>
       <link>http://lsd.ucsc.edu/lsd-seminar/2022sp/</link>
       <pubDate>Wed, 23 Mar 2022 10:27:25 -0700</pubDate>
       
@@ -105,11 +105,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Olivia Hsu&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Compilation of Sparse Array Programming Models&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; This talk explains how to compile sparse array programming languages. A sparse array programming language is an array programming language that supports element-wise application, reduction, and broadcasting of arbitrary functions over dense and sparse arrays with any fill value. Such a language has great expressive power and can express sparse and dense linear and tensor algebra, functions over images, exclusion and inclusion filters, and even graph algorithms. This talk describes our compiler strategy, which generalizes prior work in the literature on sparse tensor algebra compilation to support any function applied to sparse arrays, instead of only addition and multiplication. To achieve this, we generalize the notion of sparse iteration spaces beyond intersections and unions. These iteration spaces are automatically derived by considering how algebraic properties annotated onto functions. We then show how to compile these iteration spaces to efficient code.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Olivia is a computer science PhD student at Stanford University advised by Professor Kunle Olukotun and Professor Fredrik Kjolstad. She currently works on mapping sparse applications to domain-specific architectures, reconfigurable dataflow hardware, and accelerators through the TACO compiler. Her research interests broadly include computer architecture, computer and programming systems, compilers, programming models and languages, and digital circuits/VLSI.&lt;/p&gt;
 
 &lt;h1 id=&#34;april-8&#34;&gt;April 8&lt;/h1&gt;
 
