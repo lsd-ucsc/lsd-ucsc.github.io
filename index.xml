@@ -48,7 +48,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-1&#34;&gt;April 8&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Suyash Gupta&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Resilient and Scalable Architecture for Permissioned Blockchain Fabrics&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -115,11 +115,12 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Suyash Gupta&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Resilient and Scalable Architecture for Permissioned Blockchain Fabrics&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Since the introduction of Bitcoin—the first widespread application driven by blockchains—the interest in the design of blockchain-based applications has increased tremendously. At the core of these blockchain applications are consensus protocols that aim at securely replicating a client request among all replicas, even if some replicas are Byzantine faulty. Unfortunately, modern consensus protocols either yield low throughput or face design limitations.
+In this work, we present the design of three consensus protocols that facilitate efficient consensus among the replicas. Our protocols help to scale consensus through the principles of phase-reduction, parallelization, and geo-scale clustering while ensuring no compromise in fault-tolerance. Further, we believe that the focus on consensus protocols is only one-side of the story. Specifically, we present the design of a well-crafted permissioned blockchain fabric (ResilientDB) that can help even a slow consensus protocol outperform a faster protocol. Our results indicate that it is easy to scale BFT protocols to hundreds of replicas and achieve throughputs of the order 350K txns/s.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Suyash Gupta is a postdoctoral researcher at the RISELab, University of California, Berkeley. He is also the Lead Architect of ResilientDB fabric. Prior to joining RISELab, he received his Ph.D. degree from University of California, Davis. He also holds two Master of Science degrees; one from Purdue University and another from Indian Institute of Technology Madras. His current research focuses on attaining safe and efficient, fault tolerant distributed consensus and communication. He has also co-authored a book on fault-tolerant distributed transaction processing at Morgan &amp;amp; Claypool. In his free time, Suyash likes to code and has won awards at several hackathons.&lt;/p&gt;
 
 &lt;h1 id=&#34;april-15&#34;&gt;April 15&lt;/h1&gt;
 
