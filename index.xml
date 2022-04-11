@@ -54,7 +54,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-15&#34;&gt;April 15&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Amanda Liu&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Verified Tensor-Program Optimization Via High-Level Scheduling Rewrites&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -126,11 +126,11 @@ In this work, we present the design of three consensus protocols that facilitate
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Amanda Liu&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Verified Tensor-Program Optimization Via High-Level Scheduling Rewrites&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We present a lightweight Coq framework for optimizing tensor kernels written in a pure, functional array language. Optimizations rely on user scheduling using a series of verified, semantics-preserving rewrites. Unusually for compilation targeting imperative code with arrays and nested loops, all rewrites are source-to-source within a purely functional language. Our language comprises a set of core constructs for expressing high-level computation detail and a set of what we call reshape operators, which can be derived from core constructs but trigger low-level decisions about storage patterns and ordering. We demonstrate that not only is this system capable of deriving the optimizations of existing state-of-the-art languages like Halide and generating comparably performant code, it is also able to schedule a family of useful program transformations beyond what is reachable in Halide.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I am a second year PhD student working with Prof. Adam Chlipala and Prof. Jonathan Ragan-Kelley. My interests are using formal methods and programming languages to develop verified, principled methods for writing high-performance systems.&lt;/p&gt;
 
 &lt;h1 id=&#34;april-22&#34;&gt;April 22&lt;/h1&gt;
 
