@@ -60,7 +60,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-22&#34;&gt;April 22&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Will Crichton&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Modular Information Flow Through Ownership&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -136,11 +136,11 @@ In this work, we present the design of three consensus protocols that facilitate
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Will Crichton&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Modular Information Flow Through Ownership&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Statically analyzing information flow, or how data influences other data within a program, is a challenging task in imperative languages. Analyzing pointers and mutations requires access to a program&amp;rsquo;s complete source. However, programs often use pre-compiled dependencies where only type signatures are available. We demonstrate that ownership types can be used to soundly and precisely analyze information flow through function calls given only their type signature. From this insight, we built Flowistry, a system for analyzing information flow in Rust, an ownership-based language. In this talk, I will describe how Flowistry works, how we prove its soundness, and how we show that the ownership-based modular approximation does not lose much precision versus a whole-program analysis.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Will Crichton is a 6th year PhD student at Stanford University advised by Profs. Pat Hanrahan and Maneesh Agrawala. His research combines cognitive psychology and programming language theory to understand how people program, and to design better tools for programmers.&lt;/p&gt;
 
 &lt;h1 id=&#34;april-29&#34;&gt;April 29&lt;/h1&gt;
 
