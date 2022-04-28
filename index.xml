@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-29&#34;&gt;April 29&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Slim Lim and Geoffrey Litt&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Peritext: A CRDT for Collaborative Rich Text Editing&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -146,11 +146,15 @@ In this work, we present the design of three consensus protocols that facilitate
 
 &lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt; Slim Lim and Geoffrey Litt&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Peritext: A CRDT for Collaborative Rich Text Editing&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Conflict-Free Replicated Data Types (CRDTs) support decentralized collaborative editing of shared data, enabling peer-to-peer sharing and flexible branching and merging workflows. While there is extensive work on CRDTs for plain text, much less is known about CRDTs for rich text with formatting. No algorithms have been published, and existing open-source implementations do not always preserve user intent. In this talk, we describe a model of intent preservation in rich text editing, developed through a series of concurrent editing scenarios. We then describe Peritext, a CRDT algorithm for rich text that satisfies the criteria of our model. The key idea is to store formatting spans alongside the plaintext character sequence, linked to a stable identifier for the first and last character of each span, and then to derive the final formatted text from these spans in a deterministic way that ensures concurrent operations commute.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bios:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Slim Lim is a first-year PhD student at UC Berkeley studying the intersection of programming languages and human-computer interaction. She is particularly interested in type systems for UI programming and UI programming for type systems. Previously she worked as a software engineer developing collaborative text editing features. Even more previously, she researched semantic tooling for Cascading Style Sheets, culminating in the Inactive CSS inspection feature in Firefox 70.&lt;/p&gt;
+
+&lt;p&gt;Geoffrey Litt is a third-year PhD student at MIT in HCI, researching end-user programming and local-first collaboration. His recent research interests include powering UIs with a malleable client-side database, and managing schema evolution in distributed systems&lt;/p&gt;
 
 &lt;h1 id=&#34;may-6&#34;&gt;May 6&lt;/h1&gt;
 

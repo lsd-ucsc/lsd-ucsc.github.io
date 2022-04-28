@@ -247,7 +247,7 @@
 <tr>
 <td><a href="#april-29">April 29</a></td>
 <td>Slim Lim and Geoffrey Litt</td>
-<td><em>TBD</em></td>
+<td>Peritext: A CRDT for Collaborative Rich Text Editing</td>
 </tr>
 
 <tr>
@@ -327,11 +327,15 @@ In this work, we present the design of three consensus protocols that facilitate
 
 <p><strong>Speakers:</strong> Slim Lim and Geoffrey Litt</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Peritext: A CRDT for Collaborative Rich Text Editing</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Conflict-Free Replicated Data Types (CRDTs) support decentralized collaborative editing of shared data, enabling peer-to-peer sharing and flexible branching and merging workflows. While there is extensive work on CRDTs for plain text, much less is known about CRDTs for rich text with formatting. No algorithms have been published, and existing open-source implementations do not always preserve user intent. In this talk, we describe a model of intent preservation in rich text editing, developed through a series of concurrent editing scenarios. We then describe Peritext, a CRDT algorithm for rich text that satisfies the criteria of our model. The key idea is to store formatting spans alongside the plaintext character sequence, linked to a stable identifier for the first and last character of each span, and then to derive the final formatted text from these spans in a deterministic way that ensures concurrent operations commute.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p><strong>Bios:</strong></p>
+
+<p>Slim Lim is a first-year PhD student at UC Berkeley studying the intersection of programming languages and human-computer interaction. She is particularly interested in type systems for UI programming and UI programming for type systems. Previously she worked as a software engineer developing collaborative text editing features. Even more previously, she researched semantic tooling for Cascading Style Sheets, culminating in the Inactive CSS inspection feature in Firefox 70.</p>
+
+<p>Geoffrey Litt is a third-year PhD student at MIT in HCI, researching end-user programming and local-first collaboration. His recent research interests include powering UIs with a malleable client-side database, and managing schema evolution in distributed systems</p>
 
 <h1 id="may-6">May 6</h1>
 
