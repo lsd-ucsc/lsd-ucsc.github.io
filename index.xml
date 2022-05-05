@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-6&#34;&gt;May 6&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Asta Halkjær From&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;A Naive Prover for First-Order Logic Formalized in Isabelle/HOL&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -158,13 +158,21 @@ In this work, we present the design of three consensus protocols that facilitate
 
 &lt;h1 id=&#34;may-6&#34;&gt;May 6&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Asta From&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Asta Halkjær From&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A Naive Prover for First-Order Logic Formalized in Isabelle/HOL&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; When using sequent calculus to prove a formula in classical first-order logic by hand, we may rely on our
+intuition to pick the right sequence of rule applications, choose the most useful instantiations of variables
+and so on. In implementing a prover to do so, we must very carefully ensure that the mechanical process
+always finds a proof for a provable formula. This can be intricate and proving that the crafted algorithm
+lives up to expectations can be even more challenging, especially in a formalized setting. To mitigate all
+this, we may instead rely on a fair stream of all possible rule applications to all possible formulas. Such a
+stream works as an oracle, telling us exactly which rule to apply to which formula, resulting in a very
+simple prover. In this talk, I present a prover based on this technique, with formalized soundness and
+completeness proofs in the proof assistant Isabelle/HOL.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Asta is a 3rd and final year PhD student in computer science and logic at the Technical University of Denmark where she is advised by Jørgen Villadsen and Nina Gierasimczuk.  She works on using proof assistants, especially Isabelle/HOL, to develop and formalize results in logic and is also interested in the pedagogical benefits of using interactive theorem provers in teaching.  She is the author of multiple entries in the Archive of Formal Proofs.&lt;/p&gt;
 
 &lt;h1 id=&#34;may-13&#34;&gt;May 13&lt;/h1&gt;
 
