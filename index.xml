@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-13&#34;&gt;May 13&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Farid Zakaria&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Reproducibility is hard: Insights and improvements at the bottom of the stack&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -178,11 +178,32 @@ completeness proofs in the proof assistant Isabelle/HOL.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Farid Zakaria&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Reproducibility is hard: Insights and improvements at the bottom of the stack&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; One of the fundamental data management units within a
+Linux system are shared object files with which processes dynamically
+link to at startup. The mechanism and approach to dynamic linking is
+becoming increasingly inadequate for complex systems because of the
+lack of data management principles. Novel software packaging models,
+such as Nix, have emerged and are becoming increasingly popular to try
+to tame the chaos induced by the Filesystem Hierarchy Standard but
+suffer from limitations of a simplistic schema. Restricted to a
+minimal schema that only allows modification of a list of directory
+paths to modify the search query, the resolution of needed
+dependencies can quickly become prohibitively costly. Shrinkwrap is a
+tool that when used within hermetic packaging models such as Nix,
+embosses the required dependencies to fixed locations avoid repetitive
+lookups by storing the absolute paths of the needed dependencies. This
+ability to have queries cached is currently missing from these
+increasingly popular store-based distributions and has meaningful
+improvements on startup times by up to 35x.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Farid Zakaria is a 2nd year PhD student at University of California
+Santa Cruz and is advised by Dr. Carlos Maltzhan. He is currently
+looking into opportunities to improve reproducibility of software,
+especially deeper in the software stack. He is an active member of the
+NixOS community and his research areas include linkers, build systems
+and operating systems.&lt;/p&gt;
 
 &lt;h1 id=&#34;may-20&#34;&gt;May 20&lt;/h1&gt;
 
