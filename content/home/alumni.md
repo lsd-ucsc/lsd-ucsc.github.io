@@ -24,5 +24,5 @@ title = "Alumni"
   degree = "BS"
   grad_year = "2022"
   org = "Ph.D. Student, UCI"
-  
+ 
 +++
