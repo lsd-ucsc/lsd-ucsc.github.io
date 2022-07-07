@@ -18,5 +18,11 @@ title = "Alumni"
   degree = "MS"
   grad_year = "2020"
   org = "Security Engineer, Red Hat"
-
+  
+[[people]]
+  name = "Simon Guo"
+  degree = "BS"
+  grad_year = "2022"
+  org = "Ph.D. Student, UCI"
+  
 +++
