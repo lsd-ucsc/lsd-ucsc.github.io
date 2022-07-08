@@ -19,6 +19,12 @@ title = "Students"
   www = "https://scarcecomputing.com"
   title = "Ph.D. Student"
   img = "achilles_benetopoulos.jpg"
+
+[[people]]
+  name = "Jonathan Castello"
+  www = "https://jonathan.com/"
+  title = "Ph.D. Student"
+  img = "jonathan_castello.png"
   
 [[people]]
   name = "Reese Levine"
