@@ -31,7 +31,13 @@ title = "Students"
   www = "https://users.soe.ucsc.edu/~reeselevine/"
   title = "Ph.D. Student"
   img = "reese_levine.png"
-  
+
+[[people]]
+  name  = "Nathan Liittschwager"
+  www   = ""
+  title = "Ph.D. Student"
+  img = "nathan_liitt.jpg"
+
 [[people]]
   name = "Priyanka Mondal"
   www = "https://users.soe.ucsc.edu/~pmondal/"
