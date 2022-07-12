@@ -25,7 +25,13 @@ title = "Students"
   www = "https://jonathan.com/"
   title = "Ph.D. Student"
   img = "jonathan_castello.png"
-  
+
+[[people]]
+  name = "Tim Goodwin"
+  www = "https://tgoodwin.github.io"
+  title = "Ph.D. Student"
+  img = "timothy_goodwin.jpg"
+
 [[people]]
   name = "Reese Levine"
   www = "https://users.soe.ucsc.edu/~reeselevine/"
