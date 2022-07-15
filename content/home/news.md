@@ -33,6 +33,15 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+   kind = "paper"
+   date = "May 02, 2022"
+   who = "Tuan Tran, Haofan Zheng, Peter Alvaro, and Owen Arden"
+   paper_name = "Payment Channels Under Network Congestion"
+   conf_name = "ICBC 2022"
+   paper_link = "https://doi.org/10.1109/ICBC54727.2022.9805547"
+   conf_link = "https://youtu.be/-tKiZImrgBA"
+
+[[news]]
    kind = "award"
    date = "January 27, 2022"
    who = "Lindsey Kuper"
