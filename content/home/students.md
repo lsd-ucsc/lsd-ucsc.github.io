@@ -100,7 +100,7 @@ title = "Students"
   
 [[people]]
   name = "Haofan Zheng"
-  www = "https://haofanzheng.com/"
+  www = "https://haofan.me/"
   title = "Ph.D. Student"
   img = "haofan_zheng.jpg"
   
