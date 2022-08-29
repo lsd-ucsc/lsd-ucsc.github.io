@@ -25,4 +25,11 @@ title = "Alumni"
   grad_year = "2022"
   org = "Ph.D. Student, UCI"
  
+[[people]]
+  name  = "Kamala Ramasubramanian"
+  degree = "PhD"
+  grad_year = "2022"
+  org = "Software Engineer, Google"
+  www   = "https://kamalaramas.github.io"
+  
 +++
