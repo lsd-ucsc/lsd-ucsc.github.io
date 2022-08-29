@@ -57,12 +57,6 @@ title = "Students"
   img   = "Aldrin-scaled-down.jpg"
   
 [[people]]
-  name  = "Kamala Ramasubramanian"
-  www   = ""
-  title = "Ph.D. Student"
-  img   = "kamala-ram.jpg"
-  
-[[people]]
   name = "Patrick Redmond"
   www = "https://curious.software/plr"
   title = "Ph.D. Student"
