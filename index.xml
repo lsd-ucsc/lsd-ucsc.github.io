@@ -6,8 +6,202 @@
     <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Mar 2022 10:27:25 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 15:47:17 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (Fall 2022)</title>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2022fa/</link>
+      <pubDate>Fri, 09 Sep 2022 15:47:17 -0700</pubDate>
+      
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2022fa/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
+
+&lt;p&gt;For spring 2022, we will continue to host the LSD Seminar in a hybrid fashion.  Anyone can attend on Zoom, and local folks can gather in person in the lab to tune into the Zoom talks together.&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#sept-23&#34;&gt;Sept. 23&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#sept-30&#34;&gt;Sept. 30&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-7&#34;&gt;Oct. 7&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-14&#34;&gt;Oct. 14&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-21&#34;&gt;Oct. 21&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-28&#34;&gt;Oct. 28&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-4&#34;&gt;Nov. 4&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nov. 11&lt;/td&gt;
+&lt;td&gt;No meeting (Veterans Day)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-18&#34;&gt;Nov. 18&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nov. 25&lt;/td&gt;
+&lt;td&gt;No meeting (Thanksgiving)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#dec-2&#34;&gt;Dec. 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;sept-23&#34;&gt;Sept. 23&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;sept-30&#34;&gt;Sept. 30&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-7&#34;&gt;Oct. 7&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-14&#34;&gt;Oct. 14&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-21&#34;&gt;Oct. 21&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-28&#34;&gt;Oct. 28&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;nov-4&#34;&gt;Nov. 4&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;nov-18&#34;&gt;Nov. 18&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;dec-2&#34;&gt;Dec. 2&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Spring 2022)</title>
