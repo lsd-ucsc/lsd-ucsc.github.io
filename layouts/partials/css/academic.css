@@ -525,6 +525,8 @@ small,
 }
 
 .list-split li {
+  page-break-inside: avoid;
+  break-inside: avoid-column;
   padding-bottom: 10px;
 }
 

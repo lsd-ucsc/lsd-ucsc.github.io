@@ -19,13 +19,31 @@ title = "Students"
   www = "https://scarcecomputing.com"
   title = "Ph.D. Student"
   img = "achilles_benetopoulos.jpg"
-  
+
+[[people]]
+  name = "Jonathan Castello"
+  www = "https://jonathan.com/"
+  title = "Ph.D. Student"
+  img = "jonathan_castello.png"
+
+[[people]]
+  name = "Tim Goodwin"
+  www = "https://tgoodwin.github.io"
+  title = "Ph.D. Student"
+  img = "timothy_goodwin.jpg"
+
 [[people]]
   name = "Reese Levine"
   www = "https://users.soe.ucsc.edu/~reeselevine/"
   title = "Ph.D. Student"
   img = "reese_levine.png"
-  
+
+[[people]]
+  name  = "Nathan Liittschwager"
+  www   = ""
+  title = "Ph.D. Student"
+  img = "nathan_liitt.jpg"
+
 [[people]]
   name = "Priyanka Mondal"
   www = "https://users.soe.ucsc.edu/~pmondal/"
@@ -37,12 +55,6 @@ title = "Students"
   www   = "https://research.aldrinmontana.com/"
   title = "Ph.D. Student"
   img   = "Aldrin-scaled-down.jpg"
-  
-[[people]]
-  name  = "Kamala Ramasubramanian"
-  www   = ""
-  title = "Ph.D. Student"
-  img   = "kamala-ram.jpg"
   
 [[people]]
   name = "Patrick Redmond"
@@ -82,7 +94,7 @@ title = "Students"
   
 [[people]]
   name = "Haofan Zheng"
-  www = "https://haofanzheng.com/"
+  www = "https://haofan.me/"
   title = "Ph.D. Student"
   img = "haofan_zheng.jpg"
   
