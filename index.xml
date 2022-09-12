@@ -77,8 +77,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-4&#34;&gt;Nov. 4&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.comp.nus.edu.sg/~yahuis/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Yahui Song&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Automated Temporal Verification with Extended Regular Expressions&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -171,13 +171,19 @@
 
 &lt;h1 id=&#34;nov-4&#34;&gt;Nov. 4&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.comp.nus.edu.sg/~yahuis/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Yahui Song&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Automated Temporal Verification with Extended Regular Expressions&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Existing approaches to temporal verification have either sacrificed modularity in favor of achieving automation or vice-versa. To exploit the best of both worlds, we present a new framework to ensure temporal properties via Hoare-style verifiers and term rewriting systems (TRSs).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The leading technique of temporal verification is automata-based model checking, which has possible insufficiencies: (i) it requires a manual modeling stage and needs to be bounded when encountering non-terminating traces; (ii) to conveniently deploy existing inclusion-checkers for automata, the expressiveness power is limited by the finite-state automata; and (iii) there is always a gap between the verified logic and the actual implementation from the program.&lt;/p&gt;
+
+&lt;p&gt;To tackle these issues, we propose a framework that conducts local temporal verification, which leads to a modular and compositional verification strategy, where temporal reasoning can be combined to reason about the overall program. Meanwhile, we propose various effect logics to be the temporal specification languages, which are essentially extended regular expressions (REs), pushing the expressiveness boundary of the most deployed linear temporal logic (LTL). Furthermore, the proposed framework devises purely algebraic TRS to check the inclusions for the novel logics, avoiding the complex translation into automata.&lt;/p&gt;
+
+&lt;p&gt;We demonstrate the applicability of the proposed framework and various REs-based temporal logics in different domains; presents the corresponding prototype systems, case studies, experimental results, and necessary proofs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Yahui Song is a 5th year PhD Student at the National University of Singapore (NUS), supervised by Associate Professor Chin Wei Ngan. Her interests are automated program verification and programming language design. Her current works are dedicated to more expressive and efficient temporal verification.&lt;/p&gt;
 
 &lt;h1 id=&#34;nov-18&#34;&gt;Nov. 18&lt;/h1&gt;
 
