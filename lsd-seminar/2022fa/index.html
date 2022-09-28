@@ -229,7 +229,7 @@
 <tr>
 <td><a href="#sept-30">Sept. 30</a></td>
 <td><a href="https://arquinn.github.io/" rel="noreferrer" target="_blank">Andrew Quinn</a></td>
-<td><em>TBD</em></td>
+<td>Debugging the OmniTable Way</td>
 </tr>
 
 <tr>
@@ -292,11 +292,13 @@
 
 <p><strong>Speaker:</strong> <a href="https://arquinn.github.io/" rel="noreferrer" target="_blank">Andrew Quinn</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Debugging the OmniTable way</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Debugging is time-consuming, accounting for roughly 50% of a developer&rsquo;s time. To identify the cause of a failure, a developer usually tracks the state of their program as it executes on a failing input. Unfortunately, most debugging tools make it difficult for a developer to specify the program state that they wish to observe and computationally expensive to observe execution state. Moreover, existing work to improve our debugging tools often restrict the state that a developer can track by either exposing incomplete execution state or requiring manual instrumentation.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>In this talk, I will describe our new debugging approach based on the OmniTable abstraction, which captures all state reached during an execution as a large queryable data table. Our query model built around the OmniTable abstraction supports SQL to simplify debugging without restricting the state that a developer can observe: I’ll show that OmniTable debugging queries are more succinct than equivalent logic specified using existing tools.</p>
+
+<p>Then, I’ll describe how our prototype, SteamDrill, accelerates debugging by taking advantage of how an OmniTable decouples debugging logic from the original execution. Namely, the system employs lazy materialization: it uses deterministic record/replay to store the execution associated with each OmniTable and resolves queries by inspecting replay executions. It employs a novel multi-replay strategy that partitions query resolution across multiple replays and a parallel resolution strategy that simultaneously observes state at multiple points-in-time. I’ll show that SteamDrill queries are an order-of-magnitude faster than existing debugging tools.</p>
 
 <h1 id="oct-7">Oct. 7</h1>
 
