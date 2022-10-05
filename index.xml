@@ -268,7 +268,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-7&#34;&gt;Oct. 7&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://people.cs.vt.edu/~litinghu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Liting Hu&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Stream Processing Systems for Emerging Trends&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -337,11 +337,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://people.cs.vt.edu/~litinghu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Liting Hu&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Stream Processing Systems for Emerging Trends&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Stream processing is proposed and popularized as a “technology like Hadoop but can give you results faster”, which lets users query a continuous data stream and quickly get results within a very short time period from the time of receiving the data. For that reason, stream processing technology has become a critical building block of many applications, such as making business decisions from marketing streams, identifying spam campaigns from social network streams, predicting tornados and storms from radar streams, and analyzing genomes in different labs and countries to track the sources of a potential epidemic. However, state-of-art solutions have dominantly centered around stateless stream processing, leaving another urgent trend—stateful stream processing—much less explored. A driving need is that the future stream applications need to store and update state along with their processing, and process live data streams in a timely fashion from massive and geo-distributed data sets. In this talk, I will present a next-generation geo-distributed scalable stateful stream processing system. (1) At the architecture layer, I will introduce a decentralized “many masters/many workers” architecture that improves the scalability of stream processing systems. (2) At the mechanism layer, I will present a fragment-based parallel recovery mechanism that recovers large distributed states by leveraging erasure codes. Finally, I will outline the emerging trends for developing stream processing systems.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Liting Hu received her Ph.D. degree in computer science from Georgia Institute of Technology in 2016. She served as assistant professor of computer science at Virginia Tech in the 2021–22 academic year. Before that, she served as assistant professor in the school of computing and information sciences at Florida International University from 2017 to 2021. Liting conducts research on experimental computer systems, including stream processing systems, cloud and edge computing, distributed systems, and operating systems virtualization. Liting has received an NSF CAREER Award, an NSF SPX Award, an NSF OAC Award, a Meta Faculty Research Award, and a Cyber Florida Seed Award.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-14&#34;&gt;Oct. 14&lt;/h1&gt;
 
