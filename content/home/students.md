@@ -79,7 +79,13 @@ title = "Students"
   www = "https://users.soe.ucsc.edu/~atran18/"
   title = "Ph.D. Student"
   img = "tuan_tran.jpg"
-  
+
+[[people]]
+  name = "Eric Vin"
+  www = "http://eric-vin.github.io/"
+  title = "Ph.D. Student"
+  img = "eric_vin.jpg"
+
 [[people]]
   name = "Yanwen Xu"
   www = "http://people.ucsc.edu/~yxu83"
