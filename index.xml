@@ -274,7 +274,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-14&#34;&gt;Oct. 14&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://gshen42.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Gan Shen&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Modeling and Testing for MicroBus&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -347,11 +347,15 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://gshen42.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Gan Shen&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Modeling and Testing for MicroBus&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; MicroBus is a newly developed replication service at AWS that provides consistency, durability, and fault tolerance guarantees. Both modeling and testing have been employed to ensure its correctness and have shown some success. Nevertheless, they all have shortcomings, with modeling not connected with the implementation and testing only covering limited scenarios. To solve this, we propose model-based testing as a hybrid approach that combines the best of the two worlds.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will first give a gentle introduction to the MicroBus protocol/implementation and the pros and cons of modeling and testing. Then I will explain the model-based testing approach and the benefits it brings on to the table.&lt;/p&gt;
+
+&lt;p&gt;(This project was done during my internship in the Automated Reasoning Group at AWS summer 2022)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Gan Shen is a 3rd-year PhD student at UC Santa Cruz, working with Prof. Lindsey Kuper in the LSD lab. His research area is programming language theory, in particular, how to design new programming tools/abstractions that facilitate software development.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-21&#34;&gt;Oct. 21&lt;/h1&gt;
 
