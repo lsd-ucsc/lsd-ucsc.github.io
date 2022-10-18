@@ -280,7 +280,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-21&#34;&gt;Oct. 21&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/tloridobotran/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tania Lorido Botran&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Powering data centers the smart way&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -361,11 +361,33 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/tloridobotran/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tania Lorido Botran&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Powering data centers the smart way&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Infrastructure powering current workloads is very
+  heterogeneous: central data centers with various hardware
+  accelerators, edge data centers with constraint resources and a
+  variety of client devices with different capabilities. Orchestrating
+  all these players can be a challenge and this talk will touch on how
+  ML (or DL) can actually help. First, we will deep-dive into two
+  projects: we will explore the use of Reinforcement learning for
+  optimal container placement in edge data centers, and also visit an
+  unsupervised approach for anomaly detection in containers, in
+  particular, the noisy neighbor effect. After that, we will briefly
+  learn about some on-going projects around autoscaling for ML
+  pipelines, performance degradation detection in serverless
+  functions, bottleneck detection with GANs and high-level
+  sustainability scores for latency sensitive/critical tasks.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Dr. Tania Lorido-Botran is a Research Scientist at
+  Roblox. Prior to that, she worked at Microsoft and the Pacific
+  Northwest National Laboratory. During her PhD, she had the
+  opportunity to spend one year at Rice University and also did two
+  internships at VMware and HP Labs. Dr. Lorido Botran received her
+  PhD from the University of Deusto in Spain with a Cum Laude
+  distinction, and her master’s degree in Distributed systems from
+  University of the Basque Country with a highest marks
+  distinction. Her current research interests span across ML for
+  systems, data center sustainability and fault-tolerance.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-28&#34;&gt;Oct. 28&lt;/h1&gt;
 
