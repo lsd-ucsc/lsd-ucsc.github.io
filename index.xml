@@ -286,7 +286,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-28&#34;&gt;Oct. 28&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://users.soe.ucsc.edu/~pmondal/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Priyanka Mondal&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Applying consensus and replication securely with FLAQR&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -393,11 +393,19 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://users.soe.ucsc.edu/~pmondal/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Priyanka Mondal&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Applying consensus and replication securely with FLAQR&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Availability is crucial to the security of distributed systems, but guaranteeing availability is hard, especially when
+participants in the system may act maliciously. Quorum replication protocols provide both integrity and availability: data and computation
+is replicated at multiple independent hosts, and a quorum of these hosts must agree on the output of all operations applied to the data.
+Unfortunately, these protocols have high overhead and can be difficult to calibrate for a specific application’s needs. Ideally, developers could
+use highlevel abstractions for consensus and replication to write fault tolerant code that is secure by construction. This paper presents
+Flow-Limited Authorization for Quorum Replication (FLAQR), a core calculus for building distributed applications with heterogeneous
+quorum replication protocols while enforcing end-to-end information security. Our type system ensures that well-typed FLAQR programs cannot
+fail (experience an unrecoverable error) in ways that violate their typelevel specifications. We present noninterference theorems that characterize
+FLAQR’s confidentiality, integrity, and availability in the presence of consensus, replication, and failures, as well as a liveness theorem for the class of majority quorum protocols under a bounded number of faults.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Priyanka Mondal is a PhD student at the University of California Santa Cruz, where she is supervised by Professor Owen Arden and Professor Ioannis Demertzis. Her research areas include Applied Cryptography, Programming Languages and Security in Distributed Systems. Prior to joining UCSC she worked as a software engineer at Citrix R&amp;amp;D Bangalore.&lt;/p&gt;
 
 &lt;h1 id=&#34;nov-4&#34;&gt;Nov. 4&lt;/h1&gt;
 

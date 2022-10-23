@@ -253,7 +253,7 @@
 <tr>
 <td><a href="#oct-28">Oct. 28</a></td>
 <td><a href="https://users.soe.ucsc.edu/~pmondal/" rel="noreferrer" target="_blank">Priyanka Mondal</a></td>
-<td><em>TBD</em></td>
+<td>Applying consensus and replication securely with FLAQR</td>
 </tr>
 
 <tr>
@@ -360,11 +360,19 @@
 
 <p><strong>Speaker:</strong> <a href="https://users.soe.ucsc.edu/~pmondal/" rel="noreferrer" target="_blank">Priyanka Mondal</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Applying consensus and replication securely with FLAQR</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Availability is crucial to the security of distributed systems, but guaranteeing availability is hard, especially when
+participants in the system may act maliciously. Quorum replication protocols provide both integrity and availability: data and computation
+is replicated at multiple independent hosts, and a quorum of these hosts must agree on the output of all operations applied to the data.
+Unfortunately, these protocols have high overhead and can be difficult to calibrate for a specific application’s needs. Ideally, developers could
+use highlevel abstractions for consensus and replication to write fault tolerant code that is secure by construction. This paper presents
+Flow-Limited Authorization for Quorum Replication (FLAQR), a core calculus for building distributed applications with heterogeneous
+quorum replication protocols while enforcing end-to-end information security. Our type system ensures that well-typed FLAQR programs cannot
+fail (experience an unrecoverable error) in ways that violate their typelevel specifications. We present noninterference theorems that characterize
+FLAQR’s confidentiality, integrity, and availability in the presence of consensus, replication, and failures, as well as a liveness theorem for the class of majority quorum protocols under a bounded number of faults.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p><strong>Bio:</strong> Priyanka Mondal is a PhD student at the University of California Santa Cruz, where she is supervised by Professor Owen Arden and Professor Ioannis Demertzis. Her research areas include Applied Cryptography, Programming Languages and Security in Distributed Systems. Prior to joining UCSC she worked as a software engineer at Citrix R&amp;D Bangalore.</p>
 
 <h1 id="nov-4">Nov. 4</h1>
 
