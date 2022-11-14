@@ -271,7 +271,7 @@
 <tr>
 <td><a href="#nov-18">Nov. 18</a></td>
 <td><a href="https://abeln.github.io/" rel="noreferrer" target="_blank">Abel Nieto</a></td>
-<td><em>TBD</em></td>
+<td>Modular Verification of Op-Based CRDTs in Separation Logic</td>
 </tr>
 
 <tr>
@@ -394,11 +394,11 @@ FLAQR’s confidentiality, integrity, and availability in the presence of consen
 
 <p><strong>Speaker:</strong> <a href="https://abeln.github.io/" rel="noreferrer" target="_blank">Abel Nieto</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Modular Verification of Op-Based CRDTs in Separation Logic</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Commutative Replicated Data Types (CRDTs) are a family of distributed data structures where all operations are designed to commute, so that replica states eventually converge. Additionally, CRDTs require that operations be propagated between replicas in causal order. This talk presents a framework for verifying safety properties of OCaml CRDT implementations using separation logic. The framework consists of two libraries. One implements a Reliable Causal Broadcast (RCB) protocol so that replicas can exchange messages in causal order. A second OpLib library then uses RCB to export a CRDT builder interface that simplifies the creation (and correctness proofs) of new CRDTs. OpLib allows clients to implement new CRDTs as purely-functional data structures, without having to reason about network operations, concurrency control and mutable state, and without having to re-implement causal broadcast each time. Using OpLib, we have implemented 12 sample CRDTs from the literature, including multiple versions of replicated registers and sets, as well as two CRDT combinators for products and maps. Our proofs are conducted in the Aneris distributed separation logic.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p><strong>Bio:</strong> I&rsquo;m a 3rd (and final) year PhD student at Aarhus University, working with Lars Birkedal on verification of distributed systems using the Aneris distributed separation logic.  In particular, my work focuses on reasoning about systems that are highly-available but weakly consistent.</p>
 
 <h1 id="dec-2">Dec. 2</h1>
 

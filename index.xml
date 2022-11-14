@@ -304,7 +304,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-18&#34;&gt;Nov. 18&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://abeln.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Abel Nieto&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Modular Verification of Op-Based CRDTs in Separation Logic&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -427,11 +427,11 @@ FLAQR’s confidentiality, integrity, and availability in the presence of consen
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://abeln.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Abel Nieto&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Modular Verification of Op-Based CRDTs in Separation Logic&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Commutative Replicated Data Types (CRDTs) are a family of distributed data structures where all operations are designed to commute, so that replica states eventually converge. Additionally, CRDTs require that operations be propagated between replicas in causal order. This talk presents a framework for verifying safety properties of OCaml CRDT implementations using separation logic. The framework consists of two libraries. One implements a Reliable Causal Broadcast (RCB) protocol so that replicas can exchange messages in causal order. A second OpLib library then uses RCB to export a CRDT builder interface that simplifies the creation (and correctness proofs) of new CRDTs. OpLib allows clients to implement new CRDTs as purely-functional data structures, without having to reason about network operations, concurrency control and mutable state, and without having to re-implement causal broadcast each time. Using OpLib, we have implemented 12 sample CRDTs from the literature, including multiple versions of replicated registers and sets, as well as two CRDT combinators for products and maps. Our proofs are conducted in the Aneris distributed separation logic.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I&amp;rsquo;m a 3rd (and final) year PhD student at Aarhus University, working with Lars Birkedal on verification of distributed systems using the Aneris distributed separation logic.  In particular, my work focuses on reasoning about systems that are highly-available but weakly consistent.&lt;/p&gt;
 
 &lt;h1 id=&#34;dec-2&#34;&gt;Dec. 2&lt;/h1&gt;
 
