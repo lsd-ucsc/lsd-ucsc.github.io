@@ -282,8 +282,8 @@
 
 <tr>
 <td><a href="#dec-2">Dec. 2</a></td>
-<td><em>TBD</em></td>
-<td><em>TBD</em></td>
+<td><a href="https://www.cs.princeton.edu/~ishitac/" rel="noreferrer" target="_blank">Ishita Chaturvedi</a></td>
+<td>GhOST: a GPU Out-of-Order Scheduling Technique</td>
 </tr>
 </tbody>
 </table>
@@ -402,13 +402,13 @@ FLAQR’s confidentiality, integrity, and availability in the presence of consen
 
 <h1 id="dec-2">Dec. 2</h1>
 
-<p><strong>Speaker:</strong> <em>TBD</em></p>
+<p><strong>Speaker:</strong> Ishita Chaturvedi</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> GhOST: a GPU Out-of-Order Scheduling Technique</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Despite supporting fast context switching among many available threads to hide latency, GPU applications still suffer from stalls. To reduce these stalls, researchers have proposed several out-of-order (OoO) execution methods for GPUs. While these techniques improve performance, they use complex hardware to support register renaming, memory instruction reordering, or make invasive changes to the ISA to enable the compiler to provide hints to the hardware. In this talk, I will present GhOST, the first cost-effective OoO technique for GPUs. In an in-order GPU, a warp scheduler selects a single instruction to issue by considering only the oldest instruction from each context. GhOST introduces OoO execution by having the warp scheduler instead consider the instruction from each context’s instruction buffer deemed most likely to issue, while preserving sequential semantics. The architecture of GhOST allows it to elide register renaming and reordering memory instructions in the instruction buffer, without sacrificing performance. Thus, GhOST executes memory instructions sequentially, removing any need for dependence analysis. Since GhOST is a hardware only technique, which makes no modifications to the ISA, it can run binaries directly compiled using CUDA for all benchmarks. On the Nvidia Titan V (T) and RTX 2060 Super &reg; GPUs, GhOST delivers 20.0% (T) and 21.8% &reg; geomean speedup across 30 benchmarks, with a 0.05% increase in area. As future work, we will look at using the compiler to reorder instructions to further boost the OoO performance of GhOST.~</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p><strong>Bio:</strong> Ishita Chaturvedi is a third-year Ph.D. student at Princeton University, working with Prof. David August in the Liberty Research group. Her research interests lie in computer architecture and high-performance computing. More specifically, she is working on efficient out-of-order execution on GPUs.</p>
 
 <hr />
 
