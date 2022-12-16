@@ -33,6 +33,22 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+   kind = "award"
+   date = "August 10, 2022"
+   who = "Priyanka Mondal, Maximilian Algehed, and Owen Arden"
+   award_name = "CSF 2022 Distinguished paper award"
+   award_link = "https://www.ieee-security.org/TC/CSF2022/"
+
+[[news]]
+   kind = "paper"
+   date = "Aughust 07, 2022"
+   who = "Priyanka Mondal, Maximilian Algehed, and Owen Arden"
+   paper_name = "Applying consensus and replication securely with FLAQR"
+   conf_name = "CSF 2022"
+   paper_link = "https://doi.org/10.1109/CSF54842.2022.9919637"
+   conf_link = "https://www.ieee-security.org/TC/CSF2022/"
+
+[[news]]
    kind = "paper"
    date = "May 02, 2022"
    who = "Tuan Tran, Haofan Zheng, Peter Alvaro, and Owen Arden"
