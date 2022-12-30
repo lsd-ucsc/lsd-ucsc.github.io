@@ -223,7 +223,7 @@
 <tr>
 <td><a href="#jan-6">Jan. 6</a></td>
 <td><a href="https://msurbatovich.github.io/" rel="noreferrer" target="_blank">Milijana Surbatovich</a></td>
-<td><em>TBD</em></td>
+<td>Designing Formally Correct Intermittent Systems</td>
 </tr>
 
 <tr>
@@ -292,11 +292,43 @@
 
 <p><strong>Speaker:</strong> <a href="https://msurbatovich.github.io/" rel="noreferrer" target="_blank">Milijana Surbatovich</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Designing Formally Correct Intermittent Systems</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong></p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>Batteryless, energy-harvesting devices (EHDs) are an emerging platform that
+enables computing in remote, inaccessible environments. Instead of using a
+battery, an EHD harvests energy from its environment into a buffer and operates
+intermittently, only as energy is available. This operational cycle causes the
+device to experience frequent, arbitrary power failures that make correct
+programming difficult. To make progress, an intermittent system typically saves
+execution state before power failure and restores it after the device reboots.
+Incorrectly determining which state must be saved and where a save point should
+be made causes software to exhibit memory and timing bugs that would not occur
+on continuously powered program executions. As EHDs are envisioned to be
+remotely-deployed, low-maintenance devices, programs must execute reliably,
+without memory consistency or timing violations. Unfortunately, existing systems
+rely on informal, undefined correctness notions, providing few correctness guarantees.</p>
+
+<p>In this talk, I present my work in designing formally correct intermittent
+systems. I show how existing correctness notions are insufficient, leading to
+unaddressed bugs. I then define formal correctness conditions for memory
+consistency and timing properties on intermittent systems, using these
+definitions to design enforcement mechanisms and abstractions programmers
+can use to specify their desired properties. This work allows the development
+of intermittent systems that meet specified guarantees of time and memory consistency,
+improving reliability.</p>
+
+<p><strong>Bio:</strong></p>
+
+<p>Milijana Surbatovich is a final year PhD Candidate in the Electrical and Computer Engineering
+Department at Carnegie Mellon University, co-advised by Professors Brandon Lucia and
+Limin Jia. Her research interests are in applied formal methods, programming languages,
+and systems for intermittent computing.
+She is excited by research problems that require reasoning about correctness and
+security across the architecture, system, and language stack.
+Previously, she received an MS in ECE from CMU in 2020 while doing her PhD
+and a BS in Computer Science from University of Rochester in 2017.</p>
 
 <h2 id="jan-13">Jan. 13</h2>
 
