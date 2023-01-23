@@ -54,13 +54,13 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-20&#34;&gt;Jan. 20&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Albert Schimpf&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Set-Theoretic Types for Erlang&lt;/td&gt;
+&lt;td&gt;Set-Theoretic Types for Erlang &lt;strong&gt;(postponed)&lt;/strong&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-27&#34;&gt;Jan. 27&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://ducky64.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Richard Lin&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Usable Programming for Building Things (with a focus on electronics)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -155,6 +155,8 @@ and a BS in Computer Science from University of Rochester in 2017.&lt;/p&gt;
 
 &lt;h2 id=&#34;jan-20&#34;&gt;Jan. 20&lt;/h2&gt;
 
+&lt;p&gt;&lt;strong&gt;(This talk is postponed)&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Albert Schimpf&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Set-Theoretic Types for Erlang&lt;/p&gt;
@@ -196,11 +198,13 @@ design for workflows.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://ducky64.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Richard Lin&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Usable Programming for Building Things (with a focus on electronics)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; While modern programming languages and development practices have made programming powerful yet still accessible to novices, the underlying mechanisms - high level of abstraction, encapsulation and re-use of expert knowledge, and automated correctness checks - can also be hugely beneficial to fields beyond software. For example, structuring board-level electronic circuit designs as code enables designers to write and re-use subcircuits that automate common calculations, while the expert knowledge that these encapsulate helps make design accessible to those with less in-depth knowledge.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Yet, it&amp;rsquo;s not as simple as &amp;ldquo;boards&amp;hellip; but in code&amp;rdquo;: new tools must also be useful to, and usable by, existing designers. In this talk, I present my work on developing a hardware description language (HDL) system for electronics that simultaneously aims to be powerful for experts yet usable by all. I&amp;rsquo;ll go over the entire process, from understanding user needs through initial interview studies, to designing the core language and its abstractions, to building supporting tools that bridge this powerful textual design interface with the familiar graphical tools that are used by today&amp;rsquo;s engineers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I&amp;rsquo;m currently a postdoc at UC Los Angeles, and before that I received my PhD from UC Berkeley. My research interests focus on building open-source tools that bring the power of software engineering to electronics design, ultimately making custom device design possible for more people. In the past, I&amp;rsquo;ve worked on the Chisel HDL project, which brings modern software engineering practices to chip-level digital design and similarly focuses on open-source, usability, and practical adoption.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-3&#34;&gt;Feb. 3&lt;/h2&gt;
 
