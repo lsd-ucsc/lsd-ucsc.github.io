@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-3&#34;&gt;Feb. 3&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.nassi.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Ike Nassi&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;The Practical Advantages Distributed Virtual Machines and How They Work&lt;/td&gt;
+&lt;td&gt;The Practical Advantages of Distributed Virtual Machines and How They Work&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -210,7 +210,7 @@ design for workflows.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.nassi.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Ike Nassi&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Practical Advantages Distributed Virtual Machines and How They Work&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Practical Advantages of Distributed Virtual Machines and How They Work&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, I&amp;rsquo;ll describe a distributed virtual machine architecture.   The virtual machine aggregates multiple physical servers and runs them as if they were a single physical server running a single unmodified standard operating system which manages all the resources as if it were a single machine.  No changes to applications are required.&lt;/p&gt;
 
