@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-10&#34;&gt;Feb. 10&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.dustinrichmond.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Dustin Richmond&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;bPentimento: Data Remanence in Cloud FPGAs&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -226,11 +226,11 @@ design for workflows.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.dustinrichmond.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Dustin Richmond&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; bPentimento: Data Remanence in Cloud FPGAs&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Cloud FPGAs strike an alluring balance between computational efficiency, energy efficiency, and cost. It is the flexibility of the FPGA architecture that enables these benefits, but that very same flexibility that exposes new security vulnerabilities. We show that a remote attacker can recover “FPGA pentimenti” – long-removed secret data belonging to a prior user of a cloud FPGA. The sensitive data constituting an FPGA pentimento is an analog imprint from bias temperature instability (BTI) effects on the underlying transistors. We demonstrate how this slight degradation can be measured using a time-to-digital (TDC) converter when an adversary programs one into the target cloud FPGA. This technique allows an attacker to ascertain previously safe information on cloud FPGAs, even after it is no longer explicitly present. Notably, it can allow an attacker to (1) extract proprietary details from an encrypted FPGA design image available on the cloud marketplace and (2) recover information from a previous user of a cloud FPGA. We demonstrate the ability to extract design details and recover previous cloud FPGA user information on the cloud platform. Our experiments show that BTI degradation (burn-in) and recovery are measurable and constitute a security threat to commercial cloud FPGAs.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Dustin Richmond is an Assistant Professor of Computer Science and Engineering in the Baskin School of Engineering at UC Santa Cruz. Dustin completed his postdoc in the Bespoke Silicon Group at the Paul Allen School of Computer Science at the University of Washington, and earned his Ph.D. from the University of California, San Diego. His research interests are in the design of flexible and secure architectures that can generalize across applications, evolve with software, and dynamically adapt to changes in data. His prior work includes HammerBlade, a flexible supercomputer funded by DARPA; RIFFA: A Reconfigurable Interface for FPGA Accelerators, which won a Community Best Paper Award at the 2013 International Conference on Field-Programmable Logic; and contributions to the PYNQ project at Xilinx. He is an NSF Graduate Research Fellow and an ARCS Fellow. He won the Outstanding Community Leader Award from the UC San Diego Graduate Student Association, and the Excellence in Service and Leadership Award from the UC San Diego Computer Science and Engineering Department. Last, but not least, he also won the Best Social Hour Theme Award for teaching other students the basics of lock picking by locking all the Friday afternoon event food in metal boxes.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-17&#34;&gt;Feb. 17&lt;/h2&gt;
 
