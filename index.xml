@@ -53,8 +53,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-20&#34;&gt;Jan. 20&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Albert Schimpf&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Set-Theoretic Types for Erlang &lt;strong&gt;(postponed)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;cancelled&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-17&#34;&gt;Feb. 17&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://dslab.epfl.ch/people/iyer/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Rishabh Iyer&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Performance interfaces for Network Functions and beyond&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -101,8 +101,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-17&#34;&gt;March 17&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Albert Schimpf&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Set-Theoretic Types for Erlang&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -155,44 +155,7 @@ and a BS in Computer Science from University of Rochester in 2017.&lt;/p&gt;
 
 &lt;h2 id=&#34;jan-20&#34;&gt;Jan. 20&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;(This talk is postponed)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Albert Schimpf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Set-Theoretic Types for Erlang&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Erlang is a functional programming language with dynamic typing. The
-language offers great flexibility for destructing values through pattern
-matching and dynamic type tests. Erlang also comes with a type language
-supporting parametric polymorphism, equi-recursive types, as well as
-union and a limited form of intersection types. However, type signatures
-only serve as documentation, there is no check that a function body
-conforms to its signature.&lt;/p&gt;
-
-&lt;p&gt;Set-theoretic types and semantic subtyping fit Erlang&amp;rsquo;s feature set
-very well. They allow expressing nearly all constructs of its type
-language and provide means for statically checking type signatures.
-This talk will give a brief overview of the history and capabilities of
-set-theoretic types and how to apply it to an existing dynamically typed
-language without or with only minor modifications to the code and the
-challenges involved.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m a PhD student at the Department of Computer Science of the
-University of Kaiserslautern, in the AG Softwaretechnik.&lt;/p&gt;
-
-&lt;p&gt;My current research topic is applying Set-Theoretic Type Theory to a
-currently dynamically-typed language called Erlang, which includes
-defining an operational semantics for that language and designing and
-implementing an efficient type checker.&lt;/p&gt;
-
-&lt;p&gt;My previous work includes building efficient tools for verification,
-mainly propositional satisfiablility and regular language inclusion
-solvers, working on replicated distributed data stores and language
-design for workflows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;cancelled&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;jan-27&#34;&gt;Jan. 27&lt;/h2&gt;
 
@@ -236,11 +199,13 @@ design for workflows.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://dslab.epfl.ch/people/iyer/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Rishabh Iyer&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Performance interfaces for Network Functions and beyond&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modern programmers routinely use third-party code, and infrastructure operators deploy software they did not write. This would not be possible without semantic interfaces&amp;mdash;documentation, header files, specifications&amp;mdash;that succinctly describe what that third-party code does.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will propose performance interfaces as a way to describe a system’s performance, akin to how a semantic interface describes its functionality. I will concretize this idea in the domain of network functions (NFs) and describe a tool (PIX) that automatically extracts simple, yet precise performance interfaces from NF implementations. Finally, I will show how developers and operators can use PIX-extracted  interfaces to identify performance regressions, diagnose and fix performance bugs and identify the latency impact of NIC offloads.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Rishabh Iyer is a sixth year PhD student at EPFL working with George Candea and Katerina Argyraki. His research interests are centred around computer systems and networking although he can often be found dabbling with formal verification tools. Prior to joining EPFL, he received his bachelor&amp;rsquo;s degree from IIT Bombay in 2017.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-24&#34;&gt;Feb. 24&lt;/h2&gt;
 
@@ -274,13 +239,42 @@ design for workflows.&lt;/p&gt;
 
 &lt;h2 id=&#34;march-17&#34;&gt;March 17&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Albert Schimpf&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Set-Theoretic Types for Erlang&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Erlang is a functional programming language with dynamic typing. The
+language offers great flexibility for destructing values through pattern
+matching and dynamic type tests. Erlang also comes with a type language
+supporting parametric polymorphism, equi-recursive types, as well as
+union and a limited form of intersection types. However, type signatures
+only serve as documentation, there is no check that a function body
+conforms to its signature.&lt;/p&gt;
+
+&lt;p&gt;Set-theoretic types and semantic subtyping fit Erlang&amp;rsquo;s feature set
+very well. They allow expressing nearly all constructs of its type
+language and provide means for statically checking type signatures.
+This talk will give a brief overview of the history and capabilities of
+set-theoretic types and how to apply it to an existing dynamically typed
+language without or with only minor modifications to the code and the
+challenges involved.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m a PhD student at the Department of Computer Science of the
+University of Kaiserslautern, in the AG Softwaretechnik.&lt;/p&gt;
+
+&lt;p&gt;My current research topic is applying Set-Theoretic Type Theory to a
+currently dynamically-typed language called Erlang, which includes
+defining an operational semantics for that language and designing and
+implementing an efficient type checker.&lt;/p&gt;
+
+&lt;p&gt;My previous work includes building efficient tools for verification,
+mainly propositional satisfiablility and regular language inclusion
+solvers, working on replicated distributed data stores and language
+design for workflows.&lt;/p&gt;
 
 &lt;hr /&gt;
 

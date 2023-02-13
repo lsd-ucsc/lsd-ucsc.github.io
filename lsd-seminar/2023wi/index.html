@@ -234,8 +234,8 @@
 
 <tr>
 <td><a href="#jan-20">Jan. 20</a></td>
-<td><a href="https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/" rel="noreferrer" target="_blank">Albert Schimpf</a></td>
-<td>Set-Theoretic Types for Erlang <strong>(postponed)</strong></td>
+<td><em>cancelled</em></td>
+<td></td>
 </tr>
 
 <tr>
@@ -259,7 +259,7 @@
 <tr>
 <td><a href="#feb-17">Feb. 17</a></td>
 <td><a href="https://dslab.epfl.ch/people/iyer/" rel="noreferrer" target="_blank">Rishabh Iyer</a></td>
-<td><em>TBD</em></td>
+<td>Performance interfaces for Network Functions and beyond</td>
 </tr>
 
 <tr>
@@ -282,8 +282,8 @@
 
 <tr>
 <td><a href="#march-17">March 17</a></td>
-<td><em>TBD</em></td>
-<td><em>TBD</em></td>
+<td><a href="https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/" rel="noreferrer" target="_blank">Albert Schimpf</a></td>
+<td>Set-Theoretic Types for Erlang</td>
 </tr>
 </tbody>
 </table>
@@ -336,44 +336,7 @@ and a BS in Computer Science from University of Rochester in 2017.</p>
 
 <h2 id="jan-20">Jan. 20</h2>
 
-<p><strong>(This talk is postponed)</strong></p>
-
-<p><strong>Speaker:</strong> <a href="https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/" rel="noreferrer" target="_blank">Albert Schimpf</a></p>
-
-<p><strong>Title:</strong> Set-Theoretic Types for Erlang</p>
-
-<p><strong>Abstract:</strong></p>
-
-<p>Erlang is a functional programming language with dynamic typing. The
-language offers great flexibility for destructing values through pattern
-matching and dynamic type tests. Erlang also comes with a type language
-supporting parametric polymorphism, equi-recursive types, as well as
-union and a limited form of intersection types. However, type signatures
-only serve as documentation, there is no check that a function body
-conforms to its signature.</p>
-
-<p>Set-theoretic types and semantic subtyping fit Erlang&rsquo;s feature set
-very well. They allow expressing nearly all constructs of its type
-language and provide means for statically checking type signatures.
-This talk will give a brief overview of the history and capabilities of
-set-theoretic types and how to apply it to an existing dynamically typed
-language without or with only minor modifications to the code and the
-challenges involved.</p>
-
-<p><strong>Bio:</strong></p>
-
-<p>I’m a PhD student at the Department of Computer Science of the
-University of Kaiserslautern, in the AG Softwaretechnik.</p>
-
-<p>My current research topic is applying Set-Theoretic Type Theory to a
-currently dynamically-typed language called Erlang, which includes
-defining an operational semantics for that language and designing and
-implementing an efficient type checker.</p>
-
-<p>My previous work includes building efficient tools for verification,
-mainly propositional satisfiablility and regular language inclusion
-solvers, working on replicated distributed data stores and language
-design for workflows.</p>
+<p><strong>cancelled</strong></p>
 
 <h2 id="jan-27">Jan. 27</h2>
 
@@ -417,11 +380,13 @@ design for workflows.</p>
 
 <p><strong>Speaker:</strong> <a href="https://dslab.epfl.ch/people/iyer/" rel="noreferrer" target="_blank">Rishabh Iyer</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Performance interfaces for Network Functions and beyond</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Modern programmers routinely use third-party code, and infrastructure operators deploy software they did not write. This would not be possible without semantic interfaces&mdash;documentation, header files, specifications&mdash;that succinctly describe what that third-party code does.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>In this talk, I will propose performance interfaces as a way to describe a system’s performance, akin to how a semantic interface describes its functionality. I will concretize this idea in the domain of network functions (NFs) and describe a tool (PIX) that automatically extracts simple, yet precise performance interfaces from NF implementations. Finally, I will show how developers and operators can use PIX-extracted  interfaces to identify performance regressions, diagnose and fix performance bugs and identify the latency impact of NIC offloads.</p>
+
+<p><strong>Bio:</strong> Rishabh Iyer is a sixth year PhD student at EPFL working with George Candea and Katerina Argyraki. His research interests are centred around computer systems and networking although he can often be found dabbling with formal verification tools. Prior to joining EPFL, he received his bachelor&rsquo;s degree from IIT Bombay in 2017.</p>
 
 <h2 id="feb-24">Feb. 24</h2>
 
@@ -455,13 +420,42 @@ design for workflows.</p>
 
 <h2 id="march-17">March 17</h2>
 
-<p><strong>Speaker:</strong> <em>TBD</em></p>
+<p><strong>Speaker:</strong> <a href="https://pl.cs.uni-kl.de/homepage/en/staff/AlbertSchimpf/" rel="noreferrer" target="_blank">Albert Schimpf</a></p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Set-Theoretic Types for Erlang</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong></p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>Erlang is a functional programming language with dynamic typing. The
+language offers great flexibility for destructing values through pattern
+matching and dynamic type tests. Erlang also comes with a type language
+supporting parametric polymorphism, equi-recursive types, as well as
+union and a limited form of intersection types. However, type signatures
+only serve as documentation, there is no check that a function body
+conforms to its signature.</p>
+
+<p>Set-theoretic types and semantic subtyping fit Erlang&rsquo;s feature set
+very well. They allow expressing nearly all constructs of its type
+language and provide means for statically checking type signatures.
+This talk will give a brief overview of the history and capabilities of
+set-theoretic types and how to apply it to an existing dynamically typed
+language without or with only minor modifications to the code and the
+challenges involved.</p>
+
+<p><strong>Bio:</strong></p>
+
+<p>I’m a PhD student at the Department of Computer Science of the
+University of Kaiserslautern, in the AG Softwaretechnik.</p>
+
+<p>My current research topic is applying Set-Theoretic Type Theory to a
+currently dynamically-typed language called Erlang, which includes
+defining an operational semantics for that language and designing and
+implementing an efficient type checker.</p>
+
+<p>My previous work includes building efficient tools for verification,
+mainly propositional satisfiablility and regular language inclusion
+solvers, working on replicated distributed data stores and language
+design for workflows.</p>
 
 <hr />
 
