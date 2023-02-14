@@ -224,9 +224,9 @@ still have latent bugs. Although various fuzzing campaigns have targeted
 SMT solvers, most known critical bugs were exposed by client
 applications of the solvers and not by fuzzers.&lt;/p&gt;
 
-&lt;p&gt;We devised several general methods for stress-testing SMT solvers. We
-have been extensively stress-testing the two state-of-the-art SMT
-solvers Z3 and CVC4 &lt;a href=&#34;http://testsmt.github.io&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;3&lt;/a&gt;. So far, we have found 1,700+ unique bugs in Z3
+&lt;p&gt;We devised several general methods for stress-testing SMT solvers [&lt;a href=&#34;http://dl.acm.org/doi/abs/10.1145/3385412.3385985&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt;, &lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3428261&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;2&lt;/a&gt;]. We
+have been &lt;a href=&#34;http://testsmt.github.io&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;extensively stress-testing the two state-of-the-art SMT
+solvers Z3 and CVC4&lt;/a&gt;. So far, we have found 1,700+ unique bugs in Z3
 and CVC4&amp;mdash;1,200+ have already been fixed by the developers and 500+ are
 critical soundness bugs. Our detected bugs are diverse, distributing
 over almost every SMT-LIB logic and theory: Perhaps surprisingly, our
