@@ -84,7 +84,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-24&#34;&gt;Feb. 24&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://wintered.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Dominik Winterer&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Finding 1,700+ Bugs in the SMT Solvers Z3 and CVC5 in Three Years&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -211,11 +211,42 @@ and a BS in Computer Science from University of Rochester in 2017.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://wintered.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Dominik Winterer&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Finding 1,700+ Bugs in the SMT Solvers Z3 and CVC5 in Three Years&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Satisfiability Modulo Theory (SMT) solvers are important tools for many
+advances in programming languages, e.g., symbolic execution engines,
+software model checkers, and program verifiers. SMT solvers&amp;rsquo; robustness
+is crucial&amp;mdash;Incorrect results from SMT solvers can invalidate client
+applications&amp;rsquo; results and lead to disasters in safety-critical domains.
+Hence, the SMT community has undertaken great efforts to make SMT
+solvers reliable. Despite this, SMT solvers are complex software and
+still have latent bugs. Although various fuzzing campaigns have targeted
+SMT solvers, most known critical bugs were exposed by client
+applications of the solvers and not by fuzzers.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We devised several general methods for stress-testing SMT solvers. We
+have been extensively stress-testing the two state-of-the-art SMT
+solvers Z3 and CVC4 [3]. So far, we have found 1,700+ unique bugs in Z3
+and CVC4&amp;mdash;1,200+ have already been fixed by the developers and 500+ are
+critical soundness bugs. Our detected bugs are diverse, distributing
+over almost every SMT-LIB logic and theory: Perhaps surprisingly, our
+tools detected soundness bugs in linear arithmetic, bit vectors, and
+uninterpreted functions, decidable logics widely believed to be stable.
+The developers appreciated our effort by comments such as &amp;ldquo;great find&amp;rdquo;,
+&amp;ldquo;excellent find&amp;rdquo; and &amp;ldquo;nice catch&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dl.acm.org/doi/abs/10.1145/3385412.3385985&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;1&lt;/a&gt;
+&lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3428261&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;2&lt;/a&gt;
+&lt;a href=&#34;http://testsmt.github.io&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dominik Winterer is a fifth-year Ph.D. student advised by Prof.
+Zhendong Su at ETH Zurich and a member of the AST lab. He is interested
+in formal methods problems in Programming Languages and Software
+Engineering. Dominik&amp;rsquo;s vision is to robustify modern formal methods
+software through devising novel testing approaches. Dominik has been
+awarded the PLDI distinguished paper award.&lt;/p&gt;
 
 &lt;h2 id=&#34;march-3&#34;&gt;March 3&lt;/h2&gt;
 
