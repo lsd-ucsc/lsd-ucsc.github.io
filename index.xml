@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-3&#34;&gt;March 3&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Andrew Osterhout&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;ROMP: A Random-walk Based Parallel Explicit-State Stateless Model Checker&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -248,11 +248,29 @@ awarded the PLDI distinguished paper award.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Andrew Osterhout&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; ROMP: A Random-walk Based Parallel Explicit-State Stateless Model Checker&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Model checking via parallelized random walks is a way to
+  get fast way to find bugs in models with huge statespaces.  This is
+  largely due to not having to use a global has to monitor the
+  progress of a normal BFS or DFS traversal of a statespace.  There
+  however other ways to improve this performance even further with the
+  use of heuristics statespace reductions, and figuring out when to
+  cut your losses on a poor performing walks.  We take the first few
+  steps into refining such methodologies by utilizing the Murphi model
+  checking language and a simple multithreaded random walking
+  generated model checker.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Hello, I am Andrew Osterhout, I am a graduate of the
+  University of Utah, currently working as a research assistant /
+  research programmer under Ganesh Gopalakrishnan,  where I
+  primarily work on verification systems for data race detection in
+  GPUs and Model Checking based verification projects.  I currently
+  live in Santa Cruz with my partner and work remotely.  I am
+  currently working on a LLNL contract via the University of Utah for
+  GPU race detection on AMD unified memory architectures, as well as
+  shepherding the romp project form the side lines while I juggle grad
+  school applications.&lt;/p&gt;
 
 &lt;h2 id=&#34;march-10&#34;&gt;March 10&lt;/h2&gt;
 
