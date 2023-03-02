@@ -33,6 +33,33 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+   kind = "paper"
+   date = "April 22, 2023"
+   who = "Yanwen Xu, Ang Li, and Tyler Sorensen"
+   paper_name = "Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads"
+   conf_name = "ISPASS 2023"
+   conf_link = "https://ispass.org/ispass2023/"
+
+
+[[news]]
+   kind = "paper"
+   date = "March 22, 2023"
+   who = "Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, and Tyler Sorensen"
+   paper_name = "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications"
+   conf_name = "ASPLOS 2023"
+   paper_link = "https://reeselevine.github.io/assets/pdf/mc_mutants.pdf"
+   conf_link = "https://asplos-conference.org/"
+
+
+[[news]]
+   kind = "award"
+   date = "January 20, 2023"
+   who = "Tyler Sorensen"
+   award_name = 'NSF CAREER Award for "Composable Memory Consistency Models for Heterogeneous Systems"'
+   award_link = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2239400"
+
+
+[[news]]
    kind = "award"
    date = "August 10, 2022"
    who = "Priyanka Mondal, Maximilian Algehed, and Owen Arden"
