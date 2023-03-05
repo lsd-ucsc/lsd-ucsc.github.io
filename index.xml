@@ -276,11 +276,17 @@ awarded the PLDI distinguished paper award.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; José Renau&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Live Hardware Development at UCSC&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Prof. Renau will present the research effort by his team at UCSC. The talk focuses on open-source Live CHIP design flows to improve hardware design productivity. With a focus on 2 main areas: LiveHD and Pyrope.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;LiveHD (&lt;a href=&#34;https://github.com/masc-ucsc/livehd&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/masc-ucsc/livehd&lt;/a&gt;) is hardware compiler with Verilog, Chisel, and Pyrope front-ends. The latest effort is compiler speed around fast structures and parallelization.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pyrope (&lt;a href=&#34;https://masc-ucsc.github.io/docs/pyrope/00-hwdesign/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://masc-ucsc.github.io/docs/pyrope/00-hwdesign/&lt;/a&gt;) is a new hardware description language. It has a modern syntax designed to be efficient and more approachable to non-hardware designers.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Jose Renau (&lt;a href=&#34;http://www.soe.ucsc.edu/~renau&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;http://www.soe.ucsc.edu/~renau&lt;/a&gt;) is a CSE department professor at University of California, Santa Cruz. His area of research is computer architecture, focusing on productive hardware design flows (Live Hardware Design Flow or LiveHD, architectural simulators like ESESC, new hardware description language like Pyrope, new design methodologies like Fluid Pipelines), out-of-order cores, and RISC-V verification. Past projects with Thread Level Speculation, infrared thermal measurements, power modeling, and design effort metrics/models. Prof. Renau has a Ph.D. in Computer Science from the University of Illinois at Urbana-Champaign. He is currently the IEEE TCMM Chair.&lt;/p&gt;
 
 &lt;h2 id=&#34;march-17&#34;&gt;March 17&lt;/h2&gt;
 
