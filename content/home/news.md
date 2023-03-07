@@ -49,6 +49,15 @@ active = false
    conf_name = "ASPLOS 2023"
    paper_link = "https://reeselevine.github.io/assets/pdf/mc_mutants.pdf"
    conf_link = "https://asplos-conference.org/"
+   
+[[news]]
+   kind = "paper"
+   date = "February 8, 2023"
+   who = "Patrick Redmond, Gan Shen, Niki Vazou, and Lindsey Kuper"
+   paper_name = "Verified Causal Broadcast with Liquid Haskell"
+   conf_name = "IFL 2022"
+   paper_link = "https://arxiv.org/abs/2206.14767"
+   conf_link = "https://ifl22.github.io/"
 
 
 [[news]]
@@ -74,6 +83,11 @@ active = false
    conf_name = "CSF 2022"
    paper_link = "https://doi.org/10.1109/CSF54842.2022.9919637"
    conf_link = "https://www.ieee-security.org/TC/CSF2022/"
+   
+[[news]]
+   kind = "any"
+   date = "June 8, 2022"
+   content = "Kamala Ramasubramanian defended her dissertation! Congratulations, Kamala!"
 
 [[news]]
    kind = "paper"
