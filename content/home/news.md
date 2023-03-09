@@ -34,6 +34,15 @@ active = false
 
 [[news]]
    kind = "paper"
+   date = "May 1, 2023"
+   who = "Tuan Tran, Faisal Nawab, Peter Alvaro, and Owen Arden"
+   paper_name = "Unstick Yourself: Recoverable Byzantine Fault Tolerant Services"
+   conf_name = "ICBC 2023"
+   paper_link = "https://users.soe.ucsc.edu/~atran18/publications/Phoenix.pdf"
+   conf_link = "https://icbc2023.ieee-icbc.org/"
+
+[[news]]
+   kind = "paper"
    date = "April 22, 2023"
    who = "Yanwen Xu, Ang Li, and Tyler Sorensen"
    paper_name = "Redwood: Flexible and Portable Heterogeneous Tree Traversal Workloads"
