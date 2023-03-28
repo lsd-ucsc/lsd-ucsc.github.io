@@ -6,8 +6,206 @@
     <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Sep 2022 15:10:12 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 28 Mar 2023 10:41:50 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (FILL IN TERM)</title>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2023sp/</link>
+      <pubDate>Tue, 28 Mar 2023 10:41:50 -0700</pubDate>
+      
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2023sp/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
+
+&lt;p&gt;For spring 2023, we will continue to host the LSD Seminar in a hybrid fashion.  Anyone can attend on Zoom, and local folks can gather in person in the lab.  Speakers can join either in person or on Zoom, whichever is convenient.&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-7&#34;&gt;April 7&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Tomas Petricek&lt;/td&gt;
+&lt;td&gt;Programming Systems Deserve a Theory Too!&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-14&#34;&gt;April 14&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Sangeeta Chowdhary&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-21&#34;&gt;April 21&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Yanwen Xu&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-28&#34;&gt;April 28&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Tim Goodwin&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-5&#34;&gt;May 5&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Yuka Ikarashi&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-12&#34;&gt;May 12&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Graydon Hoare&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-19&#34;&gt;May 19&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Thomas Dickerson&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-26&#34;&gt;May 26&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Hernan Ponce de Leon&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#june-2&#34;&gt;June 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Jubi Taneja&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#june-9&#34;&gt;June 9&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;april-7&#34;&gt;April 7&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tomas Petricek&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Programming Systems Deserve a Theory Too!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; What do Commodore 64 BASIC, Jupyter Notebooks and Flash have in common? They all include an uninteresting programming language, but are interesting when we view them as programming systems and think about how programmers interact with them to construct programs. We know very well how to study the theory of programming languages, but what can we say about programming systems?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Tomas Petricek is an assistant professor Charles University. He is interested in stateful, interactive and graphical programming systems, new ways of thinking about programming that make it easier and more accessible, as well as history and philosophy of computing. Previously, he developed novel tools for data exploration and visualization, contributed to the F# language and type providers at Microsoft Research and obtained PhD from University of Cambridge for his work on coeffects, a theory of context-aware programming languages.&lt;/p&gt;
+
+&lt;h2 id=&#34;april-14&#34;&gt;April 14&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Sangeeta Chowdhary&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;april-21&#34;&gt;April 21&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Yanwen Xu&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;april-28&#34;&gt;April 28&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tim Goodwin&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;may-5&#34;&gt;May 5&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Yuka Ikarashi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;may-12&#34;&gt;May 12&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Graydon Hoare&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;may-19&#34;&gt;May 19&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Thomas Dickerson&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;may-26&#34;&gt;May 26&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Hernan Ponce de Leon&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;june-2&#34;&gt;June 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jubi Taneja&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;june-9&#34;&gt;June 9&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Winter 2023)</title>
