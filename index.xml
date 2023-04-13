@@ -47,8 +47,14 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-14&#34;&gt;April 14&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Sangeeta Chowdhary&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Kyle Miller&lt;/td&gt;
+&lt;td&gt;Informalizing formalized mathematics using the Lean theorem prover&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -115,13 +121,13 @@
 
 &lt;h2 id=&#34;april-14&#34;&gt;April 14&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Sangeeta Chowdhary&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Kyle Miller&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Informalizing formalized mathematics using the Lean theorem prover&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; One of the applications of interactive theorem provers in pure mathematics is being able to produce machine-verified formal proofs. I will talk about a less-obvious application, which is using formalized mathematics to author interactive informal expositions. I will demonstrate a prototype of an &amp;ldquo;auto-informalization&amp;rdquo; system written in Lean that presents the reader with an interface to view proofs at a desired level of detail.  I will also discuss thoughts on the impact of such tools in mathematics. This is joint work with Patrick Massot.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Kyle Miller is a postdoc in the mathematics department at UCSC. His primary research interests are in knot theory and graph theory, and he is currently on leave to work with Patrick Massot at Université Paris-Saclay in Orsay, France to pursue research in computer-formalized mathematics. Kyle is a contributor and maintainer for mathlib, the mathematical library for the Lean interactive theorem prover. In his spare time, he enjoys dreaming about PL designs and tinkering with compilers.&lt;/p&gt;
 
 &lt;h2 id=&#34;april-21&#34;&gt;April 21&lt;/h2&gt;
 
