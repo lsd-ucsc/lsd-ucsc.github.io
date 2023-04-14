@@ -49,6 +49,14 @@ active = false
    conf_name = "ISPASS 2023"
    conf_link = "https://ispass.org/ispass2023/"
 
+[[news]]
+   kind = "paper"
+   date = "April 3, 2023"
+   who = "Tim Goodwin, Andrew Quinn, and Lindsey Kuper"
+   paper_name = "What goes wrong in serverless runtimes? A survey of bugs in Knative Serving"
+   conf_name = "SESAME 2023"
+   conf_link = "https://sesame23.github.io/"
+
 
 [[news]]
    kind = "paper"
