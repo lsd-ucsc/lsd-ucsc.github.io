@@ -44,62 +44,20 @@
 &lt;td&gt;Tomas Petricek&lt;/td&gt;
 &lt;td&gt;Programming Systems Deserve a Theory Too!&lt;/td&gt;
 &lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#april-14&#34;&gt;April 14&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://people.ucsc.edu/~kymiller/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kyle Miller&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Informalizing formalized mathematics using the Lean theorem prover&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#april-21&#34;&gt;April 21&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Yanwen Xu&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#april-28&#34;&gt;April 28&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Tim Goodwin&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-5&#34;&gt;May 5&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Yuka Ikarashi&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-12&#34;&gt;May 12&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Graydon Hoare&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-19&#34;&gt;May 19&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Thomas Dickerson&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-26&#34;&gt;May 26&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Hernan Ponce de Leon&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#june-2&#34;&gt;June 2&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Jubi Taneja&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#june-9&#34;&gt;June 9&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;| &lt;a href=&#34;#april-14&#34;&gt;April 14&lt;/a&gt; |
+&lt;a href=&#34;https://people.ucsc.edu/~kymiller/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kyle Miller&lt;/a&gt;     | Informalizing formalized mathematics using the Lean theorem prover
+| &lt;a href=&#34;#april-21&#34;&gt;April 21&lt;/a&gt; | Yanwen Xu              | Using all the processors in your heterogeneous system: a case study for tree-based applications                                             |&lt;/p&gt;
+
+&lt;p&gt;| &lt;a href=&#34;#april-28&#34;&gt;April 28&lt;/a&gt; | Tim Goodwin            | &lt;em&gt;TBD&lt;/em&gt;                                                                                    |
+| &lt;a href=&#34;#may-5&#34;&gt;May 5&lt;/a&gt;       | Yuka Ikarashi          | &lt;em&gt;TBD&lt;/em&gt;                                                                                    |
+| &lt;a href=&#34;#may-12&#34;&gt;May 12&lt;/a&gt;     | Graydon Hoare          | &lt;em&gt;TBD&lt;/em&gt;                                                                                    |
+| &lt;a href=&#34;#may-19&#34;&gt;May 19&lt;/a&gt;     | Thomas Dickerson       | &lt;em&gt;TBD&lt;/em&gt;                                                                                    |
+| &lt;a href=&#34;#may-26&#34;&gt;May 26&lt;/a&gt;     | Hernan Ponce de Leon   | &lt;em&gt;TBD&lt;/em&gt;                                                                                    |
+| &lt;a href=&#34;#june-2&#34;&gt;June 2&lt;/a&gt;     | Jubi Taneja            | &lt;em&gt;TBD&lt;/em&gt;                                                                                    |
+| &lt;a href=&#34;#june-9&#34;&gt;June 9&lt;/a&gt;     | &lt;em&gt;TBD&lt;/em&gt;                  | &lt;em&gt;TBD&lt;/em&gt;                                                                                    |&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -127,11 +85,12 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Yanwen Xu&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Using all the processors in your heterogeneous system: a case study for tree-based applications&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Specialized processing units such as GPU/FPGA are widely adopted in heterogenous systems, e.g., in data centers and supercomputers.
+However, another type of heterogeneous system - shared memory heterogeneous systems - often found in mobile SoCs, has received less attention, despite more and more die area consists of accelerators on these devices. In this talk, I will present a framework for accelerating tree-based applications in shared memory heterogeneous systems, such as those used in computer graphics and statistical learning.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Yanwen Xu is a third-year Ph.D. student in the computer science &amp;amp; engineering department at UCSC, advised by Professor Tyler Sorensen. His primary research interest is in heterogenous computing in edge devices, particularly developing novel compiler techinques to optimize the use of computing resources in these systems. Yanwen has collaborated with Princeton&amp;rsquo;s team on a DARPA-funded project, where he explored mapping heterogeneous workloads to emerging architectures.&lt;/p&gt;
 
 &lt;h2 id=&#34;april-28&#34;&gt;April 28&lt;/h2&gt;
 
