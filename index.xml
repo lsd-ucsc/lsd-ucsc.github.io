@@ -60,7 +60,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-28&#34;&gt;April 28&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Tim Goodwin&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;What goes wrong in serverless runtimes?&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -138,11 +138,11 @@ However, another type of heterogeneous system - shared memory heterogeneous syst
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tim Goodwin&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; What goes wrong in serverless runtimes?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Serverless computing promises to drastically simplify the process of deploying and manging applications in the cloud. The paradigm involves dynamic autoscaling and &amp;ldquo;scale-to-zero&amp;rdquo; functionality, ensuring that applications consume only the compute resources they need to complete their work. Supporting these features reliably, however, requires a high level of complexity at the runtime level. In this talk, I will discuss some of the essential challenges in serverless platform design through a presentation of a recent bug study conducted on Knative, a popular, industrial-strength open-source serverless platform.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Tim Goodwin is a first-year Ph.D. student in the CSE department at UCSC, advised by Lindsey Kuper and Andrew Quinn. His research interests are in distributed systems and the abstractions used to build them. Recently, he has been exploring the programming challenges associated with emerging cloud-native technologies like serverless programming and Kubernetes.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-5&#34;&gt;May 5&lt;/h2&gt;
 
