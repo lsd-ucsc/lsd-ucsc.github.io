@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-5&#34;&gt;May 5&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Yuka Ikarashi&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Exocompilation for productive programming of hardware accelerators&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -95,7 +95,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#june-9&#34;&gt;June 9&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Priyanka Mondal&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -148,11 +148,11 @@ However, another type of heterogeneous system - shared memory heterogeneous syst
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Yuka Ikarashi&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Exocompilation for productive programming of hardware accelerators&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; High-performance kernel libraries are critical to exploiting accelerators and specialized instructions in many applications. Because compilers are difficult to extend to support diverse and rapidly-evolving hardware targets, and automatic optimization is often insufficient to guarantee state-of-the-art performance, these libraries are commonly still coded and optimized by hand, at great expense, in low-level C and assembly. To better support development of high-performance libraries for specialized hardware, we propose a new programming language, Exo, based on the principle of exocompilation: externalizing target-specific code generation support and optimization policies to user-level code. Exo allows custom hardware instructions, specialized memories, and accelerator configuration state to be defined in user libraries. It builds on the idea of user scheduling to externalize hardware mapping and optimization decisions. Schedules are defined as composable rewrites within the language, and we develop a set of effect analyses which guarantee program equivalence and memory safety through these transformations. We show that Exo enables rapid development of state-of-the-art matrix-matrix multiply and convolutional neural network kernels, for both an embedded neural accelerator and x86 with AVX-512 extensions, in a few dozen lines of code each.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Yuka Ikarashi is a PhD candidate at MIT CSAIL, advised by Jonathan Ragan-Kelley. She is interested in creating compiler systems and programming languages for real-world applications. She is a co-creator of the Exo programming language and has been a developer for other compiler frameworks such as Clang/LLVM and ROOT. She previously worked at Apple, Amazon, and CERN. She received Masason Foundation Fellowship and Funai Foundation Fellowship awards.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-12&#34;&gt;May 12&lt;/h2&gt;
 
@@ -196,7 +196,7 @@ However, another type of heterogeneous system - shared memory heterogeneous syst
 
 &lt;h2 id=&#34;june-9&#34;&gt;June 9&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Priyanka Mondal&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
 
