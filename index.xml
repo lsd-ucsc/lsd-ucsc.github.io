@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-19&#34;&gt;May 19&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Thomas Dickerson&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Fangorn: Making Immutable Trees Mutable and Wait-Free&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -179,11 +179,17 @@ industrial work including Red Hat, Mozilla and Apple.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Thomas Dickerson&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Fangorn: Making Immutable Trees Mutable and Wait-Free&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We show how to implement a large class of wait-free operations on mutable trees by applying type-level rewrite rules to specifications for immutable versions of the same ADT.
+Among the supported operations are efficient, linearizable, copy-on-write snapshots; thereby supporting consistent iteration and speculative updates.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;The transformation is achieved by executing each recursive step using the LLX and SCX primitives of Brown et al. (2013) and suspending each tail call into the structure of the tree itself (rather than relying on the mechanisms of the host programming language).
+We bootstrap our operations on the root of the tree using a wait-free universal construction based on LLX/SCX.&lt;/p&gt;
+
+&lt;p&gt;We also show how to extend the LLX/SCX primitives to allow control-flow operations to propagate correctly across thread boundaries.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Thomas Dickerson is the Chief Science Officer (and a co-founder) at Geopipe, in Burlington, Vermont. Geopipe is a deep-tech startup using ML to parse the planet&amp;rsquo;s geospatial data and create simulation-ready environments from real-world locations. Previously, he did his PhD at Brown University where he was advised by Maurice Herlihy. His research interests are, broadly, applying a computational lens to interdisciplinary problems.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-26&#34;&gt;May 26&lt;/h2&gt;
 

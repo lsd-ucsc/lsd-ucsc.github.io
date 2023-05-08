@@ -259,7 +259,7 @@
 <tr>
 <td><a href="#may-19">May 19</a></td>
 <td>Thomas Dickerson</td>
-<td><em>TBD</em></td>
+<td>Fangorn: Making Immutable Trees Mutable and Wait-Free</td>
 </tr>
 
 <tr>
@@ -360,11 +360,17 @@ industrial work including Red Hat, Mozilla and Apple.</p>
 
 <p><strong>Speaker:</strong> Thomas Dickerson</p>
 
-<p><strong>Title:</strong> TBD</p>
+<p><strong>Title:</strong> Fangorn: Making Immutable Trees Mutable and Wait-Free</p>
 
-<p><strong>Abstract:</strong> TBD</p>
+<p><strong>Abstract:</strong> We show how to implement a large class of wait-free operations on mutable trees by applying type-level rewrite rules to specifications for immutable versions of the same ADT.
+Among the supported operations are efficient, linearizable, copy-on-write snapshots; thereby supporting consistent iteration and speculative updates.</p>
 
-<p><strong>Bio:</strong> TBD</p>
+<p>The transformation is achieved by executing each recursive step using the LLX and SCX primitives of Brown et al. (2013) and suspending each tail call into the structure of the tree itself (rather than relying on the mechanisms of the host programming language).
+We bootstrap our operations on the root of the tree using a wait-free universal construction based on LLX/SCX.</p>
+
+<p>We also show how to extend the LLX/SCX primitives to allow control-flow operations to propagate correctly across thread boundaries.</p>
+
+<p><strong>Bio:</strong> Thomas Dickerson is the Chief Science Officer (and a co-founder) at Geopipe, in Burlington, Vermont. Geopipe is a deep-tech startup using ML to parse the planet&rsquo;s geospatial data and create simulation-ready environments from real-world locations. Previously, he did his PhD at Brown University where he was advised by Maurice Herlihy. His research interests are, broadly, applying a computational lens to interdisciplinary problems.</p>
 
 <h2 id="may-26">May 26</h2>
 
