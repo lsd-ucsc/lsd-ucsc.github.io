@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-12&#34;&gt;May 12&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Graydon Hoare&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Vectorized Interpreters: MRT for PL&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -158,11 +158,22 @@ However, another type of heterogeneous system - shared memory heterogeneous syst
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Graydon Hoare&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Vectorized Interpreters: MRT for PL&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Conventional interpreters and compilers are two different
+techniques for implementing programming languages. They each make
+specific sets of compromises on various key pragmatic concerns. A
+third, often-overlooked implementation technique exists called a
+&amp;ldquo;vectorized interpreter&amp;rdquo; with a different and compelling set of
+compromises. This talk will examine the technique in some depth,
+making an &amp;ldquo;MRT&amp;rdquo; analogy that is hopefully illuminating (or at least an
+amusing surprise).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Graydon Hoare is a systems programmer with a focus on programming
+language design and implementation. He was the initial developer of
+Rust, and has worked on numerous language toolchains, runtimes,
+debuggers, profilers and other development tools over 25 years of
+industrial work including Red Hat, Mozilla and Apple.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-19&#34;&gt;May 19&lt;/h2&gt;
 
