@@ -40,6 +40,14 @@ active = false
    conf_name = "ICBC 2023"
    paper_link = "https://users.soe.ucsc.edu/~atran18/publications/Phoenix.pdf"
    conf_link = "https://icbc2023.ieee-icbc.org/"
+   
+[[news]]
+   kind = "paper"
+   date = "April 29, 2023"
+   who = "Nathan Liittschwager, Stelios Tsampas, Jonathan Castello, and Lindsey Kuper"
+   paper_name = "CRDTs, Coalgebraically (Early Ideas)"
+   conf_name = "CALCO 2023"
+   conf_link = "https://coalg.org/calco-mfps-2023/calco/"
 
 [[news]]
    kind = "paper"
