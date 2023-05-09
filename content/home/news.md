@@ -55,6 +55,7 @@ active = false
    who = "Tim Goodwin, Andrew Quinn, and Lindsey Kuper"
    paper_name = "What goes wrong in serverless runtimes? A survey of bugs in Knative Serving"
    conf_name = "SESAME 2023"
+   paper_link = "https://dl.acm.org/doi/10.1145/3592533.3592806"
    conf_link = "https://sesame23.github.io/"
 
 
