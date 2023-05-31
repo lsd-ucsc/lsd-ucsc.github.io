@@ -83,14 +83,14 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-26&#34;&gt;May 26&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Hernan Ponce de Leon&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;*cancelled&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#june-2&#34;&gt;June 2&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Lovro Lugović&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Real-World Choreographic Programming&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -193,23 +193,24 @@ We bootstrap our operations on the root of the tree using a wait-free universal 
 
 &lt;h2 id=&#34;may-26&#34;&gt;May 26&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Hernan Ponce de Leon&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;cancelled&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;june-2&#34;&gt;June 2&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Lovro Lugović&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Real-World Choreographic Programming&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Choreographic programming is a recent programming paradigm where the overall behaviour of a distributed system is programmed from a global viewpoint&amp;mdash;as a choreography between different participants (roles).
+The choreography can then be automatically compiled (projected) to a correct implementation for each role.
+This relieves the programmer from manually writing the separate send and receive actions performed by the roles, which simplifies development and avoids communication mismatches.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;However, the applicability of choreographic programming in the real world is still largely unexplored.
+We carry out the first development of a widespread real-world protocol using choreographic programming, the Internet Relay Chat (IRC).
+We show how we have dealt with IRC&amp;rsquo;s complex interaction patterns and the issue of interoperability with third-party software.
+The development is based on Choral, an object-oriented higher-order choreographic programming language.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Lovro Lugović is a computer science PhD student in the IMADA department at the University of Southern Denmark (SDU), advised by Fabrizio Montesi. His research interests are in distributed systems, concurrency theory, choreographic programming and programming languages.&lt;/p&gt;
 
 &lt;h2 id=&#34;june-9&#34;&gt;June 9&lt;/h2&gt;
 
