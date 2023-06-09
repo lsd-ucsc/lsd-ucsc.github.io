@@ -35,7 +35,7 @@ active = false
 [[news]]
    kind = "paper"
    date = "May 18, 2023"
-   who = "Gan Shen, Shun Kashiwa, and Lindsey Kuper:
+   who = "Gan Shen, Shun Kashiwa, and Lindsey Kuper"
    paper_name = "HasChor: Functional Choreographic Programming for All (Functional Pearl)"
    conf_name = "ICFP 2023"
    paper_link = "https://arxiv.org/abs/2303.00924"
