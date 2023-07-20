@@ -34,6 +34,15 @@ active = false
 
 [[news]]
    kind = "paper"
+   date = "July 4, 2023"
+   who = "Patrick Redmond and Lindsey Kuper"
+   paper_name = "An Exceptional Actor System (Functional Pearl)"
+   conf_name = "Haskell Symposium 2023"
+   paper_link = "https://users.soe.ucsc.edu/~lkuper/papers/exceptional-actors-haskell23.pdf"
+   conf_link = "https://icfp23.sigplan.org/home/haskellsymp-2023"
+
+[[news]]
+   kind = "paper"
    date = "May 18, 2023"
    who = "Gan Shen, Shun Kashiwa, and Lindsey Kuper"
    paper_name = "HasChor: Functional Choreographic Programming for All (Functional Pearl)"
