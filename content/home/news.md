@@ -32,6 +32,13 @@ active = false
 
 ### Add your new news items to the *top*, right below this comment.
 
+
+[[news]]
+   kind = "award"
+   date = "September 6, 2023"
+   who = "Gan Shen, Shun Kashiwa, and Lindsey Kuper"
+   award_name = 'Distinguished Paper Award at ICFP 2023 for "HasChor: Functional Choreographic Programming for All (Functional Pearl)"'
+
 [[news]]
    kind = "paper"
    date = "July 4, 2023"
@@ -83,7 +90,12 @@ active = false
    conf_name = "SESAME 2023"
    paper_link = "https://dl.acm.org/doi/10.1145/3592533.3592806"
    conf_link = "https://sesame23.github.io/"
-
+   
+[[news]]
+   kind = "award"
+   date = "March 29, 2023"
+   who = "Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, and Tyler Sorensen"
+   award_name = 'Distinguished Paper Award and Distinguished Artifact Award as ASPLOS 2023 for "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications"'
 
 [[news]]
    kind = "paper"
