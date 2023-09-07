@@ -7,8 +7,13 @@
     <a href="{{ .paper_link }}">{{ .paper_name | markdownify }}</a> by {{ .who | markdownify }} was accepted at <a href="{{ .conf_link }}">{{ .conf_name }}</a>.
   {{ else if (eq .kind "award") }}
     {{/* Styling for 'award' news items */}}
-    {{ .who | markdownify }} received the <a href="{{ .award_link }}">{{ .award_name }}</a>. Congratulations, {{ index (split .who " ") 0 }}!
-      {{ else if (eq .kind "cond") }}
+    {{ .who | markdownify }} received the
+      {{ if .award_link }}
+        <a href="{{ .award_link }}">{{ .award_name }}</a>
+      {{ else }}
+        {{ .award_name }}
+      {{ end }}. Congratulations!
+  {{ else if (eq .kind "cond") }}
     {{/* Styling for 'cond_paper' news items */}}
     {{ .paper_name | markdownify }} by {{ .who | markdownify }} was conditionally accepted at <a href="{{ .conf_link }}">{{ .conf_name }}</a>. Link coming soon!
   {{ else }}
