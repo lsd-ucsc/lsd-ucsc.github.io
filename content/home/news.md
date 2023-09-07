@@ -95,7 +95,7 @@ active = false
    kind = "award"
    date = "March 29, 2023"
    who = "Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, and Tyler Sorensen"
-   award_name = 'Distinguished Paper Award and Distinguished Artifact Award as ASPLOS 2023 for "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications"'
+   award_name = 'Distinguished Paper Award and Distinguished Artifact Award at ASPLOS 2023 for "MC Mutants: Evaluating and Improving Testing for Memory Consistency Specifications"'
 
 [[news]]
    kind = "paper"
