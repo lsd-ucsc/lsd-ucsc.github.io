@@ -31,5 +31,12 @@ title = "Alumni"
   grad_year = "2022"
   org = "Software Engineer, Google"
   www   = "https://kamalaramas.github.io"
+
+[[people]]
+  name  = "Vaishnavi Sundararajan"
+  degree = "Postdoc"
+  grad_year = "2020-2022"
+  org = "Assistant Professor, IIT Delhi"
+  www   = "https://vaishs.github.io/"
   
 +++
