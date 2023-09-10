@@ -63,4 +63,10 @@ title = "Faculty"
   title = "Assistant Professor"
   img = "tyler_sorensen.jpg"
   
+[[people]]
+  name = "Liting Hu"
+  www = "https://people.ucsc.edu/~lhu82/"
+  title = "Assistant Professor"
+  img = "liting_hu.jpg"
+  
 +++
