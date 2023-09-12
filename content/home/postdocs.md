@@ -1,6 +1,6 @@
 +++
 widget = "postdocs"
-active = true
+active = false
 layout = "widgets/people"
 
 weight = 3
