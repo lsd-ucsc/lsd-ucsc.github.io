@@ -6,8 +6,143 @@
     <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Mar 2023 10:41:50 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 11 Aug 2023 19:47:53 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (Fall 2023)</title>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2023fa/</link>
+      <pubDate>Fri, 11 Aug 2023 19:47:53 -0700</pubDate>
+      
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2023fa/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
+
+&lt;p&gt;For fall 2023, we will continue to host the LSD Seminar in a hybrid fashion.  Anyone can attend on Zoom, and local folks can gather in person in the lab.  Speakers can join either in person or on Zoom, whichever is convenient.&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#sept-29&#34;&gt;Sept. 29&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Vikram Narayanan&lt;/td&gt;
+&lt;td&gt;Towards fine-grained compartmentalization of operating system kernels&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Oct. 6&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Oct. 13&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Oct. 20&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Oct. 27&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nov. 3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nov. 17&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Dec. 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Dec. 8&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;sept-29&#34;&gt;Sept. 29&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  Vikram Narayanan&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Towards fine-grained compartmentalization of operating system kernels&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Commodity operating systems execute core kernel subsystems in a single
+address space along with hundreds of dynamically loaded extensions and
+device drivers. Lack of isolation within the kernel implies that a
+vulnerability in any of the kernel subsystems or device drivers opens
+a way to mount a successful attack on the entire kernel. Historically,
+isolation within the kernel remained prohibitive due to the high cost
+of hardware isolation primitives. Recent CPUs, however, bring a new
+set of mechanisms. Extended page-table (EPT) switching with VM
+functions and memory protection keys (MPKs) provide memory isolation
+and invocations across boundaries of protection domains with overheads
+comparable to system calls.&lt;/p&gt;
+
+&lt;p&gt;I will talk about how we developed a collection of techniques for
+lightweight isolation of privileged kernel code(LXDs and LVDs) that
+demonstrates near-native performance of two (network, block)
+high-performance device drivers. I will present KSplit, a framework
+for isolating unmodified device drivers in a modern, full featured
+kernel that performs automated analyses on the unmodified source code
+of the kernel and the driver to identify shared state and
+synchronization requirements for efficient isolation.&lt;/p&gt;
+
+&lt;h1 id=&#34;oct-6&#34;&gt;Oct. 6&lt;/h1&gt;
+
+&lt;h1 id=&#34;oct-13&#34;&gt;Oct. 13&lt;/h1&gt;
+
+&lt;h1 id=&#34;oct-20&#34;&gt;Oct. 20&lt;/h1&gt;
+
+&lt;h1 id=&#34;oct-27&#34;&gt;Oct. 27&lt;/h1&gt;
+
+&lt;h1 id=&#34;nov-3&#34;&gt;Nov. 3&lt;/h1&gt;
+
+&lt;h1 id=&#34;nov-17&#34;&gt;Nov. 17&lt;/h1&gt;
+
+&lt;h1 id=&#34;dec-1&#34;&gt;Dec. 1&lt;/h1&gt;
+
+&lt;h1 id=&#34;dec-8&#34;&gt;Dec. 8&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Spring 2023)</title>
