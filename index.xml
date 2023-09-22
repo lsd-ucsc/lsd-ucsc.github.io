@@ -122,6 +122,10 @@ kernel that performs automated analyses on the unmodified source code
 of the kernel and the driver to identify shared state and
 synchronization requirements for efficient isolation.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Vikram recently graduated with a PhD from the University of
+Utah. His research interests are building secure operating system
+kernels, and heterogeneous systems.&lt;/p&gt;
+
 &lt;h1 id=&#34;oct-6&#34;&gt;Oct. 6&lt;/h1&gt;
 
 &lt;h1 id=&#34;oct-13&#34;&gt;Oct. 13&lt;/h1&gt;
