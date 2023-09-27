@@ -229,7 +229,7 @@
 <tr>
 <td><a href="#oct-6">Oct. 6</a></td>
 <td>Nick Rioux</td>
-<td>TBD</td>
+<td>Compositional &amp; Scalable Programming in Granite</td>
 </tr>
 
 <tr>
@@ -311,11 +311,32 @@ kernels, and heterogeneous systems.</p>
 
 <p><strong>Speaker:</strong> Nick Rioux</p>
 
-<p><strong>Title:</strong> TBD</p>
+<p><strong>Title:</strong> Compositional &amp; Scalable Programming in Granite</p>
 
-<p><strong>Abstract:</strong> TBD</p>
+<p><strong>Abstract:</strong> Granite is a strict and untyped programming language under development with the
+goal of enhancing functional programming along a number of axes.
+It aims to provide a basis for general-purpose programming that is:</p>
 
-<p><strong>Bio:</strong> TBD</p>
+<ol>
+<li>Compositional: It is easy to extend (mutually) recursive functions to
+support new cases.</li>
+<li>Expressive: Programmers can work with both the rich data structures common
+in functional programming as well as cyclic data more naturally supported by
+Datalog.</li>
+<li>Scalable: Programs naturally incorporate parallelism in a manner reminiscent
+of LVars. This should also extend to eventually consistent-by-design distributed
+computation a la CRDTs.</li>
+</ol>
+
+<p>Perhaps surprisingly, these three aspects of language design are related:
+Granite&rsquo;s design is emerging from the observation that the key to achieving each
+of the above-mentioned goals is a join-semilattice. Granite makes semilattice
+structure a first-class language feature; we&rsquo;ll see what this means by example.</p>
+
+<p><strong>Bio:</strong> Nick is a PhD student at the University of Pennsylvania. He applies mathematical
+concepts from abstract algebra to make it more practical for programmers to
+break their code into smaller reusable components while also scaling their
+programs across a distributed system.</p>
 
 <h1 id="oct-13">Oct. 13</h1>
 

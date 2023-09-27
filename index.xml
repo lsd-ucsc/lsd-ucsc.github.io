@@ -48,7 +48,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-6&#34;&gt;Oct. 6&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Nick Rioux&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Compositional &amp;amp; Scalable Programming in Granite&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -130,11 +130,32 @@ kernels, and heterogeneous systems.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Nick Rioux&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Compositional &amp;amp; Scalable Programming in Granite&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Granite is a strict and untyped programming language under development with the
+goal of enhancing functional programming along a number of axes.
+It aims to provide a basis for general-purpose programming that is:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Compositional: It is easy to extend (mutually) recursive functions to
+support new cases.&lt;/li&gt;
+&lt;li&gt;Expressive: Programmers can work with both the rich data structures common
+in functional programming as well as cyclic data more naturally supported by
+Datalog.&lt;/li&gt;
+&lt;li&gt;Scalable: Programs naturally incorporate parallelism in a manner reminiscent
+of LVars. This should also extend to eventually consistent-by-design distributed
+computation a la CRDTs.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Perhaps surprisingly, these three aspects of language design are related:
+Granite&amp;rsquo;s design is emerging from the observation that the key to achieving each
+of the above-mentioned goals is a join-semilattice. Granite makes semilattice
+structure a first-class language feature; we&amp;rsquo;ll see what this means by example.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Nick is a PhD student at the University of Pennsylvania. He applies mathematical
+concepts from abstract algebra to make it more practical for programmers to
+break their code into smaller reusable components while also scaling their
+programs across a distributed system.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-13&#34;&gt;Oct. 13&lt;/h1&gt;
 
