@@ -109,6 +109,12 @@ title = "Students"
   www = "https://haofan.me/"
   title = "Ph.D. Student"
   img = "haofan_zheng.jpg"
+
+[[people]]
+  name = "Devon McKee"
+  www = "https://devon.engineering"
+  title = "Ph.D. Student"
+  img = "devon_mckee.jpg"
   
 [[people]]
   name = "Your Name Here"
