@@ -54,12 +54,12 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-13&#34;&gt;Oct. 13&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Harrison Goldstein&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Advancing Property-Based Testing in Theory and Practice&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-20&#34;&gt;Oct. 20&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Adrian Lehmann&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -161,15 +161,36 @@ programs across a distributed system.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Harrison Goldstein&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Advancing Property-Based Testing in Theory and Practice&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Property-based testing (PBT) is a testing methodology that allows users to write executable
+specifications of programs and test those specifications with automatically generated program
+inputs. PBT is well-documented as a power-tool for bug-finding, with success stories at companies
+like DropBox, Volvo, and Amazon, but we think it has still not reached its full potential. Our group
+has taken a user-centered approach to advancing PBT, talking to real developers and discovering the
+challenges that they face when using it.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;I present two new abstractions for random data generators&amp;mdash;free generators and reflective
+generators&amp;mdash;that help address some of these challenges. Free generators re-imagine generators as
+&amp;ldquo;parsers of randomness.&amp;rdquo; They show that a generator is really a parser for sequences of random
+choices, and this perspective suggests new generation techniques. Reflective generators build on
+free generators, adding support for &amp;ldquo;backward&amp;rdquo; execution in which a generated value can be turned
+back into the sequence of choices that produced it. Backward generator execution is the foundation
+for a wealth of new algorithms, including ones for test-case &amp;ldquo;shrinking,&amp;rdquo; test-case mutation, and
+example-based generator tuning.&lt;/p&gt;
+
+&lt;p&gt;Moving forward, we plan to focus on usability: free and reflective generators should be easy for
+developers to write, and they should make other parts of the PBT process easier as well. I discuss
+future work in this direction.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Harry Goldstein is a Ph.D. candidate at the University of Pennsylvania, advised by professor
+Benjamin Pierce. His work leverages techniques from both programming languages and human-computer
+interaction to make tools for software testing more powerful and usable. You can find his
+publication list, blog, and other information at &lt;a href=&#34;https://harrisongoldste.in&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://harrisongoldste.in&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-20&#34;&gt;Oct. 20&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Adrian Lehmann&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
 
