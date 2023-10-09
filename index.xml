@@ -60,7 +60,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-20&#34;&gt;Oct. 20&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Adrian Lehmann&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;VyZX: Formal Verification of a Graphical Language&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -192,11 +192,11 @@ publication list, blog, and other information at &lt;a href=&#34;https://harriso
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Adrian Lehmann&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; VyZX: Formal Verification of a Graphical Language&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Mathematical representations of graphs often resemble adjacency matrices or lists, representations that facilitate whiteboard reasoning and algorithm design. In the realm of proof assistants, inductive representations effectively define semantics for formal reasoning. This highlights a gap where algorithm design and proof assistants require a fundamentally different structure of graphs. To address this gap, we present VyZX, a verified library for reasoning about inductively defined graphical languages. These inductive constructs arise naturally from category theory definitions. A key goal for VyZX is to verify the ZX calculus, a graphical language for reasoning about categorical quantum mechanics. Used as a more general model than the standard quantum circuit model, the ZX calculus equips its construction “ZX-diagrams” with a collection of diagrammatic rewrite rules that preserve the graph&amp;rsquo;s semantic interpretation. The ZX calculus has been shown to be useful for building quantum error correction, quantum compilers, and for general graphical reasoning. In VyZX using an initial set of rules proven through their semantics, we proceed to prove facts about the ZX calculus by only appealing to statements about the ZX calculus using standard proof assistant techniques. VyZX integrates easily with the proof engineer&amp;rsquo;s workflow through visualization, automation and verified conversion of quantum circuits to ZX diagrams.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Adrian Lehmann is a PhD student at the University of Chicago adivsed by John Reppy working with Robert Rand. His interests lie in programming languages: compilation, verification, and using PL for better software engineering. He’s currently exploring applying these techniques to quantum computing.&lt;/p&gt;
 
 &lt;h1 id=&#34;oct-27&#34;&gt;Oct. 27&lt;/h1&gt;
 
