@@ -253,7 +253,7 @@
 <tr>
 <td><a href="#nov-3">Nov. 3</a></td>
 <td>Karine Even-Mendoza</td>
-<td>TBD</td>
+<td>GrayC: Greybox Fuzzing of Compilers and Analysers for C</td>
 </tr>
 
 <tr>
@@ -395,11 +395,17 @@ publication list, blog, and other information at <a href="https://harrisongoldst
 
 <p><strong>Speaker:</strong> Karine Even-Mendoza</p>
 
-<p><strong>Title:</strong> TBD</p>
+<p><strong>Title:</strong> GrayC: Greybox Fuzzing of Compilers and Analysers for C</p>
 
-<p><strong>Abstract:</strong> TBD</p>
+<p><strong>Abstract:</strong> Fuzzing of compilers and code analysers has led to a large number of bugs being found and fixed in widely-used frameworks such as LLVM, GCC and Frama-C. Most such fuzzing techniques have taken a blackbox approach, with compilers and code analysers starting to become relatively immune to such fuzzers.</p>
 
-<p><strong>Bio:</strong> TBD</p>
+<p>In this talk, I will introduce a novel coverage-directed, mutation-based approach for fuzzing C compilers and code analysers inspired by the success of greybox fuzzing in other application domains. I will discuss the main challenge of applying mutation-based fuzzing in this context and present our solution: GrayC, a novel Greybox fuzzer for C compilers and analysers.</p>
+
+<p>Naive mutations often result in non-compilable programs, which hinders their ability to discover critical bugs affecting optimisation, analysis, and code generation routines. To address this, we have designed a novel greybox fuzzer for C compilers and analysers by developing a new set of mutations to target common C constructs, transforming fuzzed programs so that they produce meaningful output, allowing differential testing used as a test oracle, and paving the way for integrating fuzzer-generated programs into compiler and code analyser&rsquo;s regression test suites.</p>
+
+<p>We have implemented our approach in GrayC, an open-source LibFuzzer-based tool. Our experiments demonstrate its superior coverage, particularly in compilers and analysers&rsquo; middle and back-end stages, outperforming Clang-Fuzzer, PolyGlot, and similar LangFuzz techniques. Through GrayC, we have identified 30 confirmed bugs in compilers and code analysers and enriched the Clang/LLVM test suite with 24 simplified, coverage-enhancing the Clang/LLVM test suite, targeting 78 previously uncovered functions in the LLVM codebase.</p>
+
+<p><strong>Bio:</strong> Karine Even-Mendoza is a Lecturer in Systems and Programming Languages (CS) at King&rsquo;s College London with a PhD in Computer Science from King&rsquo;s College London. Before joining as a lecturer, she was a Research Associate in the Department of Computing at Imperial College London, where she worked in the Software Reliability Group (SRG) and Multicore Programming Group on compiler testing and software testing in general. Her PhD at King&rsquo;s College London, in the SSY group, focused on model checking, SMT solving, and incremental verification for software. Before her PhD studies, she worked in several local and international software companies.</p>
 
 <h1 id="nov-17">Nov. 17</h1>
 
