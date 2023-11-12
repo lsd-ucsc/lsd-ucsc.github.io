@@ -259,7 +259,7 @@
 <tr>
 <td><a href="#nov-17">Nov. 17</a></td>
 <td>Suha S. Hussain</td>
-<td>TBD</td>
+<td>MLFiles: Using Input-Handling Bugs to Inject Backdoors Into Machine Learning Pipelines</td>
 </tr>
 
 <tr>
@@ -411,11 +411,32 @@ publication list, blog, and other information at <a href="https://harrisongoldst
 
 <p><strong>Speaker:</strong> Suha S. Hussain</p>
 
-<p><strong>Title:</strong> TBD</p>
+<p><strong>Title:</strong> MLFiles: Using Input-Handling Bugs to Inject Backdoors Into Machine Learning Pipelines</p>
 
-<p><strong>Abstract:</strong> TBD</p>
+<p><strong>Abstract:</strong> The widespread use of machine learning (ML), especially in safety-critical applications,
+necessitates robust security measures for ML pipelines. Prior research has demonstrated the
+existence of model vulnerabilities, including model backdoors that can compromise the integrity
+of ML pipelines. Although many backdoor attacks limit the attack surface to the model, ML
+models are not standalone objects. These models are embedded in ML pipelines that involve
+multiple interacting components and are built using a wide range of ML tools.
+In this talk, I will discuss our investigation of input-handling bugs in ML tools as a vector for
+injecting backdoors into ML pipelines. Input-handling bugs are central to the field of
+language-theoretic security (LangSec), which advocates for the treatment of inputs as a formal
+language in order to develop precise, minimalist input-handling code. Drawing from a LangSec
+taxonomy of input-handling bugs, we systematically identified and exploited vulnerabilities with
+ML model serialization in popular tools. This process enabled us to construct ML backdoors,
+substantiating our claim. In the process, we engineered malicious artifacts, including polyglot
+and ambiguous files, using ML model files; contributed to the fickling library; and formulated a
+series of guidelines to provide actionable steps to ameliorate this issue. Our investigation brings
+to light the risks posed by input-handling bugs in tools to the overall security of ML pipelines,
+arguing for an approach that concurrently addresses software security issues in tools and model
+vulnerabilities.</p>
 
-<p><strong>Bio:</strong> TBD</p>
+<p><strong>Bio:</strong> Suha S. Hussain is a security engineer on the machine learning assurance team at Trail of Bits.
+She has worked on projects such as the safetensors security audit and fickling. She received
+her BS in Computer Science (with threads in people and theory) from Georgia Tech where she
+also conducted research at the Institute for Information Security and Privacy. She previously
+worked at the NYU Center for Cybersecurity and Vengo Labs.</p>
 
 <h1 id="dec-1">Dec. 1</h1>
 
