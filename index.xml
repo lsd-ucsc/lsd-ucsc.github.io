@@ -84,7 +84,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#dec-1&#34;&gt;Dec. 1&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Kelly Kaoudis&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Systems security in practice: threat modelling at Trail of Bits&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -261,11 +261,13 @@ worked at the NYU Center for Cybersecurity and Vengo Labs.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Kelly Kaoudis&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Systems security in practice: threat modelling at Trail of Bits&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Every system user and engineer has a different threat model, and a different understanding of the systems and applications they use or work on. Failure to unify these bodies of knowledge leads to not sufficiently considering weaknesses of the system and threats to it; this leads to surprise when an attacker exploits these weaknesses, which leads to incident response (and sometimes also sadness). Holistic threat modelling informs and enables making good system-level security decisions to minimize potential attack vectors. During a threat modelling engagement, Trail of Bits aims to methodically enumerate as many in-scope, system-level risks and weaknesses as possible. &amp;ldquo;System-level&amp;rdquo; here means architectural, design-level, or operational gaps in the client&amp;rsquo;s security posture. We use concrete examples in the form of threat scenarios and findings to show the client (rather than tell them) the insufficiently applied security controls we have identified, and to illustrate the risk implications of the lack of those security controls.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;In this talk, I will present some of the interesting findings we&amp;rsquo;ve uncovered during previous (published) threat modelling engagements. Using examples from engagement reports to motivate each step, I will walk through the threat modelling process at Trail of Bits, and also talk about how our process can be useful in academic security work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Kelly Kaoudis is a senior security engineer in the Research practice at Trail of Bits. She is a tech lead for threat modelling engagements, and contributes to Trail&amp;rsquo;s academic and industry research projects including open source parser and file formats analysis tooling. Prior to Trail of Bits, Kelly was the tech lead for Twitter&amp;rsquo;s application security team, and a graduate student in the Networking and Security (NSR) group at University of Colorado Boulder with Prof. Eric Keller. She received an MS in computer science from University of Colorado - Boulder in 2015.&lt;/p&gt;
 
 &lt;h1 id=&#34;dec-8&#34;&gt;Dec. 8&lt;/h1&gt;
 
