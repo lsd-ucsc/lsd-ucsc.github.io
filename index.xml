@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#dec-8&#34;&gt;Dec. 8&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Susan Tan&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;TULIP🌷 : Transcompilation Undergoes LLVM-IR for Interactive Parallelization&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -273,11 +273,11 @@ worked at the NYU Center for Cybersecurity and Vengo Labs.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Susan Tan&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TULIP🌷 : Transcompilation Undergoes LLVM-IR for Interactive Parallelization&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The exploration of heterogeneous systems has given rise to various parallel programming models (PPMs). However, the preference of hardware vendors for specific PPMs requires developers to manage multiple implementations for the same kernels. This not only consumes additional time but also impedes the seamless integration of new features and algorithm optimizations. This can be mitigated by a transcompiler. As it focuses its optimizations on the Abstract Syntax Tree (AST) level, a traditional transcompile falls short due to the preservation of syntax and semantics, limiting the compiler&amp;rsquo;s ability to reason about dependences. To address this, we introduce TULIP, a framework that transcompiles CUDA programs into OpenMP code—two widely adopted PPMs for prevalent heterogeneous CPU+GPU systems. Operating at the Intermediate Representation (IR) level instead, TULIP opens up opportunities to use state-of-the-art automatic parallelization frameworks for enhanced code performance.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I am a fifth-year Ph.D. student in the Liberty Research Group at Princeton University, working under the supervision of Prof. David I. August. My research focuses on automatic parallelization, with a particular interest in exploring how tools such as decompilers and transcompilers can derive benefits from and contribute to state-of-the-art parallelization frameworks. In my spare time, I engage in reading and photography, capturing moments for friends&amp;rsquo; special occasions.&lt;/p&gt;
 
 &lt;hr /&gt;
 
