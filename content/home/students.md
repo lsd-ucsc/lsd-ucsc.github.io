@@ -40,7 +40,7 @@ title = "Students"
 
 [[people]]
   name = "Reese Levine"
-  www = "https://users.soe.ucsc.edu/~reeselevine/"
+  www = "https://reeselevine.github.io"
   title = "Ph.D. Student"
   img = "reese_levine.png"
 

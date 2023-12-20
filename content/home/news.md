@@ -40,6 +40,12 @@ active = false
    award_name = 'Distinguished Paper Award at ICFP 2023 for "HasChor: Functional Choreographic Programming for All (Functional Pearl)"'
 
 [[news]]
+   kind = "award"
+   date = "July 19, 2023"
+   who = "Reese Levine, Tianhao Guo, Mingun Cho, Alan Baker, Raph Levien, David Neto, Andrew Quinn, and Tyler Sorensen"
+   award_name = 'Distinguished Artifact Award at ISSTA 2023 for "GPUHarbor: Testing GPU Memory Consistency at Large (Experience Paper)"'
+
+[[news]]
    kind = "paper"
    date = "July 4, 2023"
    who = "Patrick Redmond and Lindsey Kuper"
@@ -56,6 +62,15 @@ active = false
    conf_name = "ICFP 2023"
    paper_link = "https://arxiv.org/abs/2303.00924"
    conf_link = "https://icfp23.sigplan.org/"
+
+[[news]]
+   kind = "paper"
+   date = "May 2, 2023"
+   who = "Reese Levine, Mingun Cho, Devon McKee, Andrew Quinn, and Tyler Sorensen"
+   paper_name = "GPUHarbor: Testing GPU Memory Consistency at Large (Experience Paper)"
+   conf_name = "ISSTA 2023"
+   paper_link = "https://dl.acm.org/doi/abs/10.1145/3597926.3598095"
+   conf_link = "https://conf.researchr.org/home/issta-2023"
 
 [[news]]
    kind = "paper"
