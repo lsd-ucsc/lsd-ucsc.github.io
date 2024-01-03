@@ -42,7 +42,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-12&#34;&gt;Jan. 12&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Beta Ziliani&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Making monkeys and ducks behave with Crystal Lang&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -107,11 +107,15 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Beta Ziliani&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Making monkeys and ducks behave with Crystal Lang&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In the zoo of programming languages there are two cute yet rather misbehaved animals, typically found in the Dynamic Languages section: the Duck Typing and the Monkey Patching.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The Duck Typing is hardly seen.  You hear a “quack!“, but you can’t easily tell if it’s coming from an actual duck, a parrot, or a recording.  Monkey Patching, like the name suggests, patches any existing creature to change their behavior.  It can even make a dog quack!&lt;/p&gt;
+
+&lt;p&gt;While these two animals bring lots of joy, they are also quite dangerous when used in the wild, as they can bring unexpected behavior to the rest of the creatures.&lt;/p&gt;
+
+&lt;p&gt;Crystal is a rarity in the Static Languages section that has Duck Typing and Monkey Patching.  Given the strong &amp;ndash; yet barely visible &amp;ndash; fences of types, it manages to properly contain these beasts.  In this talk I will present Crystal and provide a glimpse at how it manages to feel so dynamic while being safe and efficient.&lt;/p&gt;
 
 &lt;h1 id=&#34;jan-19&#34;&gt;Jan. 19&lt;/h1&gt;
 
