@@ -6,9 +6,12 @@ Website for the Languages, Systems, and Data Lab at UC Santa Cruz.
 This website is largely based on [the Cornell PL website](https://github.com/cornell-pl/pl.cs.cornell.edu), with special thanks to 
 [Rachit Nigam](https://rachitnigam.com) for technical and moral support!
 
+## Hosting
+
 The LSD website available at <https://lsd-ucsc.github.io/> and mirrored with some delay at <https://lsd.ucsc.edu/>. If you ever notice discrepancies between these, please make an issue.
 
-In January 2024 the <https://lsd.ucsc.edu/> mirror of the website switched from UCSC ITS hosting on AFS to a new AWS host administered by UCSC. We discussed how to mirror and struck an agreement in ticket [INC1792531](https://slughub.ucsc.edu/its?id=ticket&table=incident&sys_id=c418fd681b13f510e8c5eb93604bcb70) that UCSC would run a cron-job on their server to mirror the site. If there's ever a discrepancy betwen those two URLs, we need to ask someone at UCSC to take a look at the cron-job.
+* Jan 2024 - We noticed that the mirroring wasn't working. Changes made on Jan 3rd were visible immediately on <https://lsd-ucsc.github.io/> but as of Jan 7th were not visible at <https://lsd.ucsc.edu/>. The ticket [INC1800159](https://slughub.ucsc.edu/its?sys_id=bf46e8ee1b2bf990931886e0604bcbe2&view=sp&id=ticket&table=incident) tracks this issue.
+* Dec 2023 - UCSC hosting for the website website switched from ITS hosting on AFS to a new AWS host. We discussed how to mirror and struck an agreement in ticket [INC1792531](https://slughub.ucsc.edu/its?id=ticket&table=incident&sys_id=c418fd681b13f510e8c5eb93604bcb70) that UCSC would run a cron-job on their server to mirror the site from <https://lsd-ucsc.github.io/> to <https://lsd.ucsc.edu/>. If there's ever a discrepancy betwen those two URLs, we need to ask someone at UCSC to take a look at the cron-job.
 
 ## Making changes to the public site
 
