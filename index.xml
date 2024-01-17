@@ -54,7 +54,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-26&#34;&gt;Jan. 26&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Devashish Purandare&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Shimmer: Supercharging Adoption of Modern SSD Interfaces&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -133,11 +133,13 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Devashish Purandare&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Shimmer: Supercharging Adoption of Modern SSD Interfaces&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; While the demand for NAND-flash-based storage keeps growing, capacity increase comes at the cost of degradation in performance and device lifetime. Traditional storage abstractions exacerbate such degradation, increasing garbage collection overhead due to in-place updates. Even in the case of flash-optimized append-only systems suffer the overhead of interleaving unrelated data streams. Host-device coordination techniques allow the host to provide the device with hints, which help the SSD to ensure performance isolation across write streams and reduce garbage collection overhead by grouping data related by lifetime. However, such devices have seen limited adoption due to the difficulty of rewriting applications and filesystems and the impact on their stability, security, and portability in the face of changing interfaces.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We present Shimmer, an all-userspace shim layer that enables host-device coordination with no change to the system or the application. Shimmer utilizes application insights to provide intelligent placement hints to any capable storage backend and can shield applications and filesystems from changing interfaces. We demonstrate Shimmer&amp;rsquo;s ease of adoption by enabling host-device coordination for popular IO intensive applications: RocksDB, WiredTiger and Cachelib. Shimmer improves write throughput by 20-90%, depending on the application over modern filesystems like f2fs and can match application-specific backends like ZenFs, offering up to 14× lower tail latency and reduced write amplification.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Dev is a PhD candidate researching storage systems, SSDs, and data management at the Center for Research in Storage and Systems, UC Santa Cruz. He works on systems that enable easier host-device coordination for performance and reliability improvements. His latest project, Shimmer, allows easy shim layers to generate and provide lifetime hints that improve the performance of log-structured systems on top of SSDs with no change to applications or operating systems.He will be graduating in March and is actively seeking full time opportunities.&lt;/p&gt;
 
 &lt;h1 id=&#34;feb-2&#34;&gt;Feb. 2&lt;/h1&gt;
 
