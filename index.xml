@@ -114,13 +114,13 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-16&#34;&gt;Feb. 16&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Laura Israel&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;The Persistence of Past: A Demand Semantics for Mechanized Cost Analysis of Lazy Programs&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-23&#34;&gt;Feb. 23&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Achilles Benetopoulos&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Don&amp;rsquo;t Let APIs Constrain Your Distributed Systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -211,11 +211,13 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Achilles Benetopoulos&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Don&amp;rsquo;t Let APIs Constrain Your Distributed Systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Large scale distributed applications frequently consist of compositions of independent systems communicating over RPC-like interfaces. Despite the familiar model they offer, RPCs constitute a low-level programming interface; just like an application programmer needs to be aware of how a computer executes their program when writing in something like C, they need to become distributed systems experts to correctly implement complex distributed application logic. Additionally, the shared-nothing model that underpins these systems as well as the hard boundaries established by the remote service interfaces introduce overheads in the hot path of applications and preclude end-to-end optimizations. As distribution becomes more pervasive, and as our understanding of the limitations of attempting to scale out computation over the network deepens, it is time to reimagine the role of infrastructure in orchestrating distribution and empowering domain experts with big data problems but not necessarily the distributed systems expertise to implement a bespoke system for their needs.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We introduce Magpie, a distributed single-level store and runtime. Magpie, like Distributed Shared Memory systems before it, organizes application data in a unified global address space. Unlike previous systems, Magpie always co-locates a computation with its set of data dependencies, avoiding the coherence overheads that made DSM untenable. We accomplish this co-location through fine-grained data and code mobility, enabled by a programming model that allows users to write programs as compositions of local, location-independent functions, which the runtime is free to schedule anywhere in the cluster their data dependencies can be met. In this talk I will go over Magpie’s design, its programming model, and our experience using it to build distributed infrastructure and applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;: Achilles is a third year PhD candidate at UCSC, working at the intersection of distributed systems, databases, and programming languages with Peter Alvaro. He &lt;a href=&#34;https://lsd.ucsc.edu/lsd-seminar/2021sp/#april-16&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;still cooks&lt;/a&gt; when he gets too frustrated by computers.&lt;/p&gt;
 
 &lt;h1 id=&#34;march-1&#34;&gt;March 1&lt;/h1&gt;
 
