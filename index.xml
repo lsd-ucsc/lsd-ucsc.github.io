@@ -126,7 +126,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-1&#34;&gt;March 1&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Karuna Grewal&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Expressive Policies for Microservice Networks&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -223,11 +223,33 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Karuna Grewal&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Expressive Policies for Microservice Networks&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Microservice-based application deployments need to administer safety
+properties while serving requests. However, today such properties can
+be specified only in limited ways that can lead to overly permissive
+policies and the potential for illegitimate flow of information across
+microservices, or ad hoc policy implementations.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We argue that a range of use cases require safety properties for the
+flow of requests across the whole microservice network, rather than
+only between adjacent hops. To begin specifying such expressive
+policies, we propose a system for declaring and deploying service tree
+policies. These policies are compiled down into declarative filters
+that are inserted into microservice deployment manifests. We use a
+light-weight dynamic monitor based enforcement mechanism, using ideas
+from automata theory. Experiments with our preliminary prototype show
+that we can capture a wide class of policies that we describe as case
+studies.&lt;/p&gt;
+
+&lt;p&gt;(This is a joint work with Brighten Godfrey from UIUC and Justin Hsu
+from Cornell University that appeared at HotNets&amp;rsquo;23.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Karuna Grewal is a third year Ph.D. student in the Computer Science
+department at Cornell University advised by Prof. Justin Hsu. Her
+current research focus is to apply techniques from programming
+languages and formal methods to distributed and networked systems with
+a focus on security properties.&lt;/p&gt;
 
 &lt;h1 id=&#34;march-8&#34;&gt;March 8&lt;/h1&gt;
 
