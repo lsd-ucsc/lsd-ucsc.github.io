@@ -99,6 +99,12 @@ title = "Students"
   img = "yanwen_xu.png"
   
 [[people]]
+  name = "Rithik Sharma"
+  www = "https://sharmarithik.github.io/rithiksharma/"
+  title = "Ph.D. Student"
+  img = "rithik_sharma.jpg"
+
+[[people]]
   name = "Jun Zhang (Aleck)"
   www = "https://people.ucsc.edu/~jzhan293/"
   title = "Ph.D. Student"
