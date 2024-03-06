@@ -52,6 +52,12 @@ title = "Faculty"
   img = "lindsey_kuper.jpg"
   
 [[people]]
+  name = "Mohsen Lesani"
+  www = "https://mohsenlesani.github.io/"
+  title = "Associate Professor"
+  img = "mohsen_lesani.jpg"
+  
+[[people]]
   name = "Ike Nassi"
   www = "https://www.soe.ucsc.edu/people/inassi/"
   title = "Adjunct Professor"

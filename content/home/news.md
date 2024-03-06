@@ -32,6 +32,10 @@ active = false
 
 ### Add your new news items to the *top*, right below this comment.
 
+[[news]]
+  kind = "any"
+  date = "January 15, 2024"
+  content = "Associate Professor Mohsen Lesani has joined UC Santa Cruz and the LSD Lab. Welcome, Mohsen!"
 
 [[news]]
    kind = "award"
