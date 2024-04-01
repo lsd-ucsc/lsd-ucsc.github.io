@@ -196,7 +196,9 @@
 
 
     <div class="article-style" itemprop="articleBody">
-      <p><strong>Time</strong>: Fridays, noon - 1:05pm (PT) <br />
+      
+
+<p><strong>Time</strong>: Fridays, noon - 1:05pm (PT) <br />
 <strong>Location</strong>: The Internet / The LSD Lab (Engineering 2, Room 398) <br />
 <strong>Organizers</strong>: Gan Shen, Lindsey Kuper, and Tyler Sorensen <br /></p>
 
@@ -221,7 +223,7 @@
 <tr>
 <td>April 5</td>
 <td>Luke Geeson</td>
-<td><em>TBD</em></td>
+<td>Compiler Testing with Relaxed Memory Models</td>
 </tr>
 
 <tr>
@@ -279,6 +281,30 @@
 </tr>
 </tbody>
 </table>
+
+<hr />
+
+<h2 id="april-5">April 5</h2>
+
+<p><strong>Speaker:</strong> Luke Geeson</p>
+
+<p><strong>Title:</strong> Compiler Testing with Relaxed Memory Models</p>
+
+<p><strong>Abstract:</strong> Finding bugs is key to the correctness of compilers in wide use today. If the behaviour of a compiled program, as allowed by its architecture memory model, is not a behaviour of the source program under its source model, then there is a bug. This holds for all programs, but we focus on concurrency bugs that occur only with two or more threads of execution. We focus on testing techniques that detect such bugs in C/C++ compilers.</p>
+
+<p>We seek a testing technique that automatically covers concurrency bugs up to fixed bounds on program sizes and that scales to find bugs in compiled programs with many lines of code. Otherwise, a testing technique can miss bugs. Unfortunately, the state-of-the-art techniques are yet to satisfy all of these properties.</p>
+
+<p>We present the Téléchat compiler testing tool for concurrent programs. Téléchat compiles a concurrent C/C++ program and compares source and compiled program behaviours using source and architecture memory models. We make three claims: Téléchat improves the state-of-the-art at finding bugs in code generation for multi-threaded execution, it is the first public description of a compiler testing tool for concurrency that is deployed in industry, and it is the first tool that takes a significant step towards the desired properties. We provide experimental evidence suggesting Téléchat finds bugs missed by other state-of-the-art techniques, case studies indicating that Téléchat satisfies the properties, and reports of our experience deploying Téléchat in industry regression testing.</p>
+
+<p>Based on work to appear in the International Symposium on Code Generation and Optimization (CGO) 2024:
+<a href="https://conf.researchr.org/info/cgo-2024/accepted-papers" rel="noreferrer" target="_blank">https://conf.researchr.org/info/cgo-2024/accepted-papers</a></p>
+
+<p>And recently presented work at The Future of Weak Memory Workshop (POPL) 2024:
+<a href="https://lukegeeson.com/talks/2024-01-15-POPL24/" rel="noreferrer" target="_blank">https://lukegeeson.com/talks/2024-01-15-POPL24/</a></p>
+
+<p><strong>Bio:</strong> Luke is a Computer Science PhD student at UCL, supervised by James Brotherston, Earl Barr, and Lee Smith. He is developing techniques to find concurrency bugs in C/C++ compilers using formal models of relaxed memory concurrency.</p>
+
+<p>He is based in the compiler teams at Arm in Cambridge where he assists engineers with finding bugs and deploying automated concurrency testing as part of an EPSRC grant. Luke&rsquo;s opinions are his own and Arm does not endorse his work.</p>
 
 <hr />
 

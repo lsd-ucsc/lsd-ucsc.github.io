@@ -15,7 +15,9 @@
       <pubDate>Mon, 22 Jan 2024 15:35:32 -0800</pubDate>
       
       <guid>http://lsd.ucsc.edu/lsd-seminar/2024sp/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
 &lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
 &lt;strong&gt;Organizers&lt;/strong&gt;: Gan Shen, Lindsey Kuper, and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
 
@@ -40,7 +42,7 @@
 &lt;tr&gt;
 &lt;td&gt;April 5&lt;/td&gt;
 &lt;td&gt;Luke Geeson&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Compiler Testing with Relaxed Memory Models&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -98,6 +100,30 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;april-5&#34;&gt;April 5&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Luke Geeson&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Compiler Testing with Relaxed Memory Models&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Finding bugs is key to the correctness of compilers in wide use today. If the behaviour of a compiled program, as allowed by its architecture memory model, is not a behaviour of the source program under its source model, then there is a bug. This holds for all programs, but we focus on concurrency bugs that occur only with two or more threads of execution. We focus on testing techniques that detect such bugs in C/C++ compilers.&lt;/p&gt;
+
+&lt;p&gt;We seek a testing technique that automatically covers concurrency bugs up to fixed bounds on program sizes and that scales to find bugs in compiled programs with many lines of code. Otherwise, a testing technique can miss bugs. Unfortunately, the state-of-the-art techniques are yet to satisfy all of these properties.&lt;/p&gt;
+
+&lt;p&gt;We present the Téléchat compiler testing tool for concurrent programs. Téléchat compiles a concurrent C/C++ program and compares source and compiled program behaviours using source and architecture memory models. We make three claims: Téléchat improves the state-of-the-art at finding bugs in code generation for multi-threaded execution, it is the first public description of a compiler testing tool for concurrency that is deployed in industry, and it is the first tool that takes a significant step towards the desired properties. We provide experimental evidence suggesting Téléchat finds bugs missed by other state-of-the-art techniques, case studies indicating that Téléchat satisfies the properties, and reports of our experience deploying Téléchat in industry regression testing.&lt;/p&gt;
+
+&lt;p&gt;Based on work to appear in the International Symposium on Code Generation and Optimization (CGO) 2024:
+&lt;a href=&#34;https://conf.researchr.org/info/cgo-2024/accepted-papers&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://conf.researchr.org/info/cgo-2024/accepted-papers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And recently presented work at The Future of Weak Memory Workshop (POPL) 2024:
+&lt;a href=&#34;https://lukegeeson.com/talks/2024-01-15-POPL24/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://lukegeeson.com/talks/2024-01-15-POPL24/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Luke is a Computer Science PhD student at UCL, supervised by James Brotherston, Earl Barr, and Lee Smith. He is developing techniques to find concurrency bugs in C/C++ compilers using formal models of relaxed memory concurrency.&lt;/p&gt;
+
+&lt;p&gt;He is based in the compiler teams at Arm in Cambridge where he assists engineers with finding bugs and deploying automated concurrency testing as part of an EPSRC grant. Luke&amp;rsquo;s opinions are his own and Arm does not endorse his work.&lt;/p&gt;
 
 &lt;hr /&gt;
 
