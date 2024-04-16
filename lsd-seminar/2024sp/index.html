@@ -233,9 +233,9 @@
 </tr>
 
 <tr>
-<td>April 19</td>
-<td>Kuru Ismail</td>
-<td><em>TBD</em></td>
+<td><a href="#april-19">April 19</a></td>
+<td>Ismail Kuru</td>
+<td>Modal Abstractions for Virtualizing Memory Addresses</td>
 </tr>
 
 <tr>
@@ -317,6 +317,20 @@
 <p>In this paper, we develop a model of choreographic programming for out-of-order processes that guarantees absence of CIVs and deadlocks. As an application of our approach, we also introduce an API for safe non-blocking communication via futures in the choreographic programming language Choral. The API allows processes to execute out of order, participate in multiple choreographies concurrently, and to handle unordered or dropped messages as in the UDP transport protocol. We provide an illustrative evaluation of our API, showing that out-of-order execution can reduce latency by overlapping communication with computation.</p>
 
 <p><strong>Bio:</strong> Dan works as a postdoc at the University of Southern Denmark and is receiving his PhD from the University of Illinois at Urbana-Champaign (UIUC). He is the author of the UIGC library for Akka, which provides fault-tolerant resource management for distributed actor systems. Dan’s research focuses on making distributed reactive applications easier to write and reason about.</p>
+
+<h2 id="april-19">April 19</h2>
+
+<p><strong>Speaker:</strong> Ismail Kuru</p>
+
+<p><strong>Title:</strong> Modal Abstractions for Virtualizing Memory Addresses</p>
+
+<p><strong>Abstract:</strong> Virtual Memory Managers are critical pieces of general-purpose OS kernels. They enable virtualizing the addresses of memory regions by realizing the address translation mechanism using CPU&rsquo;s memory management&rsquo;s (MMU) kernel-controlled page tables. Operating systems manipulate these virtualized memory mappings to isolate untrusted processes, restrict which memory is accessible to different processes, hide memory limits from user programs, etc.</p>
+
+<p>Unfortunately, verifying them becomes challenging as they are interfaced by the complex hardware: the page tables are updated via writes to those memory locations, using addresses that are themselves virtualized!  Prior work on verification of VMM has either only handled a single address space, trusted significant pieces of assembly code, or resorted to direct reasoning over machine semantics rather than exposing a clean logical interface.</p>
+
+<p>In this talk, I will be explaining the logical abstractions, some of which are inspired by Hybrid Logic and allow us to mention resources (virtualized memory addresses) belonging to different address spaces within the same specification.</p>
+
+<p><strong>Bio:</strong> I am Ismail Kuru, a final year PhD student at Drexel University, and I am advised by Dr. Colin S. Gordon. Right before coming to Drexel, I was a senior software engineer at CRYTEK Gaming Company. Before then, I had finished my computer science masters courses at TU Munich and graduated with an M.S. degree from Koc University as a Microsoft Research EMEA scholar for graduate studies.</p>
 
 <hr />
 
