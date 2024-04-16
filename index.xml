@@ -46,9 +46,9 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;April 12&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;#april-12&#34;&gt;April 12&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Dan Plyukhin&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Ozone: Fully Out-of-Order Choreographies&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -124,6 +124,18 @@
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Luke is a Computer Science PhD student at UCL, supervised by James Brotherston, Earl Barr, and Lee Smith. He is developing techniques to find concurrency bugs in C/C++ compilers using formal models of relaxed memory concurrency.&lt;/p&gt;
 
 &lt;p&gt;He is based in the compiler teams at Arm in Cambridge where he assists engineers with finding bugs and deploying automated concurrency testing as part of an EPSRC grant. Luke&amp;rsquo;s opinions are his own and Arm does not endorse his work.&lt;/p&gt;
+
+&lt;h2 id=&#34;april-12&#34;&gt;April 12&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Dan Plyukhin&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Ozone: Fully Out-of-Order Choreographies&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Choreographic programming is a paradigm for writing distributed applications. It allows programmers to write a single program, called a choreography, that can be compiled to generate correct implementations of each process in the application. Although choreographies provide good static guarantees, they can exhibit high latency when messages or processes are delayed. This is because processes in a choreography typically execute in a fixed, deterministic order, and cannot adapt to the order that messages arrive at runtime. In non-choreographic code, programmers can address this problem by allowing processes to execute out of order &amp;ndash; for instance by using futures or reactive programming. However, in choreographic code, out-of-order process execution can lead to serious and subtle bugs, called communication integrity violations (CIVs).&lt;/p&gt;
+
+&lt;p&gt;In this paper, we develop a model of choreographic programming for out-of-order processes that guarantees absence of CIVs and deadlocks. As an application of our approach, we also introduce an API for safe non-blocking communication via futures in the choreographic programming language Choral. The API allows processes to execute out of order, participate in multiple choreographies concurrently, and to handle unordered or dropped messages as in the UDP transport protocol. We provide an illustrative evaluation of our API, showing that out-of-order execution can reduce latency by overlapping communication with computation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Dan works as a postdoc at the University of Southern Denmark and is receiving his PhD from the University of Illinois at Urbana-Champaign (UIUC). He is the author of the UIGC library for Akka, which provides fault-tolerant resource management for distributed actor systems. Dan’s research focuses on making distributed reactive applications easier to write and reason about.&lt;/p&gt;
 
 &lt;hr /&gt;
 
