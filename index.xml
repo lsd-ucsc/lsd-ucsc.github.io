@@ -64,9 +64,9 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;May 3&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;#may-3&#34;&gt;May 3&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Julian Haas&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;LoRe: Reasoning about Safety and Consistency in Local-First Software&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -161,6 +161,21 @@
 This work presents a new way of thinking about sustainable computing, in terms of both operational and embodied emissions. It explores one consequence of this thinking—that reducing the demand for newly manufactured hardware is an important strategy for emissions reduction. To this end, we propose the repurposing of consumer-class hardware as general purpose computing or sensing hardware. This is explored through several real-world deployments of repurposed smartphones. We find that repurposed devices can provide a computing platform that is several times more carbon-efficient than the alternative of manufacturing new hardware, and explore the applications for which repurposed devices are best suited.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Jennifer Switzer is a PhD candidate at UC San Diego. Her research interests lie at the intersection of sustainability and computing systems, and especially efforts to reduce the embodied carbon footprint of computing. She is supported by a Google Fellowship.&lt;/p&gt;
+
+&lt;h2 id=&#34;may-3&#34;&gt;May 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Julian Haas&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; LoRe: Reasoning about Safety and Consistency in Local-First Software&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The &amp;ldquo;Local-First Software&amp;rdquo; movement calls for distributed applications that move data processing from the cloud back to local user devices. This allows for applications that work offline and preserve user privacy while still enabling collaboration and data synchronization. Unfortunately, the distributed and asynchronous nature of such applications makes them hard to reason about and existing programming models provide little to no support for verification.&lt;/p&gt;
+
+&lt;p&gt;We propose LoRe, a programming language and compiler that automatically verifies developer-supplied safety properties for local-first applications. LoRe combines the declarative data flow of reactive programming with static analysis and verification techniques to precisely determine concurrent interactions that violate safety invariants and to selectively employ strong consistency through coordination where required. We introduce a formalized proof principle and demonstrate how to automate the process in a prototype implementation that outputs verified executable code.&lt;/p&gt;
+
+&lt;p&gt;The talk will be based on work that appeared in the ACM Transactions on Programming Languages and Systems (TOPLAS) 2024: &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3633769&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://dl.acm.org/doi/10.1145/3633769&lt;/a&gt;
+And at ECOOP 2023: &lt;a href=&#34;https://doi.org/10.4230/LIPIcs.ECOOP.2023.12&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.4230/LIPIcs.ECOOP.2023.12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Julian is a third-year PhD student at TU Darmstadt in Germany, supervised by Mira Mezini and co-supervised by Annette Bieniusa at TU Kaiserslautern. In his research, he is working on programming languages and verification tools for distributed systems, with a focus on privacy-preserving decentralized applications. When not in front of a screen, he enjoys hiking and playing board games.&lt;/p&gt;
 
 &lt;hr /&gt;
 
