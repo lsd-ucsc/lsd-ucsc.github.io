@@ -251,9 +251,9 @@
 </tr>
 
 <tr>
-<td>May 10</td>
+<td><a href="#may-10">May 10</a></td>
 <td>Robin Brown</td>
-<td><em>TBD</em></td>
+<td>WebAssembly Components: The Modular Polyglot Ecosystem We Need</td>
 </tr>
 
 <tr>
@@ -357,6 +357,26 @@ This work presents a new way of thinking about sustainable computing, in terms o
 And at ECOOP 2023: <a href="https://doi.org/10.4230/LIPIcs.ECOOP.2023.12" rel="noreferrer" target="_blank">https://doi.org/10.4230/LIPIcs.ECOOP.2023.12</a></p>
 
 <p><strong>Bio:</strong> Julian is a third-year PhD student at TU Darmstadt in Germany, supervised by Mira Mezini and co-supervised by Annette Bieniusa at TU Kaiserslautern. In his research, he is working on programming languages and verification tools for distributed systems, with a focus on privacy-preserving decentralized applications. When not in front of a screen, he enjoys hiking and playing board games.</p>
+
+<h2 id="may-10">May 10</h2>
+
+<p><strong>Speaker:</strong> Robin Brown</p>
+
+<p><strong>Title:</strong> WebAssembly Components: The Modular Polyglot Ecosystem We Need</p>
+
+<p><strong>Abstract:</strong> With the release of [WASI 0.2] and the [Component Model], WebAssembly (Wasm) has facilities for high-level interop between Wasm guests and hosts, as well as other guests. While some of this was possible with various project-bespoke ABIs, having a shared standards-track canonical ABI and Component Model enables the creation of a broader ecosystem without fragmentation.</p>
+
+<p>An increasing number of programming languages are able to produce components which implement the standard WASI &ldquo;worlds&rdquo; for [servers] and [CLI] applications as well as an infinite variety of custom interfaces. There&rsquo;s also been innovation in tools like [WAC] that make it possible to compose arbitrary components statically with strong static type checking. This makes Wasm incredibly powerful as a way to build modular composable polyglot systems.</p>
+
+<p>The ecosystem being built around Wasm and the Component Model make it a very promising target for new programming languages especially if they build Component-native toolchains and take the most advantage of WASI, the [Warg] registry protocol, Wasm-to-Wasm optimizers like [Binaryen], and Wasm-based dev tools like [Wow]. I created a new language called [Claw] recently to demonstrate this and also provide an ideal &ldquo;glue code&rdquo; language for augmenting and testing existing Components.</p>
+
+<p>In this talk, I will
+* explain what Wasm and Components are,
+* summarize the state of the Wasm ecosystem,
+* argue that language designers and developers should consider targetting Wasm,
+* and give a live demo of Claw and Wow.</p>
+
+<p><strong>Bio:</strong> Robin Brown is a co-chair of a Bytecode Alliance group that brings together programming language ecosystems and helps them create Wasm component tooling that feels native to their ecosystem, which is called the Guest Languages SIG. She is also the creator of the compile-to-component programming language Claw and the co-creator of the Warg protocol, which is an open source Wasm registry protocol with a focus on supply chain security, federation, and offline mirroring.</p>
 
 <hr />
 
