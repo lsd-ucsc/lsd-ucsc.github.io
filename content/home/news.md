@@ -41,12 +41,12 @@ active = false
 [[news]]
   kind = "any"
   date = "May 6, 2024"
-  content = "Tuan Tran <a href="https://www.youtube.com/watch?v=plzXTMAtFsg">defended his dissertation</a>! Congratulations, Tuan!"
+  content = 'Tuan Tran <a href="https://www.youtube.com/watch?v=plzXTMAtFsg">defended his dissertation</a>! Congratulations, Tuan!'
 
 [[news]]
   kind = "any"
   date = "April 24, 2024"
-  content = "Roy Shadmon gave <a href="https://www.youtube.com/watch?v=8Wi_tH2lz6w">a presentation on Proximal Consensus</a> and advanced to candidacy! Congratulations, Roy!"
+  content = 'Roy Shadmon gave <a href="https://www.youtube.com/watch?v=8Wi_tH2lz6w">a presentation on Proximal Consensus</a> and advanced to candidacy! Congratulations, Roy!'
 
 [[news]]
   kind = "paper"
