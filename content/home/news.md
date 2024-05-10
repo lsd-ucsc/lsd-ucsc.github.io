@@ -33,6 +33,31 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+  kind = "award"
+  date = "May 7, 2024"
+  who = "Haofan Zheng, Tuan Tran, Roy Shadmon, and Owen Arden"
+  award_name = 'Distinguished Artifact Award at DSN 2024 for "Decentagram: Highly-Available Decentralized Publish/Subscribe Systems"'
+
+[[news]]
+  kind = "any"
+  date = "May 6, 2024"
+  content = "Tuan Tran <a href="https://www.youtube.com/watch?v=plzXTMAtFsg">defended his dissertation</a>! Congratulations, Tuan!"
+
+[[news]]
+  kind = "any"
+  date = "April 24, 2024"
+  content = "Roy Shadmon gave <a href="https://www.youtube.com/watch?v=8Wi_tH2lz6w">a presentation on Proximal Consensus</a> and advanced to candidacy! Congratulations, Roy!"
+
+[[news]]
+  kind = "paper"
+  date = "March 20, 2024"
+  who = "Haofan Zheng, Tuan Tran, Roy Shadmon, and Owen Arden"
+  paper_name = "Decentagram: Highly-Available Decentralized Publish/Subscribe Systems"
+  paper_link = "https://github.com/lsd-ucsc/Decentagram/blob/main/cameraready.pdf"
+  conf_name = "DSN 2024"
+  conf_link = "https://dsn2024uq.github.io/cpaccepted.html"
+
+[[news]]
   kind = "any"
   date = "January 15, 2024"
   content = "Associate Professor Mohsen Lesani has joined UC Santa Cruz and the LSD Lab. Welcome, Mohsen!"
