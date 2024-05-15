@@ -76,9 +76,9 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;May 17&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;#may-17&#34;&gt;May 17&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Zach Sisco&lt;/td&gt;
+&lt;td&gt;Hardware Decompilation: Recovering Abstraction in Digital Circuits&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -196,6 +196,16 @@ And at ECOOP 2023: &lt;a href=&#34;https://doi.org/10.4230/LIPIcs.ECOOP.2023.12&
 * and give a live demo of Claw and Wow.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Robin Brown is a co-chair of a Bytecode Alliance group that brings together programming language ecosystems and helps them create Wasm component tooling that feels native to their ecosystem, which is called the Guest Languages SIG. She is also the creator of the compile-to-component programming language Claw and the co-creator of the Warg protocol, which is an open source Wasm registry protocol with a focus on supply chain security, federation, and offline mirroring.&lt;/p&gt;
+
+&lt;h2 id=&#34;may-17&#34;&gt;May 17&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Zach Sisco&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Hardware Decompilation: Recovering Abstraction in Digital Circuits&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; My research introduces the problem of &amp;ldquo;hardware decompilation&amp;rdquo;. Analogous to software decompilation, hardware decompilation is about analyzing a low-level artifact&amp;mdash;in this case a netlist, i.e., a graph of wires and logical gates representing a digital circuit&amp;mdash;in order to recover higher-level programming abstractions, and using those abstractions to generate code written in a hardware description language (HDL). The overall problem of hardware decompilation requires a number of pieces. In my initial paper, published at PLDI 2023, I focus on one specific piece of the puzzle: a technique called &amp;ldquo;hardware loop rerolling&amp;rdquo;. Hardware loop rerolling leverages clone detection and program synthesis techniques to identify repeated logic in netlists (such as would be synthesized from loops in the original HDL code) and reroll them into syntactic loops in the recovered HDL code. In this talk, I will introduce what hardware decompilation is, and why you would want to use a hardware decompiler. Then, I will describe my solution to the hardware loop rerolling problem, and give a preview of in-progress work tackling more aspects of hardware decompilation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Zach Sisco is a PhD candidate at UC Santa Barbara. He is advised by Professors Jonathan Balkind and Ben Hardekopf. Zach&amp;rsquo;s research is about applying solver-aided programming techniques to problems in hardware design. His website is: &lt;a href=&#34;https://zsisco.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://zsisco.github.io/&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
