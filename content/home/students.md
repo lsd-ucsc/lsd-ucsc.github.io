@@ -33,12 +33,6 @@ title = "Students"
   img = "timothy_goodwin.jpg"
 
 [[people]]
-  name = "Shun Kashiwa"
-  www = "https://shun-k.dev"
-  title = "M.S. Student"
-  img = "shun_kashiwa.jpg"
-
-[[people]]
   name = "Reese Levine"
   www = "https://reeselevine.github.io"
   title = "Ph.D. Student"
