@@ -56,6 +56,15 @@ active = false
   paper_link = "https://github.com/lsd-ucsc/Decentagram/blob/main/cameraready.pdf"
   conf_name = "DSN 2024"
   conf_link = "https://dsn2024uq.github.io/cpaccepted.html"
+  
+[[news]]
+   kind = "paper"
+   date = "February 23, 2024"
+   who = "Jonathan Castello, Patrick Redmond, and Lindsey Kuper"
+   paper_name = "Inductive Diagrams for Causal Reasoning"
+   conf_name = "OOPSLA 2024"
+   paper_link = "https://dl.acm.org/doi/10.1145/3649830"
+   conf_link = "https://2024.splashcon.org/"
 
 [[news]]
   kind = "any"
