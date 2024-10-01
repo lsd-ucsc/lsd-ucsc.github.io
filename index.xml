@@ -42,7 +42,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-4&#34;&gt;Oct 4&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Jinsheng Ba&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Testing Database Engines via Query Plans&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -101,11 +101,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jinsheng Ba&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Testing Database Engines via Query Plans&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Database Management Systems (DBMSs) are fundamental software systems that store, maintain, and retrieve data. They are used in almost every personal computer, mobile device, and server. Therefore, it is important to find bugs before they incur severe consequences. Automatic testing is an efficient and effective technique to find crash bugs, which terminate DBMSs, but is struggling to detect logic bugs and performance issues. Logic bugs refer to incorrect results, while performance issues refer to unexpected slow performance. Unlike crash bugs, both categories of bugs do not terminate DBMSs and are hard to observe by existing automatic testing methods. Triggering them requires valid test cases, which are also challenging to generate automatically. In my PhD thesis, I advance automatic testing to efficiently find logic bugs and performance issues in DBMSs. My approaches are united by the idea of leveraging query plans, which are internal representations of how a DBMS executes a query, for automatically testing DBMSs. I put forward the following thesis statement: Query plans allow efficient and effective testing of DBMSs by providing internal execution information. I propose four research works to utilize query plans for testing. First, to detect performance issues, I propose Cardinality Estimation Restriction Testing (CERT), which inspects estimated cardinalities in query plans without measuring execution time. Second, to identify logic bugs, I propose Differential Query Plans (DQP), which inspects the result consistency of multiple query plans of the same query. Third, to generate diverse test cases for exploring target systems thoroughly, I propose Query Plan Guidance (QPG) for guiding the test case generation process towards diverse query plans. Last, observing that query plans cannot be conveniently used as they are exposed in various DBMS-specific representations, I propose a Unified query plan representation (Uplan) based on an empirical study aiming to reduce the effort of building applications based on query plans. Since most DBMSs&amp;mdash;including commercial ones&amp;mdash;expose query plans to the user, I consider CERT, DQP, QPG, and Uplan generally applicable, black-box approaches for finding logic bugs, performance issues, and building applications on query plans. These methods are effective as they found more than 100 unique and previously unknown bugs in several widely used DBMSs. I view these results as a step towards more reliable DBMSs, and expect this statement of utilizing query plans for testing can be widely adopted to tackle more problems, such as test suite evaluation, debugging deployed DBMSs, and optimization checking.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Jinsheng Ba is a postdoctoral researcher in the Advanced Software Technologies (AST) Lab at ETH Zurich, mentored by Prof. Zhendong Su. He received his Ph.D. degree in Computer Science from National University of Singapore (NUS) in 2024, advised by Dr. Manuel Rigger. His research interests include software testing, security, and software engineering. His work has been recognized with Distinguished Paper Award twice at ASE 2022 and ICSE 2023. He is also a recipient of NUS Dean’s Graduate Research Excellence Award.&lt;/p&gt;
 
 &lt;h2 id=&#34;oct-11&#34;&gt;Oct 11&lt;/h2&gt;
 
