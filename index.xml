@@ -48,7 +48,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-11&#34;&gt;Oct 11&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Jonathan Castello&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Inductive diagrams for causal reasoning&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -111,11 +111,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jonathan Castello&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Inductive diagrams for causal reasoning&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Causality diagrams are used throughout academia and industry to informally reason about the possible executions of distributed and concurrent systems. Their formal counterparts, what we&amp;rsquo;ll call Lamport executions, have been used since at least Lamport&amp;rsquo;s 1978 introduction of logical clocks. However, Lamport executions are not quite as visceral a model for humans as causality diagrams. This mismatch is exacerbated in modern proof assistants, which are geared toward &lt;em&gt;compositional reasoning&lt;/em&gt; over inductive data. In this talk, we&amp;rsquo;ll present a new formal representation of executions that is both inductively-structured and more similar to the informal diagrams we started with.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Jonathan is a third-year Ph.D. student at UC Santa Cruz. His research focuses on treating concurrency as something to be started from, rather than something to be introduced to an existing system. This perspective leads to interests in distributed systems, network protocols, and low-level hardware, among other threads(!). In his spare time, he nurtures a continued fascination with all things space.&lt;/p&gt;
 
 &lt;h2 id=&#34;oct-18&#34;&gt;Oct 18&lt;/h2&gt;
 
