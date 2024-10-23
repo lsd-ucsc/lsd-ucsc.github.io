@@ -60,7 +60,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-25&#34;&gt;Oct 25&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Haofan Zheng&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Decentagram: Highly-Available Decentralized Publish/Subscribe Systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -137,11 +137,13 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Haofan Zheng&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Decentagram: Highly-Available Decentralized Publish/Subscribe Systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, we will present Decentagram, a decentralized framework for data dissemination using the publish/subscribe messaging model. Decentagram uses blockchain smart contracts to authenticate events that will be published using digital signatures or self-attestation certificates from code running in trusted execution environments (TEEs), both of which are verified on-chain. This approach permits any host with valid credentials to publish verified updates, increasing decentralization and availability of the system as a whole by simplifying compensation and incentivization, even for untrusted hosts running TEEs. Decentagram also supports on-chain subscribers where third-party contracts receive events immediately: within the same transaction as the published event. The same event will also be delivered to off-chain subscribing applications through an off-chain event broker. We provide an open-source implementation of Decentagram, and evaluate the gas cost of its on-chain components and the end-to-end latency of its off-chain component.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This presentation is based on the work by Haofan Zheng, Tuan Tran, Roy Shadmon, and Owen Arden, and was published at DSN 2024: &lt;a href=&#34;https://doi.org/10.1109/DSN58291.2024.00037&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1109/DSN58291.2024.00037&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Haofan is a Computer Science Ph.D. candidate at UC Santa Cruz, conducting research in the Decent Lab and the Languages, Systems, and Data (LSD) Lab. His work focuses on Trusted Execution Environments (TEEs) and blockchain technologies, exploring the intersection of these areas to enhance security in distributed systems. Haofan&amp;rsquo;s research aims to develop a framework for building secure distributed applications that ensures confidentiality, integrity, and availability by leveraging secure enclaves and blockchain.&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-1&#34;&gt;Nov 1&lt;/h2&gt;
 
