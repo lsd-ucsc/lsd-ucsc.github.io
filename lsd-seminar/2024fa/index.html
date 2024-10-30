@@ -247,7 +247,7 @@
 <tr>
 <td><a href="#nov-1">Nov 1</a></td>
 <td>Justin Lubin</td>
-<td><em>TBD</em></td>
+<td>Programming By Navigation</td>
 </tr>
 
 <tr>
@@ -330,11 +330,17 @@
 
 <p><strong>Speaker:</strong> Justin Lubin</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Programming By Navigation</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Most commonly, a program synthesizer works by (1) requiring a specification from the user and (2) handing back a program that satisfies the specification, if one exists. Sometimes, this program is the smallest such program. Sometimes, it’s chosen via a user-defined cost function. And, sometimes, it’s just the one that came out of the synthesizer first!</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>But what should we do if we want to hand control back to the user and let the user pick from among all the valid solutions—what we call the Particular Program Task? Can we solve it without just returning a stream of all valid programs? Can we solve it even if there are infinitely many programs to consider?</p>
+
+<p>To do so, we introduce the Programming By Navigation paradigm, which is based on a novel program synthesis problem that roughly states: Given a work-in-progress program, return all (and only) the valid next steps. We solve the Programming By Navigation synthesis problem with a new algorithm that turns information from a type inhabitation oracle (in the style of classical logic) into a concrete program (in the style of constructive logic). By structuring our algorithm as such, we can use an off-the-shelf Datalog engine as our type inhabitation oracle and reap the wealth of research and engineering efforts that have gone into modern Datalog engines for free. In the process, classic program synthesis optimizations such as observational equivalence pruning and memoization fall out naturally from existing Datalog optimizations. Based on preliminary results, our new algorithm solves the Particular Program Task faster than baselines.</p>
+
+<p>More broadly, I’ll talk about our deep, ongoing collaboration with experimental biologists that led to the design of Programming By Navigation.</p>
+
+<p><strong>Bio:</strong> Justin is a PhD candidate in computer science advised by Sarah E. Chasins at UC Berkeley. His main research interest is co-designing programming systems with domain experts to empower them to write the code they need with autonomy. As part of this process, he collaborates closely with the Nuñez Lab at UC Berkeley, a group of experimental biologists who blend CRISPR-based genome and epigenome editing, functional genomics, cell biology, and biochemistry to understand the regulatory principles of the human genome.</p>
 
 <h2 id="nov-8">Nov 8</h2>
 
