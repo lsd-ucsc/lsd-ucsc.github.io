@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-15&#34;&gt;Nov 15&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Federico Mora&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Automated Reasoning About Distributed Systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -175,11 +175,13 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Federico Mora&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Automated Reasoning About Distributed Systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Designing and implementing distributed systems is still an enormous task for software engineers. Much of this challenge stems from the fact that bugs can arise from complex combinations of machine failures and message interleavings that are difficult for humans to reason about manually. As distributed systems become increasingly critical infrastructure, engineers will need more and more computational support to correctly build and deploy them.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will present three automated reasoning techniques that can help software engineers build and deploy correct distributed systems. First, a domain-specific verification engine for message-passing distributed systems. Second, a decision procedure for a relevant fragment of logic. Third, a new approach for semi-automatically modelling distributed systems in a formal language.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Federico Mora is a PhD candidate at the University of California, Berkeley, where he is advised by Sanjit A. Seshia. Federico’s research focuses on designing and implementing languages for automated reasoning. His studies have been supported by a Qualcomm Innovation Fellowship and three internships at Amazon Web Services, where he has applied many of the ideas described in his thesis.&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-22&#34;&gt;Nov 22&lt;/h2&gt;
 
