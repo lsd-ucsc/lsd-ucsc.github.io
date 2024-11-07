@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-8&#34;&gt;Nov 8&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Bhakti Shah&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Proof Visualization for Graphical Structures&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -165,11 +165,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Bhakti Shah&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Proof Visualization for Graphical Structures&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Reasoning about graphical languages in a proof assistant can be hard. Canonical diagrammatic representations are optimized for readability, and may abstract away details irrelevant to a pen-and-paper proof, but these details are often important to a proof assistant. We develop a methodology and library for working with graphical languages associated with classes of categories, and equip it with an automated visualizer integrated with the Coq proof assistant, enabling diagrammatic reasoning. We instantiate this with the ZX-calculus, a language for quantum computation, as an example of specialized diagrammatic reasoning.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Bhakti Shah is a PhD student at the University of St. Andrews, advised by Edwin Brady, working on the interoperability of proof systems. She was previously at the University of Chicago, advised by Robert Rand, working on reasoning about diagrammatic languages in proof assistants. Her research interests broadly span the usability of interactive proof assistants.&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-15&#34;&gt;Nov 15&lt;/h2&gt;
 
