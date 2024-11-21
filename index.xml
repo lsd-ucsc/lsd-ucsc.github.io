@@ -84,7 +84,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-22&#34;&gt;Nov 22&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Haining Tong&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Towards Unified Analysis of GPU Consistency&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -187,11 +187,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Haining Tong&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Towards Unified Analysis of GPU Consistency&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; After more than 30 years of research, there is a solid understanding of the consistency guarantees given by CPU systems. Unfortunately, the same is not yet true for GPUs. The growing popularity of general purpose GPU programming has been a call for action which industry players like NVIDIA and Khronos have answered by formalizing their PTX and Vulkan consistency models. These models give precise answers to questions about program&amp;rsquo;s correctness. However, interpreting them still requires a level of expertise that escapes most developers, and the current tool support is insufficient. To remedy this, we translated and integrated the PTX and Vulkan models into the Dartagnan verification tool. This makes Dartagnan the first analysis tool for multiple GPU consistency models that can analyze real GPU code. During the validation of the translated models, we discovered two bugs in the original PTX and Vulkan consistency models.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Haining is a Computer Science Ph.D. student advised by Keijo Heljanko at the University of Helsinki. His work focuses on using formal verification techniques to analyze GPU memory consistency models.&lt;/p&gt;
 
 &lt;h2 id=&#34;dec-6&#34;&gt;Dec 6&lt;/h2&gt;
 
