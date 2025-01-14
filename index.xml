@@ -48,7 +48,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-17&#34;&gt;Jan. 17&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Mako Bates&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Choreographic Programming in theory and practice&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -109,75 +109,93 @@
 
 &lt;h2 id=&#34;jan-17&#34;&gt;Jan. 17&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Mako Bates&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Choreographic Programming in theory and practice&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Writing systems of concurrently executing programs is difficult: they can behave (and fail) in unexpected ways because of race conditions and deadlocks. When we talk about what we want these systems to do, we often tell “Alice &amp;amp; Bob” stories to describe the intended protocol. The fundamental idea of choreographic programming is that we can write real software that same way: as a single thread of activity described from a “3rd-party omniscient” perspective. Research on choreographic programming evolved out of formal protocol-specification methods over a decade ago, but systems that can actually be used to write software (e.g. Choral, HasChor, and MultiChor) are only a couple years old. My team and I have developed several such implementations with novel type-directed correctness guarantees. In this talk I will present a summary of our own work as well as a review of other relevant cutting-edge systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Mako Bates is a PhD candidate at the University of Vermont, advised by Joseph Near. He has done research and development of choreographic programming systems, secure multi-party computation, and differential privacy. Prior to starting his PhD, he worked in industry for several years.&lt;/p&gt;
 
 &lt;h2 id=&#34;jan-24&#34;&gt;Jan. 24&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tim Goodwin&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;jan-31&#34;&gt;Jan. 31&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Yan Tong&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-7&#34;&gt;Feb. 7&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Roy Shadmon&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-14&#34;&gt;Feb. 14&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jubi Taneja&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-21&#34;&gt;Feb. 21&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Mahita Nagabhiru&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-28&#34;&gt;Feb. 28&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Phong Le&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;march-7&#34;&gt;March 7&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Amanda Xu&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;march-14&#34;&gt;March 14&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Abtin Molavi&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
