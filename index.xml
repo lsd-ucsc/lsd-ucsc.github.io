@@ -54,7 +54,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-24&#34;&gt;Jan. 24&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Tim Goodwin&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;What if Kubernetes was a compiler target?&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -121,11 +121,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tim Goodwin&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; What if Kubernetes was a compiler target?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Multi-tier programming, a concept from the programming languages community, provides abstractions for building multiple components of a distributed application as parts of a single program. Modern software development, however, often moves in the opposite direction: applications are typically composed of independently developed programs that are later integrated through service APIs. While distributing an application into independent units has its benefits, this approach requires developers to write repetitive plumbing code to connect application components and forces them to navigate an error-prone configuration and deployment process to ultimately get things working. Multi-tier programming offers a solution to these challenges, yet it remains relatively unknown in industry. However, closely related topics—such as “monolith vs. microservice,” “monorepo or separate repos,” and even “common language or polyglot”—receive lots of attention and discussion in the software engineering community. In this talk, I will provide an overview of multi-tier programming and how it might simplify software development on Kubernetes, a popular platform for running containerized applications. I will also demonstrate a prototype “Kubernetes compiler” that can turn a monolithic codebase into a distributed application that runs on Kubernetes.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Tim Goodwin is a 3rd year PhD student at UC Santa Cruz, advised by Lindsey Kuper and Andrew Quinn. His research focuses on cloud-native programming models and the challenges they present to developers. Prior to grad school, he wrangled with microservice complexity in industry.&lt;/p&gt;
 
 &lt;h2 id=&#34;jan-31&#34;&gt;Jan. 31&lt;/h2&gt;
 
