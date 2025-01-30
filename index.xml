@@ -60,7 +60,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#jan-31&#34;&gt;Jan. 31&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Yan Tong&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Cykas, a new protocol for sender-side enforcement of causal message delivery&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -131,11 +131,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Yan Tong&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Cykas, a new protocol for sender-side enforcement of causal message delivery&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Protocols for causal message delivery are widely used in distributed systems. Traditionally, causal delivery can be enforced either on the message sender’s side or on the receiver’s side. The traditional sender-side approach avoids the message metadata overhead of the receiver-side approach, but it is also more conservative than the receiver-side approach, meaning that messages are delivered later than necessary. We present Cykas (“Can you keep a secret?”), a new protocol for sender-side enforcement of causal delivery that sidesteps the conservativeness of the traditional sender-side approach by allowing the eager sending of messages and constraining the behavior of their recipients. Our experiments show that for applications involving long-running jobs, Cykas has a performance advantage: Cykas lets long-running jobs start (and end) earlier, leading to a shorter overall execution time compared to the traditional sender-side approach. We implemented the Cykas protocol using the Stateright implementation-level model checker for Rust and checked the safety and liveness of our implementation using a custom-implemented property checker.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Yan Tong is a 2nd year PhD student at UC Santa Cruz, advised by Lindsey Kuper. His research focuses on distributed messaging protocol.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-7&#34;&gt;Feb. 7&lt;/h2&gt;
 

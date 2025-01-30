@@ -241,7 +241,7 @@
 <tr>
 <td><a href="#jan-31">Jan. 31</a></td>
 <td>Yan Tong</td>
-<td><em>TBD</em></td>
+<td>Cykas, a new protocol for sender-side enforcement of causal message delivery</td>
 </tr>
 
 <tr>
@@ -312,11 +312,11 @@
 
 <p><strong>Speaker:</strong> Yan Tong</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Cykas, a new protocol for sender-side enforcement of causal message delivery</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Protocols for causal message delivery are widely used in distributed systems. Traditionally, causal delivery can be enforced either on the message sender’s side or on the receiver’s side. The traditional sender-side approach avoids the message metadata overhead of the receiver-side approach, but it is also more conservative than the receiver-side approach, meaning that messages are delivered later than necessary. We present Cykas (“Can you keep a secret?”), a new protocol for sender-side enforcement of causal delivery that sidesteps the conservativeness of the traditional sender-side approach by allowing the eager sending of messages and constraining the behavior of their recipients. Our experiments show that for applications involving long-running jobs, Cykas has a performance advantage: Cykas lets long-running jobs start (and end) earlier, leading to a shorter overall execution time compared to the traditional sender-side approach. We implemented the Cykas protocol using the Stateright implementation-level model checker for Rust and checked the safety and liveness of our implementation using a custom-implemented property checker.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p><strong>Bio:</strong> Yan Tong is a 2nd year PhD student at UC Santa Cruz, advised by Lindsey Kuper. His research focuses on distributed messaging protocol.</p>
 
 <h2 id="feb-7">Feb. 7</h2>
 
