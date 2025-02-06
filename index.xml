@@ -66,7 +66,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-7&#34;&gt;Feb. 7&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Roy Shadmon&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;From Coordination to Inference: A Probabilistic Approach to Byzantine Agreement&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -141,11 +141,13 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Roy Shadmon&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; From Coordination to Inference: A Probabilistic Approach to Byzantine Agreement&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Multi-agent sensor networks and control systems such as distributed cyber-physical systems, smart power grids, and robot swarms make important control decisions using inputs from networked sensor (or sensor-derived) data streams, some of which may be faulty or compromised. These inputs are used to update models that represent the physical state of the system under control and drive decision procedures that seek to achieve a goal (e.g., drone swarms follow the leader), maintain system properties (e.g., keep temperature near 70F), or enforce safety requirements (e.g., shutdown power if current exceeds 3A). Most real-world examples of these systems are inherently edge-based, thus requiring increased tolerance to signal noise, crash and network faults, as well as malicious components. Current approaches often fall short due to centralized designs with a single point of failure, but applying traditional Byzantine fault-tolerant agreement protocols is challenging due to the noisy nature of the input data streams. Existing approximate agreement protocols overlook latent information present in the proposed values, but extracting that information is complicated by the possibility that some values are malicious.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will present Proximal Byzantine Agreement (PBA), a novel stochastic agreement protocol. PBA is based on Bayesian statistical inference driven by observations of replicated computation and provides statistically superior accuracy and reliability guarantees compared to current approximate agreement protocols. I will also talk about some of our ongoing work, including Centauri, a framework for organizing Byzantine fault-tolerant edge devices and sensor networks using PBA.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Roy Shadmon is a PhD candidate at UC Santa Cruz, advised by Owen Arden. His research focus comes at the intersection of multi-agent systems, Byzantine agreement, and Bayesian statistics.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-14&#34;&gt;Feb. 14&lt;/h2&gt;
 
