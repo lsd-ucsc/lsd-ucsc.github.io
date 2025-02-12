@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-14&#34;&gt;Feb. 14&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Jubi Taneja&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;LLM-Vectorizer: LLM-Based Verified Loop Vectorizer&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -153,11 +153,16 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jubi Taneja&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; LLM-Vectorizer: LLM-Based Verified Loop Vectorizer&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Compiler auto-vectorization promises performance gains through SIMD execution but often fails due to conservative heuristics and missed opportunities. Manually writing SIMD intrinsics, while effective, remains error-prone and inaccessible to most programmers.
+What if Large Language Models (LLMs) could generate optimized SIMD code automatically? And more importantly—how can we trust the correctness of AI-generated transformations?
+In this work, we explore the potential of Large Language Models (LLMs) to generate vectorized code from scalar loops and propose a finite-state multi-agent approach that combines LLMs with test-based feedback. Our results show speedups of 1.1x to 9.4x over state-of-the-art compilers (Intel Compiler, GCC, Clang).
+To ensure correctness, we integrate Alive2 for formal verification and introduce scalability techniques that improve verification coverage. Our approach successfully verifies 38.2% of vectorizations on the TSVC benchmark.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Jubi is a Research Engineer at Microsoft Research, where she explores the intersection of LLMs and compilers (LLMs for Compilers and Compilers for LLMs). Her broader research interests span compiler optimizations, formal verification, and program synthesis.
+She earned her Ph.D. from the University of Utah under the guidance of Prof. John Regehr, where her work leveraged formal methods to enhance compiler construction. Her contributions to testing LLVM&amp;rsquo;s static analyses earned her both the Best Paper Award and Best Student Presentation Award at CGO 2020.
+Beyond research, Jubi is deeply committed to mentorship. She has been a long-term mentor for SIGPLAN-M for the past five years, helping students navigate graduate school and supporting aspiring researchers in their academic journeys.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-21&#34;&gt;Feb. 21&lt;/h2&gt;
 
