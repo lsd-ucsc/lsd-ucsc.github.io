@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-21&#34;&gt;Feb. 21&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Mahita Nagabhiru&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Hardware support for lock-free programming&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -168,11 +168,11 @@ Beyond research, Jubi is deeply committed to mentorship. She has been a long-ter
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Mahita Nagabhiru&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Hardware support for lock-free programming&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Non-blocking algorithms, including lock-free programming, represent advanced concurrency techniques that go beyond traditional lock-based synchronization (e.g., mutexes or semaphores). Instead of relying on locks to protect shared resources, lock-free programs leverage hardware atomic primitives. This allows multiple threads to concurrently access shared data, effectively preventing issues like deadlocks and priority inversion. While powerful, lock-free programming is notoriously difficult to implement and verify. Its complexity demands a deep understanding of memory consistency models, atomic operations, memory ordering, and potential race conditions. However, the performance gains offered by lock-free techniques make them indispensable in high-performance applications such as databases, operating systems, and real-time systems. This work introduces lock-free programming, discusses the inherent challenges and then delves into practical examples of common lock-free data structures. Then explores advanced mechanisms such as multi-word compare-and-swap (MCAS) and lock-free hardware transactional memory (HTM), which simplify lock-free program development and offer stronger progress guarantees.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Mahita Nagabhiru is a CPU architect at Google. She works on Load/Store Unit- design and modelling, exploring performance features currently focused on store-to-load-forwarding. Her PhD was under Prof. Greg Byrd at NC State University, Raleigh in H/W support for lock-free programming. This talk is based on the research at NCSU.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-28&#34;&gt;Feb. 28&lt;/h2&gt;
 
