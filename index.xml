@@ -83,8 +83,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-28&#34;&gt;Feb. 28&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Phong Le&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Callista Le&lt;/td&gt;
+&lt;td&gt;Concurrent Data Structures Made Easy&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -176,13 +176,15 @@ Beyond research, Jubi is deeply committed to mentorship. She has been a long-ter
 
 &lt;h2 id=&#34;feb-28&#34;&gt;Feb. 28&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Phong Le&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Callista Le&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Concurrent Data Structures Made Easy&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Design of an efficient thread-safe concurrent data structure is a balancing act between its implementation complexity and performance. Lock-based concurrent data structures, which are relatively easy to derive from their sequential counterparts and to prove thread-safe, suffer from poor throughput under even light multi-threaded workload. At the same time, lock-free concurrent structures allow for high throughput, but are notoriously difficult to get right and require careful reasoning to formally establish their correctness. In this work, we explore a solution to this conundrum based on a relatively old idea of batch parallelism&amp;mdash;an approach for designing high-throughput concurrent data structures via a simple insight: efficiently processing a batch of a priori known operations in parallel is easier than optimising performance for a stream of arbitrary asynchronous requests. Alas, batch-parallel structures have not seen wide practical adoption due to (i) the inconvenience of having to structure multi-threaded programs to explicitly group operations and (ii) the lack of a systematic methodology to implement batch-parallel structures as simply as lock-based ones. We present OBatcher, a Multicore OCaml library that streamlines the design, implementation, and usage of batch-parallel structures. OBatcher solves the first challenge (how to use) by suggesting a new lightweight implicit batching design pattern that is built on top of generic asynchronous programming mechanisms. The second challenge (how to implement) is addressed by identifying a family of strategies for converting common sequential structures into the corresponding efficient batch-parallel versions, and by providing a library of functors that embody those strategies. We showcase OBatcher with a diverse set of benchmarks ranging from Red-Black and AVL trees to van Emde Boas trees, skip lists, and a thread-safe implementation of a Datalog solver. Our evaluation of all the implementations on large asynchronous workloads shows that (a) they consistently outperform the corresponding coarse-grained lock-based implementations, the only ones available in OCaml to date, and that (b) their throughput scales reasonably with the number of processors.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This talk is based on work presented at OOPSLA 2024: &lt;a href=&#34;https://doi.org/10.1145/3689775&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1145/3689775&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Callista Le is currently a software engineer at Ahrefs, where she mainly works with OCaml. She graduated from Yale-NUS College in 2024 and wrote her final year thesis, Simple and Efficient Concurrent Data Structures via Batch Parallelism, under the supervision of Professor Ilya Sergey.&lt;/p&gt;
 
 &lt;h2 id=&#34;march-7&#34;&gt;March 7&lt;/h2&gt;
 
