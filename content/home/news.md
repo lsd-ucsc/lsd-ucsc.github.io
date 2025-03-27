@@ -30,7 +30,7 @@ active = false
 #
 # For a conditionally accepted paper, use the "paper" news format, but specify kind as "cond"
 
-### Add your new news items to the *top*, right below this comment.
+### Add your new news items to the *top*, right below this comment. 
 
 [[news]]
   kind = "paper"
