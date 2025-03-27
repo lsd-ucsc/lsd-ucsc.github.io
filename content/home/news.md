@@ -33,6 +33,22 @@ active = false
 ### Add your new news items to the *top*, right below this comment.
 
 [[news]]
+  kind = "paper"
+  date = "March 26, 2024"  
+  who = "Mohsen Lesani's team"
+  paper_name = "Hamava: Fault-tolerant Reconfigurable Geo-Replication on Heterogeneous Clusters"
+  paper_link = "https://mohsenlesani.github.io/companion/icde25/"
+  conf_name = "ICDE 25"
+
+[[news]]
+  kind = "paper"
+  date = "Jan 25, 2024"  
+  who = "Mohsen Lesani's team"
+  paper_name = "Hambazi: Spatial Coordination Synthesis for Augmented Reality"
+  paper_link = "https://mohsenlesani.github.io/companion/oopsla25/"
+  conf_name = "OOPSLA 25"
+
+[[news]]
   kind = "award"
   date = "May 7, 2024"
   who = "Haofan Zheng, Tuan Tran, Roy Shadmon, and Owen Arden"
