@@ -42,7 +42,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-4&#34;&gt;April 4&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Shadaj Laddad&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Hydro: Modular, Correct, and Performant Distributed Systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -107,11 +107,11 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Shadaj Laddad&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Hydro: Modular, Correct, and Performant Distributed Systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We’ve been stuck with programming models for distributed systems that force developers to individually program a fleet of sequential programs and manually reason about global correctness, or leverage frameworks that lock the developer into global scaling and fault tolerance decisions. Choreographic programming gives us a step in the right direction, by letting developers write distributed programs while avoiding opaque network boundaries. But it has significant limitations when it comes to reasoning about concurrent executions. In this talk, I’ll present the key ideas behind Hydro, a Rust framework for general-purpose distributed systems. I’ll show how Hydro leverages stream-choreographic programming to offer low-level control with strong correctness guarantees.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Shadaj is a final-year PhD student co-advised by Alvin Cheung and Joe Hellerstein in the Sky Computing Lab at UC Berkeley. He designs programming paradigms that make distributed systems modular, correct, accessible, and performant. His research spans foundational language design, program optimization, and formal methods. Shadaj is a co-organizer of the SF Systems Club, the largest systems-oriented meetup in the Bay Area, and loves to play the sitar in his spare time.&lt;/p&gt;
 
 &lt;h2 id=&#34;april-11&#34;&gt;April 11&lt;/h2&gt;
 
