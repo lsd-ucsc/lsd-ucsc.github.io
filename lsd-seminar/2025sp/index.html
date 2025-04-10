@@ -229,7 +229,7 @@
 <tr>
 <td><a href="#april-11">April 11</a></td>
 <td>Eva Graversen</td>
-<td></td>
+<td>A Theory of Choreographic Programming</td>
 </tr>
 
 <tr>
@@ -298,11 +298,15 @@
 
 <p><strong>Speaker:</strong> Eva Graversen</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> A Theory of Choreographic Programming</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Choreographic programming promises a simple approach to the coding of concurrent and distributed systems: write the collective communication behavior of a system of processes as a choreography, and then the programs for these processes are automatically compiled by a provably-correct procedure known as endpoint projection. While this promise prompted substantial research, a theory that can deal with realistic communication failures in a distributed network remains elusive.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>In this talk, I will provide a theory of choreographic programming that addresses realistic communication failures taken from the literature of distributed systems: processes can send or receive fewer messages than they should (send and receive omission), and the network can fail at transporting messages (omission failure). This theory supports the programming of strategies for failure recovery, and a novel static analysis (called robustness) to check for delivery guarantees (at-most-once and exactly-once).</p>
+
+<p>A key technical innovation is a deconstruction of the usual communication primitive in choreographies to allow for independent implementations of the send and receive actions of a communication, while still retaining the static guarantee that these actions will correlate correctly (the essence of choreographic programming). This has two main benefits. First, each side of a communication can adopt its own failure recovery strategy, as in realistic protocols. Second, initiating new communications does not require any (unrealistic) synchronization over unreliable channels: senders and receivers agree by construction on how each message should be identified.</p>
+
+<p><strong>Bio:</strong> Eva Graversen is a Postdoc at Tallinn University of Technology working on theoretical foundations of choreographic programming. Her PhD was under Iain Phillips and Nobuko Yoshida at Imperial College London, working on concurrent reversible computing.</p>
 
 <h2 id="april-18">April 18</h2>
 
