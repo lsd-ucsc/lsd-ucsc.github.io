@@ -54,7 +54,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#april-18&#34;&gt;April 18&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Huaifeng Zhang&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The Hidden Bloat in Machine Learning Systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -131,11 +131,12 @@
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Huaifeng Zhang&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Hidden Bloat in Machine Learning Systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, we explore the problem of bloat in machine learning (ML) systems and present key findings from our study. We begin by analyzing bloat in ML containers, which are widely used in modern cloud computing environments.
+Next, we examine code bloat in shared libraries of popular ML frameworks such as TensorFlow and PyTorch. We introduce our approaches for debloating both ML containers and shared libraries. Our study reveals that both ML containers and shared libraries include a substantial amount of unnecessary files and code, which bloat their size and lead to performance degradation, resource waste, and increased security vulnerabilities.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Huaifeng Zhang is a Ph.D. student in the Department of Computer Science at Chalmers University of Technology, advised by Prof. Ahmed Ali-Eldin Hassan. His research interests include software engineering, machine learning systems, cloud computing and blockchain. He also held positions at ByteDance and Google.&lt;/p&gt;
 
 &lt;h2 id=&#34;april-25&#34;&gt;April 25&lt;/h2&gt;
 
