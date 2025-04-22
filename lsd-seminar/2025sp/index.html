@@ -17,7 +17,9 @@
       
     
   
-  <meta name="description" content="Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.">
+  <meta name="description" content="s&#43;&#43;&#43; title = &ldquo;Languages, Systems, and Data Seminar (Spring 2025)&rdquo; date = 2025-03-30T19:11:27-08:00 math = false
+&#43;&#43;&#43;
+Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.">
 
   <link rel="shortcut icon" href="../../img/favicon.ico" />
   
@@ -75,21 +77,22 @@
   <meta property="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="Languages, Systems, and Data Lab @ UCSC">
   <meta property="og:url" content="http://lsd.ucsc.edu/lsd-seminar/2025sp/">
-  <meta property="og:title" content="Languages, Systems, and Data Seminar (Spring 2025) | Languages, Systems, and Data Lab @ UCSC">
-  <meta property="og:description" content="Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.">
+  <meta property="og:title" content=" | Languages, Systems, and Data Lab @ UCSC">
+  <meta property="og:description" content="s&#43;&#43;&#43; title = &ldquo;Languages, Systems, and Data Seminar (Spring 2025)&rdquo; date = 2025-03-30T19:11:27-08:00 math = false
+&#43;&#43;&#43;
+Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2025-03-30T19:11:27-08:00">
   
-  <meta property="article:modified_time" content="2025-03-30T19:11:27-08:00">
   
-
   
 
   
 
   
-  <title> Languages, Systems, and Data Seminar (Spring 2025) | Languages, Systems, and Data Lab @ UCSC </title>
+
+  
+  <title>  | Languages, Systems, and Data Lab @ UCSC </title>
   
 
 </head>
@@ -192,11 +195,18 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Languages, Systems, and Data Seminar (Spring 2025)</h1>
+    <h1 itemprop="name"></h1>
 
 
     <div class="article-style" itemprop="articleBody">
       
+
+<p>s+++
+title = &ldquo;Languages, Systems, and Data Seminar (Spring 2025)&rdquo;
+date = 2025-03-30T19:11:27-08:00
+math = false</p>
+
+<p>+++</p>
 
 <p><strong>Time</strong>: Fridays, noon - 1:05pm (PT) <br />
 <strong>Location</strong>: The Internet / The LSD Lab (Engineering 2, Room 398) <br />
@@ -241,7 +251,7 @@
 <tr>
 <td><a href="#april-25">April 25</a></td>
 <td>Oliver Kennedy</td>
-<td></td>
+<td>Draupnir: A toolkit for scalable, easy-to-write declarative compilers</td>
 </tr>
 
 <tr>
@@ -323,11 +333,13 @@ Next, we examine code bloat in shared libraries of popular ML frameworks such as
 
 <p><strong>Speaker:</strong> Oliver Kennedy</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Draupnir: A toolkit for scalable, easy-to-write declarative compilers</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Compilers and program analysis tools are defined by sets of rules, or productions, that govern how code is translated, optimized, or analyzed. Production rules are compositional, allowing compiler authors to subdivide a global objective into smaller-scale local logical units that are easier to reason about. For example, a compiler author writing an optimizer might specify a rule that identifies if-then-else statements, where the condition is trivially tautological, and replaces it withthe body of the then clause. When compiling (resp., optimizing, analyzing) a block of code, the compiler (or optimizer, or program analysis tool) iteratively selects an appropriate production rule, applies it, and repeats.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>The simplicity of local reasoning with production rules comes at the cost of redundant computation. To improve compile times, many production compilers adopt non-idiomatic design patterns, such as merging production rules or tracking non-local properties manually. While necessary for performance, such anti-patterns increase code complexity and make the code harder to maintain. In this talk, I will introduce Draupnir, a new compiler implementation framework based around a database engine. Draupnir allows compiler authors to continue expressing compiler logic through normal production rules, but approaches compilation, optimization, and analysis as forms of query processing. This shift in perspective allows Draupnir to leverage techniques from the database community, including Incremental View Maintenance (SIGMOD 2020), multi-query optimization (in-progress), optimization for the memory hierarchy (in-progress), and distribution (in-progress) to achieve orders of magnitude improvement in compile times, while simultaneously simplifying the logic of the compiler.</p>
+
+<p><strong>Bio:</strong> Oliver Kennedy is an associate professor at the University at Buffalo. He earned his PhD from Cornell University in 2011 and now leads the Online Data Interactions (ODIn) lab, which operates at the intersection of databases and programming languages. Oliver is the recipient of an NSF CAREER award, an IEEE Region 1 Technological Innovation Award, UB’s Exceptional Scholar Award, and several UB SEAS teaching awards. Oliver is also one of the founding board members of Breadcrumb Analytics. Several of Oliver’s papers have been invited to “Best of” compilations from SIGMOD and VLDB. The ODIn lab is currently exploring (i) how we can leverage database techniques like incremental view maintenance to make compilers faster, (ii) how to make it easier for data scientists to track how sources of uncertainty, ambiguity, and/or bias affect analyses, and (iii) how to streamline the interfaces — both human and software — between different tools for data science, like python, sql, and spreadsheets.</p>
 
 <h2 id="may-2">May 2</h2>
 
