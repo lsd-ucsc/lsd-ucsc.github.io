@@ -6,10 +6,19 @@
     <description>Recent content in LSD Seminar Archive on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2025 19:11:27 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 19:11:27 -0800</lastBuildDate>
     
 	<atom:link href="http://lsd.ucsc.edu/lsd-seminar/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (Spring 2025)</title>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2025sp/</link>
+      <pubDate>Sun, 30 Mar 2025 19:11:27 -0800</pubDate>
+      
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2025sp/</guid>
+      <description>Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.</description>
+    </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Winter 2025)</title>
@@ -126,17 +135,6 @@
       
       <guid>http://lsd.ucsc.edu/lsd-seminar/2021wi/</guid>
       <description>Time: Fridays, noon - 1:15pm (PT)  Location: The Internet  Organizers: Lindsey Kuper and Tyler Sorensen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond. Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas. The seminar is open to everyone interested.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://lsd.ucsc.edu/lsd-seminar/2025sp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://lsd.ucsc.edu/lsd-seminar/2025sp/</guid>
-      <description>s+++ title = &amp;ldquo;Languages, Systems, and Data Seminar (Spring 2025)&amp;rdquo; date = 2025-03-30T19:11:27-08:00 math = false
-+++
-Time: Fridays, noon - 1:05pm (PT) Location: The Internet / The LSD Lab (Engineering 2, Room 398) Organizers: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.</description>
     </item>
     
     <item>

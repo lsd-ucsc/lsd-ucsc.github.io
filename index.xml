@@ -6,8 +6,213 @@
     <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2025 19:11:27 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 19:11:27 -0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (Spring 2025)</title>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2025sp/</link>
+      <pubDate>Sun, 30 Mar 2025 19:11:27 -0800</pubDate>
+      
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2025sp/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
+
+&lt;p&gt;For spring 2025, we will continue to host the LSD Seminar in a hybrid fashion.  Anyone can attend on Zoom, and local folks can gather in person in the lab.  Speakers can join either in person or on Zoom, whichever is convenient.&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-4&#34;&gt;April 4&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Shadaj Laddad&lt;/td&gt;
+&lt;td&gt;Hydro: Modular, Correct, and Performant Distributed Systems&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-11&#34;&gt;April 11&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Eva Graversen&lt;/td&gt;
+&lt;td&gt;A Theory of Choreographic Programming&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-18&#34;&gt;April 18&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Huaifeng Zhang&lt;/td&gt;
+&lt;td&gt;The Hidden Bloat in Machine Learning Systems&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#april-25&#34;&gt;April 25&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Oliver Kennedy&lt;/td&gt;
+&lt;td&gt;Draupnir: A toolkit for scalable, easy-to-write declarative compilers&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-2&#34;&gt;May 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-9&#34;&gt;May 9&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-16&#34;&gt;May 16&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Amanda Xu&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-23&#34;&gt;May 23&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Abtin Molavi&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#may-30&#34;&gt;May 30&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Achilles Benetopoulos&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#june-6&#34;&gt;June 6&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;april-4&#34;&gt;April 4&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Shadaj Laddad&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Hydro: Modular, Correct, and Performant Distributed Systems&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We’ve been stuck with programming models for distributed systems that force developers to individually program a fleet of sequential programs and manually reason about global correctness, or leverage frameworks that lock the developer into global scaling and fault tolerance decisions. Choreographic programming gives us a step in the right direction, by letting developers write distributed programs while avoiding opaque network boundaries. But it has significant limitations when it comes to reasoning about concurrent executions. In this talk, I’ll present the key ideas behind Hydro, a Rust framework for general-purpose distributed systems. I’ll show how Hydro leverages stream-choreographic programming to offer low-level control with strong correctness guarantees.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Shadaj is a final-year PhD student co-advised by Alvin Cheung and Joe Hellerstein in the Sky Computing Lab at UC Berkeley. He designs programming paradigms that make distributed systems modular, correct, accessible, and performant. His research spans foundational language design, program optimization, and formal methods. Shadaj is a co-organizer of the SF Systems Club, the largest systems-oriented meetup in the Bay Area, and loves to play the sitar in his spare time.&lt;/p&gt;
+
+&lt;h2 id=&#34;april-11&#34;&gt;April 11&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Eva Graversen&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A Theory of Choreographic Programming&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Choreographic programming promises a simple approach to the coding of concurrent and distributed systems: write the collective communication behavior of a system of processes as a choreography, and then the programs for these processes are automatically compiled by a provably-correct procedure known as endpoint projection. While this promise prompted substantial research, a theory that can deal with realistic communication failures in a distributed network remains elusive.&lt;/p&gt;
+
+&lt;p&gt;In this talk, I will provide a theory of choreographic programming that addresses realistic communication failures taken from the literature of distributed systems: processes can send or receive fewer messages than they should (send and receive omission), and the network can fail at transporting messages (omission failure). This theory supports the programming of strategies for failure recovery, and a novel static analysis (called robustness) to check for delivery guarantees (at-most-once and exactly-once).&lt;/p&gt;
+
+&lt;p&gt;A key technical innovation is a deconstruction of the usual communication primitive in choreographies to allow for independent implementations of the send and receive actions of a communication, while still retaining the static guarantee that these actions will correlate correctly (the essence of choreographic programming). This has two main benefits. First, each side of a communication can adopt its own failure recovery strategy, as in realistic protocols. Second, initiating new communications does not require any (unrealistic) synchronization over unreliable channels: senders and receivers agree by construction on how each message should be identified.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Eva Graversen is a Postdoc at Tallinn University of Technology working on theoretical foundations of choreographic programming. Her PhD was under Iain Phillips and Nobuko Yoshida at Imperial College London, working on concurrent reversible computing.&lt;/p&gt;
+
+&lt;h2 id=&#34;april-18&#34;&gt;April 18&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Huaifeng Zhang&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Hidden Bloat in Machine Learning Systems&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, we explore the problem of bloat in machine learning (ML) systems and present key findings from our study. We begin by analyzing bloat in ML containers, which are widely used in modern cloud computing environments.
+Next, we examine code bloat in shared libraries of popular ML frameworks such as TensorFlow and PyTorch. We introduce our approaches for debloating both ML containers and shared libraries. Our study reveals that both ML containers and shared libraries include a substantial amount of unnecessary files and code, which bloat their size and lead to performance degradation, resource waste, and increased security vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Huaifeng Zhang is a Ph.D. student in the Department of Computer Science at Chalmers University of Technology, advised by Prof. Ahmed Ali-Eldin Hassan. His research interests include software engineering, machine learning systems, cloud computing and blockchain. He also held positions at ByteDance and Google.&lt;/p&gt;
+
+&lt;h2 id=&#34;april-25&#34;&gt;April 25&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Oliver Kennedy&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Draupnir: A toolkit for scalable, easy-to-write declarative compilers&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Compilers and program analysis tools are defined by sets of rules, or productions, that govern how code is translated, optimized, or analyzed. Production rules are compositional, allowing compiler authors to subdivide a global objective into smaller-scale local logical units that are easier to reason about. For example, a compiler author writing an optimizer might specify a rule that identifies if-then-else statements, where the condition is trivially tautological, and replaces it withthe body of the then clause. When compiling (resp., optimizing, analyzing) a block of code, the compiler (or optimizer, or program analysis tool) iteratively selects an appropriate production rule, applies it, and repeats.&lt;/p&gt;
+
+&lt;p&gt;The simplicity of local reasoning with production rules comes at the cost of redundant computation. To improve compile times, many production compilers adopt non-idiomatic design patterns, such as merging production rules or tracking non-local properties manually. While necessary for performance, such anti-patterns increase code complexity and make the code harder to maintain. In this talk, I will introduce Draupnir, a new compiler implementation framework based around a database engine. Draupnir allows compiler authors to continue expressing compiler logic through normal production rules, but approaches compilation, optimization, and analysis as forms of query processing. This shift in perspective allows Draupnir to leverage techniques from the database community, including Incremental View Maintenance (SIGMOD 2020), multi-query optimization (in-progress), optimization for the memory hierarchy (in-progress), and distribution (in-progress) to achieve orders of magnitude improvement in compile times, while simultaneously simplifying the logic of the compiler.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Oliver Kennedy is an associate professor at the University at Buffalo. He earned his PhD from Cornell University in 2011 and now leads the Online Data Interactions (ODIn) lab, which operates at the intersection of databases and programming languages. Oliver is the recipient of an NSF CAREER award, an IEEE Region 1 Technological Innovation Award, UB’s Exceptional Scholar Award, and several UB SEAS teaching awards. Oliver is also one of the founding board members of Breadcrumb Analytics. Several of Oliver’s papers have been invited to “Best of” compilations from SIGMOD and VLDB. The ODIn lab is currently exploring (i) how we can leverage database techniques like incremental view maintenance to make compilers faster, (ii) how to make it easier for data scientists to track how sources of uncertainty, ambiguity, and/or bias affect analyses, and (iii) how to streamline the interfaces — both human and software — between different tools for data science, like python, sql, and spreadsheets.&lt;/p&gt;
+
+&lt;h2 id=&#34;may-2&#34;&gt;May 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;may-9&#34;&gt;May 9&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;may-16&#34;&gt;May 16&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Amanda Xu&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;may-23&#34;&gt;May 23&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Abtin Molavi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;may-30&#34;&gt;May 30&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Achilles Benetopoulos&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;june-6&#34;&gt;June 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Winter 2025)</title>
@@ -3112,218 +3317,6 @@ His Ph.D. research has been mainly focused on deep neural network compression fo
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Daniel is a PhD candidate at UC Santa Cruz, advised by Ethan Miller and Peter Alvaro. His interests are in kernel programming and design, security, non-volatile memory, and concurrent programming. His current project is on developing an operating system for non-volatile memories and developing operating system designs and interfaces for better programming and data models in such an environment.&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://lsd.ucsc.edu/lsd-seminar/2025sp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://lsd.ucsc.edu/lsd-seminar/2025sp/</guid>
-      <description>
-
-&lt;p&gt;s+++
-title = &amp;ldquo;Languages, Systems, and Data Seminar (Spring 2025)&amp;rdquo;
-date = 2025-03-30T19:11:27-08:00
-math = false&lt;/p&gt;
-
-&lt;p&gt;+++&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
-&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Gan Shen &lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
-
-&lt;p&gt;For spring 2025, we will continue to host the LSD Seminar in a hybrid fashion.  Anyone can attend on Zoom, and local folks can gather in person in the lab.  Speakers can join either in person or on Zoom, whichever is convenient.&lt;/p&gt;
-
-&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Speaker&lt;/th&gt;
-&lt;th&gt;Title&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#april-4&#34;&gt;April 4&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Shadaj Laddad&lt;/td&gt;
-&lt;td&gt;Hydro: Modular, Correct, and Performant Distributed Systems&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#april-11&#34;&gt;April 11&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Eva Graversen&lt;/td&gt;
-&lt;td&gt;A Theory of Choreographic Programming&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#april-18&#34;&gt;April 18&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Huaifeng Zhang&lt;/td&gt;
-&lt;td&gt;The Hidden Bloat in Machine Learning Systems&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#april-25&#34;&gt;April 25&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Oliver Kennedy&lt;/td&gt;
-&lt;td&gt;Draupnir: A toolkit for scalable, easy-to-write declarative compilers&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-2&#34;&gt;May 2&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-9&#34;&gt;May 9&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-16&#34;&gt;May 16&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Amanda Xu&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-23&#34;&gt;May 23&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Abtin Molavi&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#may-30&#34;&gt;May 30&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Achilles Benetopoulos&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#june-6&#34;&gt;June 6&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;april-4&#34;&gt;April 4&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Shadaj Laddad&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Hydro: Modular, Correct, and Performant Distributed Systems&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We’ve been stuck with programming models for distributed systems that force developers to individually program a fleet of sequential programs and manually reason about global correctness, or leverage frameworks that lock the developer into global scaling and fault tolerance decisions. Choreographic programming gives us a step in the right direction, by letting developers write distributed programs while avoiding opaque network boundaries. But it has significant limitations when it comes to reasoning about concurrent executions. In this talk, I’ll present the key ideas behind Hydro, a Rust framework for general-purpose distributed systems. I’ll show how Hydro leverages stream-choreographic programming to offer low-level control with strong correctness guarantees.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Shadaj is a final-year PhD student co-advised by Alvin Cheung and Joe Hellerstein in the Sky Computing Lab at UC Berkeley. He designs programming paradigms that make distributed systems modular, correct, accessible, and performant. His research spans foundational language design, program optimization, and formal methods. Shadaj is a co-organizer of the SF Systems Club, the largest systems-oriented meetup in the Bay Area, and loves to play the sitar in his spare time.&lt;/p&gt;
-
-&lt;h2 id=&#34;april-11&#34;&gt;April 11&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Eva Graversen&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A Theory of Choreographic Programming&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Choreographic programming promises a simple approach to the coding of concurrent and distributed systems: write the collective communication behavior of a system of processes as a choreography, and then the programs for these processes are automatically compiled by a provably-correct procedure known as endpoint projection. While this promise prompted substantial research, a theory that can deal with realistic communication failures in a distributed network remains elusive.&lt;/p&gt;
-
-&lt;p&gt;In this talk, I will provide a theory of choreographic programming that addresses realistic communication failures taken from the literature of distributed systems: processes can send or receive fewer messages than they should (send and receive omission), and the network can fail at transporting messages (omission failure). This theory supports the programming of strategies for failure recovery, and a novel static analysis (called robustness) to check for delivery guarantees (at-most-once and exactly-once).&lt;/p&gt;
-
-&lt;p&gt;A key technical innovation is a deconstruction of the usual communication primitive in choreographies to allow for independent implementations of the send and receive actions of a communication, while still retaining the static guarantee that these actions will correlate correctly (the essence of choreographic programming). This has two main benefits. First, each side of a communication can adopt its own failure recovery strategy, as in realistic protocols. Second, initiating new communications does not require any (unrealistic) synchronization over unreliable channels: senders and receivers agree by construction on how each message should be identified.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Eva Graversen is a Postdoc at Tallinn University of Technology working on theoretical foundations of choreographic programming. Her PhD was under Iain Phillips and Nobuko Yoshida at Imperial College London, working on concurrent reversible computing.&lt;/p&gt;
-
-&lt;h2 id=&#34;april-18&#34;&gt;April 18&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Huaifeng Zhang&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Hidden Bloat in Machine Learning Systems&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, we explore the problem of bloat in machine learning (ML) systems and present key findings from our study. We begin by analyzing bloat in ML containers, which are widely used in modern cloud computing environments.
-Next, we examine code bloat in shared libraries of popular ML frameworks such as TensorFlow and PyTorch. We introduce our approaches for debloating both ML containers and shared libraries. Our study reveals that both ML containers and shared libraries include a substantial amount of unnecessary files and code, which bloat their size and lead to performance degradation, resource waste, and increased security vulnerabilities.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Huaifeng Zhang is a Ph.D. student in the Department of Computer Science at Chalmers University of Technology, advised by Prof. Ahmed Ali-Eldin Hassan. His research interests include software engineering, machine learning systems, cloud computing and blockchain. He also held positions at ByteDance and Google.&lt;/p&gt;
-
-&lt;h2 id=&#34;april-25&#34;&gt;April 25&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Oliver Kennedy&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Draupnir: A toolkit for scalable, easy-to-write declarative compilers&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Compilers and program analysis tools are defined by sets of rules, or productions, that govern how code is translated, optimized, or analyzed. Production rules are compositional, allowing compiler authors to subdivide a global objective into smaller-scale local logical units that are easier to reason about. For example, a compiler author writing an optimizer might specify a rule that identifies if-then-else statements, where the condition is trivially tautological, and replaces it withthe body of the then clause. When compiling (resp., optimizing, analyzing) a block of code, the compiler (or optimizer, or program analysis tool) iteratively selects an appropriate production rule, applies it, and repeats.&lt;/p&gt;
-
-&lt;p&gt;The simplicity of local reasoning with production rules comes at the cost of redundant computation. To improve compile times, many production compilers adopt non-idiomatic design patterns, such as merging production rules or tracking non-local properties manually. While necessary for performance, such anti-patterns increase code complexity and make the code harder to maintain. In this talk, I will introduce Draupnir, a new compiler implementation framework based around a database engine. Draupnir allows compiler authors to continue expressing compiler logic through normal production rules, but approaches compilation, optimization, and analysis as forms of query processing. This shift in perspective allows Draupnir to leverage techniques from the database community, including Incremental View Maintenance (SIGMOD 2020), multi-query optimization (in-progress), optimization for the memory hierarchy (in-progress), and distribution (in-progress) to achieve orders of magnitude improvement in compile times, while simultaneously simplifying the logic of the compiler.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Oliver Kennedy is an associate professor at the University at Buffalo. He earned his PhD from Cornell University in 2011 and now leads the Online Data Interactions (ODIn) lab, which operates at the intersection of databases and programming languages. Oliver is the recipient of an NSF CAREER award, an IEEE Region 1 Technological Innovation Award, UB’s Exceptional Scholar Award, and several UB SEAS teaching awards. Oliver is also one of the founding board members of Breadcrumb Analytics. Several of Oliver’s papers have been invited to “Best of” compilations from SIGMOD and VLDB. The ODIn lab is currently exploring (i) how we can leverage database techniques like incremental view maintenance to make compilers faster, (ii) how to make it easier for data scientists to track how sources of uncertainty, ambiguity, and/or bias affect analyses, and (iii) how to streamline the interfaces — both human and software — between different tools for data science, like python, sql, and spreadsheets.&lt;/p&gt;
-
-&lt;h2 id=&#34;may-2&#34;&gt;May 2&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;may-9&#34;&gt;May 9&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;may-16&#34;&gt;May 16&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Amanda Xu&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;may-23&#34;&gt;May 23&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Abtin Molavi&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;may-30&#34;&gt;May 30&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Achilles Benetopoulos&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;june-6&#34;&gt;June 6&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
