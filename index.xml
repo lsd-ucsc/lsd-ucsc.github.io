@@ -71,8 +71,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-9&#34;&gt;May 9&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Patrick Redmond&lt;/td&gt;
+&lt;td&gt;Formally-verified chimeric consensus&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -162,13 +162,13 @@ Next, we examine code bloat in shared libraries of popular ML frameworks such as
 
 &lt;h2 id=&#34;may-9&#34;&gt;May 9&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Patrick Redmond&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Formally-verified chimeric consensus&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Distributed Consensus is the problem of reaching agreement among of set of networked nodes. For example, it could be reaching agreement about the next transition, among the many that are pending, to apply in a replicated database. Traditionally this problem was formulated among a fixed set of participants for which a minority may fail by crashing. If we extend the setting to include malicious participants, the problem may be called Byzantine Fault-Tolerant (BFT) Consensus. If we extended yet again to open systems, as opposed to systems with a globally known set of participants, it may now be called Permissionless Consensus. Solutions to consensus problems may be factored into a voting algorithm and a quorum system, i.e. a definition of what constitutes a set of votes sufficient to trigger a consensus decision. By decomposing the problem along these two axes, we are able to obtain a formally verified &amp;ldquo;chimeric&amp;rdquo; consensus implementation that uses the voting algorithm of Paxos with the permissionless quorum system of Stellar Consensus Protocol.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Patrick is a PhD student in the LSD Lab at UCSC advised by Lindsey Kuper. Patrick&amp;rsquo;s research explores the design, implementation, and verification of distributed and concurrent systems, with a PL-angle. Patrick has several years of industry experience, and hopes to help spread the use of software verification techniques there.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-16&#34;&gt;May 16&lt;/h2&gt;
 
