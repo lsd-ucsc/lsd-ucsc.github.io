@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-16&#34;&gt;May 16&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Amanda Xu&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Synthesizing Quantum-Circuit Optimizers&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -174,11 +174,13 @@ Next, we examine code bloat in shared libraries of popular ML frameworks such as
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Amanda Xu&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Synthesizing Quantum-Circuit Optimizers&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Recent breakthroughs in quantum computing hardware have brought us closer to realizing the dream of quantum computers accelerating domains such as materials discovery. However, optimizing the programs we run on these error-prone devices is a critical software obstacle to overcome, which will remain even when we have achieved error correction at scale. As an additional roadblock, quantum hardware is diverse and constantly in flux as scientists run new experiments. To avoid the need for tedious manual updates to the optimizer with every hardware modification, my work aims to automatically synthesize a quantum-circuit optimizer for a given device.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk, I will first present QUESO, an efficient approach for synthesizing correct rewrite rules given the set of operations supported by a particular platform. QUESO is powered by an algebraic view of circuit semantics. Then I will discuss a follow-up work that introduced a framework to unify these fast rewrite rules with slow unitary synthesis &amp;mdash; two previously disparate ideas for optimizing quantum circuits. This work also presented a radically simple algorithm, GUOQ, for scheduling these optimizations in a way that exploits the synergies of rewriting and resynthesis. I will show how these automated approaches for discovering transformations and a good schedule for applying them outperform state-of-the-art hand-crafted alternatives.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Amanda Xu is a 4th year PhD student at the University of Wisconsin-Madison, advised by Aws Albarghouthi. Her research pushes the boundaries of quantum-circuit optimization using techniques from PL and formal methods. You can learn more and contact her at &lt;a href=&#34;https://amandashoe.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://amandashoe.github.io/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-23&#34;&gt;May 23&lt;/h2&gt;
 
