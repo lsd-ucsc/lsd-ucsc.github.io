@@ -265,7 +265,7 @@
 <tr>
 <td><a href="#may-23">May 23</a></td>
 <td>Abtin Molavi</td>
-<td></td>
+<td>Qubit Mapping and Routing for an Evolving Quantum Hardware Landscape</td>
 </tr>
 
 <tr>
@@ -367,11 +367,15 @@ Next, we examine code bloat in shared libraries of popular ML frameworks such as
 
 <p><strong>Speaker:</strong> Abtin Molavi</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Qubit Mapping and Routing for an Evolving Quantum Hardware Landscape</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> As Amanda discussed last week, quantum computing promises to unlock breakthroughs in important domains like materials science and chemistry. However, to realize this potential in practice, we need optimizing quantum circuit compilers which can adapt to a rapidly evolving landscape of quantum hardware.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>In this talk, I&rsquo;ll elaborate on our efforts towards efficient and flexible quantum compilers by focusing on a compiler stage called qubit mapping and routing (QMR). The goal of QMR is to find a mapping from circuit qubits to physical locations on a target quantum device and plan the routing of multi-qubit gates in a way that is compliant with certain connectivity constraints.</p>
+
+<p>We&rsquo;ll begin by considering the qubit mapping and routing problem for near-term quantum computers without error correction. Using a reduction to MaxSAT and a “circuit slicing” technique, we find better solutions than existing heuristic-based approaches while scaling further than existing constraint-based approaches. Then, we turn to the qubit mapping and routing problem for fault-tolerant quantum devices. We solve this problem by exploiting the dependency structure of circuit operations to formulate discrete optimization problems that can be solved near-optimally with simulated annealing. Finally, I&rsquo;ll close by discussing our ongoing work towards a unified framework for QMR problems, including these two examples among several. By extracting the common core structure of QMR and isolating the problem-specific constraints, we enable automatic generation of the QMR compiler phase for a particular class of quantum computer from a concise description.</p>
+
+<p><strong>Bio:</strong> Abtin Molavi is a PhD candidate at the University of Wisconsin-Madison, advised by Aws Albarghouthi. In his research, he tackles problems that emerge in compiling quantum circuits to physical hardware by drawing from tools and techniques in PL and formal methods.</p>
 
 <h2 id="may-30">May 30</h2>
 
