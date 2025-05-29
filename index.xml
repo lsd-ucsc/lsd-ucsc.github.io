@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-30&#34;&gt;May 30&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Achilles Benetopoulos&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The world changes constantly; so should your systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -200,11 +200,12 @@ Next, we examine code bloat in shared libraries of popular ML frameworks such as
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Achilles Benetopoulos&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The world changes constantly; so should your systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Programming distributed systems has never been easier, but making them perform well and efficiently exploit available resources remains stubbornly difficult. Programs that are incredibly fast on a single host slow to a crawl when given more resources, while systems designed for scale squander resources on modest problems.
+In this talk, I will present magpie, a programming model and framework that builds on a principle of extreme adaptivity of data and compute placement, enabling fast code to remain fast when distributed while providing high-performance, data-intensive applications with richer correctness guarantees than state-of-the-art systems.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Achilles is a fourth year PhD candidate at UCSC, working at the intersection of distributed systems, databases, and programming languages with Peter Alvaro.&lt;/p&gt;
 
 &lt;h2 id=&#34;june-6&#34;&gt;June 6&lt;/h2&gt;
 
