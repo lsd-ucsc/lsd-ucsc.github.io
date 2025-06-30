@@ -34,6 +34,29 @@ active = false
 
 [[news]]
   kind = "paper"
+  date = "June 27, 2025"
+  who = "Nathan Liittschwager, Jonathan Castello, Stelios Tsampas, and Lindsey Kuper"
+  paper_name = "CRDT Emulation, Simulation, and Representation Independence"
+  conf_name = "ICFP 2025"
+
+[[news]]
+  kind = "paper"
+  date = "June 18, 2025"
+  who = "Patrick Redmond, Jonathan Castello, José Manuel Calderón Trilla, and Lindsey Kuper"
+  paper_name = "Exploring the Theory and Practice of Concurrency in the
+  Entity-Component-System Pattern"
+  conf_name = "OOPSLA 2025"
+
+[[news]]
+  kind = "paper"
+  date = "April 3, 2025"
+  who = "Mako Bates, Shun Kashiwa, Syed Jafri, Gan Shen, Lindsey Kuper, and Joseph P. Near"
+  paper_name = "Efficient, Portable, Census-Polymorphic Choreographic Programming"
+  paper_link = "https://dl.acm.org/doi/10.1145/3729296"
+  conf_name = "PLDI 2025"
+
+[[news]]
+  kind = "paper"
   date = "March 26, 2025"
   who = "Mohsen Lesani's team"
   paper_name = "Hamava: Fault-tolerant Reconfigurable Geo-Replication on Heterogeneous Clusters"
