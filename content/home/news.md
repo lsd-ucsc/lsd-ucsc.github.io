@@ -43,8 +43,7 @@ active = false
   kind = "paper"
   date = "June 18, 2025"
   who = "Patrick Redmond, Jonathan Castello, José Manuel Calderón Trilla, and Lindsey Kuper"
-  paper_name = "Exploring the Theory and Practice of Concurrency in the
-  Entity-Component-System Pattern"
+  paper_name = "Exploring the Theory and Practice of Concurrency in the Entity-Component-System Pattern"
   conf_name = "OOPSLA 2025"
 
 [[news]]
