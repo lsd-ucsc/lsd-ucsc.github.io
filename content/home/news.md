@@ -34,7 +34,7 @@ active = false
 
 [[news]]
   kind = "paper"
-  date = "March 26, 2024"  
+  date = "March 26, 2025"
   who = "Mohsen Lesani's team"
   paper_name = "Hamava: Fault-tolerant Reconfigurable Geo-Replication on Heterogeneous Clusters"
   paper_link = "https://mohsenlesani.github.io/companion/icde25/"
@@ -42,7 +42,7 @@ active = false
 
 [[news]]
   kind = "paper"
-  date = "Jan 25, 2024"  
+  date = "Jan 25, 2025"
   who = "Mohsen Lesani's team"
   paper_name = "Hambazi: Spatial Coordination Synthesis for Augmented Reality"
   paper_link = "https://mohsenlesani.github.io/companion/oopsla25/"
