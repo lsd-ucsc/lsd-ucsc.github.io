@@ -34,6 +34,13 @@ active = false
 
 [[news]]
   kind = "paper"
+  date = "August 27, 2025"
+  who = "Tim Goodwin, Esteban Ramos, Andi Quinn, and Lindsey Kuper"
+  paper_name = "Monolift: Automating Distribution With the Tools You Have at Home"
+  conf_name = "PLOS 2025"
+
+[[news]]
+  kind = "paper"
   date = "June 27, 2025"
   who = "Nathan Liittschwager, Jonathan Castello, Stelios Tsampas, and Lindsey Kuper"
   paper_name = "CRDT Emulation, Simulation, and Representation Independence"
