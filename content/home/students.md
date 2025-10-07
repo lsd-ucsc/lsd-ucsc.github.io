@@ -121,6 +121,11 @@ title = "Students"
   www = "https://zephiris.me"
   title = "Undergraduate Student"
   img = "zephiris_evergreen.jpg"
+
+[[people]]
+  name = "Alisha Manocha"
+  title = "Undergraduate Student"
+  img = "amanocha.jpg"
   
 [[people]]
   name = "Your Name Here"
