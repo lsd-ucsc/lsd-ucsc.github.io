@@ -72,24 +72,24 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-31&#34;&gt;Oct 31&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Mingwei Zheng&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Semantic Bug Detection for Reliable Network Protocol Implementations&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-7&#34;&gt;Nov 7&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Tommy McMichen&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-14&#34;&gt;Nov 14&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Lasse Moldrup&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-21&#34;&gt;Nov 21&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Eric Chan&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -101,7 +101,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#dec-5&#34;&gt;Dec 5&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Jayaprabhakar Kadarkarai&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -168,33 +168,43 @@ Electrical Engineering and Computer Science from Princeton University.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Mingwei Zheng&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Semantic Bug Detection for Reliable Network Protocol Implementations&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Countless devices around the world communicate through network protocols, forming the backbone of modern digital infrastructure. Ensuring the security and correctness of these protocol implementations is critical, as flaws can lead to service disruptions, security vulnerabilities, and data loss. While extensive research has focused on low-level reliability through techniques such as fuzzing and traditional program analysis, true robustness also depends on high-level semantic conformance to the behaviors prescribed by natural language protocol standards. This latter aspect, semantic correctness, remains under-explored in the domain of network protocol testing.&lt;/p&gt;
+
+&lt;p&gt;In this talk, I will present three complementary efforts aimed at detecting semantic bugs in network protocol implementations. First, I will introduce ParDiff, a static differential analysis framework that identifies silent parser bugs by comparing multiple independent implementations of the same protocol. ParDiff automatically extracts finite state machines (FSMs) from programs to model protocol message formats and employs bisimulation and SMT-based reasoning to reveal fine-grained semantic discrepancies. Second, I will discuss ParCleanse, which leverages advances in large language models to automatically extract message formats from RFCs and generate both positive and negative test cases to evaluate parser correctness. Finally, I will present RFCAudit, an LLM agent designed to align RFC documents with source code to detect functional bugs beyond parsers. RFCAudit integrates an indexing agent that performs semantic indexing of source code, and a detection agent that conducts retrieval-guided consistency checking to uncover specification violations. Across these efforts, our research has uncovered over 100 semantic bugs in widely used network protocol implementations, demonstrating the promise of semantic bug detection for building secure and trustworthy network software.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Mingwei Zheng is a Ph.D. candidate in Computer Science at Purdue University, advised by Prof. Xiangyu Zhang. Her research lies at the intersection of large language models (LLMs) and software engineering. She focuses on building efficient and effective LLM agents for automated software development tasks such as code generation, software testing, and program repair, with the broader goal of improving software correctness, robustness, and trustworthiness. Her work has been published in top-tier conferences including OOPSLA, ASE, ISSTA, S&amp;amp;P, CCS, and NeurIPS, and has been recognized with the ACM SIGPLAN Distinguished Paper Award (OOPSLA 2024) and a NeurIPS 2025 Spotlight. She has completed two research internships at Microsoft Research (RiSE Group) and is currently an Applied Science Intern at AWS AGI.&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-7&#34;&gt;Nov. 7&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tommy McMichen&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-14&#34;&gt;Nov. 14&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Lasse Moldrup&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-21&#34;&gt;Nov. 21&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Eric Chan&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-28&#34;&gt;Nov. 28&lt;/h2&gt;
 
@@ -202,11 +212,13 @@ Electrical Engineering and Computer Science from Princeton University.&lt;/p&gt;
 
 &lt;h2 id=&#34;dec-5&#34;&gt;Dec. 5&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jayaprabhakar Kadarkarai&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>

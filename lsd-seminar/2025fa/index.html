@@ -253,24 +253,24 @@
 <tr>
 <td><a href="#oct-31">Oct 31</a></td>
 <td>Mingwei Zheng</td>
-<td><em>TBD</em></td>
+<td>Semantic Bug Detection for Reliable Network Protocol Implementations</td>
 </tr>
 
 <tr>
 <td><a href="#nov-7">Nov 7</a></td>
-<td><em>TBD</em></td>
+<td>Tommy McMichen</td>
 <td><em>TBD</em></td>
 </tr>
 
 <tr>
 <td><a href="#nov-14">Nov 14</a></td>
-<td><em>TBD</em></td>
+<td>Lasse Moldrup</td>
 <td><em>TBD</em></td>
 </tr>
 
 <tr>
 <td><a href="#nov-21">Nov 21</a></td>
-<td><em>TBD</em></td>
+<td>Eric Chan</td>
 <td><em>TBD</em></td>
 </tr>
 
@@ -282,7 +282,7 @@
 
 <tr>
 <td><a href="#dec-5">Dec 5</a></td>
-<td><em>TBD</em></td>
+<td>Jayaprabhakar Kadarkarai</td>
 <td><em>TBD</em></td>
 </tr>
 </tbody>
@@ -349,33 +349,43 @@ Electrical Engineering and Computer Science from Princeton University.</p>
 
 <p><strong>Speaker:</strong> Mingwei Zheng</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Semantic Bug Detection for Reliable Network Protocol Implementations</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Countless devices around the world communicate through network protocols, forming the backbone of modern digital infrastructure. Ensuring the security and correctness of these protocol implementations is critical, as flaws can lead to service disruptions, security vulnerabilities, and data loss. While extensive research has focused on low-level reliability through techniques such as fuzzing and traditional program analysis, true robustness also depends on high-level semantic conformance to the behaviors prescribed by natural language protocol standards. This latter aspect, semantic correctness, remains under-explored in the domain of network protocol testing.</p>
+
+<p>In this talk, I will present three complementary efforts aimed at detecting semantic bugs in network protocol implementations. First, I will introduce ParDiff, a static differential analysis framework that identifies silent parser bugs by comparing multiple independent implementations of the same protocol. ParDiff automatically extracts finite state machines (FSMs) from programs to model protocol message formats and employs bisimulation and SMT-based reasoning to reveal fine-grained semantic discrepancies. Second, I will discuss ParCleanse, which leverages advances in large language models to automatically extract message formats from RFCs and generate both positive and negative test cases to evaluate parser correctness. Finally, I will present RFCAudit, an LLM agent designed to align RFC documents with source code to detect functional bugs beyond parsers. RFCAudit integrates an indexing agent that performs semantic indexing of source code, and a detection agent that conducts retrieval-guided consistency checking to uncover specification violations. Across these efforts, our research has uncovered over 100 semantic bugs in widely used network protocol implementations, demonstrating the promise of semantic bug detection for building secure and trustworthy network software.</p>
+
+<p><strong>Bio:</strong> Mingwei Zheng is a Ph.D. candidate in Computer Science at Purdue University, advised by Prof. Xiangyu Zhang. Her research lies at the intersection of large language models (LLMs) and software engineering. She focuses on building efficient and effective LLM agents for automated software development tasks such as code generation, software testing, and program repair, with the broader goal of improving software correctness, robustness, and trustworthiness. Her work has been published in top-tier conferences including OOPSLA, ASE, ISSTA, S&amp;P, CCS, and NeurIPS, and has been recognized with the ACM SIGPLAN Distinguished Paper Award (OOPSLA 2024) and a NeurIPS 2025 Spotlight. She has completed two research internships at Microsoft Research (RiSE Group) and is currently an Applied Science Intern at AWS AGI.</p>
 
 <h2 id="nov-7">Nov. 7</h2>
 
-<p><strong>Speaker:</strong> <em>TBD</em></p>
+<p><strong>Speaker:</strong> Tommy McMichen</p>
 
 <p><strong>Title:</strong> <em>TBD</em></p>
 
 <p><strong>Abstract:</strong> <em>TBD</em></p>
+
+<p><strong>Bio:</strong> <em>TBD</em></p>
 
 <h2 id="nov-14">Nov. 14</h2>
 
-<p><strong>Speaker:</strong> <em>TBD</em></p>
+<p><strong>Speaker:</strong> Lasse Moldrup</p>
 
 <p><strong>Title:</strong> <em>TBD</em></p>
 
 <p><strong>Abstract:</strong> <em>TBD</em></p>
+
+<p><strong>Bio:</strong> <em>TBD</em></p>
 
 <h2 id="nov-21">Nov. 21</h2>
 
-<p><strong>Speaker:</strong> <em>TBD</em></p>
+<p><strong>Speaker:</strong> Eric Chan</p>
 
 <p><strong>Title:</strong> <em>TBD</em></p>
 
 <p><strong>Abstract:</strong> <em>TBD</em></p>
+
+<p><strong>Bio:</strong> <em>TBD</em></p>
 
 <h2 id="nov-28">Nov. 28</h2>
 
@@ -383,11 +393,13 @@ Electrical Engineering and Computer Science from Princeton University.</p>
 
 <h2 id="dec-5">Dec. 5</h2>
 
-<p><strong>Speaker:</strong> <em>TBD</em></p>
+<p><strong>Speaker:</strong> Jayaprabhakar Kadarkarai</p>
 
 <p><strong>Title:</strong> <em>TBD</em></p>
 
 <p><strong>Abstract:</strong> <em>TBD</em></p>
+
+<p><strong>Bio:</strong> <em>TBD</em></p>
 
 <p><a href="../">Archive</a></p>
 
