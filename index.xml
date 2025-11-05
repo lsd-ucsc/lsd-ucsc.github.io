@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-7&#34;&gt;Nov 7&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Tommy McMichen&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Representing Data Collections for Analysis and Transformation&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -180,11 +180,29 @@ Electrical Engineering and Computer Science from Princeton University.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tommy McMichen&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Representing Data Collections for Analysis and Transformation&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Compiler research and development has treated computation as the primary driver of
+performance improvements in C/C++ programs, leaving memory optimizations as a secondary
+consideration. Developers are currently handed the arduous task of describing both the semantics and
+layout of their data in memory, prematurely lowering high-level data collections to a low-level view
+of memory for the compiler. This forces an early commitment to low-level memory representations that
+obscures high-level structure and blocks memory layout optimizations.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this talk I will describe MEMOIR: an SSA intermediate representation with data collections as a
+first-class citizen. At its core, MEMOIR decouples the memory used to store data from the memory
+used to logically organize it. Through its SSA form, MEMOIR enables static analysis on collection
+elements and allows us to generalize traditional analyses and transformations to operate on these
+elements. Furthermore, preserving these high-level abstractions in the compiler allows us to
+automate memory optimizations that must be performed manually today.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Tommy McMichen is a final-year Ph.D. student at Northwestern University, advised by Simone
+Campanoni, where he created and leads the MEMOIR project: a compiler intermediate representation
+with data collections as first-class citizens. Tommy&amp;rsquo;s research focuses on developing
+language-agnostic intermediate representations that retain high-level semantic information to enable
+more precise static analysis and unlock automatic optimizations on data organization and
+representation. His work aims to bridge the gap between high-level programming abstractions and
+low-level performance optimization through automated compiler techniques.&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-14&#34;&gt;Nov. 14&lt;/h2&gt;
 

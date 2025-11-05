@@ -259,7 +259,7 @@
 <tr>
 <td><a href="#nov-7">Nov 7</a></td>
 <td>Tommy McMichen</td>
-<td><em>TBD</em></td>
+<td>Representing Data Collections for Analysis and Transformation</td>
 </tr>
 
 <tr>
@@ -361,11 +361,29 @@ Electrical Engineering and Computer Science from Princeton University.</p>
 
 <p><strong>Speaker:</strong> Tommy McMichen</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Representing Data Collections for Analysis and Transformation</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Compiler research and development has treated computation as the primary driver of
+performance improvements in C/C++ programs, leaving memory optimizations as a secondary
+consideration. Developers are currently handed the arduous task of describing both the semantics and
+layout of their data in memory, prematurely lowering high-level data collections to a low-level view
+of memory for the compiler. This forces an early commitment to low-level memory representations that
+obscures high-level structure and blocks memory layout optimizations.</p>
 
-<p><strong>Bio:</strong> <em>TBD</em></p>
+<p>In this talk I will describe MEMOIR: an SSA intermediate representation with data collections as a
+first-class citizen. At its core, MEMOIR decouples the memory used to store data from the memory
+used to logically organize it. Through its SSA form, MEMOIR enables static analysis on collection
+elements and allows us to generalize traditional analyses and transformations to operate on these
+elements. Furthermore, preserving these high-level abstractions in the compiler allows us to
+automate memory optimizations that must be performed manually today.</p>
+
+<p><strong>Bio:</strong> Tommy McMichen is a final-year Ph.D. student at Northwestern University, advised by Simone
+Campanoni, where he created and leads the MEMOIR project: a compiler intermediate representation
+with data collections as first-class citizens. Tommy&rsquo;s research focuses on developing
+language-agnostic intermediate representations that retain high-level semantic information to enable
+more precise static analysis and unlock automatic optimizations on data organization and
+representation. His work aims to bridge the gap between high-level programming abstractions and
+low-level performance optimization through automated compiler techniques.</p>
 
 <h2 id="nov-14">Nov. 14</h2>
 
