@@ -220,14 +220,14 @@ existing testers have a large polynomial complexity, restricting testing to work
 moderate size, which is not typical of large-scale databases.&lt;/p&gt;
 
 &lt;p&gt;In this work we develop AWDIT, a highly efficient and provably optimal tester for weak database
-isolation. Given a history $H$ of size $n$ and $k$ sessions, AWDIT tests whether $H$ satisfies the
+isolation. Given a history &lt;code&gt;H&lt;/code&gt; of size &lt;code&gt;n&lt;/code&gt; and &lt;code&gt;k&lt;/code&gt; sessions, AWDIT tests whether &lt;code&gt;H&lt;/code&gt; satisfies the
 most common weak isolation levels of Read Committed (RC), Read Atomic (RA), and Causal Consistency
-(CC) in time $O(n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;})$, $O(n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;})$, and $O(n \cdot k)$, respectively, improving significantly
-over the state of the art. Moreover, we prove that AWDIT is essentially optimal, in the sense that
-there is a conditional lower bound of $n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;}$ for any weak isolation level between RC and CC. Our
+(CC) in time &lt;code&gt;O(n^{3/2})&lt;/code&gt;, $O(n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;})&lt;code&gt;, and&lt;/code&gt;O(n * k)&lt;code&gt;, respectively, improving significantly over
+the state of the art. Moreover, we prove that AWDIT is essentially optimal, in the sense that there
+is a conditional lower bound of&lt;/code&gt;n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;}` for any weak isolation level between RC and CC. Our
 experiments show that AWDIT is significantly faster than existing, highly optimized testers; e.g.,
-for the ~20% largest histories, AWDIT obtains an average speedup of $245\times$, $193\times$, and
-    $62\times$ for RC, RA, and CC, respectively, over the best baseline.&lt;/p&gt;
+for the ~20% largest histories, AWDIT obtains an average speedup of 245x, 193x, and 62x for RC, RA,
+and CC, respectively, over the best baseline.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Lasse Møldrup is a second-year Ph.D. student at Aarhus University, advised by Andreas
 Pavlogiannis. His research focuses on the intersection of algorithms, complexity theory, and
