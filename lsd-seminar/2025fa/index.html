@@ -403,9 +403,9 @@ moderate size, which is not typical of large-scale databases.</p>
 <p>In this work we develop AWDIT, a highly efficient and provably optimal tester for weak database
 isolation. Given a history <code>H</code> of size <code>n</code> and <code>k</code> sessions, AWDIT tests whether <code>H</code> satisfies the
 most common weak isolation levels of Read Committed (RC), Read Atomic (RA), and Causal Consistency
-(CC) in time <code>O(n^{3/2})</code>, $O(n^{<sup>3</sup>&frasl;<sub>2</sub>})<code>, and</code>O(n * k)<code>, respectively, improving significantly over
+(CC) in time <code>O(n^(3/2))</code>, <code>O(n^(3/2))</code>, and <code>O(n * k)</code>, respectively, improving significantly over
 the state of the art. Moreover, we prove that AWDIT is essentially optimal, in the sense that there
-is a conditional lower bound of</code>n^{<sup>3</sup>&frasl;<sub>2</sub>}` for any weak isolation level between RC and CC. Our
+is a conditional lower bound of <code>n^{3/2}</code> for any weak isolation level between RC and CC. Our
 experiments show that AWDIT is significantly faster than existing, highly optimized testers; e.g.,
 for the ~20% largest histories, AWDIT obtains an average speedup of 245x, 193x, and 62x for RC, RA,
 and CC, respectively, over the best baseline.</p>
