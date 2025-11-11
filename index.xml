@@ -84,7 +84,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-14&#34;&gt;Nov 14&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Lasse Moldrup&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;AWDIT: An Optimal Weak Database Isolation Tester&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -208,11 +208,34 @@ low-level performance optimization through automated compiler techniques.&lt;/p&
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Lasse Moldrup&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; AWDIT: An Optimal Weak Database Isolation Tester&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;  In order to achieve low latency, high throughput, and partition tolerance, modern
+databases forgo strong transaction isolation for weak isolation guarantees. However, several
+production databases have been found to suffer from isolation bugs, breaking their data-consistency
+contract. Black-box testing is a prominent technique for detecting isolation bugs, by checking
+whether histories of database transactions adhere to a prescribed isolation level. The complexity of
+such testing has recently been shown to be polynomial for weak database isolation levels, but
+existing testers have a large polynomial complexity, restricting testing to workloads of only
+moderate size, which is not typical of large-scale databases.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this work we develop AWDIT, a highly efficient and provably optimal tester for weak database
+isolation. Given a history $H$ of size $n$ and $k$ sessions, AWDIT tests whether $H$ satisfies the
+most common weak isolation levels of Read Committed (RC), Read Atomic (RA), and Causal Consistency
+(CC) in time $O(n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;})$, $O(n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;})$, and $O(n \cdot k)$, respectively, improving significantly
+over the state of the art. Moreover, we prove that AWDIT is essentially optimal, in the sense that
+there is a conditional lower bound of $n^{&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;}$ for any weak isolation level between RC and CC. Our
+experiments show that AWDIT is significantly faster than existing, highly optimized testers; e.g.,
+for the ~20% largest histories, AWDIT obtains an average speedup of $245\times$, $193\times$, and
+    $62\times$ for RC, RA, and CC, respectively, over the best baseline.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Lasse Møldrup is a second-year Ph.D. student at Aarhus University, advised by Andreas
+Pavlogiannis. His research focuses on the intersection of algorithms, complexity theory, and
+programming languages, particularly in problems related to testing concurrent systems. Lasse’s work
+typically begins with a performance-critical problem, such as a particular testing task, and asks:
+what is the theoretical limit on algorithmic efficiency for this problem, and can we design an
+algorithm that matches it? His research has been accepted to POPL and PLDI, and he was awarded with
+a Distinguished Paper Award for his PLDI paper.&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-21&#34;&gt;Nov. 21&lt;/h2&gt;
 
