@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#nov-21&#34;&gt;Nov 21&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Eric Chan&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Practical Distributed Computing Primitives for Heterogeneous Quorum Systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -241,11 +241,20 @@ a Distinguished Paper Award for his PLDI paper.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Eric Chan&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Practical Distributed Computing Primitives for Heterogeneous Quorum Systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Byzantine quorum systems replicate data in the presence of arbitrary and malicious
+parties. Traditionally, quorums were uniform across processes. Their modern incarnations incorporate
+personalized and heterogeneous trust, in which processes select their own, personal quorums. It has
+been previously shown that the quorum intersection and availability properties are necessary to
+support the reliable broadcast and consensus primitives. We show they are not sufficient. In
+response, we propose a new property called quorum subsumption, which, together with intersection and
+availability, is sufficient for implementing reliable broadcast and consensus. We present practical
+protocols for both in the heterogeneous setting.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Eric Chan is a sixth year Ph.D. student at UC Riverside, advised by Mohsen Lesani. His
+research focus is in personalization and localization in distributed systems. His work entails both
+protocols and limitations for blockchains, heterogeneous quorum systems, and replication systems.&lt;/p&gt;
 
 &lt;h2 id=&#34;nov-28&#34;&gt;Nov. 28&lt;/h2&gt;
 
