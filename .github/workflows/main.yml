@@ -55,7 +55,7 @@ jobs:
             git config --global user.name "${GITHUB_ACTOR}"
             git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
             MESSAGE="$(git log -1 --pretty='%B')" # get the commit message before switching to the pubilc branch
-            git checkout public || git checkout -b public # checkout or create public branch
+            git checkout --recurse-submodules public || git checkout -b --recurse-submodules public # checkout or create public branch
             git rm -rfq $(git ls-files) # remove all the code
             ls -lah # expect no files to be listed
             mv ../docs/* . # copy the generated site in from outside the repo
