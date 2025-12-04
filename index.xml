@@ -102,7 +102,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#dec-5&#34;&gt;Dec 5&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Jayaprabhakar Kadarkarai&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;From Vibe Coding to Verified Systems: The Role of Formal Specification in the AI Era&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -264,11 +264,19 @@ protocols and limitations for blockchains, heterogeneous quorum systems, and rep
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jayaprabhakar Kadarkarai&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; From Vibe Coding to Verified Systems: The Role of Formal Specification in the AI Era&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; AI makes it easy to “vibe code” a quick demo, but the results are unpredictable and
+not something you want to ship to your customers. In this talk, I will show that formal
+specification is the missing foundation in the AI coding era. It lets us pin down system behavior,
+generate far more reliable code, and still ship quickly. I’ll also show how specification-driven
+development restores rigor to AI-generated code and illustrate the approach with FizzBee, a new
+specification language for practical, high-assurance software development.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; With 20 years of experience building distributed systems at companies like Google and
+others, Jayaprabhakar Kadarkarai has witnessed the challenges and costs of traditional validation
+methods, driving his focus on improving how engineers design and reason about complex systems. His
+current work aims to make rigorous system validation more practical and accessible for developers.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
