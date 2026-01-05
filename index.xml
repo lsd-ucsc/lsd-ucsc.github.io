@@ -6,8 +6,186 @@
     <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Sep 2025 12:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 11:56:22 -0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (Winter 2026)</title>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2026wi/</link>
+      <pubDate>Mon, 05 Jan 2026 11:56:22 -0800</pubDate>
+      
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2026wi/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper, Tyler Sorensen, Reese Levine, and Achilles Benetopoulos &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
+
+&lt;p&gt;For winter 2026, we will continue to host the LSD Seminar in a hybrid fashion.  Anyone can attend on Zoom, and local folks can gather in person in the lab.  Speakers can join either in person or on Zoom, whichever is convenient.&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-10&#34;&gt;Jan. 10&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Shanto Rahman&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-16&#34;&gt;Jan. 16&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Lef Ioannidis&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-23&#34;&gt;Jan. 23&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;George Pirlea&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-30&#34;&gt;Jan. 30&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Stephen Mell&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-6&#34;&gt;Feb. 6&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-13&#34;&gt;Feb. 13&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-20&#34;&gt;Feb. 20&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#feb-27&#34;&gt;Feb. 27&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#march-6&#34;&gt;March 6&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#march-13&#34;&gt;March 13&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;jan-10&#34;&gt;Jan. 10&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Shanto Rahman&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jan-16&#34;&gt;Jan. 16&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Lef Ioannidis&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jan-23&#34;&gt;Jan. 23&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; George Pirlea&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;jan-30&#34;&gt;Jan. 30&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Stephen Mell&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feb-6&#34;&gt;Feb. 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feb-13&#34;&gt;Feb. 13&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feb-20&#34;&gt;Feb. 20&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feb-27&#34;&gt;Feb. 27&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;march-6&#34;&gt;March 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;march-13&#34;&gt;March 13&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Fall 2025)</title>
@@ -3360,243 +3538,6 @@ Computer Science, studying Programming Languages under Frank Pfenning.&lt;/p&gt;
 &lt;p&gt;Given the threat of poor performance due to competing heterogeneous CCAs, in this talk we discuss considerations for deploying new CCAs on the Internet. While past efforts have focused on achieving fairness or friendliness between new algorithms and legacy algorithms, we instead advocate for an approach centered on quantifying and limiting harm caused by the new algorithm on the status quo. We argue that a harm-based approach is more practical, more future proof, and handles a wider range of quality metrics than traditional notions of fairness and friendliness.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;  Ranysha Ware is a PhD student in Carnegie Mellon University’s Computer Science Department, co-advised by Professor Justine Sherry and Professor Srinivasan Seshan. Her bailiwick is computer networking. Her current research focuses on challenges arising from the deployment of new transport protocols and congestion control algorithms in the Internet. Ranysha earned her M.S. (2015) from UMass Amherst and B.S (2013) from SUNY New Paltz. She is a recipient of the IRTF Applied Networking Research Prize, Facebook Emerging Scholar Award, and National GEM Consortium Fellowship.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Languages, Systems, and Data Seminar (Winter 2021)</title>
-      <link>http://lsd.ucsc.edu/lsd-seminar/2021wi/</link>
-      <pubDate>Sat, 02 Jan 2021 21:45:29 -0800</pubDate>
-      
-      <guid>http://lsd.ucsc.edu/lsd-seminar/2021wi/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:15pm (PT) &lt;br/&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: The Internet &lt;br/&gt;
-&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating students should register for the 2-credit course CSE 280O.&lt;/p&gt;
-
-&lt;p&gt;For winter 2021, this seminar is completely virtual and will feature a mix of internal and external speakers.&lt;/p&gt;
-
-&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce/about&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/about&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Speaker&lt;/th&gt;
-&lt;th&gt;Title&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#jan-8&#34;&gt;Jan. 8&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;Introductions and social time&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#jan-15&#34;&gt;Jan. 15&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://very.science/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kenny Foner&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Dialectic: Pragmatic, Efficient Session Types for Async Rust&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#jan-22&#34;&gt;Jan. 22&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.cs.princeton.edu/~nhossain/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Naorin Hossain&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;TransForm: Formally Specifying Transistency Models and Synthesizing Enhanced Litmus Tests&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#jan-29&#34;&gt;Jan. 29&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://aviral.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Aviral Goel&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;On the Design, Implementation, and Use of Laziness in R&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#feb-5&#34;&gt;Feb. 5&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.victoraying.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Victor Ying&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Parallelizing Sequential Code with Compiler-Hardware Co-Design&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#feb-12&#34;&gt;Feb. 12&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://koronkevi.ch/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Paulette Koronkevich&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;The ANF Translation Preserves Dependent Types up to Extensional Equality&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#feb-19&#34;&gt;Feb. 19&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Kamala Ramasubramanian&lt;/td&gt;
-&lt;td&gt;ACT now: Aggregate Comparison of Traces for Incident Localization&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#feb-26&#34;&gt;Feb. 26&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://prakashmurali.bitbucket.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Prakash Murali&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Closing the Gap between Quantum Algorithms and Hardware using Compilation and Architecture&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#march-5&#34;&gt;March 5&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.vinujoseph.org/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Vinu Joseph&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Programmable Neural Network Compression with Correctness Emphasis&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#march-12&#34;&gt;March 12&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Daniel Bittman&lt;/td&gt;
-&lt;td&gt;Twizzler: Evolving Operating Systems for Non-volatile Memory&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h1 id=&#34;jan-8&#34;&gt;Jan. 8&lt;/h1&gt;
-
-&lt;p&gt;Introductions and social time&lt;/p&gt;
-
-&lt;h1 id=&#34;jan-15&#34;&gt;Jan. 15&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://very.science/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Kenny Foner&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Dialectic: Pragmatic, Efficient Session Types for Async Rust&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Session types have long promised the ability to enforce complex temporal invariants about message ordering in distributed systems, guaranteeing that a well-session-typed program always correctly follows a messaging protocol to its end. Despite their potential, these type systems have seen relatively little adoption in the mainstream. In part, this is due to their inherent reliance on linear typing, a feature not present and difficult to emulate in most popular languages. Recently, this has changed with the emergence of Rust, a systems programming language built atop a flexible &amp;ldquo;ownership type system&amp;rdquo; to track reference aliasing. Although Rust enforces in actuality a form of affine typing (weaker than the linear typing most formal session-typed calculi require) it&amp;rsquo;s enough to build a library for session types that statically enforces the slightly-weaker guarantee that a program correctly follows a messaging protocol so long as it is running, but may quit the session early. Of course, this is the best we can hope to get in the real world! Networks go down, computers crash, and hardware just plain breaks. For session types to be broadly adopted, they must survive contact with this real and unpredictable world—and equally, with the real and unpredictable people who want to use them in their programs.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve just released version 0.2 of &lt;a href=&#34;https://docs.rs/dialectic&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Dialectic&lt;/a&gt;: a library for pragmatic, succinct, efficient session types in Rust. Dialectic embraces Rust&amp;rsquo;s burgeoning ecosystem of high-performance async networking by being polymorphic over any backend transport used to convey messages between parties. Unlike many libraries for session types, Dialectic assumes that the other party might break protocol or disconnect at any time, and is designed to gracefully handle such failures without compromising type safety.  Dialectic is designed to be used for writing specifications and programs of every size from small to large, and provides what&amp;rsquo;s needed to write modular specifications and implementations of complex protocols—and not merely the regular session types expressible in most libraries, but all context-free session types.&lt;/p&gt;
-
-&lt;p&gt;More than merely showing off this cool thing I&amp;rsquo;m working on, I want to talk about the design process that went into making it. Designing a programming paradigm—whether you want to call it an embedded domain-specific language or merely a library—is a multi-faceted puzzle spanning considerations from psychological familiarity to formal computability. My hope is that in walking through this case study in embedded language design, we can spark more thoughts about how we as PL researchers can play in this field together and design beautiful, useful tools.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Kenny Foner (kwf@very.science) is a senior software engineer at Bolt Labs working on privacy-preserving financial technology for everyone. They have a master&amp;rsquo;s degree in programming languages from the University of Pennsylvania, where they worked on a smorgasbord of fun things from laziness to random testing. When they&amp;rsquo;re not writing Rust, they&amp;rsquo;re usually somewhere in the forest.&lt;/p&gt;
-
-&lt;h1 id=&#34;jan-22&#34;&gt;Jan. 22&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cs.princeton.edu/~nhossain/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Naorin Hossain&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TransForm: Formally Specifying Transistency Models and Synthesizing Enhanced Litmus Tests&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Memory consistency models (MCMs) have been formulated as a mechanism for expressing the legal ordering and visibility of shared memory accesses in hardware and software. They are fundamental for ensuring heterogeneous components of a system execute and interact as expected to prevent hardware-induced bugs in real-world programs. However, ISA-level MCMs are limited to defining the behavior of only user-facing assembly instructions and do not account for virtual memory implementations that may result in the execution of 1) hardware-level state updates and 2) system-level interactions. Both are capable of accessing memory and may affect program outcomes, thus making them software-visible. As a result, memory transistency models (MTMs) have been coined as a superset of MCMs to additionally capture and enforce virtual memory-aware ordering rules. However, no prior work enabled the formal specification or analysis of MTMs.&lt;/p&gt;
-
-&lt;p&gt;TransForm fills this gap by introducing an axiomatic vocabulary for formally specifying MTMs that builds on the standard axiomatic vocabulary traditionally used for describing MCMs. It provides new constructs for modeling transistency-specific features such as hardware-level state updates and system-level interactions. Using this new axiomatic vocabulary, MTMs can be formally specified and used with TransForm’s synthesis engine to synthesize litmus tests enhanced with transistency features, called enhanced litmus tests. This talk will cover TransForm’s axiomatic vocabulary and synthesis engine, as well as a case study performed with TransForm to formally define an approximate MTM for Intel x86 processors.&lt;/p&gt;
-
-&lt;h1 id=&#34;jan-29&#34;&gt;Jan. 29&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;http://aviral.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Aviral Goel&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; On the Design, Implementation, and Use of Laziness in R&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, I will present the design and implementation of call-by-need in R, and a data-driven study of how generations of programmers have put laziness to use in their code. In our study, we analyze 16,707 R packages and observe the creation of 270.9 B promises. Our data suggest that there is little supporting evidence to assert that programmers use laziness to avoid unnecessary computation or to operate over infinite data structures. For the most part R code appears to have been written without reliance on and in many cases even knowledge of, delayed argument evaluation. The only significant exception is a small number of packages which leverage call-by-need for meta-programming. I will discuss how we intend to leverage these insights to remove laziness from R and enable non-intrusive migration of code from lazy to eager evaluation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Aviral Goel is a Computer Science Ph.D. student at Northeastern University, advised by Professor Jan Vitek. He received his Bachelor&amp;rsquo;s degree in Electronics and Communication Engineering from Netaji Subhas Institute of Technology, India.&lt;/p&gt;
-
-&lt;p&gt;He is interested in improving tools and techniques for data science applications. He is enabling R programmers to write faster and bug-free code by migrating the language from lazy-by-default to lazy-on-demand semantics.&lt;/p&gt;
-
-&lt;p&gt;He is also involved in the development of a type system for R.&lt;/p&gt;
-
-&lt;h1 id=&#34;feb-5&#34;&gt;Feb. 5&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.victoraying.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Victor Ying&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Parallelizing Sequential Code with Compiler-Hardware Co-Design&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Today, most code still runs on expensive, power-hungry processors that prioritize single-thread performance. Speculative parallelization is an enticing approach to accelerate computation while retaining the ease of sequential programming, by launching tasks in parallel before knowing if they are independent. Unfortunately, prior speculative parallelizing compilers and architectures achieved limited speedups due to high costs of recovering from misspeculation and hardware scalability bottlenecks.&lt;/p&gt;
-
-&lt;p&gt;We present T4, a parallelizing compiler that executes sequential programs as trees of tiny timestamped tasks. T4 targets the recent Swarm architecture, which presents new opportunities and challenges for automatic parallelization. T4 introduces novel compiler techniques to expose parallelism aggressively across the entire program, breaking applications into tiny tasks of tens of instructions each. Task trees unfold their branches in parallel to enable high task-spawn throughput while exploiting selective aborts to recover from misspeculation cheaply. T4 exploits parallelism across function calls, loops, and loop nests; performs new transformations to reduce task spawn costs and avoid false sharing; and exploits data locality among fine-grain tasks. As a result, T4 scales several hard-to-parallelize SPEC CPU2006 benchmarks to tens of cores, where prior work attained little or no speedup.&lt;/p&gt;
-
-&lt;p&gt;For more information, please visit &lt;a href=&#34;swarm.csail.mit.edu&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;swarm.csail.mit.edu&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Victor Ying is a 5th year PhD student at MIT, advised by Daniel Sanchez. He works on parallel architectures, compilers, and programming models. Victor&amp;rsquo;s recent work focuses on redesigning abstractions between hardware and software to make it as easy to exploit multicore parallelism as it is to write ordinary sequential programs. His prior work includes Boolean satisfiability solvers, scheduling machine learning workloads on hardware accelerators, and embedded and distributed systems.&lt;/p&gt;
-
-&lt;h1 id=&#34;feb-12&#34;&gt;Feb. 12&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://koronkevi.ch/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Paulette Koronkevich&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The ANF Translation Preserves Dependent Types up to Extensional Equality&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Many programmers use dependently-typed languages like Coq to
-machine-verify high-assurance software. However, existing compilers for
-these languages provide no guarantees after compiling, nor when linking
-after compilation. Type-preserving compilers preserve guarantees encoded
-in types, then use type checking to verify compiled code and ensure safe
-linking with external code. Unfortunately, dependent type systems are
-highly sensitive to syntactic changes, including compilation, so
-preserving them through a compiler pass is difficult.&lt;/p&gt;
-
-&lt;p&gt;In this talk, I will present some examples of why dependent typing is
-difficult to preserve through simple syntactic changes. I will also
-present our solution to preserving dependent types through the ANF
-translation, a necessary transformation towards compiling a functional
-language down to machine code. Our ANF translation preserves dependent
-types, provided that the target type system has a way to encode these
-syntactic semantics-preserving changes. We encode these by including
-extensional equality in our target type system.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Paulette Koronkevich is a second year graduate student (finishing
-MSc and starting PhD) at the University of British Columbia, working
-with William J. Bowman. She has a undergraduate degree in computer
-science from Indiana University. Her interests include compilers, cats,
-and cooking.&lt;/p&gt;
-
-&lt;h1 id=&#34;feb-19&#34;&gt;Feb. 19&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Kamala Ramasubramanian&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; ACT now: Aggregate Comparison of Traces for Incident Localization&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Incidents in production systems are common and downtime is expensive. Applying an appropriate mitigating action quickly, such as changing a specific firewall rule or routing around a broken network link, saves money. Identifying where to mitigate is time-consuming since a single failure can produce widespread effects. Knowing how different system events relate to each other is necessary to quickly identify where to mitigate. Our approach, Aggregate Comparison of Traces (ACT), localizes incidents by comparing sets of traces (which capture events and their relationships for individual requests) sampled from the most recent steady-state operation and during an incident. In our quantitative experiments, we conduct hundreds of simulations and show that ACT is able to identify exactly where to mitigate in all but a few cases.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Kamala Ramasubramanian is a PhD candidate at University of California, Santa Cruz advised by Peter Alvaro. She works on understanding, implementing and troubleshooting distributed systems by reasoning about observed system executions. She recently became interested in system verification and how it may overlap with her current work. She is a vegetarian foodie, likes to CrossFit and wants to try surfing.&lt;/p&gt;
-
-&lt;h1 id=&#34;feb-26&#34;&gt;Feb. 26&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://prakashmurali.bitbucket.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Prakash Murali&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Closing the Gap between Quantum Algorithms and Hardware using Compilation and Architecture&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In recent years, quantum computing (QC) hardware has progressed considerably with small systems being prototyped by industry and academic vendors. However, there is a huge gap between the resource requirements of promising applications and the hardware that is buildable now; qubit counts and operational noise constraints of applications exceed hardware capabilities by 5-6 orders of magnitude. Our work seeks to enable practical QC by bridging this gap: from the top with novel compiler techniques and algorithmic optimizations to reduce application requirements and from the bottom via system architectures efficiently exploiting scarce QC resources.&lt;/p&gt;
-
-&lt;p&gt;In this talk, we present two cross-cutting optimizations that narrow the applications-to-hardware resource gap. First, we present noise-adaptive compilation techniques that optimize applications for the spatio-temporal noise variations seen in real QC systems. Using real executions, we demonstrate average fidelity improvements of 3X using noise-adaptivity, compared to industry compiler tools. Second, on the architecture front, we study instruction set design issues considering application requirements and hardware gate calibration overheads. Current QC systems either use ISAs with a single two-qubit gate type or families of continuous gate sets. Using architectural simulations based on Google and Rigetti hardware, we show that QC instruction sets with 4-8 two-qubit gate types are best suited for expressing application requirements, while incurring tractable calibration overheads. In response to our work, several industry vendors have included noise-adaptivity and its extensions as part of their toolflows and adjusted device architecture to expose more native operations and hardware characterization data.&lt;/p&gt;
-
-&lt;h1 id=&#34;march-5&#34;&gt;March 5&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Vinu Joseph&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Programmable Neural Network Compression with Correctness Emphasis&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Deep neural networks (DNNs) frequently contain far more weights, represented at higher precision, than are required for the specific task which they are trained to perform.
-Consequently, they can often be compressed using techniques such as weight pruning and quantization that reduce both the model size and inference time without appreciable loss in accuracy.
-However, finding the best compression strategy and corresponding target sparsity for a given DNN, hardware platform, and optimization objective currently requires expensive, frequently manual, trial-and-error experimentation.
-In this talk, we introduce a programmable system for model compression called Condensa. Users programmatically compose simple operators, in Python, to build more complex and practically interesting compression strategies.
-Given a strategy and user-provided objective (such as minimization of running time), Condensa uses a novel Bayesian optimization-based algorithm to automatically infer desirable sparsities.
-Our experiments real-world DNNs demonstrate memory footprint and hardware runtime throughput improvements of 188x and 2.59x, respectively, using at most ten samples per search.
-We have released a reference implementation of &lt;a href=&#34;https://github.com/NVlabs/condensa&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Condensa&lt;/a&gt;. Next, we will talk about our recent correctness extension where we preserve not just the overall accuracy but also metrics relating to model fairness and interpretability.
-To achieve this, we augment the compression loss function with terms arising from the teacher-student learning paradigm and show how to automatically tune the associated parameters.
-We demonstrate the effectiveness of our approach on multiple compression schemes and accuracy recovery algorithms using several different real-world network architectures.
-We obtain a significant reduction of up to 4.1X in the number of mismatches between the compressed and reference models, while also achieving a significant reduction in class-wise disparate impact metrics compared to the reference models.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Vinu Joseph is a Ph.D. candidate in Computer Science at the School of Computing at the University of Utah, Salt Lake City, working on efficient deep learning computing, robustness, and security of deep learning algorithms, advised by Prof. Ganesh Gopalakrishnan.
-He is one of the five recipients of the NVIDIA Graduate fellowship, the recipients were selected based on their academic achievements and area of research.
-Prior to graduate studies, Vinu worked at ARM Inc. During his tenure at ARM, he was a recipient of the Bravo award for developing the programmer’s model for verifying real-time (‘R’) profile architecture which provides high-performing processors for safety-critical environments.
-Vinu’s current research focuses on optimizing deep neural network-based systems for performance and scalability. More broadly, His research is at the intersection of systems, programming languages, and machine learning, to create a more efficient, performant, secure, privacy-preserving, and correct software.
-His Ph.D. research has been mainly focused on deep neural network compression for resource-efficient inference and robustness. He is generously supported by an NVIDIA Ph.D. fellowship, mentored by Saurav Muralidharan and Michael Garland, he developed Condensa: A Programming System for Model Compression and Optimization.&lt;/p&gt;
-
-&lt;h1 id=&#34;march-12&#34;&gt;March 12&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Daniel Bittman&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Twizzler: Evolving Operating Systems for Non-volatile Memory&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Byte addressable, non-volatile memory (NVM) demands that we rethink the entire system stack. Twizzler is an operating system designed for the near-future of NVM on the memory bus. It removes the kernel from the I/O path, provides programs with direct access to NVM, enabling simpler and more efficient long-term operations on persistent data. Twizzler provides a clean-slate programming model for persistent data, realizing the vision of Unix in a world of NVM. It does this through a pervasive notion of data identity coupled with an efficient design for persistent pointers that allows programmers to construct persistent data structures in a large, persistent, global address space. This talk will present an overview of Twizzler and discuss upcoming directions for Twizzler in security, distribution, and programming languages.Bio&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Daniel is a PhD candidate at UC Santa Cruz, advised by Ethan Miller and Peter Alvaro. His interests are in kernel programming and design, security, non-volatile memory, and concurrent programming. His current project is on developing an operating system for non-volatile memories and developing operating system designs and interfaces for better programming and data models in such an environment.&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
