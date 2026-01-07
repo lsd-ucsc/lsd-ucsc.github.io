@@ -40,9 +40,9 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#jan-10&#34;&gt;Jan. 10&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;#jan-9&#34;&gt;Jan. 9&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Shanto Rahman&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Reliable Software Testing Using LLM and Program Analysis&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -103,13 +103,31 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;jan-10&#34;&gt;Jan. 10&lt;/h2&gt;
+&lt;h2 id=&#34;jan-9&#34;&gt;Jan. 9&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Shanto Rahman&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Reliable Software Testing Using LLM and Program Analysis&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Software testing is essential for software reliability, yet modern test suites
+frequently suffer from broken tests caused by nondeterminism or code evolution. These failures
+mislead developers, reduce trust in testing, and allow real bugs to escape into production. In this
+talk, I present my work on making software testing reliable using program analysis and large
+language models. I introduce techniques to automatically identify and explain the root causes of
+flaky tests using context-aware attribution, enabling developers to understand why nondeterministic
+failures occur. I then present automated repair techniques, including FlakeSync for repairing
+asynchronous flaky tests and UTFix for repairing unit tests broken by code changes. These techniques
+achieve high repair success with low overhead and have been evaluated on large-scale, real-world
+datasets. I conclude by outlining a vision for nondeterminism-aware reliability in emerging domains
+such as cloud services, ML systems, and quantum software.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Shanto Rahman is a Ph.D. candidate in Electrical and Computer Engineering at The University
+of Texas at Austin, advised by Professor August Shi. Her research spans software engineering and AI,
+focusing on reliable software testing under nondeterminism and code evolution. She develops
+program-analysis- and LLM-based techniques to detect, explain, reproduce, and repair broken tests,
+with publications in ICSE, OOPSLA, ASE, and ICST. She has gained industry experience through
+internships at Google and Amazon Web Services (AWS). Her recognitions include MIT EECS Rising Stars,
+UC Berkeley NextProf Nexus, and multiple UT Austin fellowships and awards.&lt;/p&gt;
 
 &lt;h2 id=&#34;jan-16&#34;&gt;Jan. 16&lt;/h2&gt;
 
