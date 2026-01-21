@@ -56,6 +56,12 @@ title = "Faculty"
   www = "https://mohsenlesani.github.io/"
   title = "Associate Professor"
   img = "mohsen_lesani.jpg"
+
+[[people]]
+  name = "Kyle Miller"
+  www = "https://kmill.github.io/"
+  title = "Assistant Professor"
+  img = "kyle_miller.jpg"
   
 [[people]]
   name = "Ike Nassi"
