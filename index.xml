@@ -72,7 +72,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-13&#34;&gt;Feb. 13&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Alexandre Moine&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;All for One and One for All: Program Logics for Exploiting Internal Determinism in Parallel Programs&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -223,9 +223,32 @@ best-selling O’Reilly book &lt;em&gt;Designing Data-Intensive Applications.&lt
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Alexandre Moine&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; All for One and One for All: Program Logics for Exploiting Internal Determinism in
+Parallel Programs&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Nondeterminism makes parallel programs challenging to write and reason about. To avoid
+these challenges, researchers have developed techniques for internally deterministic parallel
+programming, in which the steps of a parallel computation proceed in a deterministic way. Internal
+determinism is useful because it lets a programmer reason about a program as if it executed in a
+sequential order. However, no verification framework exists to exploit this property and simplify
+formal reasoning.&lt;/p&gt;
+
+&lt;p&gt;To capture the essence of why internally deterministic programs should be easier to reason about, we
+define a property called schedule-independent safety. A program satisfies schedule-independent
+safety, if, to show that the program is safe across all interleavings, it suffices to show that one
+terminating execution of the program is safe. We then present Musketeer, a separation logic for
+proving that a program satisfies schedule-independent safety. Once schedule independence is
+guaranteed, correctness can be shown in Angelic, a companion logic in which the user may select
+interactively one sequential interleaving and reason about it alone.&lt;/p&gt;
+
+&lt;p&gt;Using Musketeer, we prove the soundness of MiniDet, an affine type system for enforcing internal determinism. All results are mechanized in Rocq on top of the Iris separation logic framework.&lt;/p&gt;
+
+&lt;p&gt;This work was presented at POPL&amp;rsquo;26 and received a distinguished paper award.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Alexandre is a postdoctoral associate at New York University working with Joe Tassarotti on
+formal verification of parallel programs. Before that, he was a PhD student at Inria Paris (France)
+working with Arthur Charguéraud and François Pottier on formal verification of heap space bounds.
+Most of his work has a link to separation logic, resource consumption or parallelism.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-20&#34;&gt;Feb. 20&lt;/h2&gt;
 

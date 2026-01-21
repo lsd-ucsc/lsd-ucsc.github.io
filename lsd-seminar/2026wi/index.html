@@ -253,7 +253,7 @@
 <tr>
 <td><a href="#feb-13">Feb. 13</a></td>
 <td>Alexandre Moine</td>
-<td><em>TBD</em></td>
+<td>All for One and One for All: Program Logics for Exploiting Internal Determinism in Parallel Programs</td>
 </tr>
 
 <tr>
@@ -404,9 +404,32 @@ best-selling O’Reilly book <em>Designing Data-Intensive Applications.</em></p>
 
 <p><strong>Speaker:</strong> Alexandre Moine</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> All for One and One for All: Program Logics for Exploiting Internal Determinism in
+Parallel Programs</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Nondeterminism makes parallel programs challenging to write and reason about. To avoid
+these challenges, researchers have developed techniques for internally deterministic parallel
+programming, in which the steps of a parallel computation proceed in a deterministic way. Internal
+determinism is useful because it lets a programmer reason about a program as if it executed in a
+sequential order. However, no verification framework exists to exploit this property and simplify
+formal reasoning.</p>
+
+<p>To capture the essence of why internally deterministic programs should be easier to reason about, we
+define a property called schedule-independent safety. A program satisfies schedule-independent
+safety, if, to show that the program is safe across all interleavings, it suffices to show that one
+terminating execution of the program is safe. We then present Musketeer, a separation logic for
+proving that a program satisfies schedule-independent safety. Once schedule independence is
+guaranteed, correctness can be shown in Angelic, a companion logic in which the user may select
+interactively one sequential interleaving and reason about it alone.</p>
+
+<p>Using Musketeer, we prove the soundness of MiniDet, an affine type system for enforcing internal determinism. All results are mechanized in Rocq on top of the Iris separation logic framework.</p>
+
+<p>This work was presented at POPL&rsquo;26 and received a distinguished paper award.</p>
+
+<p><strong>Bio:</strong> Alexandre is a postdoctoral associate at New York University working with Joe Tassarotti on
+formal verification of parallel programs. Before that, he was a PhD student at Inria Paris (France)
+working with Arthur Charguéraud and François Pottier on formal verification of heap space bounds.
+Most of his work has a link to separation logic, resource consumption or parallelism.</p>
 
 <h2 id="feb-20">Feb. 20</h2>
 
