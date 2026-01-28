@@ -241,7 +241,7 @@
 <tr>
 <td><a href="#jan-30">Jan. 30</a></td>
 <td>Stephen Mell</td>
-<td><em>TBD</em></td>
+<td>Designing Programming Languages for Compound AI Systems</td>
 </tr>
 
 <tr>
@@ -371,9 +371,35 @@ automated and interactive approaches to verification. George is the lead develop
 
 <p><strong>Speaker:</strong> Stephen Mell</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Designing Programming Languages for Compound AI Systems</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> AI systems, such as LLMs, have proven successful at a wide range of tasks, from
+natural language processing to code generation. Recently, there has been a trend toward building
+<em>compound AI systems</em>, which combine one or more neural models with more traditional software
+components, such as search procedures and software APIs. Thus, an important question is how such
+systems should be built, and in particular how the programming languages used can be enhanced to
+support them. This talk addresses two facets of this question.</p>
+
+<p>First, compound AI systems are <em>glue scripts</em>, in the sense that their performance bottleneck is
+waiting for external AI models to return, rather than in the developer-written code, rendering
+traditional performance optimizations ineffective. To address this, we propose a novel opportunistic
+evaluation strategy for scripting languages based on a core lambda calculus, which automatically
+dispatches independent external calls in parallel and streams their results. We prove that this is
+sound, and we show that it yields large speedups (running time up to 6.2× and latency up to 12.7×)
+on five compound AI systems.</p>
+
+<p>Second, LLM agents take actions by invoking tools; in many cases, this is done via <em>code actions</em>,
+where the agent generates code, typically in Python, which is then executed. Though LLMs are quite
+proficient at Python, it may not be the optimal language for actions. Instead we propose Quasar, a
+language offering automated parallelization to improve performance, uncertainty quantification to
+improve reliability and mitigate hallucinations, and security features enabling the user to validate
+actions. LLMs writes code in a subset of Python, which is then transpiled to Quasar before
+execution.</p>
+
+<p><strong>Bio:</strong> Stephen is a final-year PhD student at the University of Pennsylvania, advised by Osbert
+Bastani and Steve Zdancewic, and is an incoming postdoc at CMU, advised by Zhihao Jia. He is
+interested in building better programming abstractions both for compound AI systems in particular
+and high-level scripting more generally.</p>
 
 <h2 id="feb-6">Feb. 6</h2>
 
