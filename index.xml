@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-20&#34;&gt;Feb. 20&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Cheng Gu&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -280,9 +280,36 @@ Most of his work has a link to separation logic, resource consumption or paralle
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Cheng Gu&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Behind Bars: A Side-Channel Attack on NVIDIA MIG Cache Partitioning&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; NVIDIA Multi-Instance GPU (MIG) is a feature designed
+to enable isolation and secure multi-tenancy on large data
+center GPUs. MIG partitions a single GPU into multiple in-
+stances, each with dedicated hardware resources such as L2
+cache slices. MIG is also documented to form the founda-
+tion of NVIDIA’s confidential computing stack by providing
+hardware-isolated trusted execution environments. However,
+the security claims of MIG deserve closer investigation, espe-
+cially given the complexity of the GPU memory system and
+its many (sparsely documented) memory instructions.&lt;/p&gt;
+
+&lt;p&gt;In this work, we empirically examine the behavior of GPU
+L2 cache with MIG enabled. We find that despite the par-
+titioning design, cross-instance L2 cache interference still
+occurs. Specifically, memory barriers (membars) generated
+in one MIG instance have side effects that propagate across
+L2 partitions and affect the timing of certain load operations
+in other instances. We also find that these membars can be
+triggered by specific GPU activities, such as kernel launches.
+Building on these observations, we develop a new timing-
+based side-channel attack in which an attacker in one MIG
+instance can infer the kernel launch patterns of a victim in
+another instance. We show that this attack compromises the
+confidentiality of widely used GPU applications, such as large
+language model inference, because kernel launch patterns in
+these applications are correlated with sensitive information.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Cheng Gu is a first-year Ph.D. student at the University of Rochester, advised by Prof. Yanan Guo. He conducts research in system and hardware security, with a focus on GPU side-channel attacks and GPU memory safety. His work has been published at S&amp;amp;P and USENIX Security.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-27&#34;&gt;Feb. 27&lt;/h2&gt;
 
