@@ -84,7 +84,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#feb-27&#34;&gt;Feb. 27&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Shardul Chiplunkar&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Automatic Layout of Railroad Diagrams&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -309,15 +309,40 @@ confidentiality of widely used GPU applications, such as large
 language model inference, because kernel launch patterns in
 these applications are correlated with sensitive information.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Cheng Gu is a first-year Ph.D. student at the University of Rochester, advised by Prof. Yanan Guo. He conducts research in system and hardware security, with a focus on GPU side-channel attacks and GPU memory safety. His work has been published at S&amp;amp;P and USENIX Security.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Cheng Gu is a first-year Ph.D. student at the University of Rochester, advised by Prof.
+Yanan Guo. He conducts research in system and hardware security, with a focus on GPU side-channel
+attacks and GPU memory safety. His work has been published at S&amp;amp;P and USENIX Security.&lt;/p&gt;
 
 &lt;h2 id=&#34;feb-27&#34;&gt;Feb. 27&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Shardul Chiplunkar&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Automatic Layout of Railroad Diagrams&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Railroad diagrams (also called “syntax diagrams”) are a common, intuitive
+visualization of grammars, but limited tooling and a lack of formal attention to their layout mostly
+confines them to hand-drawn documentation. We present the first formal treatment of railroad diagram
+layout along with a principled, practical implementation. We characterize the problem as compiling a
+diagram language (specifying conceptual components and how they connect and compose) to a layout
+language (specifying basic graphical shapes and their sizes and positions). We then implement a
+compiler that performs line wrapping to meet a target width, as well as vertical alignment and
+horizontal justification per user-specified policies. We frame line wrapping as optimization, where
+we describe principled dimensions of optimality and implement corresponding heuristics. For
+front-end evaluation, we show that our diagram language is well-suited for common applications by
+describing how regular expressions and Backus-Naur form can be compiled to it. For back-end
+evaluation, we argue that our compiler is practical by comparing its output to diagrams laid out by
+hand and by other tools.&lt;/p&gt;
+
+&lt;p&gt;This work is to appear in ECOOP 2026. Meanwhile, a preprint is available
+&lt;a href=&#34;https://arxiv.org/abs/2509.15834&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;a href=&#34;https://etaoin-shrdlu.xyz/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Shardul Chiplunkar&lt;/a&gt; is a doctoral student in the &lt;a href=&#34;https://systemf.epfl.ch/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Systems and
+Formalisms (SYSTEMF) lab&lt;/a&gt; at EPFL, Switzerland, working with Prof. Clément
+Pit-Claudel. His main research interest is in diagramming for programs and proofs: how might we
+enrich our interfaces with programming and theorem-proving environments with the diagrams that are
+otherwise so common on our whiteboards and slides? More broadly, he is interested in topics at the
+intersection of programming languages, formal methods, and human-computer interaction. Prior to
+EPFL, Shardul earned his Bachelor’s degree from MIT in 2022.&lt;/p&gt;
 
 &lt;h2 id=&#34;march-6&#34;&gt;March 6&lt;/h2&gt;
 
