@@ -271,7 +271,7 @@
 <tr>
 <td><a href="#march-6">March 6</a></td>
 <td>Justine Frank</td>
-<td><em>TBD</em></td>
+<td>Simulating Failure: Verifying Crash Recovery Systems</td>
 </tr>
 
 <tr>
@@ -529,9 +529,28 @@ EPFL, Shardul earned his Bachelor’s degree from MIT in 2022.</p>
 
 <p><strong>Speaker:</strong> Justine Frank</p>
 
-<p><strong>Title:</strong> <em>TBD</em></p>
+<p><strong>Title:</strong> Simulating Failure: Verifying Crash Recovery Systems</p>
 
-<p><strong>Abstract:</strong> <em>TBD</em></p>
+<p><strong>Abstract:</strong> Systems that need to be robust to crashes often implement complex recovery procedures
+to be able to return to well behaved states without losing all progress. Work on verification of
+these systems has often relied on complex operational semantic models with pen and paper proofs of
+correctness that rely on assumptions which are challenging to state in theorem provers. Coinductive
+simulation relations are a common technique in mechanized frameworks for reasoning about the
+correctness of systems. They should be promising for reasoning about systems with failures because
+they offer a more interactive way of exploring the complex control flows that are introduced by
+non-deterministically failing and running recovery procedures, providing a more intuitive path for
+constructing correctness proofs. However, a key challenge in using simulations for verifying failing
+systems is in handling the non-determinism of the failures. Capturing the semantics of failures
+needs to treat possible failures as always being adversarial decisions, but prior work only deals
+with systems where the simulating system is always able to decide which non-deterministic branch is
+taken. I will present my work on creating simulations that are able to properly account for
+nondeterministic failures in the simulating system.</p>
+
+<p><strong>Bio:</strong> <a href="https://laelath.github.io/" rel="noreferrer" target="_blank">Justine Frank</a> is a PhD student studying Programming Languages
+in the <a href="https://plum-umd.github.io/" rel="noreferrer" target="_blank">PLUM</a> lab at the University of Maryland, advised by Milijana
+Surbatovich. She is interested in developing techniques for streamlining the development of
+correctness proofs of programming language implementations and of systems built on non-traditional
+architectures.</p>
 
 <h2 id="march-13">March 13</h2>
 

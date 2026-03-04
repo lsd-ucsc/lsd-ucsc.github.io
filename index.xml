@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-6&#34;&gt;March 6&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Justine Frank&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Simulating Failure: Verifying Crash Recovery Systems&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -348,9 +348,28 @@ EPFL, Shardul earned his Bachelor’s degree from MIT in 2022.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Justine Frank&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Simulating Failure: Verifying Crash Recovery Systems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Systems that need to be robust to crashes often implement complex recovery procedures
+to be able to return to well behaved states without losing all progress. Work on verification of
+these systems has often relied on complex operational semantic models with pen and paper proofs of
+correctness that rely on assumptions which are challenging to state in theorem provers. Coinductive
+simulation relations are a common technique in mechanized frameworks for reasoning about the
+correctness of systems. They should be promising for reasoning about systems with failures because
+they offer a more interactive way of exploring the complex control flows that are introduced by
+non-deterministically failing and running recovery procedures, providing a more intuitive path for
+constructing correctness proofs. However, a key challenge in using simulations for verifying failing
+systems is in handling the non-determinism of the failures. Capturing the semantics of failures
+needs to treat possible failures as always being adversarial decisions, but prior work only deals
+with systems where the simulating system is always able to decide which non-deterministic branch is
+taken. I will present my work on creating simulations that are able to properly account for
+nondeterministic failures in the simulating system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;a href=&#34;https://laelath.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Justine Frank&lt;/a&gt; is a PhD student studying Programming Languages
+in the &lt;a href=&#34;https://plum-umd.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;PLUM&lt;/a&gt; lab at the University of Maryland, advised by Milijana
+Surbatovich. She is interested in developing techniques for streamlining the development of
+correctness proofs of programming language implementations and of systems built on non-traditional
+architectures.&lt;/p&gt;
 
 &lt;h2 id=&#34;march-13&#34;&gt;March 13&lt;/h2&gt;
 
