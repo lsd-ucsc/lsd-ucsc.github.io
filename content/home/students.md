@@ -29,7 +29,7 @@ title = "Students"
 [[people]]
   name = "Zephiris Evergreen"
   www = "https://zephiris.me"
-  title = "Undergraduate Student"
+  title = "Masters Student"
   img = "zephiris_evergreen.jpg"
 
 [[people]]
