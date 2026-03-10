@@ -90,7 +90,13 @@ title = "Students"
   www = "https://gshen42.github.io"
   title = "Ph.D. Student"
   img = "gan_shen.jpg"
-  
+
+[[people]]
+  name = "Yan Tong"
+  www = "https://ytong24.github.io/"
+  title = "Ph.D. Student"
+  img = "yan_tong.jpg"
+
 [[people]]
   name = "Tuan Tran"
   www = "https://users.soe.ucsc.edu/~atran18/"
