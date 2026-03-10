@@ -8,6 +8,24 @@ weight = 10
 title = "Alumni"
 
 [[people]]
+  name = "Shel Finkelstein"
+  title = "Continuing Lecturer"
+  grad_year = "2014-2024"
+
+[[people]]
+  name = "Simon Guo"
+  degree = "BS"
+  grad_year = "2022"
+  org = "Ph.D. Student, UC Irvine"
+  
+[[people]]
+  name = "Shun Kashiwa"
+  degree = "MS"
+  grad_year = "2024"
+  org = "Ph.D. Student, UC San Diego"
+  www = "https://shun-k.dev/"
+
+[[people]]
   name = "Ana McTaggart"
   degree = "MS"
   grad_year = "2020"
@@ -25,21 +43,7 @@ title = "Alumni"
   degree = "BS"
   grad_year = "2020"
   org = "Staff Engineer, Tozny"
-  
-[[people]]
-  name = "Shun Kashiwa"
-  degree = "MS"
-  grad_year = "2024"
-  org = "Ph.D. Student, UC San Diego"
-  www = "https://shun-k.dev/"
-  
-[[people]]
-  name = "Simon Guo"
-  degree = "BS"
-  grad_year = "2022"
-  org = "Ph.D. Student, UCI"
  
-
 [[people]]
   name  = "Vaishnavi Sundararajan"
   degree = "Postdoc"

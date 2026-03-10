@@ -25,10 +25,16 @@ title = "Students"
   www = "https://jonathan.com/"
   title = "Ph.D. Student"
   img = "jonathan_castello.png"
+  
+[[people]]
+  name = "Zephiris Evergreen"
+  www = "https://zephiris.me"
+  title = "Undergraduate Student"
+  img = "zephiris_evergreen.jpg"
 
 [[people]]
   name = "Tim Goodwin"
-  www = "https://tgoodwin.github.io"
+  www = "https://discrete.events"
   title = "Ph.D. Student"
   img = "timothy_goodwin.jpg"
 
@@ -40,13 +46,24 @@ title = "Students"
 
 [[people]]
   name  = "Nathan Liittschwager"
-  www   = ""
+  www   = "https://nliittsc.github.io/"
   title = "Ph.D. Student"
   img = "nathan_liitt.jpg"
-
+  
+[[people]]
+  name = "Ayush Manocha"
+  title = "Undergraduate Student"
+  img = "amanocha.jpg"
+  
+[[people]]
+  name = "Devon McKee"
+  www = "https://devon.engineering"
+  title = "Ph.D. Student"
+  img = "devon_mckee.jpg"
+  
 [[people]]
   name = "Priyanka Mondal"
-  www = "https://users.soe.ucsc.edu/~pmondal/"
+  www = "https://priyanka-mondal.github.io/"
   title = "Ph.D. Student"
   img = "priyanka_mondal.jpg"
 
@@ -87,16 +104,16 @@ title = "Students"
   img = "eric_vin.jpg"
 
 [[people]]
-  name = "Yanwen Xu"
-  www = "http://people.ucsc.edu/~yxu83"
-  title = "Ph.D. Student"
-  img = "yanwen_xu.png"
-  
-[[people]]
   name = "Rithik Sharma"
   www = "https://sharmarithik.github.io/rithiksharma/"
   title = "Ph.D. Student"
   img = "rithik_sharma.jpg"
+  
+[[people]]
+  name = "Yanwen Xu"
+  www = "http://people.ucsc.edu/~yxu83"
+  title = "Ph.D. Student"
+  img = "yanwen_xu.png"
 
 [[people]]
   name = "Jun Zhang (Aleck)"
@@ -110,23 +127,6 @@ title = "Students"
   title = "Ph.D. Student"
   img = "haofan_zheng.jpg"
 
-[[people]]
-  name = "Devon McKee"
-  www = "https://devon.engineering"
-  title = "Ph.D. Student"
-  img = "devon_mckee.jpg"
-
-[[people]]
-  name = "Zephiris Evergreen"
-  www = "https://zephiris.me"
-  title = "Undergraduate Student"
-  img = "zephiris_evergreen.jpg"
-
-[[people]]
-  name = "Alisha Manocha"
-  title = "Undergraduate Student"
-  img = "amanocha.jpg"
-  
 [[people]]
   name = "Your Name Here"
   www = "https://grad.soe.ucsc.edu/admissions"

@@ -18,7 +18,7 @@ title = "Faculty"
 [[people]]
   name = "Owen Arden"
   www = "https://users.soe.ucsc.edu/~owen"
-  title = "Assistant Professor"
+  title = "Associate Professor"
   img = "owen_arden.jpg"
   
 [[people]]
@@ -36,13 +36,13 @@ title = "Faculty"
 [[people]]
   name = "Daniel Fremont"
   www = "https://people.ucsc.edu/~dfremont/"
-  title = "Assistant Professor"
+  title = "Associate Professor"
   img = "daniel_fremont.jpg"
   
 [[people]]
   name = "Liting Hu"
   www = "https://people.ucsc.edu/~lhu82/"
-  title = "Assistant Professor"
+  title = "Associate Professor"
   img = "liting_hu.jpg"
 
 [[people]]
@@ -70,15 +70,14 @@ title = "Faculty"
   img = "ike_nassi.jpg"
 
 [[people]]
-  name = "Andrew Quinn"
-  www = "https://web.eecs.umich.edu/~arquinn/"
+  name = "Andrea (Andi) Quinn"
+  www = "https://arquinn.github.io/"
   title = "Assistant Professor"
-  img = "andrew_quinn.jpg"
 
 [[people]]
   name = "Tyler Sorensen"
   www = "https://users.soe.ucsc.edu/~tsorensen"
-  title = "Assistant Professor"
+  title = "Associate Professor"
   img = "tyler_sorensen.jpg"
     
 +++
