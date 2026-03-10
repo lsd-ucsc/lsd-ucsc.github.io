@@ -22,12 +22,6 @@ title = "Faculty"
   img = "owen_arden.jpg"
   
 [[people]]
-  name = "Shel Finkelstein"
-  www = "https://engineering.ucsc.edu/people/shel"
-  title = "Lecturer"
-  img = "shel_finkelstein.jpg"
-
-[[people]]
   name = "Cormac Flanagan"
   www = "https://users.soe.ucsc.edu/~cormac/"
   title = "Professor"
