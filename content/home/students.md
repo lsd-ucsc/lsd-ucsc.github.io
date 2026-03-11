@@ -62,12 +62,6 @@ title = "Students"
   img = "devon_mckee.jpg"
   
 [[people]]
-  name = "Priyanka Mondal"
-  www = "https://priyanka-mondal.github.io/"
-  title = "Ph.D. Student"
-  img = "priyanka_mondal.jpg"
-
-[[people]]
   name  = "Aldrin Montana"
   www   = "https://research.aldrinmontana.com/"
   title = "Ph.D. Student"
@@ -102,11 +96,6 @@ title = "Students"
   title = "Ph.D. Student"
   img = "yan_tong.jpg"
 
-[[people]]
-  name = "Tuan Tran"
-  www = "https://users.soe.ucsc.edu/~atran18/"
-  title = "Ph.D. Student"
-  img = "tuan_tran.jpg"
 
 [[people]]
   name = "Eric Vin"
@@ -131,13 +120,7 @@ title = "Students"
   www = "https://people.ucsc.edu/~jzhan293/"
   title = "Ph.D. Student"
   img = "aleck-zhang.jpg"
-  
-[[people]]
-  name = "Haofan Zheng"
-  www = "https://haofan.me/"
-  title = "Ph.D. Student"
-  img = "haofan_zheng.jpg"
-
+ 
 [[people]]
   name = "Your Name Here"
   www = "https://grad.soe.ucsc.edu/admissions"

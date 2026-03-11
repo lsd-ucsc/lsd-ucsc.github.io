@@ -51,4 +51,26 @@ title = "Alumni"
   org = "Assistant Professor, IIT Delhi"
   www   = "https://vaishs.github.io/"
   
+[[people]]
+  name = "Haofan Zheng"
+  www = "https://haofan.me/"
+  degree = "PhD"
+  org = "Software Engineer, TikTok"
+  img = "haofan_zheng.jpg"
+
+[[people]]
+  name = "Priyanka Mondal"
+  www = "https://priyanka-mondal.github.io/"
+  grad_year= ""
+  degree = "PhD"
+  org = "Software Engineer, Snap Inc."
+  img = "priyanka_mondal.jpg"
+
+[[people]]
+  name = "Tuan Tran"
+  www = "https://users.soe.ucsc.edu/~atran18/"
+  degree = "PhD"
+  org = "Member of Technical Staff, Nutanix"
+  img = "tuan_tran.jpg"
 +++
+
