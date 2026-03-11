@@ -78,6 +78,11 @@ title = "Students"
   www = "https://curious.software/plr"
   title = "Ph.D. Student"
   img   = "patrick-dithrt.png"
+
+[[people]]
+  name = "Sabrina Reis"
+  title = "Ph.D. Student"
+  img   = "sabrina_reis.jpeg"
   
 [[people]]
   name = "Roy Shadmon"
