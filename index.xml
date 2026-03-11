@@ -96,7 +96,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#march-13&#34;&gt;March 13&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Shraddha Barke&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Toward Verification of AI Agents&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -375,9 +375,27 @@ architectures.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Shraddha Barke&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Toward Verification of AI Agents&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; &lt;em&gt;TBD&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; As AI agents are deployed in real workflows, verifying their behavior becomes a
+central challenge. These systems act through multi-step traces containing plans, tool calls,
+observations, and state updates, where small procedural mistakes can silently accumulate into larger
+failures. We propose agentic verification, a framework that derives checkable rules from
+instructions, tool schemas, policies, and task context, and uses them to verify execution traces
+step by step. The verifier checks behavioral compliance, tool-use correctness, argument validity,
+transition legality, workflow adherence, and task completion, and then uses the resulting evidence
+to explain violations and localize the first unrecoverable failure. This allows verification to
+cover both failed runs and apparently successful runs whose final outcome hides procedural
+non-compliance. The overall goal is an auditable and scalable foundation for evaluating and
+debugging tool-calling agents.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I am a Senior Researcher in the &lt;a href=&#34;http://www.microsoft.com/en-us/research/group/research-in-software-engineering-rise/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Research in Software Engineering
+(RiSE)&lt;/a&gt; group
+at &lt;a href=&#34;https://www.microsoft.com/en-us/research/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Microsoft Research&lt;/a&gt; in Redmond, WA, USA. My research
+is at the intersection of software engineering and artificial intelligence and focuses on making AI
+trustworthy. I graduated with my Ph.D. in 2024 from &lt;a href=&#34;https://ucsd.edu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;University of California, San
+Diego&lt;/a&gt; advised by &lt;a href=&#34;https://cseweb.ucsd.edu/~npolikarpova/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Dr. Nadia Polikarpova&lt;/a&gt;
+where I worked on neurosymbolic program synthesis for domain specific languages.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
