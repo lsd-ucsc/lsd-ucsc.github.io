@@ -6,7 +6,7 @@ active = false
 # The first two are customized by `layouts/partials/news_style.html` to make it easier
 # to quickly add news items. Use 'any' for other news items like students
 # graduating. See examples below.
-# 
+#
 # [[news]]
 #   kind = "paper"
 #   date = "April 1, 2025"
@@ -15,14 +15,14 @@ active = false
 #   paper_link = "https://xyzconf.org/paper.pdf"
 #   conf_name = "XYZ '25"
 #   conf_link = "https://xyzconf.org"
-# 
+#
 # [[news]]
 #   kind = "award"
 #   date = "April 1, 2025"
 #   who = "X. Foobar"
 #   award_name = "Awesome Fellowship"
 #   award_link = "https://awesome-fellowship.org"
-# 
+#
 # [[news]]
 #   kind = "any"
 #   date = "July 20, 2025"
@@ -30,7 +30,15 @@ active = false
 #
 # For a conditionally accepted paper, use the "paper" news format, but specify kind as "cond"
 
-### Add your new news items to the *top*, right below this comment. 
+### Add your new news items to the *top*, right below this comment.
+
+[[news]]
+  kind = "paper"
+  date = "January 30, 2026"
+  who = "Achilles Benetopoulos, Andi Quinn, Robert Soulé, and Peter Alvaro"
+  paper_name = "Yield Not Thy Core"
+  conf_name = "EuroSys 2026"
+  conf_link = "https://2026.eurosys.org/index.html"
 
 [[news]]
   kind = "paper"
@@ -101,7 +109,7 @@ active = false
   paper_link = "https://github.com/lsd-ucsc/Decentagram/blob/main/cameraready.pdf"
   conf_name = "DSN 2024"
   conf_link = "https://dsn2024uq.github.io/cpaccepted.html"
-  
+
 [[news]]
    kind = "paper"
    date = "February 23, 2024"
@@ -163,7 +171,7 @@ active = false
    conf_name = "ICBC 2023"
    paper_link = "https://users.soe.ucsc.edu/~atran18/publications/Phoenix.pdf"
    conf_link = "https://icbc2023.ieee-icbc.org/"
-   
+
 [[news]]
    kind = "paper"
    date = "April 29, 2023"
@@ -188,7 +196,7 @@ active = false
    conf_name = "SESAME 2023"
    paper_link = "https://dl.acm.org/doi/10.1145/3592533.3592806"
    conf_link = "https://sesame23.github.io/"
-   
+
 [[news]]
    kind = "award"
    date = "March 29, 2023"
@@ -203,7 +211,7 @@ active = false
    conf_name = "ASPLOS 2023"
    paper_link = "https://reeselevine.github.io/assets/pdf/mc_mutants.pdf"
    conf_link = "https://asplos-conference.org/"
-   
+
 [[news]]
    kind = "paper"
    date = "February 8, 2023"
@@ -237,7 +245,7 @@ active = false
    conf_name = "CSF 2022"
    paper_link = "https://doi.org/10.1109/CSF54842.2022.9919637"
    conf_link = "https://www.ieee-security.org/TC/CSF2022/"
-   
+
 [[news]]
    kind = "any"
    date = "June 8, 2022"
@@ -279,7 +287,7 @@ active = false
    paper_name = "The Semantics of Shared Memory in Intel CPU/FPGA Systems"
    conf_name = "OOPSLA 2021"
    paper_link = "https://users.soe.ucsc.edu/~tsorensen/files/oopsla2021a.pdf"
-   
+
 [[news]]
    kind = "paper"
    date = "September 10, 2021"
@@ -304,7 +312,7 @@ active = false
    conf_name = "SOCC 2021"
    paper_link = "https://aleckdarcy.github.io/3MileBeach_A_Tracer_with_Teeth.pdf"
    conf_link = "https://acmsocc.org/2021/"
-   
+
 [[news]]
    kind = "paper"
    date = "June 04, 2021"
@@ -318,7 +326,7 @@ active = false
   kind = "any"
   date = "May 21, 2021"
   content = "Peter Alvaro was promoted to Associate Professor.  Congratulations, Peter!"
-  
+
 [[news]]
    kind = "paper"
    date = "May 03, 2021"
@@ -327,7 +335,7 @@ active = false
    conf_name = "ICBC 2021"
    paper_link = "https://doi.org/10.1109/ICBC51069.2021.9461081"
    conf_link = "https://www.youtube.com/watch?v=-yXk8BPSlMg"
-  
+
 [[news]]
   kind = "any"
   date = "January 13, 2021"
@@ -341,7 +349,7 @@ active = false
   paper_link = "https://people.ucsc.edu/~palvaro/elle_vldb21.pdf"
   conf_name = "VLDB '21"
   conf_link = "https://vldb.org/2021/"
-  
+
 [[news]]
   kind = "paper"
   date = "Oct. 1, 2020"
@@ -359,7 +367,7 @@ active = false
   paper_link = "https://2020.splashcon.org/details/splash-2020-oopsla/102/Foundations-of-Empirical-Memory-Consistency-Testing"
   conf_name = "OOPSLA '20"
   conf_link = "https://2020.splashcon.org/track/splash-2020-oopsla"
-  
+
 [[news]]
   kind = "paper"
   date = "Oct. 1, 2020"
@@ -368,7 +376,7 @@ active = false
   paper_link = "https://2020.splashcon.org/details/splash-2020-oopsla/92/Verifying-Replicated-Data-Types-with-Typeclass-Refinements-in-Liquid-Haskell"
   conf_name = "OOPSLA '20"
   conf_link = "https://2020.splashcon.org/track/splash-2020-oopsla"
-  
+
 [[news]]
   kind = "any"
   date = "Oct. 1, 2020"
