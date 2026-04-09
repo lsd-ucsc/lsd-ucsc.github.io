@@ -47,8 +47,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#apr-10&#34;&gt;April 10&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;No Speaker&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;Audrey Cheng&lt;/td&gt;
+&lt;td&gt;Rethinking Database Optimization for Modern Workloads&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -111,7 +111,28 @@
 
 &lt;h2 id=&#34;april-10&#34;&gt;April 10&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; No Speaker&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Audrey Cheng&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Rethinking Database Optimization for Modern Workloads&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Data systems face unprecedented scalability demands as modern applications, especially
+AI workloads, evolve rapidly. These shifts make it increasingly difficult to maintain both
+performance and correctness, which are the core properties that databases must provide. In this
+talk, I discuss how to rethink database optimization by exploiting workload semantics in modern
+large-scale applications and how we can scale these efforts by automating this optimization with AI.
+First, I will present my work on reducing data contention, which remains a crucial performance
+bottleneck, by leveraging contention patterns in modern workloads. My research addresses this
+challenge via transaction scheduling: instead of resolving conflicts after they occur, I focus on
+preventing them by reordering transactions to avoid conflicts before execution. I will then discuss
+how we build on these results by leveraging AI-driven methods to enable the rapid exploration and
+generation of optimization methods, with the broader goal of automating performance optimization in
+data systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Audrey is a PhD student at UC Berkeley, advised by Natacha Crooks and Ion Stoica. Her
+research focuses on performance optimization for database systems. Her work has been deployed in
+industry databases at Meta, PlanetScale, and TiDB. She was named a Rising Star in EECS and has
+received an NSF GRFP Fellowship, a Meta Research PhD Fellowship, a Berkeley Chancellor’s Fellowship,
+a VLDB Best Industry Paper Award, and invitations to the Best of VLDB journal.&lt;/p&gt;
 
 &lt;h2 id=&#34;april-17&#34;&gt;April 17&lt;/h2&gt;
 
