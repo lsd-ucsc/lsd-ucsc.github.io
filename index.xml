@@ -60,7 +60,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#apr-24&#34;&gt;April 24&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Liza Pertseva&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Automating Verification of ZKP Arithmetizations in Lean&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -144,9 +144,18 @@ a VLDB Best Industry Paper Award, and invitations to the Best of VLDB journal.&l
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Liza Pertseva&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Automating Verification of ZKP Arithmetizations in Lean&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Many modern Zero-Knowledge Proof (ZKP) systems rely on arithmetizations to encode
+machine level (bitvector) arithmetic as finite field operations. The correctness of these
+arithmetizations is crucial for soundness, but constructing them can be error-prone. Existing
+verification workflows are either manual, requiring substantial human effort, or rely on SMT
+solvers, which scale poorly on these problems. In this talk, I will discuss existing verification
+tools and present our novel automated Lean-based approach that uses type translation to enable more
+scalable and trustworthy verification of ZKP arithmetizations.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Elizaveta Pertseva is a 3rd year PhD at Stanford advised by Clark Barrett. Her research
+focuses on automatically formally verifying cryptographic primitives.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-1&#34;&gt;May 1&lt;/h2&gt;
 
