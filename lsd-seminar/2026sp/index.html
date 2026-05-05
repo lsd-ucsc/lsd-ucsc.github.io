@@ -253,7 +253,7 @@
 <tr>
 <td><a href="#may-8">May 8</a></td>
 <td>Nikos Pagonas</td>
-<td><em>TBD</em></td>
+<td>VineLM: Trie-Based Fine-Grained Control for Agentic Workflows</td>
 </tr>
 
 <tr>
@@ -350,9 +350,33 @@ focuses on automatically formally verifying cryptographic primitives.</p>
 
 <p><strong>Speaker:</strong> Nikos Pagonas</p>
 
-<p><strong>Title:</strong> TBD</p>
+<p><strong>Title:</strong> VineLM: Trie-Based Fine-Grained Control for Agentic Workflows</p>
 
-<p><strong>Abstract:</strong> TBD</p>
+<p><strong>Abstract:</strong> Agentic workflows interleave configurable LLM stages with tool stages and often
+include retries or refinement loops. Existing workflow managers profile full workflow configurations
+offline and assign each request a static workflow-level plan that binds each configurable LLM stage
+to a single model, reuses that model across repeated loop iterations, and does not revisit those
+choices at runtime. In this talk, I will present VineLM, a workflow manager that enables
+fine-grained control by choosing the model for each stage invocation as execution unfolds under
+request-level objectives such as maximizing accuracy under cost or latency budgets. VineLM
+represents feasible executions as an annotated trie of model-choice prefixes and uses checkpointing
+and cascade profiling to estimate path accuracy, cost, and latency without exhaustively profiling
+every request on every path. At runtime, VineLM re-roots the trie after each stage invocation and
+replans over the remaining subtrie using the realized execution prefix and remaining latency budget.
+On NL2SQL and math reasoning workflows, VineLM improves the cost-latency-accuracy frontier over
+coarse workflow-level baselines, achieving up to 18% higher accuracy at the same per-request budget
+with its sparse profiling reducing offline profiling cost by 98–99.8% when compared to exhaustive
+profiling.</p>
+
+<p><strong>Bio:</strong> Nikos is a second-year PhD student in Computer Science at Columbia University and a member
+of DAPLab, advised by Prof. Kostis Kaffes. His research focuses on improving the performance and
+efficiency of agentic serving, by building systems that exploit workflow structure and runtime
+characteristics. In Summer 2025, Nikos was a Student Researcher at Google. Before joining Columbia,
+he was a member of the ATLAS research group at Brown University, advised by Prof. Nikos Vasilakis.
+Nikos received his Master’s degree in Electrical and Computer Engineering from the National
+Technical University of Athens (NTUA), where he was advised by Prof. Georgios Goumas. His research
+is supported by the Columbia Presidential Fellowship, the A.G. Leventis Foundation, and a Gerondelis
+Foundation Graduate Study Scholarship.</p>
 
 <h2 id="may-15">May 15</h2>
 
