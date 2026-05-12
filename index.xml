@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-15&#34;&gt;May 15&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Micah Murray&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Designing a Datacenter-wide Distributed Shared Log&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -201,9 +201,21 @@ Foundation Graduate Study Scholarship.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Micah Murray&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Designing a Datacenter-wide Distributed Shared Log&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Distributed shared logs simplify the implementation and interoperation of data stores.
+This paper addresses a simple question: Is it feasible to build a single, datacenter-wide
+distributed shared log that can support all the data stores running in a datacenter? We answer in
+the affirmative by presenting RingWorld, a scalable log based on a ring of programmable switches
+that can sustain tens of billions of appends per second while maintaining low latency. We hope the
+design of RingWorld will propel the adoption of shared logs as a core part of datacenter
+infrastructure.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Micah is a 4th year PhD student coadvised by Prof. Natacha Crooks and Prof. Scott Shenker
+at UC Berkeley. His research interests are broadly in distributed systems and networking, and he is
+particularly interested in problems involving the co-design of distributed systems with networking
+hardware. His current focus is on building highly scalable logging infrastructure. You can see more
+about his current and past work at &lt;a href=&#34;https://micahmurray.codeberg.page/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;his website&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;may-22&#34;&gt;May 22&lt;/h2&gt;
 
