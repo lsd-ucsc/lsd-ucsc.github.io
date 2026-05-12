@@ -39,6 +39,7 @@ active = false
   paper_name = "Yield Not Thy Core"
   conf_name = "EuroSys 2026"
   conf_link = "https://2026.eurosys.org/index.html"
+  paper_link = "https://dl.acm.org/doi/10.1145/3767295.3803616"
 
 [[news]]
   kind = "paper"
