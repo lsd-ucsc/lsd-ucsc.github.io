@@ -35,7 +35,7 @@ active = false
 [[news]]
   kind = "paper"
   date = "March 12, 2026"
-  who = "Yan Tong, Nathan Liittschwager, and Lindsey Kuper
+  who = "Yan Tong, Nathan Liittschwager, and Lindsey Kuper"
   paper_name = "Can you keep a secret? A new protocol for sender-side enforcement of causal message delivery"
   conf_name = "PaPoC 2026"
   conf_link = "https://papoc-workshop.github.io/2026/"
