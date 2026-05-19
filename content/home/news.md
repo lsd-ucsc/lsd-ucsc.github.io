@@ -34,6 +34,15 @@ active = false
 
 [[news]]
   kind = "paper"
+  date = "March 12, 2026"
+  who = "Yan Tong, Nathan Liittschwager, and Lindsey Kuper
+  paper_name = "Can you keep a secret? A new protocol for sender-side enforcement of causal message delivery"
+  conf_name = "PaPoC 2026"
+  conf_link = "https://papoc-workshop.github.io/2026/"
+  paper_link = "https://arxiv.org/abs/2603.14690"
+
+[[news]]
+  kind = "paper"
   date = "January 30, 2026"
   who = "Achilles Benetopoulos, Andi Quinn, Robert Soulé, and Peter Alvaro"
   paper_name = "Yield Not Thy Core"
@@ -42,11 +51,28 @@ active = false
   paper_link = "https://dl.acm.org/doi/10.1145/3767295.3803616"
 
 [[news]]
+  kind = "award"
+  date = "October 2025"
+  who = "Patrick Redmond, Jonathan Castello, José Manuel Calderón Trilla, and Lindsey Kuper"
+  award_name = 'Distinguished Artifact Award at OOPSLA 2025 for "Exploring the Theory and Practice of Concurrency in the Entity-Component-System Pattern"'
+
+[[news]]
   kind = "paper"
   date = "August 27, 2025"
   who = "Tim Goodwin, Esteban Ramos, Andi Quinn, and Lindsey Kuper"
   paper_name = "Monolift: Automating Distribution With the Tools You Have at Home"
   conf_name = "PLOS 2025"
+  conf_link = "https://plos-workshop.org/2025/"
+  paper_link = "https://dl.acm.org/doi/10.1145/3764860.3768327"
+
+[[news]]
+  kind = "paper"
+  date = "July 17, 2025"
+  who = "Grant VanDomelen, Gan Shen, Lindsey Kuper, and Yao Li"
+  paper_name = "Freer Arrows and Why You Need Them in Haskell"
+  conf_name = "Haskell Symposium 2025"
+  conf_link = "https://conf.researchr.org/home/icfp-splash-2025/haskellsymp-2025"
+  paper_link = "https://dl.acm.org/doi/10.1145/3759164.3759352"
 
 [[news]]
   kind = "paper"
@@ -54,6 +80,8 @@ active = false
   who = "Nathan Liittschwager, Jonathan Castello, Stelios Tsampas, and Lindsey Kuper"
   paper_name = "CRDT Emulation, Simulation, and Representation Independence"
   conf_name = "ICFP 2025"
+  conf_link = "https://icfp25.sigplan.org/"
+  paper_link = "https://dl.acm.org/doi/10.1145/3747528"
 
 [[news]]
   kind = "paper"
@@ -61,6 +89,8 @@ active = false
   who = "Patrick Redmond, Jonathan Castello, José Manuel Calderón Trilla, and Lindsey Kuper"
   paper_name = "Exploring the Theory and Practice of Concurrency in the Entity-Component-System Pattern"
   conf_name = "OOPSLA 2025"
+  conf_link = "https://2025.splashcon.org/track/OOPSLA"
+  paper_link = "https://dl.acm.org/doi/10.1145/3763050"
 
 [[news]]
   kind = "paper"
@@ -69,6 +99,7 @@ active = false
   paper_name = "Efficient, Portable, Census-Polymorphic Choreographic Programming"
   paper_link = "https://dl.acm.org/doi/10.1145/3729296"
   conf_name = "PLDI 2025"
+  conf_link = "https://pldi25.sigplan.org/"
 
 [[news]]
   kind = "paper"
