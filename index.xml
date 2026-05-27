@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#may-29&#34;&gt;May 29&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Zheyuan Chen&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;SIMT-Step Execution: A Flexible Operational Semantics for GPU Subgroup Behavior&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -240,9 +240,21 @@ research is in verifying compilers and applying translation validation to verify
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Zheyuan Chen&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; SIMT-Step Execution: A Flexible Operational Semantics for GPU Subgroup Behavior&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modern GPUs execute programs using a SIMT model, where small groups of threads, called
+subgroups or warps, execute together and support high-performance communication and coordination.
+Many optimized kernels rely on subgroup APIs, but the guarantees behind subgroup behavior are often
+unclear. We present SIMT-Step, a flexible operational semantics for subgroup execution. SIMT-Step
+helps clarify what it means for subgroup invocations to execute “together,” and how different
+programming-model guarantees affect which programming patterns are portable. By comparing these
+guarantees with behavior observed across real GPUs, this work highlights a gap between how
+programmers reason about subgroups and what languages actually specify. The goal is to provide a
+clearer foundation for portable, high-performance GPU programming.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Zheyuan Chen is a second-year PhD student at the University of California, Santa Cruz,
+advised by Tyler Sorensen. His research has focused on GPU semantics and the design of portable,
+high-performance GPU programs.&lt;/p&gt;
 
 &lt;h2 id=&#34;june-5&#34;&gt;June 5&lt;/h2&gt;
 
