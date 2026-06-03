@@ -96,7 +96,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#june-5&#34;&gt;June 5&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Scott Kovach&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;TBD&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Formalizing Extensible Board Games&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -260,9 +260,28 @@ high-performance GPU programs.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Scott Kovach&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Formalizing Extensible Board Games&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modern strategic board games resemble software: they are formal systems that require
+modular design so that expansions can be composed without conflict. Formalizing them as software is
+valuable but difficult to do with traditional languages because of the unruly ways that rules
+typically modify control flow; whereas software designers desire predictability and correctness,
+game designers craft surprising emergent behavior by combining simple elements that often augment or
+override previous ones.&lt;/p&gt;
+
+&lt;p&gt;This talk will present a new language, &lt;em&gt;Turn&lt;/em&gt;, that mixes logical and imperative programming styles
+by reducing both to monotone logic program evaluation. Its key idea is to equip each logical fact
+with an interval of time, restricting which other facts it can interact with. Such facts can be
+uniformly used to encode data, (time-varying) relationships, game phases, and pending choices to be
+made by players. This strategy enables rule sets that match the style and conciseness of rules
+written in natural language.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Scott Kovach is a seventh year PhD student at Stanford advised by Fred Kjolstad. He is
+interested in building more interactive and learnable programming systems with the help of
+declarative languages and query optimization. Currently, he is working on Turn, a language inspired
+by extensible card games and situation semantics. Previously, he developed indexed streams, an
+algebraic method of compiling relational iterators for sparse tensor arithmetic and worst-case
+optimal join queries.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
 </description>
