@@ -8,6 +8,13 @@ weight = 10
 title = "Alumni"
 
 [[people]]
+  name = "Gan Shen"
+  degree = "PhD"
+  grad_year = "2026"
+  org = "Applied Scientist, Amazon Web Services"
+  www = "https://gshen42.github.io"
+
+[[people]]
   name = "Shel Finkelstein"
   title = "Continuing Lecturer"
   grad_year = "2014-2024"
