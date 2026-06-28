@@ -83,12 +83,6 @@ title = "Students"
   www = "https://royshadmon.github.io"
   title = "Ph.D. Student"
   img = "roy_shadmon.png"
-  
-[[people]]
-  name = "Gan Shen"
-  www = "https://gshen42.github.io"
-  title = "Ph.D. Student"
-  img = "gan_shen.jpg"
 
 [[people]]
   name = "Yan Tong"
