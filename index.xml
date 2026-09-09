@@ -29,20 +29,77 @@
 
 &lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
 
-&lt;p&gt;| Date | Speaker | Title |&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;p&gt;|&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;|&lt;/p&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#sep-25&#34;&gt;September 25&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;No Speaker&lt;/td&gt;
+&lt;td&gt;Social Hour and New Graduate Student Introductions&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;| &lt;a href=&#34;#sep-25&#34;&gt;September 25&lt;/a&gt; | No Speaker | Social Hour and New Graduate Student Introductions |
-| &lt;a href=&#34;#oct-2&#34;&gt;October 2&lt;/a&gt; | Yan Tong | Ironwright: A Rusty Bridge from Bounded Model Checking to Full Verification |
-| &lt;a href=&#34;#oct-9&#34;&gt;October 9&lt;/a&gt; | TBD | TBD |
-| &lt;a href=&#34;#oct-16&#34;&gt;October 16&lt;/a&gt; | Ashley Samuelson | TBD |
-| &lt;a href=&#34;#oct-23&#34;&gt;October 23&lt;/a&gt; | TBD | TBD |
-| &lt;a href=&#34;#oct-30&#34;&gt;October 30&lt;/a&gt; | Clara &amp;ldquo;Clarise&amp;rdquo; Ceerla | Mocha: A Motion-Based Choreographic Language |
-| &lt;a href=&#34;#nov-6&#34;&gt;November 6&lt;/a&gt; | Esteban Ramos | TBD |
-| &lt;a href=&#34;#nov-13&#34;&gt;November 13&lt;/a&gt; | Ashton Wiersdorf | TBD |
-| &lt;a href=&#34;#nov-20&#34;&gt;November 20&lt;/a&gt; | Keith Allen | ChorMPI: Choreographies for HPC |
-| &lt;a href=&#34;#nov-27&#34;&gt;November 27&lt;/a&gt; | No Speaker | Thanksgiving Holiday |&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-2&#34;&gt;October 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Yan Tong&lt;/td&gt;
+&lt;td&gt;Ironwright: A Rusty Bridge from Bounded Model Checking to Full Verification&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-9&#34;&gt;October 9&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-16&#34;&gt;October 16&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Ashley Samuelson&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-23&#34;&gt;October 23&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#oct-30&#34;&gt;October 30&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Clara &amp;ldquo;Clarise&amp;rdquo; Ceerla&lt;/td&gt;
+&lt;td&gt;Mocha: A Motion-Based Choreographic Language&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-6&#34;&gt;November 6&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Esteban Ramos&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-13&#34;&gt;November 13&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Ashton Wiersdorf&lt;/td&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-20&#34;&gt;November 20&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Keith Allen&lt;/td&gt;
+&lt;td&gt;ChorMPI: Choreographies for HPC&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;#nov-27&#34;&gt;November 27&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;No Speaker&lt;/td&gt;
+&lt;td&gt;Thanksgiving Holiday&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;hr /&gt;
 
