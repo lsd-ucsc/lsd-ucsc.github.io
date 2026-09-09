@@ -6,8 +6,125 @@
     <description>Recent content in Languages, Systems, and Data Lab @ UCSC on Languages, Systems, and Data Lab @ UCSC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Mar 2026 13:19:27 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 11:50:27 -0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Languages, Systems, and Data Seminar (Fall 2026)</title>
+      <link>http://lsd.ucsc.edu/lsd-seminar/2026fa/</link>
+      <pubDate>Wed, 09 Sep 2026 11:50:27 -0700</pubDate>
+      
+      <guid>http://lsd.ucsc.edu/lsd-seminar/2026fa/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
+&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
+&lt;strong&gt;Organizers&lt;/strong&gt;: Achilles Benetopoulos, Lindsey Kuper, Kyle Miller, Sabrina Reis &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
+
+&lt;p&gt;For fall 2026, we will continue to host the LSD Seminar in a hybrid fashion. Anyone can attend on Zoom, and local folks can gather in person in the lab. Speakers can join either in person or on Zoom, whichever is convenient.&lt;/p&gt;
+
+&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/members&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
+
+&lt;p&gt;| Date | Speaker | Title |&lt;/p&gt;
+
+&lt;p&gt;|&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;|&lt;/p&gt;
+
+&lt;p&gt;| &lt;a href=&#34;#sep-25&#34;&gt;September 25&lt;/a&gt; | No Speaker | Social Hour and New Graduate Student Introductions |
+| &lt;a href=&#34;#oct-2&#34;&gt;October 2&lt;/a&gt; | Yan Tong | Ironwright: A Rusty Bridge from Bounded Model Checking to Full Verification |
+| &lt;a href=&#34;#oct-9&#34;&gt;October 9&lt;/a&gt; | TBD | TBD |
+| &lt;a href=&#34;#oct-16&#34;&gt;October 16&lt;/a&gt; | Ashley Samuelson | TBD |
+| &lt;a href=&#34;#oct-23&#34;&gt;October 23&lt;/a&gt; | TBD | TBD |
+| &lt;a href=&#34;#oct-30&#34;&gt;October 30&lt;/a&gt; | Clara &amp;ldquo;Clarise&amp;rdquo; Ceerla | Mocha: A Motion-Based Choreographic Language |
+| &lt;a href=&#34;#nov-6&#34;&gt;November 6&lt;/a&gt; | Esteban Ramos | TBD |
+| &lt;a href=&#34;#nov-13&#34;&gt;November 13&lt;/a&gt; | Ashton Wiersdorf | TBD |
+| &lt;a href=&#34;#nov-20&#34;&gt;November 20&lt;/a&gt; | Keith Allen | ChorMPI: Choreographies for HPC |
+| &lt;a href=&#34;#nov-27&#34;&gt;November 27&lt;/a&gt; | No Speaker | Thanksgiving Holiday |&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;september-25&#34;&gt;September 25&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; No Speaker&lt;/p&gt;
+
+&lt;p&gt;Social hour in place of talk. We especially encourage new graduate students to attend.&lt;/p&gt;
+
+&lt;h2 id=&#34;october-2&#34;&gt;October 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Yan Tong&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Ironwright: A Rusty Bridge from Bounded Model Checking to Full Verification (HATRA Talk)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Despite decades of progress on tools for formal verification of distributed systems, it is still hard for verification engineers to close the gap from bounded model checking to full verification. Verification tools that do bridge that gap stop short of producing practically deployable code. We propose Ironwright, a verification framework that addresses these gaps through a unified Rust-based workflow. Developers model and implement distributed systems in a Rust-based shallowly embedded DSL, validate them via automated bounded model checking for rapid iteration, and then “intract” formal specifications from Rust to the Lean proof assistant for rigorous verification. The framework will let developers obtain both verified correctness guarantees and deployable code from the same program.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;october-9&#34;&gt;October 9&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;october-16&#34;&gt;October 16&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Ashley Samuelson&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;october-23&#34;&gt;October 23&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;october-30&#34;&gt;October 30&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Clara &amp;ldquo;Clarise&amp;rdquo; Ceerla&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Mocha: A Motion-Based Choreographic Language&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;november-6&#34;&gt;November 6&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Esteban Ramos&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;november-13&#34;&gt;November 13&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Ashton Wiersdorf&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;november-20&#34;&gt;November 20&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Keith Allen&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; ChorMPI: Choreographies for HPC&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;november-27&#34;&gt;November 27&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; No Speaker&lt;/p&gt;
+
+&lt;p&gt;No seminar due to Thanksgiving holiday.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Languages, Systems, and Data Seminar (Spring 2026)</title>
@@ -3491,255 +3608,6 @@ In the second part, I&amp;rsquo;ll dive into a question to the first part: &amp;
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Pretty printers transform structured data into &amp;ldquo;pretty&amp;rdquo; text. In this talk, I will present a pretty printing algorithm that (1) is strictly more expressive than current state-of-the-art algorithms; (2) guarantees optimality; and (3) has better time complexity than many state-of-the-art pretty printers. To distinguish our pretty printer from others, I will also give a brief survey of the existing pretty printing algorithms and dispel various myths about traditional pretty printers that turn out to be inaccurate. This is a joint work with Justin Pombrio and Emina Torlak.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Sorawee (Oak) is a fourth year PhD student at the University of Washington, advised by Emina Torlak. His research interest is improving usability of symbolic evaluation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&#34;../&#34;&gt;Archive&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Languages, Systems, and Data Seminar (Fall 2021)</title>
-      <link>http://lsd.ucsc.edu/lsd-seminar/2021fa/</link>
-      <pubDate>Tue, 31 Aug 2021 19:47:53 -0700</pubDate>
-      
-      <guid>http://lsd.ucsc.edu/lsd-seminar/2021fa/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Fridays, noon - 1:05pm (PT) &lt;br /&gt;
-&lt;strong&gt;Location&lt;/strong&gt;: The Internet / The LSD Lab (Engineering 2, Room 398) &lt;br /&gt;
-&lt;strong&gt;Organizers&lt;/strong&gt;: Lindsey Kuper and Tyler Sorensen &lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The Languages, Systems, and Data Seminar meets weekly to discuss interesting topics in the areas of programming languages, systems, databases, formal methods, security, software engineering, verification, architecture, and beyond.  Our goal is to encourage interactions and discussions between students, researchers, and faculty with interests in these areas.  The seminar is open to everyone interested.  Participating UCSC students should register for the 2-credit course CSE 280O (let the organizers know if you&amp;rsquo;re an undergrad and need a permission code).&lt;/p&gt;
-
-&lt;p&gt;For fall 2021, we will continue to host the LSD Seminar on Zoom, but local folks can gather in person in the lab to tune into the Zoom talks together.&lt;/p&gt;
-
-&lt;p&gt;Talks will be advertised on the &lt;a href=&#34;https://groups.google.com/g/ucsc-lsd-seminar-announce/about&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;ucsc-lsd-seminar-announce&lt;/a&gt; (for anyone) and &lt;a href=&#34;https://groups.google.com/a/ucsc.edu/g/lsd-group/about&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;lsd-group&lt;/a&gt; (for UCSC-affiliated people) mailing lists.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Speaker&lt;/th&gt;
-&lt;th&gt;Title&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#sept-24&#34;&gt;Sept. 24&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;None&lt;/td&gt;
-&lt;td&gt;Welcome!&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#oct-1&#34;&gt;Oct. 1&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://maria-a-schett.net/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Maria Schett&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Cheaper (&amp;amp; correct) blockchain protocols and programs&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#oct-8&#34;&gt;Oct. 8&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://web.eecs.umich.edu/~takh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tanvir Ahmed Khan&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Rescuing Data Center Processors&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#oct-15&#34;&gt;Oct. 15&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.seas.upenn.edu/~edinella/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Elizabeth Dinella&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Data Driven Program Merge&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#oct-22&#34;&gt;Oct. 22&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.cmi.ac.in/~vaishnavi/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Vaishnavi Sundararajan&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Better Safe than Sorry: Symbolic Verification for Security Protocols&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#oct-29&#34;&gt;Oct. 29&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~jlwise/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Jenna Wise&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Gradual Verification of Recursive Heap Data Structures&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#nov-5&#34;&gt;Nov. 5&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://thok.eu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Thomas Koehler&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Optimizing Processing Pipelines with a Rewrite-Based Domain-Extensible Compiler&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#nov-12&#34;&gt;Nov. 12&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://giuliaguidi.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Giulia Guidi&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Sparse Matrices and High-Performance Computing Meet Biology&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#nov-19&#34;&gt;Nov. 19&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.cs.utexas.edu/~hleblanc/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Hayley LeBlanc&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Finding Crash Consistency Bugs in Persistent Memory File Systems&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;#dec-3&#34;&gt;Dec. 3&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://sydgibs.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Sydney Gibson&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Efficient Verification of High-Performance Cryptographic Routines on New Hardware&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h1 id=&#34;sept-24&#34;&gt;Sept. 24&lt;/h1&gt;
-
-&lt;p&gt;Welcome!&lt;/p&gt;
-
-&lt;h1 id=&#34;oct-1&#34;&gt;Oct. 1&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://maria-a-schett.net/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Maria Schett&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Cheaper (&amp;amp; correct) blockchain protocols and programs&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; We will explore how we can make it cheaper to run blockchain protocols and programs&amp;mdash;while guaranteeing correctness!&lt;/p&gt;
-
-&lt;p&gt;For cheaper protocols, we move from a block&lt;em&gt;chain&lt;/em&gt; to a block&lt;em&gt;graph&lt;/em&gt;. Such a blockgraph, which we show to be a reliable point-to-point link, is built together by a set of servers. Thereby, the servers embed many parallel runs of a deterministic protocol into it. And because the protocol is deterministic, every server can locally replay the protocol&amp;mdash;and no more messages need to be sent [1]!&lt;/p&gt;
-
-&lt;p&gt;For cheaper programs, we super-optimize bytecode of the Ethereum Virtual Machine, which runs on many servers to execute programs on the blockchain. Now, to avoid the halting problem, every executed bytecode costs money. So we have a clear optimization target&amp;mdash;money&amp;mdash;and we use an automated theorem prover to synthesize cheaper, observationally equivalent, programs [2].&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; &lt;a href=&#34;https://maria-a-schett.net/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Maria A Schett&lt;/a&gt; is currently finishing her PhD on &amp;ldquo;Cost Reduction With Guarantees: Formal Reasoning Applied To Blockchain Technologies&amp;rdquo; at University College London. She loves living in London and talking about blockchains, distributed systems, and compilers. She is conversational in term rewriting and qualitative research (from a previous life) and in Esperanto.&lt;/p&gt;
-
-&lt;p&gt;[1] &amp;ldquo;Embedding a Deterministic BFT Protocol in a Block DAG&amp;rdquo;, Maria A Schett and George Danezis, Proc. of the 2021 ACM Symposium on Principles of Distributed Computing (PODC) 2021&lt;/p&gt;
-
-&lt;p&gt;[2] &amp;ldquo;Synthesis of Super-Optimized Smart Contracts using Max-SMT&amp;rdquo;, Elvira Albert, Pablo Gordillo, Albert Rubio and Maria A Schett, Proc. of 32nd International Conference on Computer-Aided Verification (CAV) 2020&lt;/p&gt;
-
-&lt;h1 id=&#34;oct-8&#34;&gt;Oct. 8&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://web.eecs.umich.edu/~takh/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Tanvir Ahmed Khan&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Rescuing Data Center Processors&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; To serve billions of users around the world, modern web applications that run across data centers access huge datasets and perform complex application logic. As a result, data center applications face two major challenges: (1) poor data access behavior and (2) poor instruction access behavior. In my research, I demonstrate that novel hardware-software codesign effectively solves both challenges. Specifically, I observe that both data and instruction accesses in data center applications follow a deeply repetitive pattern that can be efficiently optimized by profiling the application’s program flow behavior. In this talk, I will first present an overview of my techniques to improve data and instruction accesses. I will then describe two of my techniques in detail, showing how these techniques outperform prior proposals from Google.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Tanvir Ahmed Khan is a fifth-year Ph.D. candidate at the University of Michigan. His research interests lie at the intersection of computer architecture, compilers, and operating systems. He is interested in designing techniques at the boundary of hardware and software that enable software to better leverage hardware resources. He was a Facebook Fellowship (2020) finalist. His research on data center applications’ performance optimizations has appeared in top computer architecture and systems venues like ISCA, MICRO, PLDI, and OSDI. His work is being used by Intel and ARM to design the next-generation CPU architectures. Tanvir expects to graduate soon and after graduation, he is interested in tenure-track faculty positions.&lt;/p&gt;
-
-&lt;h1 id=&#34;oct-15&#34;&gt;Oct. 15&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://www.seas.upenn.edu/~edinella/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Elizabeth Dinella&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Data Driven Program Merge&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In collaborative software development, &lt;em&gt;program merging&lt;/em&gt; is the mechanism to integrate changes from multiple programmers. The most widespread merge algorithm, employed in modern version control systems, is an &lt;em&gt;unstructured&lt;/em&gt; merge. Unstructured merge treats input programs as a sequence of characters and reports a conflict when changes interfere textually. On the other hand, &lt;em&gt;structured&lt;/em&gt; approaches leverage knowledge of the underlying language to perform “intelligent” merges over the program’s AST. These approaches have shown significant advancements in automatic merging for Java. However, these methods have not found their way into modern version control systems as they are typically language dependent and do not generalize to dynamic languages such as JavaScript.&lt;/p&gt;
-
-&lt;p&gt;In a 1991 seminal paper on program merge [1], Westfechtel voiced: “A tool is &lt;em&gt;urgently&lt;/em&gt; needed which automates the process of merging as much as possible.”  Thirty years later, and there have not been significant advances in the prevailing merge algorithm - unstructured merge.&lt;/p&gt;
-
-&lt;p&gt;In this work, we take a &lt;em&gt;fresh data-driven&lt;/em&gt; look at the problem of merge resolution. Guided by a multilingual dataset of over 200,000 merges, we explore deep learning techniques to resolve unstructured merge conflicts. Our key innovation is an edit-aware embedding of merge inputs.&lt;/p&gt;
-
-&lt;p&gt;Our resulting model achieves 63&amp;ndash;68% accuracy of merge resolution synthesis, yielding nearly a 3x performance improvement over existing structured merge tools. Finally, we demonstrate that our approach is sufficiently flexible to work with source code files in Java, JavaScript, TypeScript, and C# programming languages, and can generalize zero-shot to unseen languages.&lt;/p&gt;
-
-&lt;p&gt;[1] Bernhard Westfechtel. 1991. Structure-oriented merging of revisions of software documents. In &lt;em&gt;Proceedings of the 3rd international workshop on Software configuration management&lt;/em&gt; (SCM &amp;lsquo;91).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Elizabeth Dinella is a fourth-year PhD student at the University of Pennsylvania. Her research interests can be broadly described as “data-driven program reasoning.” Most recently, Elizabeth has worked on data-driven bug finding (&lt;a href=&#34;https://openreview.net/pdf?id=SJeqs6EFvB&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Hoppity&lt;/a&gt;), program merge, and test oracle inference. She is an admirer of coffee and her chow chow puppy Cinnabon.&lt;/p&gt;
-
-&lt;h1 id=&#34;oct-22&#34;&gt;Oct. 22&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; &lt;a href=&#34;https://www.cmi.ac.in/~vaishnavi/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Vaishnavi Sundararajan&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Better Safe than Sorry: Symbolic Verification for Security Protocols&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; A large part of our lives is spent online, creating, sharing, and consuming data in various forms. We use a profusion of security protocols to handle this more-often-than-not sensitive data, and connect to the internet and to the world at large. How secure are these communications? How private? These are fundamental questions to which we demand definitive answers. Even with highly sophisticated methods of testing, one cannot get unconditional answers, and this is where formal verification steps in. One can use logic or automata or similar formal methods to conclusively tell us if there are security flaws in these protocols. In this talk, we will provide a quick and dirty introduction to the world of symbolic verification, with a focus on security protocols. We will then look at a few ways in which the protocols of today’s day and age are modelled and verified.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Vaishnavi Sundararajan is a postdoc at UCSC. She completed her PhD at Chennai Mathematical Institute, with a thesis on formal aspects of certification in security protocols. She is interested in the areas of logic, security, proof theory and verification. Before UCSC, she was a postdoc at IRISA, Rennes, and a Research Associate at Ericsson Research, Bengaluru.&lt;/p&gt;
-
-&lt;h1 id=&#34;oct-29&#34;&gt;Oct. 29&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://www.cs.cmu.edu/~jlwise/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Jenna Wise&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Gradual Verification of Recursive Heap Data Structures&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Current static verification techniques do not provide good support for incrementality, making it difficult for developers to focus on specifying and verifying the properties and components that are most important. Dynamic verification approaches support incrementality, but cannot provide static guarantees. To bridge this gap, prior work proposed gradual verification, which supports incrementality by allowing every assertion to be complete, partial, or omitted, and provides sound verification that smoothly scales from dynamic to static checking. Our OOPSLA’20 paper [1] extended gradual verification to programs that manipulate recursive, mutable data structures on the heap. This talk outlines our extension and discusses technical challenges addressed during its development, such as ensuring consistency between static and dynamic checking. I also present the design of a gradual verifier that we built as follow-up work to our OOPSLA paper. It is implemented on top of the Viper static verifier and supports the C0 programming language. The C0 language is a safer, smaller subset of C taught in introductory CS courses at CMU. Finally, I conclude the talk with my short-term plans to evaluate our tool&amp;mdash;which includes a case study on web browser JIT code&amp;mdash;and my long-term vision for the field of gradual verification.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I am a fifth year PhD student in the Institute for Software Research at Carnegie Mellon University, and I am co-advised by Jonathan Aldrich and Joshua Sunshine. My research interests lie at the intersection of programming languages, software verification, and software engineering. In general, I intend to make verification technology, like formal verification and program analysis, more usable in practice. Towards this end, my thesis is dedicated to work in gradual verification, which supports incremental formal verification through the use of both static and dynamic techniques. I have also used ideas from gradual verification to produce a gradual null pointer analysis [2] that reduces false positives compared to state-of-the-art tools. It systematically deploys run-time checks wherever the underlying static analysis is imprecise. Further, I previously contributed to the language design of Penrose &amp;mdash; which generates diagrams from mathematical prose &amp;mdash; and Obsidian &amp;mdash; a programming language that facilitates the development of secure blockchain applications. Outside of work, I enjoy playing video games, such as League of Legends and Final Fantasy XIV Online. I also enjoy bowling and often average more than 170 points per game!&lt;/p&gt;
-
-&lt;p&gt;[1] Wise, J., Bader, J., Wong, C., Aldrich, J., Tanter, É., Sunshine, J., &amp;ldquo;Gradual Verification of Recursive Heap Data Structures&amp;rdquo;, The ACM SIGPLAN conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH20), OOPSLA, November 15-20, 2020, Online&lt;/p&gt;
-
-&lt;p&gt;[2] Estep, S., Wise, J., Aldrich, J., Tanter, É., Bader, J., and Sunshine, J., &amp;ldquo;Gradual Program Analysis for Null Pointers&amp;rdquo;, The 35th European Conference on Object-Oriented Programming (ECOOP21), July 11-17, 2021, Online&lt;/p&gt;
-
-&lt;h1 id=&#34;nov-5&#34;&gt;Nov. 5&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://thok.eu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Thomas Koehler&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Optimizing Processing Pipelines with a Rewrite-Based Domain-Extensible Compiler&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Domain-specific optimizing compilers such as Halide
-enable programs to be expressed at a convenient high-level, while
-generating high-performance code for parallel architectures. As
-domains of interest expand towards deep learning, probabilistic
-programming and beyond, it becomes increasingly clear that it is
-unsustainable to redesign domain specific compilers for each new
-domain. In addition, the rapid growth of hardware architectures to
-optimize for poses great challenges for designing these compilers.&lt;/p&gt;
-
-&lt;p&gt;In this talk, I will show how to extend a unifying domain-extensible
-compiler with domain-specific as well as hardware-specific
-optimizations.  Optimizations are not hard-coded into the compiler but
-are expressed as user-defined rewrite rules that are composed into
-strategies controlling the optimization process. On four mobile ARM
-multi-core CPUs, the code generated for the Harris image processing
-pipeline outperforms the image processing library OpenCV by up to 16x
-and achieves performance close to - or even up to 1.4x better than -
-the state-of-the-art image processing compiler Halide.&lt;/p&gt;
-
-&lt;p&gt;However, optimization strategies are difficult to write because they
-need to decide how to apply rewrite rules.  I will finish this talk by
-presenting a technique we call &amp;ldquo;guided equality saturation via
-sketching&amp;rdquo; to abstract over individual rewrites.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; I am a PhD student in computer science at the University of Glasgow in
-Scotland, where I work closely with my supervisor Michel Steuwer. I am
-the lead developer of the &lt;a href=&#34;https://rise-lang.org&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Rise project&lt;/a&gt;, which
-combines a high-level functional language with a system of rewrite rules
-to encode optimization choices. It provides a domain-extensible way to
-generate high performance code for diverse hardware architectures.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://thok.eu/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Personal website&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;nov-12&#34;&gt;Nov. 12&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://giuliaguidi.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Giulia Guidi&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Sparse Matrices and High-Performance Computing Meet Biology&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In computational and data sciences, the need for scalable computing and data systems has recently increased due to the flood of data in areas such as genomics. Yet, scalable parallel programming in distributed memory is difficult, and high-performance computing (HPC) systems are typically allocated to specific research communities and have long user wait times, limiting access to resources and scientific discoveries.&lt;/p&gt;
-
-&lt;p&gt;In this context, we have developed a novel set of genomics algorithms for de novo genome assembly (i.e., reconstruction of an unknown genome from redundant, erroneous genomic sequences) that are integrated into the diBELLA 2D software package and are based on sparse matrix multiplication supporting general semiring abstraction. This enables the creation and easy modification of powerful genomics pipelines that take advantage of massively parallel hardware without exposing low-level architecture. diBELLA 2D is up to 2x faster on 100s nodes than a 1D algorithm based on distributed hash tables, which are more difficult to parallelize. diBELLA 2D integrates GPU support in the most compute-intensive stages of the pipeline to take advantage of today&amp;rsquo;s heterogeneous HPC hardware.&lt;/p&gt;
-
-&lt;p&gt;To ensure that the genomics research community and others in general, can benefit from HPC, the development of distributed algorithms such as diBELLA 2D must be coupled with efforts to make distributed computing more accessible. To this end, we have shown that we are on the cusp of a paradigm shift in high-performance computing (HPC) away from purely institutional or agency-wide HPC systems to cloud computing, as the latter has made significant advances in networking technology and HPC system software.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Giulia is a Ph.D. candidate in Computer Science at UC Berkeley and a graduate research assistant at the Computational Research Division of Lawrence Berkeley National Laboratory advised by Aydın Buluç and Kathy Yelick. Giulia is a 2020 SIGHPC Computational &amp;amp; Data Science Fellow and received her M.Sc. and B.Sc. in Biomedical Engineering from Politecnico di Milano. Her work is in the area of computer systems research, including cloud and parallel computing, and she is interested in building a collaborative interdisciplinary research program. Giulia is currently working on the challenges of large-scale computational biology, as well as the algorithms and software infrastructures that meet the usability and performance demand of this community. Currently, she is developing a novel algorithm for de novo assembly of genomes in distributed memory using long-read sequencing data and sparse matrix abstraction as part of the ExaBiome project. Giulia is also working on how to make cloud computing more accessible for high-performance scientific computing.&lt;/p&gt;
-
-&lt;h1 id=&#34;nov-19&#34;&gt;Nov. 19&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://www.cs.utexas.edu/~hleblanc/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Hayley LeBlanc&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Finding Crash Consistency Bugs in Persistent Memory File Systems&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Persistent memory (PM) is a new storage technology that combines the speed and byte-addressability of DRAM with the durability of hard disks and solid state drives. Recent research has explored using PM in a number of different applications like databases and file systems. However, programming PM applications correctly is difficult; in order for data to be guaranteed durable on PM, developers must understand and use a set of assembly instructions to manage persistence. In particular, PM applications are prone to crash consistency bugs, where buggy data management leads to incorrect behavior after a crash.&lt;/p&gt;
-
-&lt;p&gt;PM file systems are a growing subset of PM applications, but there are currently no testing tools that target crash consistency bugs in these file systems. In this talk, I will describe my work on building a crash consistency testing framework designed specifically for PM file systems. I will present an overview of our testing approach and the bugs that the tool has found, and discuss the implications of these bugs on the development of PM file systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Hayley LeBlanc is a second year PhD student at the University of Texas at Austin. She is interested in developing techniques and tools to make sure that storage systems are reliable and correct. She also enjoys fencing and volunteering at her local animal shelter.&lt;/p&gt;
-
-&lt;h1 id=&#34;dec-3&#34;&gt;Dec. 3&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;  &lt;a href=&#34;https://sydgibs.com/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;Sydney Gibson&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Efficient Verification of High-Performance Cryptographic Routines on New Hardware&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Formal proofs are often employed to show correctness of cryptographic routines at the assembly level, especially in instances where architecture-optimized performance is desirable or where compilers do not exist for the target ISA. While common cryptographic routines are often implemented in many different ISAs, the current cost of verification scales poorly with the number of architectures. In this talk, we explore solutions for writing correctness proofs for cryptographic routines which are generic across different architectures.&lt;/p&gt;
-
-&lt;p&gt;Specifically, we will look at assembly implementations of an RSA signature verification routine in RISC-V and in the OpenTitan BigNumber Accelerator (OTBN) ISA. Despite dramatic differences in these two ISAs, we find that the high-level control flow structure of the RSA routine is quite similar across implementations. We use this observation to construct a framework for writing partial architecture-generic assembly-level proofs which are abstracted over hardware details (e.g., register width). We will discuss how this framework can be used to reduce the overhead of proving the correctness of common cryptographic routines on different architectures, and look to future possibilities for further reducing this overhead.~&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Sydney is a second-year Ph.D. student in the Computer Science Department of Carnegie Mellon, advised by Bryan Parno. She is interested in formal techniques for verifying safety and security properties of low-level, high-performance systems at scale. Sydney received her B.S. and M.Eng. from MIT, where she worked on verification techniques for concurrent, crash-safe systems.&lt;/p&gt;
 
 &lt;hr /&gt;
 
