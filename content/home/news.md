@@ -34,6 +34,22 @@ active = false
 
 [[news]]
   kind = "paper"
+  date = "July 22, 2026"
+  who = "Yan Tong, Sabrina Reis, and Lindsey Kuper"
+  paper_name = "Ironwright: A Rusty Bridge from Bounded Model Checking to Full Verification"
+  conf_name = "HATRA 2026"
+  conf_link = "https://conf.researchr.org/home/splash-issta-2026/hatra-2026"
+
+[[news]]
+  kind = "paper"
+  date = "July 3, 2026"
+  who = "Tim Goodwin, Lindsey Kuper, and Andi Quinn"
+  paper_name = "Testing Custom Control Planes Without the Cluster"
+  conf_name = "SOSP 2026"
+  conf_link = "https://sigops.org/s/conferences/sosp/2026/"
+
+[[news]]
+  kind = "paper"
   date = "March 12, 2026"
   who = "Yan Tong, Nathan Liittschwager, and Lindsey Kuper"
   paper_name = "Can you keep a secret? A new protocol for sender-side enforcement of causal message delivery"
