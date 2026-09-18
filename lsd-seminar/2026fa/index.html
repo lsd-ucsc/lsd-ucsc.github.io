@@ -222,8 +222,8 @@
 <tbody>
 <tr>
 <td><a href="#sep-25">September 25</a></td>
-<td>No Speaker</td>
-<td>Social Hour and New Graduate Student Introductions</td>
+<td>Tim Goodwin</td>
+<td>SOSP Practice Talk and New Student Welcome</td>
 </tr>
 
 <tr>
@@ -234,8 +234,8 @@
 
 <tr>
 <td><a href="#oct-9">October 9</a></td>
-<td>TBD</td>
-<td>TBD</td>
+<td>Gavin Gray</td>
+<td>A Design Space Exploration of Async/Await</td>
 </tr>
 
 <tr>
@@ -286,9 +286,15 @@
 
 <h2 id="september-25">September 25</h2>
 
-<p><strong>Speaker:</strong> No Speaker</p>
+<p>The first half hour will consist of a practice talk for SOSP given by Tim Goodwin. The second half hour will be a social with a focus on welcoming new students to the LSD lab.</p>
 
-<p>Social hour in place of talk. We especially encourage new graduate students to attend.</p>
+<p><strong>Speaker:</strong> Tim Goodwin</p>
+
+<p><strong>Title:</strong> Testing Custom Control Planes Without The Cluster</p>
+
+<p><strong>Abstract:</strong> Modern cloud infrastructure is increasingly managed by software. On platforms like Kubernetes, the control plane maintains desired system state through controllers: software components that continuously monitor cluster resources and reconcile them toward a declared specification. This pattern has proven effective, and a thriving ecosystem of projects now compose controllers into custom control planes (CCPs) to automate tasks such as managing application delivery, scaling infrastructure dynamically, and composing cloud provider APIs into higher-level abstractions. The correctness of a CCP, however, depends on how its constituent controllers interact at run time. Bugs arise from implicit assumptions about these interactions that do not hold under all possible executions. As such, finding them requires enumerating the space of possible executions and searching it systematically, which is infeasible in a live cluster environment. In this talk, I will present Kamera, a system for testing CCPs that uses partial simulation to execute the code of multiple interacting controllers against a lightweight model of the Kubernetes runtime. Thus far, Kamera has found 31 new bugs in five popular CCP projects and achieves a 1,781× speedup over existing cluster-based controller testing approaches.</p>
+
+<p><strong>Bio:</strong> Tim is a fifth-year PhD student at UC Santa Cruz co-advised by Andy Quinn and Lindsey Kuper.</p>
 
 <h2 id="october-2">October 2</h2>
 

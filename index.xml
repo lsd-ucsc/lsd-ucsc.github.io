@@ -41,8 +41,8 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#sep-25&#34;&gt;September 25&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;No Speaker&lt;/td&gt;
-&lt;td&gt;Social Hour and New Graduate Student Introductions&lt;/td&gt;
+&lt;td&gt;Tim Goodwin&lt;/td&gt;
+&lt;td&gt;SOSP Practice Talk and New Student Welcome&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -53,8 +53,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#oct-9&#34;&gt;October 9&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Gavin Gray&lt;/td&gt;
+&lt;td&gt;A Design Space Exploration of Async/Await&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -105,9 +105,15 @@
 
 &lt;h2 id=&#34;september-25&#34;&gt;September 25&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; No Speaker&lt;/p&gt;
+&lt;p&gt;The first half hour will consist of a practice talk for SOSP given by Tim Goodwin. The second half hour will be a social with a focus on welcoming new students to the LSD lab.&lt;/p&gt;
 
-&lt;p&gt;Social hour in place of talk. We especially encourage new graduate students to attend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Tim Goodwin&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Testing Custom Control Planes Without The Cluster&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Modern cloud infrastructure is increasingly managed by software. On platforms like Kubernetes, the control plane maintains desired system state through controllers: software components that continuously monitor cluster resources and reconcile them toward a declared specification. This pattern has proven effective, and a thriving ecosystem of projects now compose controllers into custom control planes (CCPs) to automate tasks such as managing application delivery, scaling infrastructure dynamically, and composing cloud provider APIs into higher-level abstractions. The correctness of a CCP, however, depends on how its constituent controllers interact at run time. Bugs arise from implicit assumptions about these interactions that do not hold under all possible executions. As such, finding them requires enumerating the space of possible executions and searching it systematically, which is infeasible in a live cluster environment. In this talk, I will present Kamera, a system for testing CCPs that uses partial simulation to execute the code of multiple interacting controllers against a lightweight model of the Kubernetes runtime. Thus far, Kamera has found 31 new bugs in five popular CCP projects and achieves a 1,781× speedup over existing cluster-based controller testing approaches.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Tim is a fifth-year PhD student at UC Santa Cruz co-advised by Andy Quinn and Lindsey Kuper.&lt;/p&gt;
 
 &lt;h2 id=&#34;october-2&#34;&gt;October 2&lt;/h2&gt;
 
