@@ -294,7 +294,7 @@
 
 <p><strong>Abstract:</strong> Modern cloud infrastructure is increasingly managed by software. On platforms like Kubernetes, the control plane maintains desired system state through controllers: software components that continuously monitor cluster resources and reconcile them toward a declared specification. This pattern has proven effective, and a thriving ecosystem of projects now compose controllers into custom control planes (CCPs) to automate tasks such as managing application delivery, scaling infrastructure dynamically, and composing cloud provider APIs into higher-level abstractions. The correctness of a CCP, however, depends on how its constituent controllers interact at run time. Bugs arise from implicit assumptions about these interactions that do not hold under all possible executions. As such, finding them requires enumerating the space of possible executions and searching it systematically, which is infeasible in a live cluster environment. In this talk, I will present Kamera, a system for testing CCPs that uses partial simulation to execute the code of multiple interacting controllers against a lightweight model of the Kubernetes runtime. Thus far, Kamera has found 31 new bugs in five popular CCP projects and achieves a 1,781× speedup over existing cluster-based controller testing approaches.</p>
 
-<p><strong>Bio:</strong> Tim is a fifth-year PhD student at UC Santa Cruz co-advised by Andy Quinn and Lindsey Kuper.</p>
+<p><strong>Bio:</strong> Tim is a fifth-year PhD student at UC Santa Cruz co-advised by Andi Quinn and Lindsey Kuper.</p>
 
 <h2 id="october-2">October 2</h2>
 
