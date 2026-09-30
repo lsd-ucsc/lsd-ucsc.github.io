@@ -123,13 +123,13 @@
 
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Despite decades of progress on tools for formal verification of distributed systems, it is still hard for verification engineers to close the gap from bounded model checking to full verification. Verification tools that do bridge that gap stop short of producing practically deployable code. We propose Ironwright, a verification framework that addresses these gaps through a unified Rust-based workflow. Developers model and implement distributed systems in a Rust-based shallowly embedded DSL, validate them via automated bounded model checking for rapid iteration, and then “intract” formal specifications from Rust to the Lean proof assistant for rigorous verification. The framework will let developers obtain both verified correctness guarantees and deployable code from the same program.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Yan is a fourth-year PhD student advised by Prof. Lindsey Kuper. His research focuses on distributed systems verification.&lt;/p&gt;
 
 &lt;h2 id=&#34;october-9&#34;&gt;October 9&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Gavin Gray&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A Design Space Exploration of Async/Await&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
 
