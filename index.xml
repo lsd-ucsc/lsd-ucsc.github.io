@@ -131,7 +131,11 @@
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A Design Space Exploration of Async/Await&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Many modern programming languages include some form of asynchronous programming. In particular, a growing number now have what we call straight-line asynchrony: attempts to provide asynchronous functions that look similar to synchronous functions, thereby enabling asynchrony without introducing complex control. These languages often share construct names like &lt;code&gt;async&lt;/code&gt; and &lt;code&gt;await&lt;/code&gt;, which suggests that they have deep semantic similarities. Yet, a close examination reveals that these languages are quite different along several dimensions, often subtly. These differences have real semantic consequences: similar-looking programs can exhibit divergent behavior, confusing developers and language designers alike.&lt;/p&gt;
+
+&lt;p&gt;In this talk I will present our &lt;em&gt;design space exploration&lt;/em&gt; of straight-line asynchrony with async/await. We will dissect several existing languages and show how no two of them agree as a whole on design decisions that affect the presence and ordering of effects. I will articulate a design space with nine dimensions covering the full lifecycle of an asynchronous computation, covering questions such as: What precise guarantees does a language give upon calling an asynchronous function? What happens at the end of a task&amp;rsquo;s life? How can a task handle be cancelled? We will explore these questions through concrete examples, informal design discussion, and a formal semantics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Gavin Gray is a PhD student at Brown University advised by Will Crichton and Shriram Krishnamurthi. Gavin works on material to improve the experience of learning and using advanced languages. He currently is focusing on constructs for advanced control flow such as coroutines, effects, continuations, and async/await. Gavin works at the intersection of HCI, applied cognitive science, and programming languages, doing what he refers to as: the human factors of PL design.&lt;/p&gt;
 
 &lt;h2 id=&#34;october-16&#34;&gt;October 16&lt;/h2&gt;
 
