@@ -65,8 +65,8 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#october-23&#34;&gt;October 23&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;Social Hour&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -164,11 +164,7 @@ programming, a programming paradigm for deadlock-free message-passing concurrenc
 
 &lt;h2 id=&#34;october-23&#34;&gt;October 23&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; TBD&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;Social Hour&lt;/p&gt;
 
 &lt;h2 id=&#34;october-30&#34;&gt;October 30&lt;/h2&gt;
 
@@ -176,7 +172,19 @@ programming, a programming paradigm for deadlock-free message-passing concurrenc
 
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Mocha: A Motion-Based Choreographic Language&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Computer systems with multiple parts that execute at the same time– concurrent
+systems– can be described both informally, with gesture, and formally, with rigorous models such as
+process calculi and choreographies, and with Lamport diagrams, which can be both informal and
+formal. They can also be described locally, from the point-of-view of the parts of the system
+(processes), or globally, as if observed by an outsider. We propose a way to bridge these
+representations: Mocha gestural programming. The Mocha programming language, a gestural programming
+language, bridges local, informal gestures and local, formal process calculi. A choreographic
+synthesizer bridges these process calculi with global, formal choreographies when possible. Finally,
+Mocha’s Lamport diagram generator bridges choreographies with global Lamport diagrams.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Clarise is a first-year Master&amp;rsquo;s student advised by Dr. Lindsey Kuper at UCSC. His research
+currently focuses on stretching PL methodology to unusual subjects, such as gestural programming or
+TTRPGs.&lt;/p&gt;
 
 &lt;h2 id=&#34;november-6&#34;&gt;November 6&lt;/h2&gt;
 
