@@ -78,7 +78,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#november-6&#34;&gt;November 6&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Esteban Ramos&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;Constraints, Explanations, and Search: Using Propagator Networks to Modularize Non-Deterministic Components&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -190,9 +190,13 @@ TTRPGs.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Esteban Ramos&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Constraints, Explanations, and Search: Using Propagator Networks to Modularize Non-Deterministic Components&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Contemporary application design is increasingly influenced by the prevalence of probabilistic components. Black box machine learning models output predictions that are taken as actionable information by both software and human systems. Generative AI has become a commonly relied upon reasoning oracle for human interaction and as a flexible decision making agent for software to respond to novel scenarios. While the motivations for their implementation are not ill-founded, this trend has introduced a novel kind of non-determinism into our software applications. The inherently probabilistic nature of black box models leaves our software systems increasingly opaque, with notions of correct behavior measured in likelihoods and probabilities. The difficulties in gaining visibility into their behavior leaves us not only with a lack of guarantees over software behavior but also a lack of explanations, with attribution for abnormal executions left as a matter of study instead of as an observable component of the application’s design.&lt;/p&gt;
+
+&lt;p&gt;This talk will argue that there must be an intentional accounting of probabilistic non-determinism when designing applications that leverage black box models. We will explore the use of the Propagator Networks programming model as a viable framework to build systems with probabilistic components, and cover its support for constraints, explanations, and search. This will be followed by a presentation of two software vignettes demonstrating the use of propagator networks in applications with black box models; a medical diagnosis assistance tool and an autonomous vehicle driving system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Esteban Ramos is a 6th year PhD Student in CSE advised by Dr. Leilani Gilpin. Their current work focuses on evaluating propagator networks as a viable programming model to provide greater reliability in non-deterministic systems.&lt;/p&gt;
 
 &lt;h2 id=&#34;november-13&#34;&gt;November 13&lt;/h2&gt;
 
