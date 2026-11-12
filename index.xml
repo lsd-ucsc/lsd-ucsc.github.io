@@ -202,7 +202,13 @@ TTRPGs.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Ashton Wiersdorf&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Lambda: The Ultimate Choreography&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+Choreographies are a great way to express distributed protocols and get an implementation that works by design, but they are limited in what sorts of protocols they can express. Chorex is a choreographic programming library that uses Elixir&amp;rsquo;s macro system to give developers a friendly, ergonomic experience whilst at the same time pushing the boundaries of what a choreography can do. This talk will be a high-level overview of some of the distinctive features of Chorex, a Q&amp;amp;A session, and a chance to get some feedback on the language design.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt;
+Ashton Wiersdorf is on the cusp of getting his PhD under Ben Greenman at the University of Utah. His dissertation is building an event-driven choreographic programming language for Elixir, thus situating him at the intersection of distributed systems and programming language design. When he&amp;rsquo;s not feverishly working on his dissertation, Ashton can be found playing with his two kids, hiking among Utah&amp;rsquo;s gorgeous mountains, or practicing lock-picking. Ashton also enjoys choral music (he sang with the largest collegiate all-male choir in the US during his undergrad) and dabbling in typography. His website is &lt;a href=&#34;https://lambdaland.org/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://lambdaland.org/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;november-20&#34;&gt;November 20&lt;/h2&gt;
 
