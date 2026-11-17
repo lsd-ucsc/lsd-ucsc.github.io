@@ -90,7 +90,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;#november-20&#34;&gt;November 20&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Keith Allen&lt;/td&gt;
-&lt;td&gt;ChorMPI: Choreographies for HPC&lt;/td&gt;
+&lt;td&gt;Choreographies for the Message-Passing Interface&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -214,9 +214,11 @@ Ashton Wiersdorf is on the cusp of getting his PhD under Ben Greenman at the Uni
 
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Keith Allen&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; ChorMPI: Choreographies for HPC&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Choreographies for the Message-Passing Interface&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; TBD&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The Message-Passing Interface (MPI) is the default standard for High-Performance Computing (HPC) programs. MPI is helping answer important questions in fields such as energy, aerospace, and medicine, yet remains largely unverified. MPI programmers already write their programs with a global perspective in mind, making them a prime candidate for Choreographic Programming. In this talk we will begin with a crash course on MPI, discuss our efforts to build a model for MPI, and finally cover our ongoing effort to develop a choreographic HPC language based on MPI&amp;rsquo;s functionality.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Keith is a 3rd year PhD student at the University at Buffalo, advised by Dr. Andrew K. Hirsch. He is currently working on choreographies for HPC, and is generally interested in Choreographic Programming, Applied Ontology, and puzzles. Website &lt;a href=&#34;https://keithtallen.github.io/&#34; rel=&#34;noreferrer&#34; target=&#34;_blank&#34;&gt;https://keithtallen.github.io/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;november-27&#34;&gt;November 27&lt;/h2&gt;
 
